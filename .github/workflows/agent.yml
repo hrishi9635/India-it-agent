@@ -1,0 +1,48 @@
+name: Run the agent
+
+on:
+  schedule:
+    - cron: "30 14 * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Re-analyse every company with AI (yes/no)"
+        default: "no"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: agent
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install add-ons
+        run: pip install -r requirements.txt
+      - name: Run the agent
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+        run: |
+          if [ "${{ github.event.inputs.force }}" = "yes" ]; then
+            python run_agent.py --force
+          else
+            python run_agent.py
+          fi
+      - name: Save the new data
+        run: |
+          git config user.name "results-agent"
+          git config user.email "results-agent@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet && echo "Nothing changed" && exit 0
+          git commit -m "Agent update $(date -u +%Y-%m-%d)"
+          git pull --rebase
+          git push
