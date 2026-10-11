@@ -1,0 +1,267 @@
+"""
+The Indian IT results agent
+---------------------------
+Run it:            python run_agent.py
+Re-check everyone: python run_agent.py --force
+Only some firms:   python run_agent.py --only "TCS,Infosys"
+No AI (data only): python run_agent.py --skip-ai
+Save your AI key:  python run_agent.py --set-key
+
+What it does, in order:
+ 1. Works out which quarter's results are being announced now.
+ 2. Downloads share prices and quarterly financials for each company (free, Yahoo Finance).
+ 3. Searches the news for each company (free Google News and Bing News feeds).
+ 4. For companies with new results, asks a free AI model to read the news and pull out the key facts,
+    searching again if important facts are missing, and throwing away any number it can't find in a source.
+ 5. Writes a sector-wide view for the quarter.
+ 6. Saves everything in the "data" folder, where the dashboard reads it.
+"""
+import argparse
+import csv
+import json
+import sys
+import time
+import traceback
+from datetime import datetime, timezone
+
+from agent import analyst, market
+from agent import news as newsmod
+from agent.llm import LLM, AIError
+from agent.quarters import label as quarter_label_of
+from agent.quarters import months_text, previous_quarter_end, target_quarter
+from agent.settings import DATA, load_companies, load_settings, save_key
+
+
+def read_json(name, default):
+    p = DATA / name
+    if p.exists():
+        try:
+            return json.loads(p.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            return default
+    return default
+
+
+def write_json(name, obj):
+    DATA.mkdir(exist_ok=True)
+    (DATA / name).write_text(json.dumps(obj, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
+def write_csv(name, rows, fields):
+    DATA.mkdir(exist_ok=True)
+    with open(DATA / name, "w", newline="", encoding="utf-8") as fh:
+        w = csv.DictWriter(fh, fieldnames=fields, extrasaction="ignore")
+        w.writeheader()
+        w.writerows(rows)
+
+
+def read_csv(name):
+    p = DATA / name
+    if not p.exists():
+        return []
+    with open(p, encoding="utf-8-sig", newline="") as fh:
+        return list(csv.DictReader(fh))
+
+
+def merge_rows(old, new, key_fields, companies_refreshed):
+    """Keep history: replace rows for refreshed companies, keep older rows that Yahoo no longer returns."""
+    keep = {tuple(r[k] for k in key_fields): r for r in old}
+    for r in new:
+        keep[tuple(str(r[k]) for k in key_fields)] = {k: str(v) for k, v in r.items()}
+    return sorted(keep.values(), key=lambda r: tuple(r[k] for k in key_fields))
+
+
+def quick_scorecard(fin_rows):
+    by = {}
+    for r in fin_rows:
+        by.setdefault(r["company"], {}).setdefault(r["period_end"], {})[r["metric"]] = float(r["value_inr_cr"])
+    out = []
+    for c, q in by.items():
+        ps = sorted(q)
+        last = q[ps[-1]]
+        rev = last.get("revenue")
+        row = {"company": c, "quarter_end": ps[-1], "revenue_inr_cr": rev}
+        if rev and last.get("operating_income") is not None:
+            row["op_margin_pct"] = round(last["operating_income"] / rev * 100, 1)
+        if len(ps) >= 2 and rev and q[ps[-2]].get("revenue"):
+            row["revenue_qoq_pct"] = round((rev / q[ps[-2]]["revenue"] - 1) * 100, 1)
+        if len(ps) >= 5 and rev and q[ps[-5]].get("revenue"):
+            row["revenue_yoy_pct"] = round((rev / q[ps[-5]]["revenue"] - 1) * 100, 1)
+        out.append(row)
+    return out
+
+
+def main():
+    ap = argparse.ArgumentParser(description="Indian IT results agent")
+    ap.add_argument("--force", action="store_true", help="re-analyse every company with AI")
+    ap.add_argument("--only", default="", help="comma-separated short names, e.g. TCS,Infosys")
+    ap.add_argument("--skip-ai", action="store_true", help="update data and news only")
+    ap.add_argument("--set-key", action="store_true", help="save your AI key on this computer")
+    ap.add_argument("--no-articles", action="store_true", help="read headlines only, not article pages")
+    args = ap.parse_args()
+
+    if args.set_key:
+        key = input("Paste your AI key (from console.groq.com/keys) and press Enter:\n> ").strip()
+        if len(key) < 20:
+            print("That doesn't look like a full key. Nothing saved.")
+            return 1
+        path = save_key(key)
+        print(f"Saved. Your key is stored on this computer only, at: {path}")
+        print("It is NOT inside the project folder, so it will never be uploaded to GitHub.")
+        return 0
+
+    try:
+        import yfinance as yf
+    except ImportError:
+        print("The add-ons aren't installed yet. Run step 1 (Set up) first: python -m pip install -r requirements.txt")
+        return 1
+
+    settings = load_settings()
+    companies = load_companies()
+    if args.only:
+        wanted = {x.strip().lower() for x in args.only.split(",")}
+        companies = [c for c in companies if c["short"].lower() in wanted or c["name"].lower() in wanted]
+    qe, qlabel = target_quarter()
+    prev_label = quarter_label_of(previous_quarter_end(qe))
+    started = datetime.now(timezone.utc)
+    log = {"started": started.isoformat(timespec="seconds"), "quarter": qlabel, "steps": [], "errors": []}
+
+    print(f"\n=== Indian IT results agent · looking at {qlabel} ({months_text(qe)}) ===\n")
+
+    # ---------- 1. market data + financials ----------
+    print("Step 1 of 4 · Share prices and quarterly financials (Yahoo Finance)")
+    fx = market.usd_inr(yf)
+    fin_new, mkt_rows, prices, refreshed = [], [], [], set()
+    for c in companies:
+        print(f"   {c['short']}...", end=" ", flush=True)
+        try:
+            t = market.resolve_ticker(yf, c["tickers"])
+            if not t:
+                raise RuntimeError(f"no price data for {c['tickers']}")
+            rows = market.quarterly_rows(yf, c, t, fx)
+            snap, pr = market.market_snapshot(yf, c, t, rows)
+            fin_new += rows
+            mkt_rows.append(snap)
+            prices += pr
+            refreshed.add(c["short"])
+            latest = max((r["quarter"] for r in rows), default="none", key=lambda q: (q[-2:], q[1]))
+            print(f"ok (latest quarter in data: {latest})")
+        except Exception as e:  # noqa: BLE001
+            print(f"skipped ({e})")
+            log["errors"].append(f"market {c['short']}: {e}")
+        time.sleep(1.5)
+    bench = market.benchmark_prices(yf, settings["BENCHMARK_TICKER"])
+    old_fin = read_csv("financials.csv")
+    fin_all = merge_rows(old_fin, fin_new, ["company", "period_end", "metric"], refreshed)
+    write_csv("financials.csv", fin_all, ["company", "ticker", "period_end", "quarter", "metric", "value_inr_cr", "source"])
+    if mkt_rows:
+        old_m = {r["company"]: r for r in read_csv("market.csv")}
+        for r in mkt_rows:
+            old_m[r["company"]] = r
+        write_csv("market.csv", list(old_m.values()), ["company", "name", "ticker", "price", "price_date", "market_cap_cr",
+                                                       "return_1m", "return_3m", "return_1y", "high_52w", "low_52w", "pe_ttm"])
+    if prices:
+        keep = [r for r in read_csv("prices.csv") if r["company"] not in refreshed and r["company"] != "Nifty IT"]
+        write_csv("prices.csv", keep + prices + bench, ["date", "company", "close"])
+    log["steps"].append(f"market data for {len(refreshed)}/{len(companies)} companies")
+
+    # ---------- 2. news ----------
+    print("\nStep 2 of 4 · News search (Google News + Bing News)")
+    all_news = read_json("news.json", {})
+    for c in companies:
+        queries = [f"{c['search']} {qlabel} results", f"{c['search']} quarterly results",
+                   f"{c['search']} deal OR guidance OR CEO"]
+        items = []
+        for q in queries:
+            items += newsmod.search(q, c["aliases"], settings["NEWS_DAYS"])
+        seen, uniq = set(), []
+        for it in sorted(items, key=lambda x: x["published"] or "", reverse=True):
+            if it["title"] not in seen:
+                seen.add(it["title"])
+                uniq.append(it)
+        if uniq:
+            all_news[c["short"]] = uniq[:40]
+        print(f"   {c['short']}: {len(uniq)} articles")
+    write_json("news.json", all_news)
+    log["steps"].append("news updated")
+
+    # ---------- 3. AI analysis ----------
+    print("\nStep 3 of 4 · AI analysis of results")
+    insights = read_json("insights.json", {})
+    llm = LLM(settings)
+    analysed = []
+    if args.skip_ai:
+        print("   Skipped (you used --skip-ai).")
+    elif not llm.available():
+        print("   Skipped: no AI key found. Save one with:  python run_agent.py --set-key")
+        log["errors"].append("no AI key")
+    else:
+        yahoo = {}
+        for r in fin_all:
+            yahoo.setdefault(r["company"], {}).setdefault(r["quarter"], {})[r["metric"]] = float(r["value_inr_cr"])
+        for c in companies:
+            name = c["short"]
+            current = insights.get(name) or {}
+            items = all_news.get(name, [])
+            done = current.get("quarter") == qlabel and current.get("results_found")
+            if done and not args.force:
+                print(f"   {name}: {qlabel} already analysed")
+                continue
+            if not args.force and not analyst.results_news_present(items, qlabel, qe.isoformat()):
+                print(f"   {name}: no {qlabel} results news yet, waiting")
+                if current and current.get("quarter") != qlabel:
+                    current["awaiting"] = qlabel
+                    insights[name] = current
+                continue
+            print(f"   {name}: reading {min(len(items), 28)} news items...")
+            try:
+                facts = {q: v for q, v in yahoo.get(name, {}).items() if q in (qlabel, prev_label)}
+                res = analyst.analyse_company(llm, c, items, qlabel, months_text(qe), facts,
+                                              settings["NEWS_DAYS"], read_articles=not args.no_articles)
+                if res.get("results_found") or not current.get("results_found"):
+                    insights[name] = res
+                    analysed.append(name)
+                    note = f" (dropped unverified: {', '.join(res['unverified_dropped'])})" if res.get("unverified_dropped") else ""
+                    print(f"      -> {'results found' if res.get('results_found') else 'no results yet'}, "
+                          f"sentiment {res.get('sentiment')}{note}")
+                else:
+                    current["awaiting"] = qlabel
+                    insights[name] = current
+                    print(f"      -> {qlabel} results not out yet; keeping {current.get('quarter')}")
+            except AIError as e:
+                print(f"      AI problem: {e}")
+                log["errors"].append(f"ai {name}: {e}")
+                if "refused" in str(e):
+                    break
+            except Exception as e:  # noqa: BLE001
+                print(f"      Unexpected problem: {e}")
+                log["errors"].append(f"ai {name}: {traceback.format_exc(limit=2)}")
+        write_json("insights.json", insights)
+    log["steps"].append(f"AI analysed: {', '.join(analysed) or 'none'}")
+
+    # ---------- 4. sector view ----------
+    print("\nStep 4 of 4 · Sector view")
+    sector = read_json("sector.json", {})
+    if analysed or (llm.available() and not args.skip_ai and insights and sector.get("quarter") != qlabel):
+        try:
+            sector = analyst.sector_view(llm, qlabel, insights, quick_scorecard(fin_all))
+            write_json("sector.json", sector)
+            print(f"   Written: {sector.get('headline')}")
+        except AIError as e:
+            print(f"   AI problem: {e}")
+            log["errors"].append(f"sector: {e}")
+    else:
+        print("   Nothing new to summarise.")
+
+    log["finished"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    log["ai_calls"] = llm.calls
+    runs = read_json("run_log.json", [])
+    write_json("run_log.json", ([log] + runs)[:30])
+    print(f"\nDone in {int((datetime.now(timezone.utc) - started).total_seconds())}s. "
+          f"AI calls used: {llm.calls}. Problems: {len(log['errors'])}.")
+    print("Open the dashboard to see the results.\n")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
