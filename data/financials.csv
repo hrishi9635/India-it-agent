@@ -1,0 +1,202 @@
+company,ticker,period_end,quarter,metric,value_inr_cr,source
+Coforge,COFORGE.NS,2025-03-31,Q4 FY25,ebitda,558.4,Yahoo Finance
+Coforge,COFORGE.NS,2025-03-31,Q4 FY25,net_income,261.2,Yahoo Finance
+Coforge,COFORGE.NS,2025-03-31,Q4 FY25,operating_income,418.3,Yahoo Finance
+Coforge,COFORGE.NS,2025-03-31,Q4 FY25,revenue,3422.2,Yahoo Finance
+Coforge,COFORGE.NS,2025-06-30,Q1 FY26,ebitda,570.8,Yahoo Finance
+Coforge,COFORGE.NS,2025-06-30,Q1 FY26,net_income,317.4,Yahoo Finance
+Coforge,COFORGE.NS,2025-06-30,Q1 FY26,operating_income,437.9,Yahoo Finance
+Coforge,COFORGE.NS,2025-06-30,Q1 FY26,revenue,3704.4,Yahoo Finance
+Coforge,COFORGE.NS,2025-12-31,Q3 FY26,ebitda,596.5,Yahoo Finance
+Coforge,COFORGE.NS,2025-12-31,Q3 FY26,net_income,250.2,Yahoo Finance
+Coforge,COFORGE.NS,2025-12-31,Q3 FY26,operating_income,559.4,Yahoo Finance
+Coforge,COFORGE.NS,2025-12-31,Q3 FY26,revenue,4188.1,Yahoo Finance
+Coforge,COFORGE.NS,2026-03-31,Q4 FY26,ebitda,845.0,Yahoo Finance
+Coforge,COFORGE.NS,2026-03-31,Q4 FY26,net_income,612.3,Yahoo Finance
+Coforge,COFORGE.NS,2026-03-31,Q4 FY26,operating_income,736.8,Yahoo Finance
+Coforge,COFORGE.NS,2026-03-31,Q4 FY26,revenue,4450.4,Yahoo Finance
+Coforge,COFORGE.NS,2026-06-30,Q1 FY27,ebitda,1029.8,Yahoo Finance
+Coforge,COFORGE.NS,2026-06-30,Q1 FY27,net_income,518.6,Yahoo Finance
+Coforge,COFORGE.NS,2026-06-30,Q1 FY27,operating_income,882.2,Yahoo Finance
+Coforge,COFORGE.NS,2026-06-30,Q1 FY27,revenue,5527.7,Yahoo Finance
+HCLTech,HCLTECH.NS,2025-03-31,Q4 FY25,ebitda,6931.0,Yahoo Finance (INR (label said USD; checked))
+HCLTech,HCLTECH.NS,2025-03-31,Q4 FY25,net_income,4307.0,Yahoo Finance (INR (label said USD; checked))
+HCLTech,HCLTECH.NS,2025-03-31,Q4 FY25,operating_income,5891.0,Yahoo Finance (INR (label said USD; checked))
+HCLTech,HCLTECH.NS,2025-03-31,Q4 FY25,revenue,30246.0,Yahoo Finance (INR (label said USD; checked))
+HCLTech,HCLTECH.NS,2025-06-30,Q1 FY26,ebitda,6491.0,Yahoo Finance (INR (label said USD; checked))
+HCLTech,HCLTECH.NS,2025-06-30,Q1 FY26,net_income,3843.0,Yahoo Finance (INR (label said USD; checked))
+HCLTech,HCLTECH.NS,2025-06-30,Q1 FY26,operating_income,9080.0,Yahoo Finance (INR (label said USD; checked))
+HCLTech,HCLTECH.NS,2025-06-30,Q1 FY26,revenue,30349.0,Yahoo Finance (INR (label said USD; checked))
+HCLTech,HCLTECH.NS,2025-09-30,Q2 FY26,operating_income,9977.0,Yahoo Finance (INR (label said USD; checked))
+HCLTech,HCLTECH.NS,2025-12-31,Q3 FY26,ebitda,6841.0,Yahoo Finance (INR (label said USD; checked))
+HCLTech,HCLTECH.NS,2025-12-31,Q3 FY26,net_income,4076.0,Yahoo Finance (INR (label said USD; checked))
+HCLTech,HCLTECH.NS,2025-12-31,Q3 FY26,operating_income,11060.0,Yahoo Finance (INR (label said USD; checked))
+HCLTech,HCLTECH.NS,2025-12-31,Q3 FY26,revenue,33872.0,Yahoo Finance (INR (label said USD; checked))
+HCLTech,HCLTECH.NS,2026-03-31,Q4 FY26,ebitda,7034.0,Yahoo Finance (INR (label said USD; checked))
+HCLTech,HCLTECH.NS,2026-03-31,Q4 FY26,net_income,4488.0,Yahoo Finance (INR (label said USD; checked))
+HCLTech,HCLTECH.NS,2026-03-31,Q4 FY26,operating_income,10654.0,Yahoo Finance (INR (label said USD; checked))
+HCLTech,HCLTECH.NS,2026-03-31,Q4 FY26,revenue,33981.0,Yahoo Finance (INR (label said USD; checked))
+HCLTech,HCLTECH.NS,2026-06-30,Q1 FY27,ebitda,7231.0,Yahoo Finance (INR (label said USD; checked))
+HCLTech,HCLTECH.NS,2026-06-30,Q1 FY27,net_income,4624.0,Yahoo Finance (INR (label said USD; checked))
+HCLTech,HCLTECH.NS,2026-06-30,Q1 FY27,operating_income,10939.0,Yahoo Finance (INR (label said USD; checked))
+HCLTech,HCLTECH.NS,2026-06-30,Q1 FY27,revenue,34579.0,Yahoo Finance (INR (label said USD; checked))
+Infosys,INFY.NS,2025-06-30,Q1 FY26,ebitda,10980.55,Yahoo Finance (USD converted)
+Infosys,INFY.NS,2025-06-30,Q1 FY26,net_income,6923.82,Yahoo Finance (USD converted)
+Infosys,INFY.NS,2025-06-30,Q1 FY26,operating_income,8798.13,Yahoo Finance (USD converted)
+Infosys,INFY.NS,2025-06-30,Q1 FY26,revenue,42287.51,Yahoo Finance (USD converted)
+Infosys,INFY.NS,2025-09-30,Q2 FY26,ebitda,11448.83,Yahoo Finance (USD converted)
+Infosys,INFY.NS,2025-09-30,Q2 FY26,net_income,7321.32,Yahoo Finance (USD converted)
+Infosys,INFY.NS,2025-09-30,Q2 FY26,operating_income,9293.45,Yahoo Finance (USD converted)
+Infosys,INFY.NS,2025-09-30,Q2 FY26,revenue,44294.41,Yahoo Finance (USD converted)
+Infosys,INFY.NS,2025-12-31,Q3 FY26,ebitda,10473.9,Yahoo Finance (USD converted)
+Infosys,INFY.NS,2025-12-31,Q3 FY26,net_income,6653.06,Yahoo Finance (USD converted)
+Infosys,INFY.NS,2025-12-31,Q3 FY26,operating_income,8398.71,Yahoo Finance (USD converted)
+Infosys,INFY.NS,2025-12-31,Q3 FY26,revenue,45413.6,Yahoo Finance (USD converted)
+Infosys,INFY.NS,2026-03-31,Q4 FY26,ebitda,12200.59,Yahoo Finance (USD converted)
+Infosys,INFY.NS,2026-03-31,Q4 FY26,net_income,8405.05,Yahoo Finance (USD converted)
+Infosys,INFY.NS,2026-03-31,Q4 FY26,operating_income,9648.89,Yahoo Finance (USD converted)
+Infosys,INFY.NS,2026-03-31,Q4 FY26,revenue,46095.17,Yahoo Finance (USD converted)
+Infosys,INFY.NS,2026-06-30,Q1 FY27,ebitda,12374.64,Yahoo Finance (USD converted)
+Infosys,INFY.NS,2026-06-30,Q1 FY27,net_income,7754.27,Yahoo Finance (USD converted)
+Infosys,INFY.NS,2026-06-30,Q1 FY27,operating_income,10149.67,Yahoo Finance (USD converted)
+Infosys,INFY.NS,2026-06-30,Q1 FY27,revenue,48116.25,Yahoo Finance (USD converted)
+LTM,LTM.NS,2025-03-31,Q4 FY25,ebitda,2323.7,Yahoo Finance
+LTM,LTM.NS,2025-03-31,Q4 FY25,net_income,1128.5,Yahoo Finance
+LTM,LTM.NS,2025-03-31,Q4 FY25,operating_income,1345.4,Yahoo Finance
+LTM,LTM.NS,2025-03-31,Q4 FY25,revenue,9771.7,Yahoo Finance
+LTM,LTM.NS,2025-06-30,Q1 FY26,ebitda,2041.5,Yahoo Finance
+LTM,LTM.NS,2025-06-30,Q1 FY26,net_income,1254.1,Yahoo Finance
+LTM,LTM.NS,2025-06-30,Q1 FY26,operating_income,1406.5,Yahoo Finance
+LTM,LTM.NS,2025-06-30,Q1 FY26,revenue,9840.6,Yahoo Finance
+LTM,LTM.NS,2025-12-31,Q3 FY26,ebitda,1639.6,Yahoo Finance
+LTM,LTM.NS,2025-12-31,Q3 FY26,net_income,970.6,Yahoo Finance
+LTM,LTM.NS,2025-12-31,Q3 FY26,operating_income,1737.1,Yahoo Finance
+LTM,LTM.NS,2025-12-31,Q3 FY26,revenue,10781.0,Yahoo Finance
+LTM,LTM.NS,2026-03-31,Q4 FY26,ebitda,2718.4,Yahoo Finance
+LTM,LTM.NS,2026-03-31,Q4 FY26,net_income,1392.3,Yahoo Finance
+LTM,LTM.NS,2026-03-31,Q4 FY26,operating_income,1709.4,Yahoo Finance
+LTM,LTM.NS,2026-03-31,Q4 FY26,revenue,11291.7,Yahoo Finance
+LTM,LTM.NS,2026-06-30,Q1 FY27,ebitda,2316.0,Yahoo Finance
+LTM,LTM.NS,2026-06-30,Q1 FY27,net_income,1466.3,Yahoo Finance
+LTM,LTM.NS,2026-06-30,Q1 FY27,operating_income,1799.3,Yahoo Finance
+LTM,LTM.NS,2026-06-30,Q1 FY27,revenue,11608.0,Yahoo Finance
+Mphasis,MPHASIS.NS,2025-03-31,Q4 FY25,ebitda,762.51,Yahoo Finance
+Mphasis,MPHASIS.NS,2025-03-31,Q4 FY25,net_income,446.49,Yahoo Finance
+Mphasis,MPHASIS.NS,2025-03-31,Q4 FY25,operating_income,567.21,Yahoo Finance
+Mphasis,MPHASIS.NS,2025-03-31,Q4 FY25,revenue,3710.04,Yahoo Finance
+Mphasis,MPHASIS.NS,2025-06-30,Q1 FY26,ebitda,783.82,Yahoo Finance
+Mphasis,MPHASIS.NS,2025-06-30,Q1 FY26,net_income,441.7,Yahoo Finance
+Mphasis,MPHASIS.NS,2025-06-30,Q1 FY26,operating_income,570.95,Yahoo Finance
+Mphasis,MPHASIS.NS,2025-06-30,Q1 FY26,revenue,3732.49,Yahoo Finance
+Mphasis,MPHASIS.NS,2025-12-31,Q3 FY26,ebitda,777.07,Yahoo Finance
+Mphasis,MPHASIS.NS,2025-12-31,Q3 FY26,net_income,442.19,Yahoo Finance
+Mphasis,MPHASIS.NS,2025-12-31,Q3 FY26,operating_income,608.83,Yahoo Finance
+Mphasis,MPHASIS.NS,2025-12-31,Q3 FY26,revenue,4002.58,Yahoo Finance
+Mphasis,MPHASIS.NS,2026-03-31,Q4 FY26,ebitda,911.45,Yahoo Finance
+Mphasis,MPHASIS.NS,2026-03-31,Q4 FY26,net_income,509.64,Yahoo Finance
+Mphasis,MPHASIS.NS,2026-03-31,Q4 FY26,operating_income,652.46,Yahoo Finance
+Mphasis,MPHASIS.NS,2026-03-31,Q4 FY26,revenue,4242.67,Yahoo Finance
+Mphasis,MPHASIS.NS,2026-06-30,Q1 FY27,ebitda,878.36,Yahoo Finance
+Mphasis,MPHASIS.NS,2026-06-30,Q1 FY27,net_income,489.51,Yahoo Finance
+Mphasis,MPHASIS.NS,2026-06-30,Q1 FY27,operating_income,648.11,Yahoo Finance
+Mphasis,MPHASIS.NS,2026-06-30,Q1 FY27,revenue,4384.05,Yahoo Finance
+OFSS,OFSS.NS,2025-03-31,Q4 FY25,ebitda,764.7,Yahoo Finance
+OFSS,OFSS.NS,2025-03-31,Q4 FY25,net_income,643.9,Yahoo Finance
+OFSS,OFSS.NS,2025-03-31,Q4 FY25,operating_income,747.8,Yahoo Finance
+OFSS,OFSS.NS,2025-03-31,Q4 FY25,revenue,1716.3,Yahoo Finance
+OFSS,OFSS.NS,2025-06-30,Q1 FY26,ebitda,846.3,Yahoo Finance
+OFSS,OFSS.NS,2025-06-30,Q1 FY26,net_income,641.9,Yahoo Finance
+OFSS,OFSS.NS,2025-06-30,Q1 FY26,operating_income,828.6,Yahoo Finance
+OFSS,OFSS.NS,2025-06-30,Q1 FY26,revenue,1852.2,Yahoo Finance
+OFSS,OFSS.NS,2025-12-31,Q3 FY26,ebitda,880.1,Yahoo Finance
+OFSS,OFSS.NS,2025-12-31,Q3 FY26,net_income,609.6,Yahoo Finance
+OFSS,OFSS.NS,2025-12-31,Q3 FY26,operating_income,803.8,Yahoo Finance
+OFSS,OFSS.NS,2025-12-31,Q3 FY26,revenue,1965.9,Yahoo Finance
+OFSS,OFSS.NS,2026-03-31,Q4 FY26,ebitda,1056.3,Yahoo Finance
+OFSS,OFSS.NS,2026-03-31,Q4 FY26,net_income,841.7,Yahoo Finance
+OFSS,OFSS.NS,2026-03-31,Q4 FY26,operating_income,1040.9,Yahoo Finance
+OFSS,OFSS.NS,2026-03-31,Q4 FY26,revenue,2065.2,Yahoo Finance
+OFSS,OFSS.NS,2026-06-30,Q1 FY27,ebitda,1954.1,Yahoo Finance
+OFSS,OFSS.NS,2026-06-30,Q1 FY27,net_income,1415.5,Yahoo Finance
+OFSS,OFSS.NS,2026-06-30,Q1 FY27,operating_income,1861.8,Yahoo Finance
+OFSS,OFSS.NS,2026-06-30,Q1 FY27,revenue,3125.2,Yahoo Finance
+Persistent,PERSISTENT.NS,2025-03-31,Q4 FY25,ebitda,602.77,Yahoo Finance
+Persistent,PERSISTENT.NS,2025-03-31,Q4 FY25,net_income,395.76,Yahoo Finance
+Persistent,PERSISTENT.NS,2025-03-31,Q4 FY25,operating_income,505.31,Yahoo Finance
+Persistent,PERSISTENT.NS,2025-03-31,Q4 FY25,revenue,3242.11,Yahoo Finance
+Persistent,PERSISTENT.NS,2025-06-30,Q1 FY26,ebitda,666.25,Yahoo Finance
+Persistent,PERSISTENT.NS,2025-06-30,Q1 FY26,net_income,424.94,Yahoo Finance
+Persistent,PERSISTENT.NS,2025-06-30,Q1 FY26,operating_income,517.81,Yahoo Finance
+Persistent,PERSISTENT.NS,2025-06-30,Q1 FY26,revenue,3333.59,Yahoo Finance
+Persistent,PERSISTENT.NS,2025-12-31,Q3 FY26,ebitda,684.54,Yahoo Finance
+Persistent,PERSISTENT.NS,2025-12-31,Q3 FY26,net_income,439.45,Yahoo Finance
+Persistent,PERSISTENT.NS,2025-12-31,Q3 FY26,operating_income,632.49,Yahoo Finance
+Persistent,PERSISTENT.NS,2025-12-31,Q3 FY26,revenue,3778.2,Yahoo Finance
+Persistent,PERSISTENT.NS,2026-03-31,Q4 FY26,ebitda,801.2,Yahoo Finance
+Persistent,PERSISTENT.NS,2026-03-31,Q4 FY26,net_income,529.26,Yahoo Finance
+Persistent,PERSISTENT.NS,2026-03-31,Q4 FY26,operating_income,659.16,Yahoo Finance
+Persistent,PERSISTENT.NS,2026-03-31,Q4 FY26,revenue,4055.94,Yahoo Finance
+Persistent,PERSISTENT.NS,2026-06-30,Q1 FY27,ebitda,767.53,Yahoo Finance
+Persistent,PERSISTENT.NS,2026-06-30,Q1 FY27,net_income,483.04,Yahoo Finance
+Persistent,PERSISTENT.NS,2026-06-30,Q1 FY27,operating_income,581.61,Yahoo Finance
+Persistent,PERSISTENT.NS,2026-06-30,Q1 FY27,revenue,4303.23,Yahoo Finance
+TCS,TCS.NS,2025-03-31,Q4 FY25,ebitda,18008.0,Yahoo Finance
+TCS,TCS.NS,2025-03-31,Q4 FY25,net_income,12224.0,Yahoo Finance
+TCS,TCS.NS,2025-03-31,Q4 FY25,operating_income,15601.0,Yahoo Finance
+TCS,TCS.NS,2025-03-31,Q4 FY25,revenue,64479.0,Yahoo Finance
+TCS,TCS.NS,2025-06-30,Q1 FY26,ebitda,18535.0,Yahoo Finance
+TCS,TCS.NS,2025-06-30,Q1 FY26,net_income,12760.0,Yahoo Finance
+TCS,TCS.NS,2025-06-30,Q1 FY26,operating_income,15514.0,Yahoo Finance
+TCS,TCS.NS,2025-06-30,Q1 FY26,revenue,63437.0,Yahoo Finance
+TCS,TCS.NS,2025-12-31,Q3 FY26,ebitda,15996.0,Yahoo Finance
+TCS,TCS.NS,2025-12-31,Q3 FY26,net_income,10657.0,Yahoo Finance
+TCS,TCS.NS,2025-12-31,Q3 FY26,operating_income,16926.0,Yahoo Finance
+TCS,TCS.NS,2025-12-31,Q3 FY26,revenue,67087.0,Yahoo Finance
+TCS,TCS.NS,2026-03-31,Q4 FY26,ebitda,20033.0,Yahoo Finance
+TCS,TCS.NS,2026-03-31,Q4 FY26,net_income,13718.0,Yahoo Finance
+TCS,TCS.NS,2026-03-31,Q4 FY26,operating_income,17870.0,Yahoo Finance
+TCS,TCS.NS,2026-03-31,Q4 FY26,revenue,70698.0,Yahoo Finance
+TCS,TCS.NS,2026-06-30,Q1 FY27,ebitda,19456.0,Yahoo Finance
+TCS,TCS.NS,2026-06-30,Q1 FY27,net_income,13349.0,Yahoo Finance
+TCS,TCS.NS,2026-06-30,Q1 FY27,operating_income,17317.0,Yahoo Finance
+TCS,TCS.NS,2026-06-30,Q1 FY27,revenue,72275.0,Yahoo Finance
+Tech Mahindra,TECHM.NS,2025-03-31,Q4 FY25,ebitda,2011.6,Yahoo Finance
+Tech Mahindra,TECHM.NS,2025-03-31,Q4 FY25,net_income,1166.7,Yahoo Finance
+Tech Mahindra,TECHM.NS,2025-03-31,Q4 FY25,operating_income,1405.3,Yahoo Finance
+Tech Mahindra,TECHM.NS,2025-03-31,Q4 FY25,revenue,13384.0,Yahoo Finance
+Tech Mahindra,TECHM.NS,2025-06-30,Q1 FY26,ebitda,2154.0,Yahoo Finance
+Tech Mahindra,TECHM.NS,2025-06-30,Q1 FY26,net_income,1140.6,Yahoo Finance
+Tech Mahindra,TECHM.NS,2025-06-30,Q1 FY26,operating_income,1477.1,Yahoo Finance
+Tech Mahindra,TECHM.NS,2025-06-30,Q1 FY26,revenue,13351.2,Yahoo Finance
+Tech Mahindra,TECHM.NS,2025-12-31,Q3 FY26,ebitda,2072.4,Yahoo Finance
+Tech Mahindra,TECHM.NS,2025-12-31,Q3 FY26,net_income,1122.0,Yahoo Finance
+Tech Mahindra,TECHM.NS,2025-12-31,Q3 FY26,operating_income,1891.9,Yahoo Finance
+Tech Mahindra,TECHM.NS,2025-12-31,Q3 FY26,revenue,14393.2,Yahoo Finance
+Tech Mahindra,TECHM.NS,2026-03-31,Q4 FY26,ebitda,2360.5,Yahoo Finance
+Tech Mahindra,TECHM.NS,2026-03-31,Q4 FY26,net_income,1353.8,Yahoo Finance
+Tech Mahindra,TECHM.NS,2026-03-31,Q4 FY26,operating_income,2084.2,Yahoo Finance
+Tech Mahindra,TECHM.NS,2026-03-31,Q4 FY26,revenue,15076.1,Yahoo Finance
+Tech Mahindra,TECHM.NS,2026-06-30,Q1 FY27,ebitda,2631.8,Yahoo Finance
+Tech Mahindra,TECHM.NS,2026-06-30,Q1 FY27,net_income,1465.1,Yahoo Finance
+Tech Mahindra,TECHM.NS,2026-06-30,Q1 FY27,operating_income,2263.9,Yahoo Finance
+Tech Mahindra,TECHM.NS,2026-06-30,Q1 FY27,revenue,15711.9,Yahoo Finance
+Wipro,WIPRO.NS,2025-06-30,Q1 FY26,ebitda,5170.1,Yahoo Finance
+Wipro,WIPRO.NS,2025-06-30,Q1 FY26,net_income,3330.4,Yahoo Finance
+Wipro,WIPRO.NS,2025-06-30,Q1 FY26,operating_income,3554.2,Yahoo Finance
+Wipro,WIPRO.NS,2025-06-30,Q1 FY26,revenue,22134.6,Yahoo Finance
+Wipro,WIPRO.NS,2025-09-30,Q2 FY26,ebitda,5168.1,Yahoo Finance
+Wipro,WIPRO.NS,2025-09-30,Q2 FY26,net_income,3246.2,Yahoo Finance
+Wipro,WIPRO.NS,2025-09-30,Q2 FY26,operating_income,3727.1,Yahoo Finance
+Wipro,WIPRO.NS,2025-09-30,Q2 FY26,revenue,22697.3,Yahoo Finance
+Wipro,WIPRO.NS,2025-12-31,Q3 FY26,ebitda,5125.1,Yahoo Finance
+Wipro,WIPRO.NS,2025-12-31,Q3 FY26,net_income,3119.0,Yahoo Finance
+Wipro,WIPRO.NS,2025-12-31,Q3 FY26,operating_income,3494.7,Yahoo Finance
+Wipro,WIPRO.NS,2025-12-31,Q3 FY26,revenue,23555.8,Yahoo Finance
+Wipro,WIPRO.NS,2026-03-31,Q4 FY26,ebitda,5580.5,Yahoo Finance
+Wipro,WIPRO.NS,2026-03-31,Q4 FY26,net_income,3501.8,Yahoo Finance
+Wipro,WIPRO.NS,2026-03-31,Q4 FY26,operating_income,4136.6,Yahoo Finance
+Wipro,WIPRO.NS,2026-03-31,Q4 FY26,revenue,24236.3,Yahoo Finance
+Wipro,WIPRO.NS,2026-06-30,Q1 FY27,ebitda,5383.5,Yahoo Finance
+Wipro,WIPRO.NS,2026-06-30,Q1 FY27,net_income,3352.0,Yahoo Finance
+Wipro,WIPRO.NS,2026-06-30,Q1 FY27,operating_income,3842.7,Yahoo Finance
+Wipro,WIPRO.NS,2026-06-30,Q1 FY27,revenue,24478.6,Yahoo Finance

@@ -1,0 +1,85 @@
+{
+ "headline": "Indian IT services showed solid top‑line growth with TCS leading, while revenue momentum was mixed across peers.",
+ "summary": "TCS reported 11.2% YoY revenue growth to ₹73,188 cr and a modest profit rise. Infosys and HCLTech posted double‑digit YoY revenue gains of 13.8% and 13.9% respectively, according to exchange data. Wipro's revenue was flat YoY, with only a 1% QoQ increase. Smaller players such as Coforge and OFSS delivered strong percentage growth but remain low‑base.",
+ "themes": [
+  {
+   "title": "AI monetisation",
+   "detail": "TCS highlighted AI revenue crossing $3.1 bn, now over 10% of total revenue.",
+   "companies": [
+    "TCS"
+   ]
+  },
+  {
+   "title": "Margin pressure",
+   "detail": "Operating margins varied, with OFSS at 59.6% but most peers around 15‑24%, indicating cost discipline challenges.",
+   "companies": [
+    "TCS",
+    "Infosys",
+    "HCLTech",
+    "Wipro",
+    "Tech Mahindra"
+   ]
+  }
+ ],
+ "leaders": [
+  {
+   "company": "TCS",
+   "why": "Highest revenue and profit growth, plus AI contribution above 10% of revenue."
+  },
+  {
+   "company": "Infosys",
+   "why": "13.8% YoY revenue rise and stable 21.1% operating margin."
+  }
+ ],
+ "laggards": [
+  {
+   "company": "Wipro",
+   "why": "Flat YoY revenue and modest QoQ increase, with operating margin only 15.7%."
+  },
+  {
+   "company": "Tech Mahindra",
+   "why": "Revenue growth modest at 17.4% YoY and margin at 14.4%."
+  }
+ ],
+ "domain_outlook": [
+  {
+   "domain": "Media & broadcasting",
+   "signal": "Not enough data",
+   "note": "No company mentions or signals related to this domain."
+  },
+  {
+   "domain": "Entertainment & streaming",
+   "signal": "Not enough data",
+   "note": "No company mentions or signals related to this domain."
+  },
+  {
+   "domain": "Gaming",
+   "signal": "Not enough data",
+   "note": "No company mentions or signals related to this domain."
+  },
+  {
+   "domain": "Education",
+   "signal": "Not enough data",
+   "note": "No company mentions or signals related to this domain."
+  },
+  {
+   "domain": "Publishing",
+   "signal": "Not enough data",
+   "note": "No company mentions or signals related to this domain."
+  },
+  {
+   "domain": "Telecom",
+   "signal": "Not enough data",
+   "note": "No company mentions or signals related to this domain."
+  }
+ ],
+ "watch_next": [
+  "TCS Q3 FY27 AI revenue trajectory",
+  "Infosys margin trends",
+  "Wipro's strategy to revive growth",
+  "Coforge's high percentage revenue surge",
+  "Overall sector response to macro‑economic headwinds"
+ ],
+ "quarter": "Q2 FY27",
+ "written_at": "2026-10-11T18:28:53+00:00"
+}
