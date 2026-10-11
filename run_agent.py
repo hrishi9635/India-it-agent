@@ -130,7 +130,7 @@ def main():
 
     # ---------- 1. market data + financials ----------
     print("Step 1 of 4 · Share prices and quarterly financials (Yahoo Finance)")
-    fx = market.usd_inr(yf)
+    fx, fx_hist = market.usd_inr(yf)
     fin_new, mkt_rows, prices, refreshed = [], [], [], set()
     for c in companies:
         print(f"   {c['short']}...", end=" ", flush=True)
@@ -138,7 +138,12 @@ def main():
             t = market.resolve_ticker(yf, c["tickers"])
             if not t:
                 raise RuntimeError(f"no price data for {c['tickers']}")
-            rows = market.quarterly_rows(yf, c, t, fx)
+            rows = market.quarterly_rows(yf, c, t, fx, fx_hist)
+            too_big = [r for r in rows if r["metric"] == "revenue" and r["value_inr_cr"] > 200000]
+            if too_big:  # no Indian IT company earns ₹2 lakh crore in a quarter: the data is wrong
+                log["errors"].append(f"financials {c['short']}: implausible revenue {too_big[0]['value_inr_cr']:,.0f} cr, skipped")
+                print("(financials looked wrong, skipped) ", end="")
+                rows = []
             snap, pr = market.market_snapshot(yf, c, t, rows)
             fin_new += rows
             mkt_rows.append(snap)
@@ -203,6 +208,9 @@ def main():
             name = c["short"]
             current = insights.get(name) or {}
             items = all_news.get(name, [])
+            if current.get("quarter") == qlabel and current.get("results_found") and analyst.results_check(current, qe):
+                current = {}  # an earlier run wrongly marked results as out; check again
+                insights.pop(name, None)
             done = current.get("quarter") == qlabel and current.get("results_found")
             if done and not args.force:
                 print(f"   {name}: {qlabel} already analysed")
@@ -218,6 +226,10 @@ def main():
                 facts = {q: v for q, v in yahoo.get(name, {}).items() if q in (qlabel, prev_label)}
                 res = analyst.analyse_company(llm, c, items, qlabel, months_text(qe), facts,
                                               settings["NEWS_DAYS"], read_articles=not args.no_articles)
+                why = analyst.results_check(res, qe)
+                if why:
+                    print(f"      -> AI said results were out, but {why}; treating as not out yet")
+                    res["results_found"] = False
                 if res.get("results_found") or not current.get("results_found"):
                     insights[name] = res
                     analysed.append(name)
