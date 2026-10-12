@@ -1,5 +1,17 @@
 [
  {
+  "started": "2026-10-12T14:51:27+00:00",
+  "quarter": "Q2 FY27",
+  "steps": [
+   "market data for 10/10 companies",
+   "news updated",
+   "AI analysed: Infosys, HCLTech, LTM, Tech Mahindra, OFSS, Persistent, Coforge, Mphasis"
+  ],
+  "errors": [],
+  "finished": "2026-10-12T14:59:22+00:00",
+  "ai_calls": 16
+ },
+ {
   "started": "2026-10-11T18:18:46+00:00",
   "quarter": "Q2 FY27",
   "steps": [

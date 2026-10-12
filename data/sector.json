@@ -1,85 +1,79 @@
 {
- "headline": "Indian IT services showed solid top‑line growth with TCS leading, while revenue momentum was mixed across peers.",
- "summary": "TCS reported 11.2% YoY revenue growth to ₹73,188 cr and a modest profit rise. Infosys and HCLTech posted double‑digit YoY revenue gains of 13.8% and 13.9% respectively, according to exchange data. Wipro's revenue was flat YoY, with only a 1% QoQ increase. Smaller players such as Coforge and OFSS delivered strong percentage growth but remain low‑base.",
+ "headline": "Indian IT services showed mixed performance in Q2 FY27, with top firms posting solid growth while others stalled.",
+ "summary": "TCS delivered 11.2% YoY revenue growth and modest profit expansion. HCLTech saw a 21% YoY profit jump and raised its FY27 revenue guidance. Wipro recorded flat revenue YoY and only a 1.5% QoQ increase. Overall, AI revenue contributions are rising, but margin pressure remains for some peers.",
  "themes": [
   {
-   "title": "AI monetisation",
-   "detail": "TCS highlighted AI revenue crossing $3.1 bn, now over 10% of total revenue.",
+   "title": "AI as a growth driver",
+   "detail": "Both TCS and HCLTech highlighted AI revenue exceeding 10% of total revenue and rapid YoY growth, signalling a strategic focus.",
    "companies": [
-    "TCS"
+    "TCS",
+    "HCLTech"
    ]
   },
   {
-   "title": "Margin pressure",
-   "detail": "Operating margins varied, with OFSS at 59.6% but most peers around 15‑24%, indicating cost discipline challenges.",
+   "title": "Margin stability",
+   "detail": "Operating margins stayed in the mid‑teens for most firms, with HCLTech maintaining a 31.6% EBIT margin outlook.",
    "companies": [
-    "TCS",
-    "Infosys",
     "HCLTech",
-    "Wipro",
-    "Tech Mahindra"
+    "Wipro"
    ]
   }
  ],
  "leaders": [
   {
    "company": "TCS",
-   "why": "Highest revenue and profit growth, plus AI contribution above 10% of revenue."
+   "why": "Revenue up 11.2% YoY and profit grew QoQ; AI revenue now >10% of total."
   },
   {
-   "company": "Infosys",
-   "why": "13.8% YoY revenue rise and stable 21.1% operating margin."
+   "company": "HCLTech",
+   "why": "Profit jumped 21% YoY, revenue grew 11.5% YoY and guidance was raised."
   }
  ],
  "laggards": [
   {
    "company": "Wipro",
-   "why": "Flat YoY revenue and modest QoQ increase, with operating margin only 15.7%."
-  },
-  {
-   "company": "Tech Mahindra",
-   "why": "Revenue growth modest at 17.4% YoY and margin at 14.4%."
+   "why": "Revenue flat YoY and only modest QoQ growth; operating margin unchanged."
   }
  ],
  "domain_outlook": [
   {
    "domain": "Media & broadcasting",
    "signal": "Not enough data",
-   "note": "No company mentions or signals related to this domain."
+   "note": "No mentions of media or broadcasting activities."
   },
   {
    "domain": "Entertainment & streaming",
    "signal": "Not enough data",
-   "note": "No company mentions or signals related to this domain."
+   "note": "No relevant signals in the reports."
   },
   {
    "domain": "Gaming",
    "signal": "Not enough data",
-   "note": "No company mentions or signals related to this domain."
+   "note": "No gaming-related information provided."
   },
   {
    "domain": "Education",
    "signal": "Not enough data",
-   "note": "No company mentions or signals related to this domain."
+   "note": "No education sector references found."
   },
   {
    "domain": "Publishing",
    "signal": "Not enough data",
-   "note": "No company mentions or signals related to this domain."
+   "note": "No publishing activity mentioned."
   },
   {
    "domain": "Telecom",
    "signal": "Not enough data",
-   "note": "No company mentions or signals related to this domain."
+   "note": "Telecom-specific data absent."
   }
  ],
  "watch_next": [
-  "TCS Q3 FY27 AI revenue trajectory",
-  "Infosys margin trends",
+  "AI revenue share and its impact on margins",
+  "Guidance revisions from mid‑tier players",
   "Wipro's strategy to revive growth",
-  "Coforge's high percentage revenue surge",
-  "Overall sector response to macro‑economic headwinds"
+  "Operating margin trends across the sector",
+  "Currency effects on constant‑currency growth"
  ],
  "quarter": "Q2 FY27",
- "written_at": "2026-10-11T18:28:53+00:00"
+ "written_at": "2026-10-12T14:59:22+00:00"
 }
