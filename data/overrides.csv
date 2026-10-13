@@ -1,0 +1,34 @@
+company,period_end,quarter,metric,value_inr_cr,source
+HCLTech,2024-09-30,Q2 FY25,revenue,28862,HCLTech Q2 FY26 investor release
+HCLTech,2024-09-30,Q2 FY25,operating_income,5362,HCLTech Q2 FY26 investor release (EBIT 18.6%)
+HCLTech,2024-09-30,Q2 FY25,net_income,4235,HCLTech Q2 FY26 investor release
+HCLTech,2024-12-31,Q3 FY25,revenue,29890,HCLTech Q2 FY26 investor release
+HCLTech,2024-12-31,Q3 FY25,operating_income,5821,HCLTech Q2 FY26 investor release (EBIT 19.5%)
+HCLTech,2024-12-31,Q3 FY25,net_income,4591,HCLTech Q2 FY26 investor release
+HCLTech,2025-03-31,Q4 FY25,revenue,30246,HCLTech Q4 FY26 investor release
+HCLTech,2025-03-31,Q4 FY25,operating_income,5442,HCLTech Q4 FY26 investor release (EBIT 18.0%)
+HCLTech,2025-03-31,Q4 FY25,net_income,4307,HCLTech Q4 FY26 investor release
+HCLTech,2025-06-30,Q1 FY26,revenue,30349,HCLTech Q2 FY26 investor release
+HCLTech,2025-06-30,Q1 FY26,operating_income,4942,HCLTech Q2 FY26 investor release (EBIT 16.3%)
+HCLTech,2025-06-30,Q1 FY26,net_income,3843,HCLTech Q2 FY26 investor release
+HCLTech,2025-09-30,Q2 FY26,revenue,31942,HCLTech Q2 FY26 investor release
+HCLTech,2025-09-30,Q2 FY26,operating_income,5550,HCLTech Q2 FY26 investor release (EBIT 17.4% incl. 55 bps restructuring)
+HCLTech,2025-09-30,Q2 FY26,net_income,4235,HCLTech Q2 FY26 investor release
+HCLTech,2025-12-31,Q3 FY26,revenue,33872,HCLTech Q4 FY26 investor release
+HCLTech,2025-12-31,Q3 FY26,operating_income,5329,HCLTech Q4 FY26 investor release (reported EBIT incl. Rs 956 cr labour-code charge; 6285 / 18.6% excluding it)
+HCLTech,2025-12-31,Q3 FY26,net_income,4076,HCLTech Q4 FY26 investor release (reported; 4795 excluding labour-code charge)
+HCLTech,2026-03-31,Q4 FY26,revenue,33981,HCLTech Q4 FY26 investor release
+HCLTech,2026-03-31,Q4 FY26,operating_income,5620,HCLTech Q4 FY26 investor release (EBIT 16.5% incl. 122 bps restructuring)
+HCLTech,2026-03-31,Q4 FY26,net_income,4488,HCLTech Q4 FY26 investor release
+HCLTech,2026-06-30,Q1 FY27,revenue,34579,HCLTech Q1 FY27 results
+HCLTech,2026-06-30,Q1 FY27,operating_income,5831,HCLTech Q1 FY27 results (EBIT 16.9%)
+HCLTech,2026-06-30,Q1 FY27,net_income,4624,HCLTech Q1 FY27 results
+HCLTech,2026-09-30,Q2 FY27,revenue,35620,HCLTech Q2 FY27 results (12 Oct 2026)
+HCLTech,2026-09-30,Q2 FY27,operating_income,6482.8,HCLTech Q2 FY27 results: EBIT margin 18.2% x revenue
+HCLTech,2026-09-30,Q2 FY27,net_income,5132,HCLTech Q2 FY27 results (12 Oct 2026)
+Infosys,2025-03-31,Q4 FY25,revenue,40925,Infosys Q4 FY25 results (17 Apr 2025)
+Infosys,2025-03-31,Q4 FY25,operating_income,8594.3,Infosys Q4 FY25 results: operating margin 21.0% x revenue
+Infosys,2025-03-31,Q4 FY25,net_income,7033,Infosys Q4 FY25 results (17 Apr 2025)
+Wipro,2025-03-31,Q4 FY25,revenue,22504,Wipro Q4 FY25 results (Form 6-K)
+Wipro,2025-03-31,Q4 FY25,operating_income,3909,Wipro Q4 FY25 results: results from operating activities (IT services margin 17.5%)
+Wipro,2025-03-31,Q4 FY25,net_income,3570,Wipro Q4 FY25 results (Form 6-K)
