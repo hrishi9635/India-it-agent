@@ -25,8 +25,9 @@ st.set_page_config(page_title="Indian IT Results Dashboard", page_icon="📈", l
 INK, MUTED, LINE, PANEL = "#16213E", "#5B6475", "#E4E7EC", "#FFFFFF"
 GOOD, BAD, WARN, ACCENT = "#0CA30C", "#D03B3B", "#C98500", "#2A78D6"
 PEER, BENCH, ACCENT_SOFT = "#C3C7CF", "#52514E", "#86B6EF"   # other companies, Nifty IT, secondary bars
-PALETTE = ["#2F5BEA", "#E8590C", "#0CA678", "#7048E8", "#D6336C",
-           "#1098AD", "#F59F00", "#5C940D", "#AE3EC9", "#495057"]
+# one fixed colour per company (in companies.csv order), checked for colour-blind separation; labels always shown too
+PALETTE = ["#2A78D6", "#EB6834", "#1BAF7A", "#6250D6", "#E87BA4",
+           "#008300", "#E34948", "#C98500", "#0891B2", "#A8551F"]
 
 st.markdown(f"""
 <style>
@@ -130,10 +131,10 @@ def focus_lines(fig, frame, xcol, ycol, focus, names, suffix="", fmt=",.1f"):
         on, bench = n == focus, n == "Nifty IT"
         fig.add_trace(go.Scatter(
             x=g[xcol], y=g[ycol], name=n, mode="lines+markers" if on and len(g) < 30 else "lines",
-            line=dict(color=ACCENT if on else (BENCH if bench else PEER), width=2.6 if on else (1.6 if bench else 1.2),
+            line=dict(color=COLOR.get(n, ACCENT), width=3 if on else (1.6 if bench else 1.4),
                       dash="dot" if bench else "solid"),
-            marker=dict(size=8, color=ACCENT, line=dict(color="white", width=2)) if on else None,
-            opacity=1 if (on or bench) else 0.85, showlegend=on or bench,
+            marker=dict(size=8, color=COLOR.get(n, ACCENT), line=dict(color="white", width=2)) if on else None,
+            opacity=1 if (on or bench) else 0.45, showlegend=True,
             hovertemplate=f"<b>{n}</b> · %{{x}}: %{{y:{fmt}}}{suffix}<extra></extra>"))
         if on or bench:
             last = g.dropna(subset=[ycol]).tail(1)
@@ -405,7 +406,7 @@ if page == "Overview":
         fig = go.Figure(go.Scatter(
             x=d["x"], y=d["Op. margin %"], mode="markers+text", text=d["Company"], textposition="top center",
             marker=dict(size=size, sizemode="area", sizeref=2.0 * max(size.max(), 1) / (55 ** 2), sizemin=8,
-                        color=ACCENT, opacity=0.75, line=dict(color="white", width=2)),
+                        color=[COLOR.get(n, ACCENT) for n in d["Company"]], opacity=0.8, line=dict(color="white", width=2)),
             customdata=d[["Market cap (₹ cr)"]],
             hovertemplate="<b>%{text}</b><br>Growth %{x:+.1f}%<br>Margin %{y:.1f}%<br>Mcap ₹%{customdata[0]:,.0f} cr<extra></extra>"))
         fig.update_xaxes(title="Revenue growth, year on year (%)", ticksuffix="%")
@@ -414,7 +415,7 @@ if page == "Overview":
     with c2:
         d = sc.dropna(subset=["Revenue (₹ cr)"]).sort_values("Revenue (₹ cr)")
         fig = go.Figure(go.Bar(x=d["Revenue (₹ cr)"], y=d["Company"], orientation="h",
-                               marker=dict(color=ACCENT, cornerradius=4),
+                               marker=dict(color=[COLOR.get(n, ACCENT) for n in d["Company"]], cornerradius=4),
                                text=[inr_cr(v) for v in d["Revenue (₹ cr)"]], textposition="outside", cliponaxis=False,
                                hovertemplate="%{y}: ₹%{x:,.0f} cr<extra></extra>"))
         fig.update_xaxes(showticklabels=False)
@@ -527,13 +528,13 @@ elif page == "Company deep-dive":
     if not w.empty:
         with c1:  # revenue and margin as two charts: different units never share one chart
             last = len(w) - 1
-            fig = go.Figure(go.Bar(x=w["quarter"], y=w["revenue"], marker=dict(color=[ACCENT if i == last else ACCENT_SOFT for i in range(len(w))], cornerradius=4),
+            fig = go.Figure(go.Bar(x=w["quarter"], y=w["revenue"], marker=dict(color=COLOR.get(name, ACCENT), opacity=1, cornerradius=4),
                                    text=[inr_cr(v) if i == last else "" for i, v in enumerate(w["revenue"])], textposition="outside", cliponaxis=False,
                                    hovertemplate="%{x}: ₹%{y:,.0f} cr<extra></extra>"))
             show_chart(style(fig, 320, "Revenue by quarter (₹ crore)", legend=False))
         with c2:
             fig = go.Figure(go.Scatter(x=w["quarter"], y=w["op_margin"], mode="lines+markers+text",
-                                       line=dict(color=ACCENT, width=2.5), marker=dict(size=8, color=ACCENT, line=dict(color="white", width=2)),
+                                       line=dict(color=COLOR.get(name, ACCENT), width=2.5), marker=dict(size=8, color=COLOR.get(name, ACCENT), line=dict(color="white", width=2)),
                                        text=[pct(v, False) if i in (0, len(w) - 1) else "" for i, v in enumerate(w["op_margin"])],
                                        textposition="top center", hovertemplate="%{x}: %{y:.1f}%<extra></extra>"))
             fig.update_yaxes(ticksuffix="%")
@@ -607,7 +608,7 @@ elif page == "Financial trends":
             fig.update_xaxes(categoryorder="array", categoryarray=qs)
             if suffix:
                 fig.update_yaxes(ticksuffix=suffix)
-            return style(fig, 400, title, legend=False)
+            return style(fig, 400, title, legend=True)
 
         show_chart(lines("revenue", "Revenue" + (" (indexed)" if mode != "₹ crore" else " (₹ crore)"), index=mode != "₹ crore"))
         c1, c2 = st.columns(2)
@@ -636,7 +637,7 @@ elif page == "Share price & valuation":
         pp["_name"] = pp["company"]
         fig = focus_lines(go.Figure(), pp, "date", "idx", focus, ORDER + ["Nifty IT"])
         fig.add_hline(y=100, line=dict(color=LINE, width=1, dash="dash"))
-        show_chart(style(fig, 440, f"One year of share prices, start = 100 ({NAMES.get(focus, focus)} vs peers and Nifty IT)", legend=False))
+        show_chart(style(fig, 440, f"One year of share prices, start = 100 ({NAMES.get(focus, focus)} vs peers and Nifty IT)", legend=True))
 
         m = D["market"].copy()
         if not m.empty:
@@ -646,15 +647,15 @@ elif page == "Share price & valuation":
                 colname = {"1 month": "return_1m", "3 months": "return_3m", "1 year": "return_1y"}[per]
                 d = m.dropna(subset=[colname]).sort_values(colname)
                 fig = go.Figure(go.Bar(x=d[colname], y=d["company"], orientation="h",
-                                       marker=dict(color=[ACCENT if v >= 0 else BAD for v in d[colname]], cornerradius=4),
+                                       marker=dict(color=[COLOR.get(n, ACCENT) for n in d["company"]], cornerradius=4),
                                        text=[pct(v) for v in d[colname]], textposition="outside", cliponaxis=False,
                                        hovertemplate="%{y}: %{x:+.1f}%<extra></extra>"))
                 fig.update_xaxes(ticksuffix="%", zeroline=True, zerolinecolor=BENCH)
-                show_chart(style(fig, 400, f"Share-price return, {per} (blue = up, red = down)", legend=False))
+                show_chart(style(fig, 400, f"Share-price return, {per}", legend=False))
             with c2:
                 d = m.dropna(subset=["market_cap_cr"]).sort_values("market_cap_cr")
                 fig = go.Figure(go.Bar(x=d["market_cap_cr"], y=d["company"], orientation="h",
-                                       marker=dict(color=ACCENT, cornerradius=4),
+                                       marker=dict(color=[COLOR.get(n, ACCENT) for n in d["company"]], cornerradius=4),
                                        text=[inr_cr(v) for v in d["market_cap_cr"]], textposition="outside", cliponaxis=False,
                                        hovertemplate="%{y}: ₹%{x:,.0f} cr<extra></extra>"))
                 fig.update_xaxes(showticklabels=False)
@@ -706,7 +707,7 @@ elif page == "Media · Gaming · EdTech · Publishing":
             d = lastv.dropna(subset=["growth"]).sort_values("growth")
             if not d.empty:
                 fig = go.Figure(go.Bar(x=d["growth"], y=d["company"], orientation="h",
-                                       marker=dict(color=[ACCENT if v >= 0 else BAD for v in d["growth"]], cornerradius=4),
+                                       marker=dict(color=[COLOR.get(n, ACCENT) for n in d["company"]], cornerradius=4),
                                        text=[pct(v) for v in d["growth"]], textposition="outside", cliponaxis=False,
                                        customdata=d[["vertical", "quarter"]],
                                        hovertemplate="<b>%{y}</b> · %{customdata[0]} (%{customdata[1]}): %{x:+.1f}%<extra></extra>"))
@@ -716,7 +717,7 @@ elif page == "Media · Gaming · EdTech · Publishing":
             d = lastv.dropna(subset=["revenue_share_pct"]).sort_values("revenue_share_pct")
             if not d.empty:
                 fig = go.Figure(go.Bar(x=d["revenue_share_pct"], y=d["company"], orientation="h",
-                                       marker=dict(color=ACCENT, cornerradius=4),
+                                       marker=dict(color=[COLOR.get(n, ACCENT) for n in d["company"]], cornerradius=4),
                                        text=[pct(v, False) for v in d["revenue_share_pct"]], textposition="outside", cliponaxis=False,
                                        hovertemplate="%{y}: %{x:.1f}% of revenue<extra></extra>"))
                 fig.update_xaxes(ticksuffix="%")
