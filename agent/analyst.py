@@ -21,6 +21,11 @@ Rules:
   (announced numbers). Previews, expectations, analyst or brokerage estimates, "results date" announcements and
   articles about an earlier quarter are NOT results: then set results_found to false and leave metrics null.
 - results_date is the day the company announced the results, taken from a source.
+- Sources whose title starts with "OFFICIAL" are the company's own stock-exchange filing (results statement or
+  press release). They are the most reliable: always prefer their numbers over news reports. If an OFFICIAL
+  results filing is present, the results are out and results_date is that filing's date.
+- Filings may state amounts in ₹ crore, ₹ million or ₹ lakh. Convert rupee amounts to crore
+  (1 crore = 10 million = 100 lakh). Use CONSOLIDATED figures, not standalone. US-dollar revenue in $ million.
 - Write short, plain, neutral sentences. Return one JSON object only."""
 
 COMPANY_SCHEMA = """{
@@ -73,6 +78,10 @@ def _num_variants(v):
     if float(v).is_integer():
         out.add(str(int(v)))
         out.add(f"{int(v):,}")
+    # rupee crore figures may appear in a filing as ₹ million (x10) or ₹ lakh (x100)
+    for mult in (10, 100):
+        w = round(v * mult, 2)
+        out.update({f"{w:g}", f"{w:.0f}", f"{w:.1f}"})
     return [x.rstrip("0").rstrip(".") if "." in x else x for x in out]
 
 
@@ -94,11 +103,20 @@ def verify_numbers(result, corpus):
     return result
 
 
-def build_corpus(items, max_items=28, max_articles=3, read_articles=True):
-    """Number the sources so the AI can cite them."""
+def build_corpus(items, max_items=28, max_articles=3, read_articles=True, official=None):
+    """Number the sources so the AI can cite them. Official exchange filings go first."""
     lines, used = [], []
     read = 0
-    for i, it in enumerate(items[:max_items], 1):
+    official = official or []
+    if official:  # keep the request inside the free AI's size limit
+        max_items, max_articles = max(10, max_items - 8), min(max_articles, 1)
+    for i, it in enumerate(official, 1):
+        line = f"[{i}] {it['title']} ({it['source']}, {(it.get('published') or '')[:10]})"
+        if it.get("text"):
+            line += f"\n    Filing text: {it['text']}"
+        lines.append(line)
+        used.append(it)
+    for i, it in enumerate(items[:max_items], len(official) + 1):
         date = (it.get("published") or "")[:10]
         line = f"[{i}] {it['title']} ({it['source']}, {date})"
         if it.get("snippet"):
@@ -122,10 +140,18 @@ def results_news_present(items, quarter_label, quarter_end_iso):
     return False
 
 
-def results_check(result, quarter_end):
-    """Reject 'results found' when the dates make it impossible. Returns the reason, or '' if fine."""
+def results_check(result, quarter_end, filing=None):
+    """Reject 'results found' when the facts make it impossible. Returns the reason, or '' if fine.
+
+    When the stock exchange was checked, its answer wins: a results filing means the results are out,
+    no results filing means they are not (whatever the news says)."""
     if not result.get("results_found"):
         return ""
+    if filing and filing.get("checked"):
+        if filing.get("result"):
+            return ""
+        if filing.get("count", 0) > 0:
+            return "there is no results filing on the stock exchange yet"
     d = result.get("results_date")
     try:
         rd = datetime.fromisoformat(str(d)[:10]).date() if d else None
@@ -137,14 +163,32 @@ def results_check(result, quarter_end):
         return f"the date {rd} is before the quarter ended"
     if rd > datetime.now(timezone.utc).date():
         return f"the date {rd} is in the future (a preview)"
-    if not any((s.get("published") or "")[:10] >= rd.isoformat() for s in result.get("sources") or []):
+    after = [s for s in (result.get("sources") or []) if (s.get("published") or "")[:10] >= rd.isoformat()]
+    if not after:
         return "no source was published on or after the results date"
+    # The headline itself must report results: a number or a results verb, and no preview wording.
+    preview = ("preview", "expect", "estimate", "likely", "to announce", "will announce", "date", "when",
+               "board meeting", "what to watch", "ahead of", "could", "may ", "poll", "live updates", "how to")
+    reported = ("profit", "net ", "revenue", "rises", "falls", "jumps", "drops", "declines", "beats", "misses",
+                "posts", "reports", "crore", " cr", "%", "margin")
+    good = [s for s in after
+            if not any(w in s.get("title", "").lower() for w in preview)
+            and any(w in s.get("title", "").lower() for w in reported)]
+    if not good:
+        return "no source headline actually reports the numbers (only previews or generic pages)"
+    # Sense check: IT services growth never moves this much in one quarter.
+    m = result.get("metrics") or {}
+    for k, limit in (("cc_growth_qoq_pct", 8), ("cc_growth_yoy_pct", 25)):
+        v = m.get(k)
+        if isinstance(v, (int, float)) and abs(v) > limit:
+            return f"{k} = {v} is not believable for an IT services company"
     return ""
 
 
-def analyse_company(llm, company, items, quarter_label, quarter_months, yahoo_facts, days, read_articles=True):
+def analyse_company(llm, company, items, quarter_label, quarter_months, yahoo_facts, days, read_articles=True,
+                    official=None):
     """One company, up to two rounds: read, notice gaps, search again, re-read."""
-    corpus, used = build_corpus(items, read_articles=read_articles)
+    corpus, used = build_corpus(items, read_articles=read_articles, official=official)
     result = None
     for round_no in (1, 2):
         user = (f"Company: {company['name']} (also called {', '.join(company['aliases'])}).\n"
@@ -174,8 +218,13 @@ def analyse_company(llm, company, items, quarter_label, quarter_months, yahoo_fa
         used += more_used
     result = verify_numbers(result, corpus)
     ids = [i for i in (result.get("source_ids") or []) if isinstance(i, int) and 1 <= i <= len(used)]
+    for i, it in enumerate(used[:len(official or [])], 1):  # always cite the official filings that were read
+        if i not in ids:
+            ids.insert(0, i)
     result["sources"] = [{"title": used[i - 1]["title"], "link": used[i - 1]["link"],
-                          "source": used[i - 1]["source"], "published": used[i - 1].get("published")} for i in ids]
+                          "source": used[i - 1]["source"], "published": used[i - 1].get("published"),
+                          "official": bool(used[i - 1].get("official"))} for i in ids]
+    result["official"] = bool(official)
     result["quarter"] = quarter_label
     result["company"] = company["short"]
     result["analysed_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")

@@ -56,5 +56,7 @@ def load_companies():
                 "tickers": [t.strip() for t in (r.get("tickers") or "").split("|") if t.strip()],
                 "search": (r.get("search_name") or r["name"]).strip(),
                 "aliases": [a.strip() for a in (r.get("aliases") or r["name"]).split("|") if a.strip()],
+                "bse_code": (r.get("bse_code") or "").strip(),
+                "nse_symbol": [t.strip() for t in (r.get("nse_symbol") or "").split("|") if t.strip()],
             })
     return rows
