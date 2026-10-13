@@ -125,8 +125,8 @@ def stamp():
     return tuple(p.stat().st_mtime for p in sorted(DATA.glob("*")) if p.is_file())
 
 
-@st.cache_data
-def load(_stamp):
+@st.cache_data(ttl=1800)
+def load(data_version):
     def rj(name, default):
         p = DATA / name
         try:
@@ -143,7 +143,7 @@ def load(_stamp):
     return {
         "companies": comps, "fin": rc("financials.csv"), "market": rc("market.csv"), "prices": rc("prices.csv"),
         "insights": rj("insights.json", {}), "sector": rj("sector.json", {}), "news": rj("news.json", {}),
-        "runs": rj("run_log.json", []),
+        "runs": rj("run_log.json", []), "filings": rj("filings.json", {}),
     }
 
 
@@ -152,7 +152,7 @@ ORDER = [c["short_name"] or c["name"] for c in D["companies"]]
 NAMES = {(c["short_name"] or c["name"]): c["name"] for c in D["companies"]}
 COLOR = {n: PALETTE[i % len(PALETTE)] for i, n in enumerate(ORDER)}
 COLOR["Nifty IT"] = "#868E96"
-INS, SECTOR = D["insights"], D["sector"]
+INS, SECTOR, FIL = D["insights"], D["sector"], D["filings"]
 
 if D["fin"].empty and not INS:
     st.title("Indian IT Results Dashboard")
@@ -228,11 +228,34 @@ with st.sidebar:
 
 
 # ---------------------------------------------------------------- scorecard (shared)
+def fresher_numbers(n):
+    """Yahoo can take days to add a new quarter. If the company has already filed its results on the
+    exchange and the AI read them, use those numbers for the scorecard until Yahoo catches up."""
+    ins = INS.get(n) or {}
+    yq = latest.loc[n, "quarter"] if n in latest.index else None
+    if not (ins.get("results_found") and ins.get("official") and ins.get("quarter") == target_q) or yq == target_q:
+        return None
+    m = ins.get("metrics") or {}
+    rev, np_ = m.get("revenue_inr_cr"), m.get("net_profit_inr_cr")
+    if rev is None:
+        return None
+    prev = latest_val(n, "revenue")
+    return {
+        "Data quarter": f"{target_q} (filing)",
+        "Revenue (₹ cr)": rev,
+        "Revenue QoQ %": round((rev / prev - 1) * 100, 1) if prev else None,
+        "Revenue YoY %": m.get("revenue_growth_yoy_pct"),
+        "Op. margin %": m.get("operating_margin_pct"),
+        "Net margin %": round(np_ / rev * 100, 1) if np_ is not None and rev else None,
+        "Net profit (₹ cr)": np_,
+    }
+
+
 def scorecard():
     rows = []
     for n in ORDER:
         ins = INS.get(n) or {}
-        rows.append({
+        row = {
             "Company": n,
             "Data quarter": latest.loc[n, "quarter"] if n in latest.index else None,
             "Revenue (₹ cr)": latest_val(n, "revenue"),
@@ -248,7 +271,9 @@ def scorecard():
             "Market cap (₹ cr)": mkt_val(n, "market_cap_cr"),
             "1Y return %": mkt_val(n, "return_1y"),
             "P/E": mkt_val(n, "pe_ttm"),
-        })
+        }
+        row.update(fresher_numbers(n) or {})
+        rows.append(row)
     return pd.DataFrame(rows)
 
 
@@ -294,15 +319,23 @@ if page == "Overview":
     kpi(k[3], "Median operating margin", pct(statistics.median(mar), False) if mar else "—", "latest quarter")
     kpi(k[4], "Nifty IT, 1 year", pct(nifty_ret), "share-price index")
 
-    chips = "".join(
-        f"<div class='chip'><b>{esc(n)}</b> · " +
-        (f"<span class='pos'>{esc(target_q)} out</span>" if n in reported else "<span class='na'>awaiting</span>") +
-        "</div>" for n in ORDER)
+    def chip(n):
+        f = FIL.get(n) or {}
+        if n in reported:
+            tag = f"<span class='pos'>{esc(target_q)} out</span>"
+            if (INS.get(n) or {}).get("official"):
+                tag += " <span class='sub'>✓ filed</span>"
+        else:
+            due = f.get("next_results_date")
+            tag = "<span class='na'>awaiting" + (f" · due {esc(pd.Timestamp(due).strftime('%d %b'))}" if due else "") + "</span>"
+        return f"<div class='chip'><b>{esc(n)}</b> · {tag}</div>"
+    chips = "".join(chip(n) for n in ORDER)
     st.markdown(f"<div class='chips' style='margin-top:14px'>{chips}</div>", unsafe_allow_html=True)
 
     st.subheader("Scorecard")
-    st.caption("Click a column to sort. Revenue, margins and profit come from Yahoo Finance; CC growth, deal wins, "
-               "guidance and mood are read from the news by the AI (blank = not found).")
+    st.caption("Click a column to sort. Revenue, margins and profit come from Yahoo Finance, or from the company's "
+               "stock-exchange filing when Yahoo hasn't caught up yet (marked '(filing)'). CC growth, deal wins, "
+               "guidance and mood are read by the AI from the filing and the news (blank = not found).")
     show_table(sc, column_config=SC_CONFIG)
 
     c1, c2 = st.columns([1.15, 1])
@@ -379,6 +412,17 @@ elif page == "Company deep-dive":
     tick = mkt.loc[name, "ticker"] if name in mkt.index else ""
     page_header(NAMES.get(name, name), f"{tick} · AI analysis for {ins.get('quarter') or '—'}"
                 + (f" · {ins.get('quarter')} shown while {ins['awaiting']} results are awaited" if ins.get("awaiting") else ""))
+    fil = FIL.get(name) or {}
+    if ins.get("filing"):
+        g = ins["filing"]
+        extra = f" · <a href='{esc(g['press_url'])}' target='_blank'>press release</a>" if g.get("press_url") else ""
+        st.markdown(f"<p class='sub'>📄 Official results filed on {esc(g.get('exchange'))} at "
+                    f"{esc((g.get('filed') or '').replace('T', ' '))} IST · "
+                    f"<a href='{esc(g.get('url'))}' target='_blank'>results filing</a>{extra}</p>", unsafe_allow_html=True)
+    elif fil.get("next_results_date"):
+        st.markdown(f"<p class='sub'>🗓️ Next results board meeting: "
+                    f"{esc(pd.Timestamp(fil['next_results_date']).strftime('%d %b %Y'))} (from the stock-exchange notice)</p>",
+                    unsafe_allow_html=True)
     if ins.get("headline"):
         st.markdown(f"<div class='callout'>{esc(ins['headline'])} &nbsp;{pill(ins.get('sentiment'))}"
                     f"<br><span class='sub'>{esc(ins.get('sentiment_reason'))}</span></div>", unsafe_allow_html=True)
@@ -459,7 +503,7 @@ elif page == "Company deep-dive":
     st.markdown("#### Sources the AI used")
     src = ins.get("sources") or []
     st.markdown("<div class='news'>" + "".join(
-        f"<div><a href='{esc(s.get('link'))}' target='_blank'>{esc(s.get('title'))}</a><br>"
+        f"<div>{'📄 ' if s.get('official') else ''}<a href='{esc(s.get('link'))}' target='_blank'>{esc(s.get('title'))}</a><br>"
         f"<span>{esc(s.get('source'))} · {esc((s.get('published') or '')[:10])}</span></div>" for s in src) + "</div>"
         if src else "<p class='sub'>No sources yet.</p>", unsafe_allow_html=True)
     with st.expander("All recent news for this company"):
@@ -606,21 +650,24 @@ elif page == "News":
 else:
     page_header("About & data")
     st.markdown("""
-**How it works.** A free AI agent runs every day on GitHub. It (1) downloads share prices and quarterly financials
-from Yahoo Finance, (2) searches Google News and Bing News for each company, (3) when a company's results are out,
-asks an open AI model to read the coverage and extract the key numbers, guidance, highlights, risks and mentions of
-media, gaming, education and publishing clients, searching again when facts are missing, (4) deletes any number it
-cannot find in a source, and (5) writes a sector view. The dashboard reads the saved files.
+**How it works.** A free AI agent runs several times a day on GitHub. It (1) downloads share prices and quarterly
+financials from Yahoo Finance, (2) searches Google News and Bing News for each company, including Bloomberg and Reuters
+headlines, (3) checks the stock exchange (BSE, with NSE as backup) for the company's official results filing and press
+release, the fastest and most reliable source, (4) when results are out, asks an open AI model to read the filing and
+the coverage and extract the key numbers, guidance, highlights, risks and mentions of media, gaming, education and
+publishing clients, searching again when facts are missing, (5) deletes any number it cannot find in a source, and
+(6) writes a sector view. A company only counts as "results out" once its results are filed on the exchange.
 
-**Read with care.** Reported financials come from Yahoo Finance and can lag company releases by a few days.
+**Read with care.** Reported financials come from Yahoo Finance and can lag company releases by a few days; until it catches up, the scorecard uses the numbers
+from the company's exchange filing (marked "(filing)").
 AI-extracted figures come from news headlines and articles: check important numbers against the company's own
 fact sheet before using them. Revenue growth here is in reported rupees unless labelled CC (constant currency).
 This is not investment advice.
 """)
     st.markdown("#### Data files")
     st.markdown("All in the `data` folder: `financials.csv` (one row per company, quarter and metric — ready for "
-                "Excel, Power BI or Tableau), `market.csv`, `prices.csv`, `news.json`, `insights.json`, `sector.json`, "
-                "`run_log.json`.")
+                "Excel, Power BI or Tableau), `market.csv`, `prices.csv`, `news.json`, `filings.json`, `insights.json`, "
+                "`sector.json`, `run_log.json`.")
     if D["runs"]:
         st.markdown("#### Recent agent runs")
         show_table(pd.DataFrame([{"Finished (UTC)": (r.get("finished") or "")[:16].replace("T", " "),

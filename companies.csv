@@ -1,11 +1,11 @@
-name,short_name,tickers,search_name,aliases
-Tata Consultancy Services,TCS,TCS.NS,TCS,TCS|Tata Consultancy
-Infosys,Infosys,INFY.NS,Infosys,Infosys|Infy
-HCLTech,HCLTech,HCLTECH.NS,HCLTech,HCLTech|HCL Tech|HCL Technologies
-Wipro,Wipro,WIPRO.NS,Wipro,Wipro
-LTM (LTIMindtree),LTM,LTM.NS|LTIM.NS,LTIMindtree LTM,LTIMindtree|LTM|LTIM
-Tech Mahindra,Tech Mahindra,TECHM.NS,Tech Mahindra,Tech Mahindra|TechM
-Oracle Financial Services Software,OFSS,OFSS.NS,Oracle Financial Services Software,Oracle Financial|OFSS
-Persistent Systems,Persistent,PERSISTENT.NS,Persistent Systems,Persistent
-Coforge,Coforge,COFORGE.NS,Coforge,Coforge
-Mphasis,Mphasis,MPHASIS.NS,Mphasis,Mphasis
+name,short_name,tickers,search_name,aliases,bse_code,nse_symbol
+Tata Consultancy Services,TCS,TCS.NS,TCS,TCS|Tata Consultancy,532540,TCS
+Infosys,Infosys,INFY.NS,Infosys,Infosys|Infy,500209,INFY
+HCLTech,HCLTech,HCLTECH.NS,HCLTech,HCLTech|HCL Tech|HCL Technologies,532281,HCLTECH
+Wipro,Wipro,WIPRO.NS,Wipro,Wipro,507685,WIPRO
+LTM (LTIMindtree),LTM,LTM.NS|LTIM.NS,LTIMindtree LTM,LTIMindtree|LTM|LTIM,540005,LTM|LTIM
+Tech Mahindra,Tech Mahindra,TECHM.NS,Tech Mahindra,Tech Mahindra|TechM,532755,TECHM
+Oracle Financial Services Software,OFSS,OFSS.NS,Oracle Financial Services Software,Oracle Financial|OFSS,532466,OFSS
+Persistent Systems,Persistent,PERSISTENT.NS,Persistent Systems,Persistent,533179,PERSISTENT
+Coforge,Coforge,COFORGE.NS,Coforge,Coforge,532541,COFORGE
+Mphasis,Mphasis,MPHASIS.NS,Mphasis,Mphasis,526299,MPHASIS

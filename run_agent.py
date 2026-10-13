@@ -10,11 +10,15 @@ Save your AI key:  python run_agent.py --set-key
 What it does, in order:
  1. Works out which quarter's results are being announced now.
  2. Downloads share prices and quarterly financials for each company (free, Yahoo Finance).
- 3. Searches the news for each company (free Google News and Bing News feeds).
- 4. For companies with new results, asks a free AI model to read the news and pull out the key facts,
-    searching again if important facts are missing, and throwing away any number it can't find in a source.
- 5. Writes a sector-wide view for the quarter.
- 6. Saves everything in the "data" folder, where the dashboard reads it.
+ 3. Searches the news for each company (free Google News and Bing News feeds, plus Bloomberg and
+    Reuters headlines).
+ 4. Checks the stock exchanges (BSE, with NSE as backup) for the company's official results filing and
+    press release. This is the fastest, most reliable source: news, Bloomberg and Yahoo all copy from it.
+ 5. For companies with new results, asks a free AI model to read the official filing and the news and pull
+    out the key facts, searching again if important facts are missing, and throwing away any number it
+    can't find in a source.
+ 6. Writes a sector-wide view for the quarter.
+ 7. Saves everything in the "data" folder, where the dashboard reads it.
 """
 import argparse
 import csv
@@ -25,6 +29,7 @@ import traceback
 from datetime import datetime, timezone
 
 from agent import analyst, market
+from agent import filings as filingsmod
 from agent import news as newsmod
 from agent.llm import LLM, AIError
 from agent.quarters import label as quarter_label_of
@@ -129,7 +134,7 @@ def main():
     print(f"\n=== Indian IT results agent · looking at {qlabel} ({months_text(qe)}) ===\n")
 
     # ---------- 1. market data + financials ----------
-    print("Step 1 of 4 · Share prices and quarterly financials (Yahoo Finance)")
+    print("Step 1 of 5 · Share prices and quarterly financials (Yahoo Finance)")
     fx, fx_hist = market.usd_inr(yf)
     fin_new, mkt_rows, prices, refreshed = [], [], [], set()
     for c in companies:
@@ -171,11 +176,12 @@ def main():
     log["steps"].append(f"market data for {len(refreshed)}/{len(companies)} companies")
 
     # ---------- 2. news ----------
-    print("\nStep 2 of 4 · News search (Google News + Bing News)")
+    print("\nStep 2 of 5 · News search (Google News + Bing News, incl. Bloomberg & Reuters headlines)")
     all_news = read_json("news.json", {})
     for c in companies:
         queries = [f"{c['search']} {qlabel} results", f"{c['search']} quarterly results",
-                   f"{c['search']} deal OR guidance OR CEO"]
+                   f"{c['search']} deal OR guidance OR CEO",
+                   f"{c['search']} (site:bloomberg.com OR site:reuters.com)"]
         items = []
         for q in queries:
             items += newsmod.search(q, c["aliases"], settings["NEWS_DAYS"])
@@ -190,8 +196,39 @@ def main():
     write_json("news.json", all_news)
     log["steps"].append("news updated")
 
+    # ---------- 3. official stock-exchange filings ----------
+    print("\nStep 3 of 5 · Official results filings (BSE, NSE as backup)")
+    filings = read_json("filings.json", {})
+    bse, nse = filingsmod.BSE(), None
+    for c in companies:
+        try:
+            f = filingsmod.company_filings(c, qe, bse=bse, nse=nse)
+            if not f["checked"] and c.get("nse_symbol") and nse is None:
+                try:  # BSE didn't answer: try NSE once
+                    nse = filingsmod.NSE()
+                    f = filingsmod.company_filings(c, qe, bse=None, nse=nse)
+                except Exception as e:  # noqa: BLE001
+                    f["error"] = (f.get("error") or "") + f"; NSE: {type(e).__name__}"
+        except Exception as e:  # noqa: BLE001
+            f = {"checked": False, "error": f"{type(e).__name__}: {str(e)[:120]}"}
+        f["quarter"] = qlabel
+        filings[c["short"]] = f
+        if f.get("result"):
+            print(f"   {c['short']}: RESULTS FILED on {f['exchange']} at {f['result']['time'].replace('T', ' ')}"
+                  + (" (+ press release)" if f.get("press") else ""))
+        elif f.get("checked"):
+            nxt = f" · results due {f['next_results_date']}" if f.get("next_results_date") else ""
+            print(f"   {c['short']}: no results filing yet{nxt}")
+        else:
+            print(f"   {c['short']}: exchange not reachable ({f.get('error')}); will rely on news")
+            log["errors"].append(f"filings {c['short']}: {f.get('error')}")
+        time.sleep(0.8)
+    write_json("filings.json", filings)
+    filed = [n for n, f in filings.items() if f.get("quarter") == qlabel and f.get("result")]
+    log["steps"].append(f"exchange filings checked; results filed: {', '.join(filed) or 'none'}")
+
     # ---------- 3. AI analysis ----------
-    print("\nStep 3 of 4 · AI analysis of results")
+    print("\nStep 4 of 5 · AI analysis of results")
     insights = read_json("insights.json", {})
     llm = LLM(settings)
     analysed = []
@@ -208,28 +245,45 @@ def main():
             name = c["short"]
             current = insights.get(name) or {}
             items = all_news.get(name, [])
-            if current.get("quarter") == qlabel and current.get("results_found") and analyst.results_check(current, qe):
+            fil = filings.get(name) if (filings.get(name) or {}).get("quarter") == qlabel else None
+            official_out = bool(fil and fil.get("result"))
+            if current.get("quarter") == qlabel and current.get("results_found") and analyst.results_check(current, qe, fil):
+                print(f"   {name}: earlier analysis said results were out, but {analyst.results_check(current, qe, fil)}; resetting")
                 current = {}  # an earlier run wrongly marked results as out; check again
                 insights.pop(name, None)
             done = current.get("quarter") == qlabel and current.get("results_found")
+            if done and official_out and not current.get("official"):
+                print(f"   {name}: official filing now available, re-reading it")
+                done = False
             if done and not args.force:
                 print(f"   {name}: {qlabel} already analysed")
                 continue
-            if not args.force and not analyst.results_news_present(items, qlabel, qe.isoformat()):
+            if not args.force and not official_out and not analyst.results_news_present(items, qlabel, qe.isoformat()):
                 print(f"   {name}: no {qlabel} results news yet, waiting")
                 if current and current.get("quarter") != qlabel:
                     current["awaiting"] = qlabel
                     insights[name] = current
                 continue
-            print(f"   {name}: reading {min(len(items), 28)} news items...")
             try:
+                official = filingsmod.official_sources(fil) if official_out else []
+                print(f"   {name}: reading "
+                      + (f"the official filing ({len([o for o in official if o.get('text')])} PDF read) + " if official else "")
+                      + f"{min(len(items), 28)} news items...")
                 facts = {q: v for q, v in yahoo.get(name, {}).items() if q in (qlabel, prev_label)}
                 res = analyst.analyse_company(llm, c, items, qlabel, months_text(qe), facts,
-                                              settings["NEWS_DAYS"], read_articles=not args.no_articles)
-                why = analyst.results_check(res, qe)
+                                              settings["NEWS_DAYS"], read_articles=not args.no_articles,
+                                              official=official)
+                why = analyst.results_check(res, qe, fil)
                 if why:
                     print(f"      -> AI said results were out, but {why}; treating as not out yet")
                     res["results_found"] = False
+                if official_out and not res.get("results_found"):
+                    res["results_found"] = True  # the exchange filing is proof
+                    res["results_date"] = fil["result"]["time"][:10]
+                if official_out:
+                    res["filing"] = {"exchange": fil["exchange"], "title": fil["result"]["title"],
+                                     "url": fil["result"]["url"], "filed": fil["result"]["time"],
+                                     "press_url": (fil.get("press") or {}).get("url")}
                 if res.get("results_found") or not current.get("results_found"):
                     insights[name] = res
                     analysed.append(name)
@@ -252,7 +306,7 @@ def main():
     log["steps"].append(f"AI analysed: {', '.join(analysed) or 'none'}")
 
     # ---------- 4. sector view ----------
-    print("\nStep 4 of 4 · Sector view")
+    print("\nStep 5 of 5 · Sector view")
     sector = read_json("sector.json", {})
     if analysed or (llm.available() and not args.skip_ai and insights and sector.get("quarter") != qlabel):
         try:
