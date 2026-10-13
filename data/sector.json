@@ -1,91 +1,83 @@
 {
- "headline": "Indian IT services posted solid revenue growth, driven by AI and international demand.",
- "summary": "TCS and HCLTech reported double‑digit revenue growth and strong net profits. AI revenue now exceeds $3 bn for TCS and grew 78% YoY for HCLTech, offsetting traditional services pressure. Most peers have not yet released results, but exchange data shows healthy top‑line expansion across the sector. Margin pressure remains modest, with operating margins around 24% for TCS and 31.6% for HCLTech.",
+ "headline": "Indian IT services posted solid revenue growth in Q2 FY27, led by TCS and HCLTech.",
+ "summary": "TCS reported ₹73,188 cr revenue, up 11.2% YoY, and net profit of ₹13,884 cr. HCLTech posted ₹35,620 cr revenue, up 11.5% YoY, with strong AI earnings. Most peers have not released results, but exchange data shows double‑digit growth for Infosys, LTM, and OFSS. Wipro's revenue rose modestly YoY, reflecting mixed demand.",
  "themes": [
   {
    "title": "AI‑driven growth",
-   "detail": "AI revenue crossed $3 bn for TCS and grew 78% YoY at HCLTech, becoming a key earnings driver.",
+   "detail": "Both TCS and HCLTech highlighted AI revenue as a key driver, with AI contributing over 10% of TCS's top line and HCLTech's AI earnings growing 78% YoY.",
    "companies": [
     "TCS",
     "HCLTech"
    ]
   },
   {
-   "title": "International demand",
-   "detail": "Modest overseas growth helped lift TCS revenue, while HCLTech saw higher constant‑currency growth.",
+   "title": "Steady margin performance",
+   "detail": "Operating margins remained stable around mid‑20% for TCS and above 30% for HCLTech, indicating pricing power despite services deflation pressures.",
    "companies": [
     "TCS",
     "HCLTech"
-   ]
-  },
-  {
-   "title": "Deal wins and pipeline",
-   "detail": "Mphasis added a £35.4 m contract; TCS reported $9.6 bn of new deals.",
-   "companies": [
-    "Mphasis",
-    "TCS"
    ]
   }
  ],
  "leaders": [
   {
    "company": "TCS",
-   "why": "Revenue of ₹73,188 cr (+11.2% YoY) and net profit of ₹13,884 cr; AI revenue over $3 bn."
+   "why": "Highest revenue and profit growth, strong AI contribution and stable margins."
   },
   {
    "company": "HCLTech",
-   "why": "Revenue of ₹35,620 cr (+11.5% YoY) and net profit growth 21%; AI revenue up 78% YoY."
+   "why": "Robust AI revenue growth (78% YoY) and solid profit expansion."
   }
  ],
  "laggards": [
   {
    "company": "Wipro",
-   "why": "Results pending; guidance expects flat revenue and only marginal margin improvement."
+   "why": "Revenue fell 1% YoY and margin pressure at 15.1%."
   },
   {
-   "company": "Tech Mahindra",
-   "why": "Results not released; guidance absent and growth modest."
+   "company": "Infosys",
+   "why": "Results not released; market awaiting guidance."
   }
  ],
  "domain_outlook": [
   {
    "domain": "Media & broadcasting",
    "signal": "Not enough data",
-   "note": "No company mentions or deals in this domain."
+   "note": "No company commentary referenced this sector."
   },
   {
    "domain": "Entertainment & streaming",
    "signal": "Not enough data",
-   "note": "No relevant signals observed."
+   "note": "No company commentary referenced this sector."
   },
   {
    "domain": "Gaming",
    "signal": "Not enough data",
-   "note": "No company activity reported."
+   "note": "No company commentary referenced this sector."
   },
   {
    "domain": "Education",
    "signal": "Not enough data",
-   "note": "No mentions in the data."
+   "note": "No company commentary referenced this sector."
   },
   {
    "domain": "Publishing",
    "signal": "Not enough data",
-   "note": "No relevant information available."
+   "note": "No company commentary referenced this sector."
   },
   {
    "domain": "Telecom",
    "signal": "Not enough data",
-   "note": "No telecom‑specific signals captured."
+   "note": "No company commentary referenced this sector."
   }
  ],
  "watch_next": [
-  "TCS Q3 FY27 earnings and AI revenue trajectory",
-  "HCLTech's AI service expansion and margin trends",
-  "Wipro's actual Q3 results versus flat‑revenue guidance",
-  "Mphasis pipeline after the UK social‑security contract",
-  "Any new AI‑related deal wins across the sector"
+  "TCS and HCLTech AI revenue trends and client wins",
+  "Infosys Q2 FY27 results and guidance",
+  "Wipro's partnership with Google Cloud and its impact",
+  "Margin evolution across the sector",
+  "Emergence of AI‑related services in mid‑tier firms"
  ],
  "quarter": "Q2 FY27",
- "written_at": "2026-10-13T15:07:12+00:00"
+ "written_at": "2026-10-13T16:32:48+00:00"
 }
