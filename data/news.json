@@ -25,6 +25,14 @@
    "snippet": ""
   },
   {
+   "title": "TCS.MU - | Stock Price & Latest News",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8wVkI1WW5Edi04RERhUzBIOGgwUTFscmtleDQ2eVVwcDdiUU9QQ2Iwb0NsVHM1WHJha01ObWphelNqRUJzUEpENXlOZ2RveGNaOVBieVlWOXdtR0FoN0RxR29sZ3pKSTMyQk1fVA?oc=5",
+   "source": "Reuters",
+   "provider": "Google",
+   "published": "2026-10-13T06:37:38+00:00",
+   "snippet": ""
+  },
+  {
    "title": "TCS.MU",
    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbzNrb1Z4RFdkZnNuXzNHcHhxWjhyRktGRkdxMjRsbW1BLWNiYnFpeGVwaWJmN2RDYVJBWFBBY3BUYkJOenBDSTdkQnNNMXIzdTBuc2ttUVlEZWozbVlfSTd5UEJXQ3dOTzNlRDFaS2hBY05Wcm44STVtSTFrbzVEQXlYOWl5YkpNTUlCNG9n?oc=5",
    "source": "Reuters",
@@ -87,14 +95,6 @@
    "provider": "Bing",
    "published": "2026-10-13T01:31:00+00:00",
    "snippet": "Indian stock markets saw buying interest in IT shares on Tuesday, October 13, even as a sharp sell-off in Asian technology stocks and rising geopolitical tensions weighed on global investor sentiment."
-  },
-  {
-   "title": "IT Stocks Rally on Earnings: HCLTech, TCS lead value buying; rupee gains lift Dalal Street",
-   "link": "https://www.msn.com/en-in/news/other/it-stocks-rally-on-earnings-hcltech-tcs-lead-value-buying-rupee-gains-lift-dalal-street/ar-AA2e7uWj",
-   "source": "msn.com",
-   "provider": "Bing",
-   "published": "2026-10-12T23:29:00+00:00",
-   "snippet": "Dalal Street saw a surge as IT stocks soared following strong quarterly earnings from industry giants. HCLTech and Tata Consultancy Services were at the forefront, with their share prices climbing ..."
   },
   {
    "title": "HCL Tech vs TCS Q2 results dividend: Which IT stock offers more? Amount, record date, yield, earnings compared",
@@ -305,20 +305,20 @@
    "snippet": "Tata Consultancy Services has decided that senior employees at the C3A grade and above will not receive their quarterly performance bonuses for the September quarter."
   },
   {
+   "title": "Senior TCS Staff To Miss Quarterly Variable Pay After Company Misses Performance Targets",
+   "link": "https://www.latestly.com/business/senior-tcs-staff-to-miss-quarterly-variable-pay-after-company-misses-performance-targets-7639477.html",
+   "source": "latestly.com",
+   "provider": "Bing",
+   "published": "2026-10-10T00:02:00+00:00",
+   "snippet": "Senior staff at TCS (grade C3A and above) will receive no quarterly variable pay after performance fell short of internal targets, according to an internal memo. Junior employees will receive 100 per ..."
+  },
+  {
    "title": "TCS withholds quarterly bonuses for senior staff after missing performance targets",
    "link": "https://www.thehindubusinessline.com/info-tech/tcs-withholds-quarterly-bonuses-for-senior-staff-after-missing-performance-targets/article71566947.ece",
    "source": "thehindubusinessline.com",
    "provider": "Bing",
    "published": "2026-10-09T22:58:00+00:00",
    "snippet": "TCS has withheld quarterly variable pay for senior staff after missing targets, while junior employees get full eligible pay amid weak revenue growth and IT sector uncertainty."
-  },
-  {
-   "title": "India's TCS senior staff will miss out on variable pay for September quarter, memo shows",
-   "link": "https://www.msn.com/en-us/news/other/indias-tcs-senior-staff-will-miss-out-on-variable-pay-for-september-quarter-memo-shows/ar-AA2dUWwZ",
-   "source": "msn.com",
-   "provider": "Bing",
-   "published": "2026-10-09T21:06:00+00:00",
-   "snippet": "By Sai Ishwarbharath B Oct 10, BENGALURU - Senior staff at India's Tata Consultancy Services will miss out on quarterly bonuses after the company failed to meet performance targets, according to an ..."
   }
  ],
  "Infosys": [
@@ -371,14 +371,6 @@
    "snippet": ""
   },
   {
-   "title": "AI Could Account For Half Of Infosys' Revenue In 2-3 Years; CEO Warns Of Infra Backlash Extending To India",
-   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOQktDSDlEb2RGM3lFS0hsdVdhMHFlUjByVU1rWGs0cW5ZUkZzcnZINHZqbjBXRlQ1c3lyWnZkR2JFRXVKeXhMcWhtYkx2alZDQjlTbFFOTHBtdXRlVkl4MDlHSlVNcXU2aE4wRGJrY3RMcnBrRkprODJib1pYaXlPQ24yTmppQlFHd0pVQl9OcE11Mlg0VS1QMEN6YXluWEVPOE9lLVpSbGd4a1Z1bFlDd3haWUVSUDBvel95TjgtUzVDYXJIN0I2NXRaRkNkemIwM3NHQmhRRGVlWGtWYjlESDc2ZWhUZ9IB7gFBVV95cUxQZXVEVjZOQnJ5NURRMEw3Vmczb2FYRVc5MEJrdno3SjF0OGhLQjVZTGE0SGtSajZKN1AzQXZ1Z1VVbnZDcmlnbGt5Z2VZa3NVVzdJUzJsOTZBT2RyWHRSRUdkUG1vNFlaR1hDbmRFR1E0WHBnb1JKMnpLUEI4X2Y2R0Y4Mjl2MjY1cFN0czZWX0E0WVZESXBQaWYwNVYxU1Z0Z0pjU1Y1TTFPVVpwNk9BeGJMTzRLT2YyVkdRZV9hQm02MW5BeTJmRnVHTURrWmRTOEZObkFrQl9yblROZF9ySUh3R3dEMmxyTWZDWGFB?oc=5",
-   "source": "NDTV Profit",
-   "provider": "Google",
-   "published": "2026-10-13T13:10:27+00:00",
-   "snippet": ""
-  },
-  {
    "title": "AI infra investments at risk from high costs: Infosys CEO Salil Parekh",
    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVXZFSFJoWXpJeVp6UkxPVGU5U21jVmN0dmpjUUQ0UEVib3ZmYVAyQmtORkptaW9tS0xDY01jMGRlNTc1bzVIcTF0X0x2ekZmWFVrc0ZWN0U0QV9qSnpqa0hmYzJjYmFZNnlUb1lBTVpPclhISzBzSVNGLWtiT2Q0V01zTlhLUV85WjUxUmlLQlRBWXE0ckZhbmhiRmRfMUR2U245VlVnTkJfUzlvRU8ydjV6TXh5N0V6TGhDWFlhai1hUDNEWnQ4TEt0NjJ4ZXVw0gHQAUFVX3lxTFBVdkVIUmhZekl5WnpSTE9UZTlTbWNWY3R2amNRRDRQRWJvdmZhUDJCa05GSm1pb21LTENjTWMwZGU1NzVvNUhxMXRfTHZ6RmZYVWtzRlY3RTRBX2pKemprSGZjMmNiYVk2eVRvWUFNWk9yWEhLMHNJU0Yta2JPZDRXTXNOWEtRXzlaNTFSaUtCVEFZcTRyRmFuaGJGZF8xRHZTbjlWVWdOQl9TOW9FTzJ2NXpNeHk3RXpMaENYWWFqLWFQM0RadDhMS3Q2MnhldXA?oc=5",
    "source": "Asianet Newsable",
@@ -403,11 +395,19 @@
    "snippet": ""
   },
   {
+   "title": "AI Could Account For Half Of Infosys' Revenue In 2-3 Years; CEO Warns Of Infra Backlash Extending To India",
+   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOQktDSDlEb2RGM3lFS0hsdVdhMHFlUjByVU1rWGs0cW5ZUkZzcnZINHZqbjBXRlQ1c3lyWnZkR2JFRXVKeXhMcWhtYkx2alZDQjlTbFFOTHBtdXRlVkl4MDlHSlVNcXU2aE4wRGJrY3RMcnBrRkprODJib1pYaXlPQ24yTmppQlFHd0pVQl9OcE11Mlg0VS1QMEN6YXluWEVPOE9lLVpSbGd4a1Z1bFlDd3haWUVSUDBvel95TjgtUzVDYXJIN0I2NXRaRkNkemIwM3NHQmhRRGVlWGtWYjlESDc2ZWhUZ9IB7gFBVV95cUxQZXVEVjZOQnJ5NURRMEw3Vmczb2FYRVc5MEJrdno3SjF0OGhLQjVZTGE0SGtSajZKN1AzQXZ1Z1VVbnZDcmlnbGt5Z2VZa3NVVzdJUzJsOTZBT2RyWHRSRUdkUG1vNFlaR1hDbmRFR1E0WHBnb1JKMnpLUEI4X2Y2R0Y4Mjl2MjY1cFN0czZWX0E0WVZESXBQaWYwNVYxU1Z0Z0pjU1Y1TTFPVVpwNk9BeGJMTzRLT2YyVkdRZV9hQm02MW5BeTJmRnVHTURrWmRTOEZObkFrQl9yblROZF9ySUh3R3dEMmxyTWZDWGFB?oc=5",
+   "source": "NDTV Profit",
+   "provider": "Google",
+   "published": "2026-10-13T11:39:55+00:00",
+   "snippet": ""
+  },
+  {
    "title": "Gotianun-led Filinvest Land signs 100,000-sqm office deal with Infosys BPM",
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRDhHNGJJSjJKNzBaUXphNG1xOXVhbnQ3aXFCd2J6NWFfV21hLWVtRndxUWFoQk1laldHUE0td0s1ZkJhUXd5b2dPa05VdmtsaWwtMm1fSURaQ1dscXZIdWZLcjdQR3RqZ19pU2RXcDMyOFh6SnlVOVBzdGZTbnppSzdBZW9FV3YyYUJJanVIeXFIVnUwblEtTDlwa2xmZw?oc=5",
    "source": "Bilyonaryo Business",
    "provider": "Google",
-   "published": "2026-10-13T11:16:48+00:00",
+   "published": "2026-10-13T11:22:45+00:00",
    "snippet": ""
   },
   {
@@ -464,6 +464,14 @@
    "source": "Upstox",
    "provider": "Google",
    "published": "2026-10-13T04:07:55+00:00",
+   "snippet": ""
+  },
+  {
+   "title": "INFY Share Price Today - Infosys Ltd. Stock Price Live NSE/BSE",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4zZmU3SmpYRTVHcTdlZFpiRzYzR0I4aUV5dnlnZTBxYUVrZTdnSmw0alFfWTZFX2hqMHlyWHpOOVR4Zk5PTFJ4a3VfOEVBN3U5R0xxcU1pZTNlTDgxM2x1MmJ0SUo3ZnBXRGJyTVFVYU9zUkZtV2o4?oc=5",
+   "source": "Univest",
+   "provider": "Google",
+   "published": "2026-10-13T00:24:04+00:00",
    "snippet": ""
   },
   {
@@ -633,14 +641,6 @@
    "provider": "Google",
    "published": "2026-10-09T07:01:27+00:00",
    "snippet": ""
-  },
-  {
-   "title": "INFY Outlook for the Week",
-   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5kS1diXzYtdHFHS3d2QnlYTHpYSkpqRnJER2FlSGFjeWpkVXF6MEtxNnBfMUlSRDZDQktianllTDlIVVBSc2N5QURTbjQzdmtFSHhqQ1FEeHZXcEw5bEtpVWRZQkZTZw?oc=5",
-   "source": "Equitypandit",
-   "provider": "Google",
-   "published": "2026-10-09T07:00:00+00:00",
-   "snippet": ""
   }
  ],
  "HCLTech": [
@@ -650,6 +650,14 @@
    "source": "ad-hoc-news.de",
    "provider": "Google",
    "published": "2026-10-13T16:55:49+00:00",
+   "snippet": ""
+  },
+  {
+   "title": "TCS, HCLTech Rally Amid Global AI Jitters: What's The Next Market Move?",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNX0MtcEtJRi1OUUNBSGQxM0tmWGRoVWcxR1E2ZWFMNWpWa0xCbVBvMUYzLVRCUzFvdXVmWGtmREVOaFFxRHRmOTNRa2NOU2dCUmd6aTNlUTExQlE2TTNUa0NGQkxUUGVPYk5fVVctNnlZZXBWRGwweGhpNXpvYkJVdUE5VnlMa1BnTVgzdDVwY1BoaWp2Zm5GbmY2U3VZUDJMUGVlZlNLa2xuVHFhQ3pYSDFOLVhKMTNRTkwzaU82YnRMdkJtaHRFYS1LS3RHSnVPR1RIWWFDazRjNmfSAdsBQVVfeXFMTV9DLXBLSUYtTlFDQUhkMTNLZlhkaFVnMUdRNmVhTDVqVmtMQm1QbzFGMy1UQlMxb3V1ZlhrZkRFTmhRcUR0ZjkzUWtjTlNnQlJnemkzZVExMUJRNk0zVGtDRkJMVFBlT2JOX1VXLTZ5WWVwVkRsMHhoaTV6b2JCVXVBOVZ5TGtQZ01YM3Q1cGNQaGlqdmZuRm5mNlN1WVAyTFBlZWZTS2tsblRxYUN6WEgxTi1YSjEzUU5MM2lPNmJ0THZCbWh0RWEtS0t0R0p1T0dUSFlhQ2s0YzZn?oc=5",
+   "source": "Business Today",
+   "provider": "Google",
+   "published": "2026-10-13T15:36:21+00:00",
    "snippet": ""
   },
   {
@@ -877,14 +885,6 @@
    "snippet": ""
   },
   {
-   "title": "Nifty IT surges over 5% as strong HCL Tech earnings lift IT stocks; TCS, Infosys gain amid global AI selloff",
-   "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPRWY3cXhIUmNmeV9JSGlEbFRRdmcxT0YxWURUa0lYX2czTjdqQjNiQlluMDExRmVZUHpxV1ZQNU8yUXl4UGhFa2FoZGl2aHE1ajNWRGgzdnU4czhTcWVxeElDWXRsVkkxY044SEtpS1ZFNjdvd29QX3pjOUdFZnlNZnFvWWo2NWRPcGJEWGd2VG1OYkcyX1ZxNmxuMmZOUEtYNHo2SFlnYkVqbmJiR0ItakZRM05NaXJWX0FBNnpRY3R6X0h6STlvekZ4R0RKNF8wdWV6TjR1TVowZEN3eDJ5RGo5VnZUQVJqYVo1M3pobHlSZVpCR003ejhtNVQ?oc=5",
-   "source": "TradingView",
-   "provider": "Google",
-   "published": "2026-10-13T04:36:00+00:00",
-   "snippet": ""
-  },
-  {
    "title": "HCLTech shares rally 5% after Q2 results; brokerages split on stock, check fresh targets",
    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQzdnajhvUXQwNWNWbGpZV3BsSEF3blpMVjBGeDQzRGRQOWlzVkViMjA3dWZrWW50X2duVVhhVXBRQ21Cei1OMU02aVlVYUt6VTM2LUtFcVJTYm8xM3FLZDN5RnZ6aWViQ2MxYlZ2WURKc1hDUVdCdEFFV0w4dUZCa0dic3BRV09XM0lSM2pCRWowbDMxVXdXRXg4Sm50TlFEREI2b0gzaFJ4YnkyQ0VyNFg0anRERlI4LUtCcXhMZjNuSXdzQi0xMFd2WFdsVU51?oc=5",
    "source": "Zee Business",
@@ -898,6 +898,14 @@
    "source": "NewsBytes",
    "provider": "Google",
    "published": "2026-10-13T04:28:03+00:00",
+   "snippet": ""
+  },
+  {
+   "title": "India's HCLTech jumps as margin beat, deal wins outweigh software weakness",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNajl3MFBnZ1ZVSWZockJRYnBOcWhqNUo5c2RCaDNPTEFNc0VibDY2akdjS1lvQ2dKZFNUZ0VkM0tScE04OWtWeklka3dROWl6akZRNWRQa2s0RUFrRmJ1WnJ5YTJGRnhsejcwUXlTeG14WGg2UzlueURrLThJaXd3YU5Jb3RlVktieWY2WTF1SzJ1eS1fTEZ2YTRsV2dHdUM5MFVEX2VIOGZCWW5HSnVjYk5vU2VvRUYycnZhOGRud1hrRU1sQ0RORy1DYjJMX1AxOTF2bUhxb2xQR1U?oc=5",
+   "source": "TradingView",
+   "provider": "Google",
+   "published": "2026-10-13T04:22:00+00:00",
    "snippet": ""
   },
   {
@@ -954,14 +962,6 @@
    "source": "Zee Business",
    "provider": "Google",
    "published": "2026-10-13T03:55:00+00:00",
-   "snippet": ""
-  },
-  {
-   "title": "India's HCLTech climbs most in six years on strong margins and AI gains",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOa3drREZtVGNMTmxOdmtJVUo2TFZDbFR1cjV6d3dwVVRyUVdmUjYxdHRBUW5aeVhuZFBkUkRhUTVjYXhSc1ZNSzVhMTV2SEJMU0JZS2tkd2pCS3lHRHlVVGwtbDIwVVJQZTRJLUZ0Z05CZmtSRWFMRGZEeC10dHpsZDNMdl9mUThfVjN6aUdtcVN4VlpNRjdnNXRpRnpOZlZaOFhsMXB4Z21aWloydWFtZGhSdmJtaUlJ?oc=5",
-   "source": "Reuters",
-   "provider": "Google",
-   "published": "2026-10-13T03:54:00+00:00",
    "snippet": ""
   }
  ],
@@ -1021,14 +1021,6 @@
    "provider": "Google",
    "published": "2026-10-12T06:59:00+00:00",
    "snippet": ""
-  },
-  {
-   "title": "Wipro Ltd. Downgraded to Sell Amid Technical Weakness and Flat Financials",
-   "link": "https://www.marketsmojo.com/news/stock-recommendation/wipro-ltd-downgraded-to-sell-amid-technical-weakness-and-flat-financials-4223742",
-   "source": "marketsmojo.com",
-   "provider": "Bing",
-   "published": "2026-10-12T01:01:00+00:00",
-   "snippet": "Wipro Ltd., a major player in the Computers - Software & Consulting sector, has seen its investment rating downgraded from Hold to Sell following a comprehensive reassessment across quality, valuation ..."
   },
   {
    "title": "Wipro Q2 preview: Brokerages expect weak revenue growth, margin recovery",
@@ -1151,8 +1143,8 @@
    "snippet": ""
   },
   {
-   "title": "Wipro (NSEI:WIPRO) Stock Forecast & Analyst Predictions",
-   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBScG9tZFdwX1oxZmJ6bDNYWW02M0ZOV1lYVHVsMFFUVi02Tm4zSlBrelB0OFB0SExfQ3l0cUZpakkzSlp5V0I1MWl2OFBBbXI0dGJ2dmJHYTBMT1hfRmlGTFV6ZlIyR3FMeGQ3NEYyUU10OG5hVlRRY3B3?oc=5",
+   "title": "Wipro (NYSE:WIT) Stock Forecast & Analyst Predictions",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB5akxtLS01elh5YklJSzVhTlN6aGgyLWJNWHpxRzFKZjZRaEs3aUNUU0hoUkI1QlNSVk5jUFZod2VFMXA2ZWswTzFTNUhWZFZ6c1A1bG9Wa1J1OWw4NXhKZmZmRFZNVnFhZWFHRmdUSQ?oc=5",
    "source": "Simply Wall Street",
    "provider": "Google",
    "published": "2026-10-09T07:00:00+00:00",
@@ -1162,14 +1154,6 @@
    "title": "WIPRO Outlook for the Week (October 12, 2026 – October 16, 2026)",
    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1rbXFQam1ReFc5bkdMZ2xSQXdpcnFKYzM5cm45ek5VOUdLdGRfX2hNTW9ORnRtU3k4cmdfTDlmQVVSVG4zdUlZTHdqTExFWU90eVA5RW1LVkNtSkVDRlBfc3R3VFN5cFE?oc=5",
    "source": "Equitypandit",
-   "provider": "Google",
-   "published": "2026-10-09T07:00:00+00:00",
-   "snippet": ""
-  },
-  {
-   "title": "Wipro (NYSE:WIT) Stock Forecast & Analyst Predictions",
-   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB5akxtLS01elh5YklJSzVhTlN6aGgyLWJNWHpxRzFKZjZRaEs3aUNUU0hoUkI1QlNSVk5jUFZod2VFMXA2ZWswTzFTNUhWZFZ6c1A1bG9Wa1J1OWw4NXhKZmZmRFZNVnFhZWFHRmdUSQ?oc=5",
-   "source": "Simply Wall Street",
    "provider": "Google",
    "published": "2026-10-09T07:00:00+00:00",
    "snippet": ""
@@ -1285,9 +1269,33 @@
    "provider": "Google",
    "published": "2026-10-08T05:36:36+00:00",
    "snippet": ""
+  },
+  {
+   "title": "Wipro Limited to Announce Results for the Second Quarter Ended September 30, 2026, on October 15, 2026",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVk5KVkQ3eURFbVNKTUhDVmxBbmZPaTV0aGg3TjM3N1NDZmZrWFowNXp0LW5JZWJDbDMwN1I1Q0haM0l0ZXhZcnN4aEFuZEctOVpxZGkzbGJFRlg1YTl1MTl2clBHSjhFQUJmdTFCU1dUc181UEx1WldzeUR2SHJ5ZXBUSDhUWTVjcmdUQTl2MGlCSzJTLWpXTXhtNTM3QU5Fa0IwSA?oc=5",
+   "source": "Yahoo Finance",
+   "provider": "Google",
+   "published": "2026-10-07T12:51:00+00:00",
+   "snippet": ""
+  },
+  {
+   "title": "WIPRO : TO ANNOUNCE RESULTS FOR THE SECOND QUARTER ENDED SEPTEMBER 30, 2026, ON OCTOBER 15, 2026",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQWm4xbEI5N3h6eUdSN05MSGIyaFM0eDdIZ015bzVPUkJwNGtyUWtNZDF6Qm9qYThnVm1KLTVSNmhUNDYxeUNrWkFlb0RZNFRna2kzLWhjRW1OT2RDRElfVkpMNnY1UXdiX1oyTU84OXlWdjJQVjdIelBjdnRkQU1vQVJQcU1VemlQN0tTSlZNQVZobExwenBuZ3BPT1NfUjJ1WmR4Q2FzalZFSUpteWg0NjBKTWpobVVGQ2JLLUJraFd1ODBpTDhUSHVMRzA5Rk1zaS1fMzlNSzlSZkds?oc=5",
+   "source": "www.marketscreener.com",
+   "provider": "Google",
+   "published": "2026-10-07T10:46:10+00:00",
+   "snippet": ""
   }
  ],
  "LTM": [
+  {
+   "title": "LTM LIMITED Option Chain - Live LTM LIMITED Option Chain Data, OI & Price",
+   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9yQWlWNFhyOTdUS3V4N1lzUXBubFhCQjg5TlhkMWEtWmdoNDF6RGtrWE1ISlRQTFNVZHhwV0ZVTEV5RDJhd1M4dmh6aTNVbzU1RnFYN3Q1SQ?oc=5",
+   "source": "Upstox",
+   "provider": "Google",
+   "published": "2026-10-13T15:13:39+00:00",
+   "snippet": ""
+  },
   {
    "title": "LTM Dividend 2026: Record date declared; check amount announcement date, history, yield returns of Larsen & Toubro stock",
    "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNUGppRzN4aE05RUFkT2VCdkRabnNSblh2WXFMUVhoVEJmeFNGdjJHLWYzajBlYXI2RWN0Nm9Ua2w5aFZtaFBFTzVBWVhrV1R5QXVKR0ZLVmtjZk1QUVhTMXFUa1VkZTU4Vmg5cjM0TnVHTUoxaXFtRkcyZ0ZyM3BrWlJ6VXU2dmV6OEdVUDZOalg0LXFyZTgwTnFxUnRUOE9HcVhaR2d5eFpyd2dvZVdDZlpGaWtCUTRacFRMSFpmRTg5eDFGTkVwOHlSOXFPeGxiU1JTbE15OEFyYjctMU9MblA2dzd3X3dSQTVfUW4wcWFsYjh0d2xXSGx0WGZaLUxXMVdISlE4Y0l4ZlNm0gGSAkFVX3lxTE0tdXQ3aXhHWUZjSjJEYWxHX2hFZEt2NEtpNTFNUmdLMXVHUjFXT1FOTFRwejQ4Q21kTnBxcjlWd2ltVWlyS29Id2FDV1VRQndKSVNrYlpXb2tKbTJNNE9zUkJxRUN6M0Jfa0FXaFZPaG1GbzlYazBMQkRhdDV6Uzd5TFlfRVJ0SVlRSWd1NjBTZTVvUHd2c1NvMEZhQXpLTVhZdk5qazFETXJSelV6TWJUM2xBbUtUZlBpdFFncjlNdzZwWEhNeWtzZjRqNFp4bzQzR3dnVmJwSGFWMDZ2azJaNVVXcjJ6aUVWdDBLNU9VYXYyNzJPV3pURWY0YTZfeGpWN0xSaS1CX3dYQ1J6OW13Z3c?oc=5",
@@ -1414,6 +1422,14 @@
    "source": "Univest",
    "provider": "Google",
    "published": "2026-09-16T07:00:00+00:00",
+   "snippet": ""
+  },
+  {
+   "title": "LTM Collaborates with IBM and Red Hat on AI-Driven Open-Source Software Remediation",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdlF1YW9xTmFzMHN6OFlkVEpHODJHd2FZelhJNUVkb25xT0p4WFNBSVFoZGNPaWR5T0ZxUlprQUk5UTZ5NkpTeWFXdUFNMnR4Q3BDRUtDUldaamliUWlqSU5feFRYZW5OT24tLWh5cHFZQW5CWEVDUmFrU2dQMzQxNW9iVzhKZ3M2ekowOEQyNTdGbzgwaUpjRGZxNUNrYzNnbEJ5UzJiOGlnek1uOS1CV0RiSkZ3WmhN?oc=5",
+   "source": "Machine Maker",
+   "provider": "Google",
+   "published": "2026-09-14T07:00:00+00:00",
    "snippet": ""
   }
  ],
@@ -1572,7 +1588,7 @@
   },
   {
    "title": "Tech Mahindra, Indus Finance weigh bonus shares as 11 companies line up dividends",
-   "link": "https://www.msn.com/en-in/money/investment/tech-mahindra-indus-finance-weigh-bonus-shares-as-11-companies-line-up-dividends/ar-AA2dX8CK",
+   "link": "https://www.msn.com/en-in/news/other/tech-mahindra-indus-finance-weigh-bonus-shares-as-11-companies-line-up-dividends/ar-AA2dX8CK",
    "source": "msn.com",
    "provider": "Bing",
    "published": "2026-10-10T02:29:00+00:00",
@@ -1601,14 +1617,6 @@
    "provider": "Google",
    "published": "2026-10-09T10:06:17+00:00",
    "snippet": ""
-  },
-  {
-   "title": "TCS 4% profit jump raises Q2 FY27 India IT expectations",
-   "link": "https://www.newsbytesapp.com/news/business/tcs-4-profit-jump-raises-q2-fy27-india-it-expectations/tldr",
-   "source": "newsbytesapp.com",
-   "provider": "Bing",
-   "published": "2026-10-09T08:49:00+00:00",
-   "snippet": "Following TCS's earnings announcement, HCLTech, Tech Mahindra, and Wipro are set to release their Q2 FY27 results between October 12 and 15."
   },
   {
    "title": "TECHM Outlook for the Week",
@@ -1736,6 +1744,14 @@
    "source": "TradingView",
    "provider": "Google",
    "published": "2026-10-05T10:47:51+00:00",
+   "snippet": ""
+  },
+  {
+   "title": "IT Q2 Preview: From Revenue To Margin Outook, How Will TCS, Infosys, Tech Mahindra And Other Peers Perform",
+   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQLVNhZC1LaWEzNzMwd2huUXQ0NGJDM3Z6RlpDUG5TSy1uSS1acVlrWUdQX2hZTDZ3WUx4ZGZ4M1hYSHl0Y0ZBazU5ZGFRc1NXQ29xWS1zX21YUm54ZGhBTTJZbk4zNWxNMjYyNHRlcXpFdTJwM1J3LXQtSExGMHZBcVgwS2pXZFpVbklkbDZBeVo0RFRtSjZtcFJ4NnE4YmU2VzEwV0xPanpwSFFmRFVqNXNwbUJHbGFKUW9CMElHcF8xT1JLZHVDMEk2QnRYVFk1aUF0MXlaSDZkb0E1UGZldjJ0ZVZSb1FXYXJF?oc=5",
+   "source": "NDTV Profit",
+   "provider": "Google",
+   "published": "2026-10-05T06:48:35+00:00",
    "snippet": ""
   }
  ],
@@ -2385,6 +2401,14 @@
    "snippet": ""
   },
   {
+   "title": "IT Sector Q2 Results Preview: TCS, HCL, Infosys, Wipro To See Muted Quarter; Check Dates, Dividends, Bonus",
+   "link": "https://www.goodreturns.in/news/it-sector-q2-results-preview-dates-dividends-bonus-tcs-hcl-infosys-wipro-muted-quarter-tech-stocks-1539409.html",
+   "source": "goodreturns.in",
+   "provider": "Bing",
+   "published": "2026-10-06T05:29:00+00:00",
+   "snippet": "In Q2FY27, the top-tier-1 tech companies like TCS, HCL Tech, Infosys, and Wipro are expected to report muted quarter, while tier-2 players like Coforge and Persistent are expected to outperform. Among ..."
+  },
+  {
    "title": "Coforge Brings Intent Engineering Framework",
    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1ud0tUd1FoNDVyREJpclVxdC1HWUJLNDc5U3ZTZjRsZzFCamE1Y183VDk0VDdRTkFjbWRNN3FaN3hxWEZfVFpOZ0p2UnpSbjMyTkI4Q25ONDBHUDVZLVhaNWJVU2toakJjSUxxZ3VNTWgzSmZ4VXozT1YxSnVSUQ?oc=5",
    "source": "VARIndia",
@@ -2438,6 +2462,14 @@
    "source": "TopNews",
    "provider": "Google",
    "published": "2026-10-03T11:27:16+00:00",
+   "snippet": ""
+  },
+  {
+   "title": "IT stocks rally up to 5% led by TCS, Tech Mahindra, and Coforge",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTE10LWxIZnp0T2NkaE80aHc2OWpXXzc5RG84ejljeWJMZGVxZkhrWkxDQzZuRXYybm1tSEVTclFVdUd1WEljcTZva29wendnSlAxWmN6bmZQck5RUklXSlBTUU02cVpoSl9GZDRMM3BFQ2lla0dqdlhjRXdMQWFwT2pmQlY0MnBCLURSVk5VUGFvN0swQWhmR3BCaUxQQUl0TkNCT1BkRHlJT3M?oc=5",
+   "source": "Trade Brains",
+   "provider": "Google",
+   "published": "2026-10-01T11:55:07+00:00",
    "snippet": ""
   },
   {
@@ -2529,14 +2561,6 @@
    "snippet": ""
   },
   {
-   "title": "IT sector Q2 result: IT stocks to report earnings from next week - Here's why Coforge, Persistent may outperform TCS, Infosys, HCLTech",
-   "link": "https://www.msn.com/en-in/money/top-stocks/it-sector-q2-result-it-stocks-to-report-earnings-from-next-week-here-s-why-coforge-persistent-may-outperform-tcs-infosys-hcltech/ar-AA2dgr6K",
-   "source": "msn.com",
-   "provider": "Bing",
-   "published": "2026-09-30T01:10:11+00:00",
-   "snippet": "IT Sector Preview: IT sector Q2FY27 results begin October 8, with large-cap companies expected to post modest growth, while mid-tier firms may outperform amid continued demand pressures and cautious ..."
-  },
-  {
    "title": "IT stocks rally: Coforge, Mphasis, TCS, Persistent Systems gain up to 5%, Kotak sees muted Q2 growth",
    "link": "https://www.thehindubusinessline.com/markets/it-stocks-rally-coforge-mphasis-tcs-persistent-systems-gain-up-to-5-kotak-sees-muted-q2-growth/article71526782.ece",
    "source": "thehindubusinessline.com",
@@ -2572,14 +2596,6 @@
    "title": "Coforge appoints former Bharti Enterprises executive Akhil Gupta as chairman after board upheaval",
    "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOTnNmbEhrbUVZSVU3T1FmcXZWWk5aMWZFeDd4LTFLQlBQeXFIOTktOTVvQ0IwQ2VuR1VZV0l5LUlQLW5OMnBzTk11MklhRVhRejI1Y1BtX3hWSUJYbnZoNEFUMkRvOUIxT1NNWmhCWDhQdkwwN1kzMUd3QWtlQlpUSDB1eUxHLWpZMncyYU0yN0QtOFN1SElIcW1XRU4xMVJGYXFUaDNWcUVjU29WcHhMLW0tOUhSeUVJdzN1dzZTZERUV1dEUG4ySWxEaFBkSGROSjZtSGt4MC1KYnZybWNjWHhCVlV0eTEycmFIYjg3N1RiU3BJSUNCV2JGdVF4U2FHZ2VaQVNGV25jZW1EM0hkdzcwWdIBmAJBVV95cUxNSnllTkMtOWc4NGh0WUpZd3Y5NVF3T3FMRmcxc3BGV2FOQ1cxUlNYRkUyU1VHNkRXYU96TTF0cUlwRG9VYU5QM3VwTFRlcVhqR2VUU0pscDRRN0hFRDBqbTdSVkpiblJiQXB0bmE2Ny1vMS1FcmRTZ0VmMndBMFdyVHRudDVMblFQN0tCZkRtSUlNNlY0eTVaOWpFVTR2cFF3TVl0WHFtSkRkY09Vdy1uZ0loakVPS2VGdlZycTRtWEMxa3E4V0pJbGMzN2N1b3ZLX2t3Nk1udkJ3ZnpqOFFDeXNhZ3lNbHVkRV9CejkwWWRIdUN6ajJUTU13SHcxSEpfYndLRjh1Vm1OQ0lodTFXVXhmZS1mcTln?oc=5",
    "source": "The Economic Times",
-   "provider": "Google",
-   "published": "2026-09-29T07:00:00+00:00",
-   "snippet": ""
-  },
-  {
-   "title": "Who Is Akhil Gupta? Ex-Vice Chairman Of Bharti Enterprises Named Coforge Chairman",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOanR2OHpGd3ZWQmEwTzhpVWpkbEFXdmp0UmpCYWtrVHg5VDFmWXpCNnBOZjFzMTZUYVNLTXp4WTVPVnE1M2xQUXNULU1QODRseGl0Vk5RNlVuYmdaSzhXUUwxLThhd1dUZzBhZk5wemR1WGVuYXNvQlpCaFhtbDRTWHI0T0xIY2ppNXlfVnRkeGl1anlsamp0TTJoNFpfcTJ3SXR6RmRwcFI2VS00REZxdjFBVklnYWFkVUMwNXRoN0M2TEHSAcsBQVVfeXFMTTFBUDdCcFVvSDRDel95dUxuRWdDd1luVExHa0hCMXppNmN5ejNBQ3FqTkpyaDcxNVdoX0JYYkR3R29LUzVBcF9xMjlBMmJURVdOYldEeG5qTzNLeS0yVGF4cC1DYTZsSDV1dlN5Y3NDRV9qSzFSVmhGWDk5Z1p0Wm9QRFhzMUVRbzJFaUJPQl8wZ1EyTGZ1dTVwTFpKVGJadjFVVnN0WmlfRm9SQm9Hb0k4TmRlUG5fLXUxXzFncFlvNTgxR1hMZ210Sms?oc=5",
-   "source": "NDTV Profit",
    "provider": "Google",
    "published": "2026-09-29T07:00:00+00:00",
    "snippet": ""

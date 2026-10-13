@@ -81,7 +81,7 @@
  "Infosys": {
   "results_found": false,
   "results_date": null,
-  "headline": null,
+  "headline": "Infosys Q2 FY27 results have not been released in the available sources",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -114,7 +114,7 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No actual results were reported in the provided sources.",
+  "sentiment_reason": "No actual results data provided",
   "missing": [
    "revenue_inr_cr",
    "revenue_usd_m",
@@ -133,61 +133,11 @@
    "media_vertical details"
   ],
   "unverified_dropped": [],
-  "sources": [
-   {
-    "title": "Infosys, Coforge LTTS Q2 results date and time: Key numbers to watch",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVzR2RmNodGJhWlQ2R3N2X2xDbGNfdG9NSUdFV08xMm1IajNibVNUS2poVzh3QzBBUFBZNDZ3SHhFWTZlV0RHVnhid1FTUDBybXpwQXN2TmEzeF84R1JwYzRpYWwzWUtsejNHcGZiVW8weHhCUEFEVFBXdWRvcDhRa3FVVWZOUERwaFNMY2dtWWFwQnZkd1JSYVljQnU1WDR0bWs1MEtpNjlYMUxDdk5uRGFMRURfTjBHMEtTd2x5WWJwak8zcEtIU1VhRdIB0AFBVV95cUxNYjIwanNFTmxzdEdGSDhGY2Nwb0U4ODJqcUdmUWFxRExxZ1R3Z2FobFBSZ2FpU2hkLWp3MmtkZjJsd2JQVWRnYjVXYUxpM05wVmJlTUZNN1BKOC1naTB5MHVHMEJtVmZDaENLU3lSNEt1UkhXaGN6Y1hTeUFUMHRTSlBpaUxmYXZfMENRQXl6b3pSRTNvSFRxNjcyZF8zcmtlcmdad1FZVXZObWs2Sk55Y2htWE1HYlNWbUwzckVpZHdIVEw2eWNPUl80MVdWZGdx?oc=5",
-    "source": "Moneycontrol.com",
-    "published": "2026-10-13T08:45:09+00:00",
-    "official": false
-   },
-   {
-    "title": "Infosys Q2 2026 quarterly results: Announcement date and time, earnings schedule, dividend history - Details",
-    "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOZEdDQXdNcjVjVjVZTDNLc29XRTJvMjFuRWlVM3BHSFBMaFdIc0dfRW9XXzZqbUtPSVJYcGdxRXV4QVkyWEUwVDY0Q1F5ckVNN3l3VEZHNG1iaEVVMFpoNWJmX211WFNRb0dlSHhyVi1Ya2R3M2NvZlNhSlBYQ0ZnWnE1TDdJN01VNUVneFhmMVg0VHdSdVJtVnlmcEo0cmtNUUo1STRuUEN3bUFoV2dwbXVhYXdOa1J6Z0U0bi1EcTRkT2h1YWl6b19zbUo2UlhzcGtWb1F0ZjZEWGt5WDhSUkZMRjgwd0k1WXZ4Wk9GVlNGaUdiWFk3UHNLWFVJWko1NUFv0gGIAkFVX3lxTFBwMDdPMjBCdnlTc2tSZEEtUE9uMmxmZGhYQlB4RHBhaktzWHk2ak9pZXU1bzNuR3hUcldNRjYzWEtWYzNtUjNSVVZkb1pjQzNMQ0RxUGM4dXZPVHVxc2txbGRPYkhONFpCU2hPUEN5MlljdFFEekpNY0xCczZ5ZjlDRlBHdV9qSFlSVHo3Rm9ibGdwRkcydDJBbWhhdlZsX0VMMmtjUGpZMTFEeFg4eHBldTdhRklzX25zaXh1b2tCX05ZcFRwNjFnNHdlME1OUzM3bW1oLWt0bEM1SXU3ekR1TlVjVmdjM0FBbjByV242NGliSXJyb3QySmNUNnViNGt0a0hpU0tpYw?oc=5",
-    "source": "Livemint",
-    "published": "2026-10-06T08:02:27+00:00",
-    "official": false
-   },
-   {
-    "title": "IT Q2 Results Dates: When TCS, Infosys, Wipro, HCLTech, Tech Mahindra Will Report FY27 Earnings",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxORVZHQWlsajhFMFJPMWdLZ3JST3F1bHowNEw4MHJVTTZKRndyb2hiMmpaMjRxSjZHNXVYeTZrbHdxWG5TOW5UNjVlampVdlNSTHBsaGtYNUdzNVNQMlZJdnJvaXlsSmJaODAtYTN0QW5sVHVmR2dnbk4wb3Q0TDdXbXhmakpIX3ZIWlE4bThLZGlsTGtEOThCQ0lDOGpuc2NydEhodEpKNnBQdkJnelZnN29RVTRQUDY5WllHNkxmZFZXWjg2dmt2STI0U3RIMm_SAdcBQVVfeXFMUFFYSHNJRzN4U1BSWFJJanVPdFpMU2dzX0NCWkcwVE5aMjFOSFUzZlo4aHZLU2dzVzNnR2EtQ3BnYkRidlNsSnNHYm5sTW1Eak5WdE9aT2wtSGprWWl6UnNEX2Y2OXVzOGtUbTdmUlVTMUdjNWlleXFYcHk3ZXFvODVHQ0hsRzhpd2Q0cWxNa2kxWlFtTVVBQV9UY3B4SG9xU2xTTk0tOEQybkpDYWt5MVMxYUxJcE00S0NQMW5qQlJtZFZweS1jNUhXb2JIdk9aM3NFNllfV2s?oc=5",
-    "source": "NDTV Profit",
-    "published": "2026-10-03T07:00:00+00:00",
-    "official": false
-   },
-   {
-    "title": "IT Q2 results 2026 date and time: TCS, Infosys, HCL Tech FY 2027 earnings announcement schedule",
-    "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPc1pjUlBJZXlVclpqWjhyaVgwVjZXWFU4UEZOWEtOb3JBNU1YM0J0Z1FDc2U2NTZmSGJKTTB5YlJEMU5xdjMzX3JGcDRRbWVDd0s5MmFUX0ZmR1IzeGRqSjVQT0tETzVfak1Uemh1RDk1R0hBdFpYMHBPdnYzTWRsNGMtblh2SVI1emxfMGx1LU1Edmc2VVBPQzJDd2tiYXg4MzJqV2xNS0ZWZzZpcFFOZi1SQVZuQWtqbFJnUnluRmw1Vjk2dzlJcTQ0THJCQnlielZMZGRnSUdxWFBJMWtsSDc4bjRvdHRvM2NjYVB4Q0N3NFpf0gH6AUFVX3lxTFBpOFI2M1lKNjBLUG9kZEJGNHU1WnozRmpTRThnMTdoT2VJdG81RjYyTjZXQnNUcTRieUgzY18tSWNtWnRUT0M3TUtNM0JOU1ZCdXNlamdyUGp0YUJKMXcxb1JYSXNjX1NlY3dFMy0wdlNOUk9hNkxBR3dSUGQ4WmtpeDhkTkhRM01ianZxX2owSDhQT192LUVwai0xcEt2UmxsRFdQNVl5NDJqUTdKcDQ4UUpIWkphSU5WQzNSLXdOdURtaG1XX21SNE1aRTV4eGk0QTdIZ24xOTItZm1JREM4Wnh2cGs0SE40N2dlRXJqRXBuWEN2RDNUQ0E?oc=5",
-    "source": "Livemint",
-    "published": "2026-09-30T07:00:00+00:00",
-    "official": false
-   },
-   {
-    "title": "IT sector Q2 FY27 preview: TCS, Infosys to HCL Tech, Tech M— Kotak sees muted quarter for Indian IT giants",
-    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOckhuR2oxRDVBYjFlWWY3aWphc090X3FJQ2Q1QWJocGNVZzJ1cWVGajNBSjIzeHA5amZIcTBoR0VwR1NUVnZqTkIyMklSQ1RhenM1bWlEeWlIYUVmRlM1TTJGdHVEYUVMdGIxMUZNWEY3R29GS21obTNpWnlDcDdKQmtCWjI3MnNsZ2R4V3pHcFdpY1NCR2N2ZU5RcVJZWXlGbnQ0N1d4WmF2TGg0X3JXTENoei1VemkxdnNsRTBmZzRhYURLeW1IQnRIRXVjd0xhUFZkM2I5Z19PWHdhc1gyZzR6NFVEVTZVU3fSAe8BQVVfeXFMTTl2Q2tqOHZYS2JkNlE2OXI0XzlzZVhHTXZWQXIxZE1vS05xa29DZ3hCcTBObWxsN1BiYkh6dTgwb2R5YlhqMDJoYUc0OUZuTlJUUE1zUk01NmczVDdDN2Z6cEZmWFFRcGtWMVlNT2M1endUVnJucjQ4Z3Q2Zm9jRUtSV1pyRERpQUV4YWZTWGRGckVMbXNKUHBfbjFjWUhyQ3RGZGJrdzFjcDF0NHpnS1dPSnhoazVnRGFicVZfd0pVSUhyTmxrV0h4QlctSVloV2RabjBlQUNBOHIwM2U1dXRIcmRCdFZCV3ZfOWR5M3M?oc=5",
-    "source": "Livemint",
-    "published": "2026-09-30T07:00:00+00:00",
-    "official": false
-   },
-   {
-    "title": "IT Q2 Earnings Preview: Infosys may cut FY27 guidance; here's what to watch - CNBC TV18",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbzlydlZNYWF6d3hxYkdZVVRVOUk3dGlUNjBPaW0xOTNkMVJWMnRSU2VWTU0tSDNqT19rckNYN1BzWDEwaUhQdmxKUWp6ZW9GMndjWUZNYTgxRVgzU3d4dnFsVnFCUHZZT25SVmZYYWd3OEhHVHphUGU1NDZjS1N3X082R2duSy1HYnREczNSdHpEVGUwaFVyZ1hNTW5QVGJQQWRSdm9BOW9hTE80UnhfS05DSlJMeUgwdkE?oc=5",
-    "source": "LinkedIn",
-    "published": "2026-09-29T07:00:00+00:00",
-    "official": false
-   },
-   {
-    "title": "Infosys Stock Update: Share Price Slips 1% Amid AI Workforce Shift",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcGFwUlR0T0traEdEc21CNVVvMDVERkt3dUFaTXE3OTJ2MlJlNnNqQ3FoQ3dXdU1PVzlyZ3JneWdzMDBzczM4aW1iRjJXeGJlejRyZHpYdmZ3VXNWeHFkSmNtNUtlTVc2R0J4eGl1TFNUUkFfX3BGZFYyVE9fY0NqR1hteFU3ay0xNUllY2VNLXFGVTB2cUprUjFfTkF1dnBjSmhzSXpUTGlEMjllemhKQ9IBtgFBVV95cUxPcjFIVENQZUhEMWxSR2g4MG9kYjdWbW1FLUJFMGc2QU1IMUN4bkctb1RFZXVKOUZsUGRIR0Qwa0xHSkRRX2dJY2lpa3hjbHE5QlNweGtWUG9GaUliUzZZVWR2MHN5bXphTDlCVzI1b2xJTWhyb3p4ZjVPSWUtRm9UdkQxR1FjNC1NajdnV0t2aTdTNEhkSk52Q3BQS1F6bVpONjdsamVQWEUwOEItWDVtMEhSYXRVdw?oc=5",
-    "source": "LatestLY",
-    "published": "2026-09-29T07:00:00+00:00",
-    "official": false
-   }
-  ],
+  "sources": [],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Infosys",
-  "analysed_at": "2026-10-13T17:11:21+00:00"
+  "analysed_at": "2026-10-13T17:50:59+00:00"
  },
  "HCLTech": {
   "results_found": true,
@@ -274,7 +224,7 @@
  "LTM": {
   "results_found": false,
   "results_date": null,
-  "headline": "LTIMindtree's Q2 FY27 results have not been released yet",
+  "headline": "LTIMindtree has not yet released its Q2 FY27 financial results",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -307,7 +257,7 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No results data available yet",
+  "sentiment_reason": "No actual results have been announced yet",
   "missing": [
    "revenue_inr_cr",
    "revenue_usd_m",
@@ -330,12 +280,12 @@
   "official": false,
   "quarter": "Q2 FY27",
   "company": "LTM",
-  "analysed_at": "2026-10-13T17:14:04+00:00"
+  "analysed_at": "2026-10-13T17:52:46+00:00"
  },
  "Tech Mahindra": {
   "results_found": false,
   "results_date": null,
-  "headline": "Tech Mahindra has not yet released its Q2 FY27 results",
+  "headline": "Tech Mahindra has not yet released its Q2 FY27 financial results",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -357,7 +307,7 @@
   "risks": [],
   "verticals": [],
   "media_vertical": {
-   "name": null,
+   "name": "Communications; Technology, Media & Entertainment",
    "revenue_share_pct": null,
    "growth_qoq_pct": null,
    "growth_yoy_pct": null,
@@ -368,158 +318,29 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No results announced yet",
+  "sentiment_reason": "No results data released yet",
   "missing": [
    "revenue",
    "net profit",
    "operating margin",
-   "growth percentages",
-   "media vertical share and growth",
-   "deal wins",
    "headcount",
    "dividend",
-   "guidance"
+   "media vertical share and growth"
   ],
   "unverified_dropped": [],
   "sources": [
-   {
-    "title": "Tech Mahindra sets Q2 results date: what it means for Tech Mahindra stock",
-    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOSDJCbTgtNXVzSTFocU9JY3l2NF9NY042U1h1ck4yTS1ieTRtSDM5NjdJa1o4SjBvZVpiUEVMWUdjWEViX1lRS0tYUnV4LWxRbG42MGxId181SDNNVDZTTzc4T1dtZXpjSnk1X0ZrUVRibVpxMGc4NUVENlZ1QUNLZ1V0UlAxZlRPelJzMmlBNF9FckVFblhXMkNMa1g4MC04UmtMT005Q2VycDV1ZDkxbFp1UTFfMlJuZEF3SlNhX21sMWQ1bVpSVnlvNkM1Ym9u?oc=5",
-    "source": "ad-hoc-news.de",
-    "published": "2026-10-13T07:17:19+00:00",
-    "official": false
-   },
-   {
-    "title": "Nifty IT shines, up 3%; HCL Tech, TCS, LTM, Tech Mahindra surge up to 5%",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVkNGZS1rcmw4ajNYajVOT1dPXzNlZUVHSjVJQzJZbDduNmhyOHBnLTlWYTRVMHlaTjhBZGpMWjU0QWdibUlMZGQxcUN6MHl0N0xPMlFZd3pXdDZERUVLWUlpbkV2R3JCdGZmcldKcmFQM1pIODdJaUZORzVlbFoxd0REdGJ3cVo3NFQ2aXY5dmxiTjgxT3NJSGJLWU1SNzRnSmp3?oc=5",
-    "source": "IndiaIPO",
-    "published": "2026-10-13T06:33:35+00:00",
-    "official": false
-   },
-   {
-    "title": "From middling to fastest-growing large IT firm: How Mohit Joshi turned around Tech Mahindra",
-    "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNU3V6UFFReFVKWE1fdXBuWjJ6ZHh5c2N6ZmViT3d1MEJBVUJUOFFHMFN0ZGVWREctNkJHRUtSODhUZ2NYTkR6Q3VPNGFPUlhCeC1vdU5WbjVzcGFKbWJUUXVocDBpU2Z5dFZYMG53U0Zib0pJT2VtNEVoNlJNdF9HSGFJTnFxVFFKaFdsNWU4RXZMcTZ0S3VkUXY5d0l3TGxNcHZ5MHJkWnRvcWpUOEdxZ0FDM0dBbWpOYTBiQzdGaE4yR1BEaEdOLUxpY2Z3b2NJSXBfUm1QM3A1VzNFamRjWHNPMFY0TGxKOEplRUxzOF9uWnhFbUY2blZteWpxajjSAYQCQVVfeXFMT1JxdHJzdTItcmY5bzZPVENxdDdtaDk0aEZiRVZnWjZoVlEyaGtybWhEeFFQVVhxQmg4OVNlTmJfbjlXX3UzVF90X0ktY2otNEQ1Yl9KNVFTU05Db2xJaDI3S044eHI5RF8zOEE4ZExYazBMSG5GMTBCTUQ3RUJKUWJzM3pOX1VZTmdrTnZDTkxwaUxJeTJjYlNiRXdCNWR4OHVRcVZUTmlsc3AzRUh1Wl9wV3ZwY0dqS0JsWVZVM3ZfaGtMOVFLQUpTTVZZSy1xQ2J4dFNqVGZRZ3gyVktWZDFKMkVQcjdyQUxGcXZ2czRQYXV6UjZUYlRkWXAwWmJ0TUJUWU4?oc=5",
-    "source": "Moneycontrol.com",
-    "published": "2026-10-13T06:21:05+00:00",
-    "official": false
-   },
-   {
-    "title": "HCLTech jumps 6%, TCS surges over 5%: Why are IT stocks rising today?",
-    "link": "https://www.msn.com/en-in/news/other/hcltech-jumps-6-tcs-surges-over-5-why-are-it-stocks-rising-today/ar-AA2e7x7V",
-    "source": "msn.com",
-    "published": "2026-10-12T22:12:12+00:00",
-    "official": false
-   },
-   {
-    "title": "Why are IT stocks up today? TCS, Infosys, HCL Tech, Wipro, Tech Mahindra shares rise up to 3% - Time to buy?",
-    "link": "https://www.msn.com/en-in/news/other/why-are-it-stocks-up-today-tcs-infosys-hcl-tech-wipro-tech-mahindra-shares-rise-up-to-3-time-to-buy/ar-AA2e6NBm",
-    "source": "msn.com",
-    "published": "2026-10-12T21:38:00+00:00",
-    "official": false
-   },
-   {
-    "title": "Tech Mahindra shares fall up to 4% ahead of Q2 results this week: Here's why",
-    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMlhGWnN6UjVBTWpvMkFaMHpha211anhuel9qc2Nqbk1DMU1lMi1Uc2tuYWh6dlpjbkN3RHc3UlRBeDJPaVJGYVpPVkg3UDlCNkVWN2tVTW9PcS12WEs4RzVreEVLd1NrcU1oYTNJMkpKRlVfQmxEZXg2YW9XcVVzQnpKOGxyOTN6czM2YXg4YUxDUzAwb01IeTZaejZKTXl6Z3NyZjF1QWNfTWlJeUxsbV9tOTlEdU5WVkNKLTlUbUhCVVdfRk41N3hPRHU1ZzlXYUt1LXBB0gHbAUFVX3lxTE1TMmJFR3Z1UXEyTEZWTXdDeXBUQmpobVd5UUdEaVVMck1zNGJFRThVeTh0Tk1qM2RuTzhSOHI1V1B0UGJUQm82TVhWTmZvc0E3X25tcVMxcjhncUtwU3JQMFhQanZqcVlFWnV3NHB6b3pYY2ZnNVVkQ1lLS1VGTjZ6aGZJVTU0WnhITVVzRU9jS0R4UGpKeFI4ZWxIM2w2SGJRUFdKRmctaFNoVzRqU0dpZmhhOTZPeHZBeWtvWHVOVTREYllmcnN5b1c4dDJkSkdJWVpMdVNIM0dndw?oc=5",
-    "source": "Moneycontrol.com",
-    "published": "2026-10-12T08:10:03+00:00",
-    "official": false
-   },
-   {
-    "title": "Tech Mahindra sets second-quarter results date: what it means for Tech Mahindra stock",
-    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNQU0wclo1amFoV0t2LS1IMUtZMUNsc1hFVFlOOEdhVGRaU1E0Nk9fOFpDOWVOYlVOYkh6U0RXOG5wdEE3d1dfZk9CbVFJLU1wb3ZfSHVDdmR0b0o1ekprT1JYSTB4UEg2SzlHMk9nQWpueDFvYXVsMXJIenNLVktHckIwVDFabnc2Y2c0RkdUTy11bDItVmpkaWRhZ1gxMExoZHZqYm54UUFVN3Z3cUo3UjEzTlB5N1ZQSGZ1X1huVmtHeUpQZ2dqMFpta3FKbjF2dzh1NHZCVmpHQ293dGIxSg?oc=5",
-    "source": "ad-hoc-news.de",
-    "published": "2026-10-12T07:27:13+00:00",
-    "official": false
-   },
-   {
-    "title": "Tech Mahindra shares fall ahead of board meet to consider Q2 results, bonus",
-    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOb3B6REdEaG9RNXFxc2VZRWxaQnJzMmg2TGdtQnFTZnJSZWxQLU9GOHM5T1VtTzMzNTJDbWIwdlo3LTl6SWNMR0lXNEtUNzhUbXhURGYzZGZKY0s2MjVFeDRNQkEzMVVGV0pfc0xFSmUzUGRPRXFWV0ZvWENvODBuYU5RYmx6ZFBHcUc1TmFaTWVMVmVtSGxTU3pqRVdtTV9vNVhSbGNGbjJJcnlpMlFJYU85NFcyazlObnNzV2RQS0szSmU3ZlZCNWRyMzV3RXhRTUFFUV9ab3hLUdIB3wFBVV95cUxNUHl6ZVdCaGkwY0IxallLdW1rd1hWOUNzRjE4TTlqOENfS3FkakhLb1h1OG1Sc1RkTnA4Y25oaXFCdkpLdkJEUHUxaWktWk5IYmVuX3Uzb01mYmM5VlZwcl95djVVV2Vlbk1UbXFIS3QtVllaVEN2X3dWWnFjVnBqdW9YMmIzSk5NSGpSNlFQUGVjMUxUdnhIZnFoc09OOUhVelk2cjZ6RDBIRVdyNC1RVnVaTHFHYkMyQndRT1NTMS15MVV6WS1kZlFyeWtYemFUYkllMDdhQWFqRHk4c1pV?oc=5",
-    "source": "CNBC TV18",
-    "published": "2026-10-12T06:56:01+00:00",
-    "official": false
-   },
-   {
-    "title": "Upcoming Q2 FY27 results this week: HCLTech, Nestle, Wipro, BHEL, Tech Mahindra, HDFC Bank, and more; check list",
-    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOdXZzbmR1V0JSZF84ODZBX3FQSGpXN2RxbnVGU3VtUEVJR3BxUVRBLWpFMUxMNEJCX2ZVNEo1Yi1EeXZSZkwxUXNiN2dDelZ1aGFjRWt4eEZVYkdYZ2cxXzBicThmR09OeVBCMlE4WmRtdHZTYmczNmE5bWVwd0oxRUwtMTN0cG5UeVV4dkFpVlB4QmpMM0J5V2VXQnpvQkRNNzl5X3RLOWplWUtQakJLMERyVW5hdndnbnFJeHZhTDFCMV9pWm9WbURlQWNKcmRVSExmTFJ0aHpQeHpvckJIV0pkWmNWaG84NkhYSlhIcUlWRk5XNW81ag?oc=5",
-    "source": "Upstox",
-    "published": "2026-10-11T05:40:58+00:00",
-    "official": false
-   },
-   {
-    "title": "Top Q2 results next week, October 12–17: HDFC Bank, ICICI Bank, HCLTech, Canara Bank, Tech Mahindra, Wipro and more to announce quarter earnings",
-    "link": "https://news.google.com/rss/articles/CBMirAJBVV95cUxPamU0VVhXYUZmaEtzbGZDQ0NLR19sbUJJN2lldmEyYkpFMWlQcl9PNEZYdHRwSUhmVE5LQnl0aG12WUdiUGcyVzdYZFpjTVRTa1hObWZHVFdzeW9pTVJKbzI5azVHSm9XWm8yTGVuckhNZlBWSkZpX3Vpc0JpQXBHYTJQcHFwNWItVURERXN2UHlpQ3FTUnZCdnF2eXNZdjVkbURyOHIxM185NGlHNU4yalVHYWE2a3paVnduV3Y2QzBJWkp2VDJDOUVMZ21qT3hGcUI1cHJhXzlhUFRNMEU5WjBfLUM5ZVRFN0p3aFJMNXl1ZXh4QXdBMGVob1M5VkotVzJTSkVvVDQxMDNWUGNzTmozRkxjWHFUUllleTY5WEJLekxCaHlZNHRCVlM?oc=5",
-    "source": "Business Upturn",
-    "published": "2026-10-11T05:15:08+00:00",
-    "official": false
-   },
-   {
-    "title": "IT Q2 results date and time: After TCS, HCLTech, Tech Mahindra and Wipro line up from October 12",
-    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNdTNtSWVrZGdDSzVnZFJYSGJMVVVyb0wxZVNYQkRaTndXbTYyQ2V6Y19QZjVKX1VrdWUtUkZKN0p2b2tyU1VqUElxSjAtbWdsUGVhRmcxSVRhYVhnbURCa2NFWFZxZVJjcFlzcWlrclF2Uk5zUXEybzhtMDY3NUxxSlRpQmZsNmdmRUNuVEk3T3k5dU9iNUI5My1hR0U1anpBZm1nM2RRcEJWa3NfS25hSG1faHFhMUZ3Y1FBT0VPaEJRd29OVHhod2FzeVBPZ3hJVnIxWDRuc0lpSEdGdGhIMmFrZTAtVmtvYVpyODFNc9IB9AFBVV95cUxQNDBOQzFVQnhhN1JGMFpmeXhxWnpuZHRlb1lPWldFOFhZNi1XMnJ6cFg3eVZmblgxUVgyTEhRb04xVnVMU21Kd0NqajZqMHNKQWlNMXdPWUZ4OVo0Z3JWRkFOZDdpR3FQYXdrSENpYUFmWEZZc18yeE1zRU9nMUZ3TUJpQ201YnF3TXM1bGtwdDhCRVNTYlZQNkgzYklSb3hONmJ4dUNKd1JLU3AtRXJIWTZQZjdhWkVfQkJNaVYxMk45b0NCXzV6MTYwMkVmM1E1ZXg5SWR5QnAzSnZjajNRbFFnQWgxTGxtYV9IS05VdUhITkxJ?oc=5",
-    "source": "Moneycontrol.com",
-    "published": "2026-10-09T10:06:17+00:00",
-    "official": false
-   },
-   {
-    "title": "TCS 4% profit jump raises Q2 FY27 India IT expectations",
-    "link": "https://www.newsbytesapp.com/news/business/tcs-4-profit-jump-raises-q2-fy27-india-it-expectations/tldr",
-    "source": "newsbytesapp.com",
-    "published": "2026-10-09T08:49:00+00:00",
-    "official": false
-   },
-   {
-    "title": "India IT Set For Fourth Year of Weak Growth on Geopolitics, AI Risks",
-    "link": "https://www.bloomberg.com/news/articles/2026-10-09/india-it-set-for-fourth-year-of-weak-growth-on-geopolitics-ai-risks",
-    "source": "bloomberg.com",
-    "published": "2026-10-08T18:08:00+00:00",
-    "official": false
-   },
-   {
-    "title": "IT sector Q2FY27: Infosys, HCL Tech, Wipro, Tech Mahindra results, interim dividend dates",
-    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQcTNfVXhzQzVKNmxTeXdOa1BOTkpLVHNqN1hOcXhGNU9XVXBGVTUwVmZJZVZVaHl3QUFuRklILWpiM0FvZ0pOZWRoLVZvd2VSbm4tTEVxQkdtalh0cmRPVzljbnVrUk9KdS1iNU1KalJmSXJlVVU0OXhuLVhjN29zUldZU0pKc28wUmVSU2RRRjhBRDBiRHUwNFljUFU3cWk5ZkF4ZVNsd2NtNjhDVWw5UDJVRHdGal9IMXBmLUlBX2dCODBrWGZFem04T3JHOWx2UVBQaml0S283d0ZU0gHjAUFVX3lxTE9heThmMDRVYW9TR0otVkVVaTg2VW9MZkJ6UDAzRzRLUUZmOXNQbHBGdVlrMVZxNXNTQjBlRVBYeXZNSW1LeWlnYWhPalEzd2R6emJHRUYzQ0pWQUJWNHFobDVCX1dRVlptdUVGREJLdFBvUkhjbDdDeTBYdGNuNE50dW5PZXhHVTZGVGtKTm14TjJyR3JmcmFIeUVrcG1WRVFzVU5FWFNuV19uUmpfUGEwVkpycTZpb004RVZ2bG10c2NWSzE5eThXWjVDN01EbWotZFJ1RTE1VkczbFZWbnBBaHhv?oc=5",
-    "source": "The Financial Express",
-    "published": "2026-10-08T06:40:09+00:00",
-    "official": false
-   },
-   {
-    "title": "IT Q2 Preview: Weak Growth, Attractive Valuations; Tech Mahindra, LTIMindtree Among Anand Rathi's Top Picks",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9XWXkwS05Id2hxMk04Rm84SjJ5RjNHYlZaaGVzUEJydHR6bTItamx3SkhwcjR2NklFTXYycW4zQ2Z2dTNpVlE2b3pNR0JBWWFWakFXeDJDdjNkZXpxSzNrN2lwQnZ4NFVCcXV3SlZKbW52N0U?oc=5",
-    "source": "NDTV Profit",
-    "published": "2026-10-06T05:14:01+00:00",
-    "official": false
-   },
-   {
-    "title": "IT Q2 Preview: From Revenue To Margin Outook, How Will TCS, Infosys, Tech Mahindra And Other Peers Perform",
-    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQLVNhZC1LaWEzNzMwd2huUXQ0NGJDM3Z6RlpDUG5TSy1uSS1acVlrWUdQX2hZTDZ3WUx4ZGZ4M1hYSHl0Y0ZBazU5ZGFRc1NXQ29xWS1zX21YUm54ZGhBTTJZbk4zNWxNMjYyNHRlcXpFdTJwM1J3LXQtSExGMHZBcVgwS2pXZFpVbklkbDZBeVo0RFRtSjZtcFJ4NnE4YmU2VzEwV0xPanpwSFFmRFVqNXNwbUJHbGFKUW9CMElHcF8xT1JLZHVDMEk2QnRYVFk1aUF0MXlaSDZkb0E1UGZldjJ0ZVZSb1FXYXJF?oc=5",
-    "source": "NDTV Profit",
-    "published": "2026-10-05T06:48:35+00:00",
-    "official": false
-   },
-   {
-    "title": "IT Q2 Results Dates: When TCS, Infosys, Wipro, HCLTech, Tech Mahindra Will Report FY27 Earnings",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxORVZHQWlsajhFMFJPMWdLZ3JST3F1bHowNEw4MHJVTTZKRndyb2hiMmpaMjRxSjZHNXVYeTZrbHdxWG5TOW5UNjVlampVdlNSTHBsaGtYNUdzNVNQMlZJdnJvaXlsSmJaODAtYTN0QW5sVHVmR2dnbk4wb3Q0TDdXbXhmakpIX3ZIWlE4bThLZGlsTGtEOThCQ0lDOGpuc2NydEhodEpKNnBQdkJnelZnN29RVTRQUDY5WllHNkxmZFZXWjg2dmt2STI0U3RIMm_SAdcBQVVfeXFMUFFYSHNJRzN4U1BSWFJJanVPdFpMU2dzX0NCWkcwVE5aMjFOSFUzZlo4aHZLU2dzVzNnR2EtQ3BnYkRidlNsSnNHYm5sTW1Eak5WdE9aT2wtSGprWWl6UnNEX2Y2OXVzOGtUbTdmUlVTMUdjNWlleXFYcHk3ZXFvODVHQ0hsRzhpd2Q0cWxNa2kxWlFtTVVBQV9UY3B4SG9xU2xTTk0tOEQybkpDYWt5MVMxYUxJcE00S0NQMW5qQlJtZFZweS1jNUhXb2JIdk9aM3NFNllfV2s?oc=5",
-    "source": "NDTV Profit",
-    "published": "2026-10-03T07:00:00+00:00",
-    "official": false
-   },
    {
     "title": "Tech Mahindra Q2 Results: Date, Bonus Issue, Dividend, Share Price And More",
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRW1oMEF0ZDhmbzZXdXAtT3RYYUhxc1lrcTdhTkM0UTNLTXp6Y3VTMFhqUGhpRnBNX3VYd25DZVk3dWNXM09IMzdldDNqT3ZaVENGelZGTzJ4SkVpUm1jUF9mVUxTbEowNWo0RndkQzhqWE8yUXZxaW5tY2w5Q0lBWHhjcklaQldTXzNSMFV6ekU1QlNaS0lxODl6U3ExNE5zcjFuZ09tNks5M1otbVdVbWswOEU4d9IBvgFBVV95cUxQWnZCbnpvV0U4Ui12YzR2NC1sYnFTR3pCVzJhSVhsUzFlTV9fYXdHOUJBYlhici1ibWtmR3FwR2hLMWpJTERKV1hlRHhZQkhPWUIyTEhjVWJ4eV90X3lxQW05d05UMkhJcFZWQWtxaUZ3anRRaUFVdl9tOXdzRjA3OFZlcHVlbDlweHQxTXl5SGpyYlQ0c2FnMnFHREVYOVVXQkJxaXo1eGZ4WXZoTjBBd0V6ZEowTnRIcWM5QjJn?oc=5",
     "source": "NDTV Profit",
     "published": "2026-09-30T07:00:00+00:00",
     "official": false
-   },
-   {
-    "title": "IT Q2 Results Dates: When TCS, Infosys, Wipro, HCLTech, Tech Mahindra Will Report FY27 Earnings",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxORVZHQWlsajhFMFJPMWdLZ3JST3F1bHowNEw4MHJVTTZKRndyb2hiMmpaMjRxSjZHNXVYeTZrbHdxWG5TOW5UNjVlampVdlNSTHBsaGtYNUdzNVNQMlZJdnJvaXlsSmJaODAtYTN0QW5sVHVmR2dnbk4wb3Q0TDdXbXhmakpIX3ZIWlE4bThLZGlsTGtEOThCQ0lDOGpuc2NydEhodEpKNnBQdkJnelZnN29RVTRQUDY5WllHNkxmZFZXWjg2dmt2STI0U3RIMm_SAdcBQVVfeXFMUFFYSHNJRzN4U1BSWFJJanVPdFpMU2dzX0NCWkcwVE5aMjFOSFUzZlo4aHZLU2dzVzNnR2EtQ3BnYkRidlNsSnNHYm5sTW1Eak5WdE9aT2wtSGprWWl6UnNEX2Y2OXVzOGtUbTdmUlVTMUdjNWlleXFYcHk3ZXFvODVHQ0hsRzhpd2Q0cWxNa2kxWlFtTVVBQV9UY3B4SG9xU2xTTk0tOEQybkpDYWt5MVMxYUxJcE00S0NQMW5qQlJtZFZweS1jNUhXb2JIdk9aM3NFNllfV2s?oc=5",
-    "source": "NDTV Profit",
-    "published": "2026-10-03T07:00:00+00:00",
-    "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Tech Mahindra",
-  "analysed_at": "2026-10-13T17:14:58+00:00"
+  "analysed_at": "2026-10-13T17:53:39+00:00"
  },
  "OFSS": {
   "results_found": false,
@@ -583,12 +404,12 @@
   "official": false,
   "quarter": "Q2 FY27",
   "company": "OFSS",
-  "analysed_at": "2026-10-13T17:15:28+00:00"
+  "analysed_at": "2026-10-13T17:54:09+00:00"
  },
  "Persistent": {
   "results_found": false,
   "results_date": null,
-  "headline": "Persistent Systems has not yet released its Q2 FY27 results",
+  "headline": "Persistent Systems has not yet released its Q2 FY27 financial results",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -621,7 +442,7 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No results data released yet",
+  "sentiment_reason": "No results data available yet",
   "missing": [
    "revenue_inr_cr",
    "revenue_usd_m",
@@ -640,16 +461,38 @@
    "media_vertical details"
   ],
   "unverified_dropped": [],
-  "sources": [],
+  "sources": [
+   {
+    "title": "Persistent Systems PERSISTENT Q2 FY27 Analyst Call Oct 15",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPdnVzeDlIOVNuX3dTdnE0V0xLTV9YcC1lMmZyenBLQkFMWHgwaU9mOHBVUTg0TmJWYVhSbWlvMXJvNFlRNGF0SEd0RTN5MnV4S1BETmRjdHZ1OUZuUklaX25IR0g1TGdCM0l3QW44Q0g4Z0w5ejFsU2xVSFRHclpHbGx3WHd3RFkyZE9JWFo4bE1YMFF3UFl3QXMtRmM1LWtkN2c2WWtGclBpQXY1akZsdFdoMUR0UDFwMVczZ3dfdjRKV3ZLYkNQY1ZtcGVtS1VMUWc?oc=5",
+    "source": "Kalkine India",
+    "published": "2026-10-08T04:22:00+00:00",
+    "official": false
+   },
+   {
+    "title": "IT sector Q2FY27: Infosys, HCL Tech, Wipro, Tech Mahindra results, interim dividend dates",
+    "link": "https://www.financialexpress.com/business/industry-it-sector-q2fy27-infosys-hcl-tech-wipro-tech-mahindra-results-interim-dividend-dates-4356310/",
+    "source": "financialexpress.com",
+    "published": "2026-10-07T23:40:00+00:00",
+    "official": false
+   },
+   {
+    "title": "Persistent Systems Q2FY27 Results: Analyst call scheduled for October 15 at 5:00 pm IST",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRUVIRWl6V1dQc21YLVhfa3FlLURrZWl3ZVpUWmxxWDJTLVhIZlRpbDlUSzcxNGR5M3NtbUt0Z3g5d01UQkZJbzRNSWMzYjRuMWw4b25fbWdRSE1BdWgwSmF3MlhHdmgxYjN5UHFaVWsyMFZYMWYySl9peHM0aUJBQ1p0OFZzU3hkZmt6dzJ1Zms3WmFlTEJUb3VJa0ZfWjNQc0tsd0UtUVkwOGxPRVJyYkEwcDAxWjFKQXVoeDBhZlpkUzlo?oc=5",
+    "source": "scanx.trade",
+    "published": "2026-10-06T07:00:00+00:00",
+    "official": false
+   }
+  ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Persistent",
-  "analysed_at": "2026-10-13T17:16:18+00:00"
+  "analysed_at": "2026-10-13T17:54:59+00:00"
  },
  "Coforge": {
   "results_found": false,
   "results_date": null,
-  "headline": null,
+  "headline": "Coforge's Q2 FY27 results have not been announced yet",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -682,7 +525,7 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No actual results disclosed in the available sources.",
+  "sentiment_reason": "No results data available yet",
   "missing": [
    "revenue_inr_cr",
    "revenue_usd_m",
@@ -698,25 +541,14 @@
    "attrition_pct",
    "dividend_per_share_inr",
    "guidance",
-   "media_vertical revenue_share_pct",
-   "media_vertical growth_qoq_pct",
-   "media_vertical growth_yoy_pct",
-   "media_vertical growth_cc_yoy_pct"
+   "media_vertical details"
   ],
   "unverified_dropped": [],
-  "sources": [
-   {
-    "title": "Infosys, Coforge LTTS Q2 results date and time: Key numbers to watch",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVzR2RmNodGJhWlQ2R3N2X2xDbGNfdG9NSUdFV08xMm1IajNibVNUS2poVzh3QzBBUFBZNDZ3SHhFWTZlV0RHVnhid1FTUDBybXpwQXN2TmEzeF84R1JwYzRpYWwzWUtsejNHcGZiVW8weHhCUEFEVFBXdWRvcDhRa3FVVWZOUERwaFNMY2dtWWFwQnZkd1JSYVljQnU1WDR0bWs1MEtpNjlYMUxDdk5uRGFMRURfTjBHMEtTd2x5WWJwak8zcEtIU1VhRdIB0AFBVV95cUxNYjIwanNFTmxzdEdGSDhGY2Nwb0U4ODJqcUdmUWFxRExxZ1R3Z2FobFBSZ2FpU2hkLWp3MmtkZjJsd2JQVWRnYjVXYUxpM05wVmJlTUZNN1BKOC1naTB5MHVHMEJtVmZDaENLU3lSNEt1UkhXaGN6Y1hTeUFUMHRTSlBpaUxmYXZfMENRQXl6b3pSRTNvSFRxNjcyZF8zcmtlcmdad1FZVXZObWs2Sk55Y2htWE1HYlNWbUwzckVpZHdIVEw2eWNPUl80MVdWZGdx?oc=5",
-    "source": "Moneycontrol.com",
-    "published": "2026-10-13T08:45:09+00:00",
-    "official": false
-   }
-  ],
+  "sources": [],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Coforge",
-  "analysed_at": "2026-10-13T17:17:12+00:00"
+  "analysed_at": "2026-10-13T17:55:53+00:00"
  },
  "Mphasis": {
   "results_found": false,
@@ -754,7 +586,7 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No results data available yet",
+  "sentiment_reason": "No actual results disclosed yet",
   "missing": [
    "revenue_inr_cr",
    "revenue_usd_m",
@@ -776,16 +608,24 @@
    "media_vertical.growth_cc_yoy_pct"
   ],
   "unverified_dropped": [],
-  "sources": [],
+  "sources": [
+   {
+    "title": "Mphasis Q2 FY2027 Earnings Call Date and Investor Details",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOay1fQzJWYUkxQ2txYU1KdkVZWVp1dFp0bldIVDVDVFl6WGx6STM0SU11Q0hmd251bG5CUDJNZkw2ekM1U3MycjhlazZLUDBBUzg4UlQ3eVJJMVdxckVpRjJIZ2laU0EzTWtncDBhMTBIZmh1Q2NEYlVMSVh2RktEVkE4UzZOU1MxUjI0eTFocFBzVlRSNExYLUMybFhIMVZCNExWc3E5UTVYVW5jMHdSTE9B?oc=5",
+    "source": "Kalkine India",
+    "published": "2026-10-09T10:02:00+00:00",
+    "official": false
+   }
+  ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Mphasis",
-  "analysed_at": "2026-10-13T17:18:05+00:00"
+  "analysed_at": "2026-10-13T17:56:46+00:00"
  },
  "Wipro": {
   "results_found": false,
   "results_date": null,
-  "headline": "Wipro's Q2 FY27 results have not been released yet",
+  "headline": "Wipro has not yet released its Q2 FY27 actual results",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -801,16 +641,16 @@
    "attrition_pct": null,
    "dividend_per_share_inr": null
   },
-  "guidance": "Revenue guidance for Q2 FY27 is USD 2.574‑2.627 billion, implying constant‑currency sequential change of -1.5% to +0.5%",
-  "guidance_change": "none",
+  "guidance": "Management expects IT services revenue to be flat, with a range of -1.5% to +0.5% YoY for Q2 FY27.",
+  "guidance_change": "retained",
   "highlights": [
-   "Guidance range suggests flat to slightly declining revenue in constant currency",
-   "Management expects modest operating margin expansion of 20‑40 basis points",
-   "Board scheduled to approve Q2 results on October 15, 2026"
+   "Revenue guidance is flat to slightly negative.",
+   "Operating margin expected to improve by 20‑40 basis points.",
+   "Focus on margin expansion and deal conversion."
   ],
   "risks": [
-   "Weak demand and cautious client spending could keep revenue flat",
-   "Wage‑inflation pressures may affect margin recovery"
+   "Weak client spending on discretionary IT projects.",
+   "Potential margin pressure from AI‑led contract competition."
   ],
   "verticals": [],
   "media_vertical": {
@@ -822,33 +662,33 @@
    "commentary": null
   },
   "megep_mentions": [],
-  "ai_signals": null,
-  "management_view": null,
+  "ai_signals": "Management highlighted AI as a focus area but gave no specific revenue or deal numbers.",
+  "management_view": "Management is concentrating on margin recovery and converting its deal pipeline amid cautious client spending.",
   "sentiment": "Neutral",
-  "sentiment_reason": "No actual results yet; only guidance and expectations are available",
+  "sentiment_reason": "No actual results yet; only guidance indicating flat revenue and modest margin improvement.",
   "missing": [
-   "actual revenue (INR and USD)",
-   "revenue growth percentages",
-   "net profit and its growth",
-   "operating margin",
-   "deal wins",
-   "headcount and attrition",
-   "dividend per share",
-   "media vertical revenue share and growth"
+   "actual revenue, profit, margins, headcount, dividend, media vertical share and growth"
   ],
   "unverified_dropped": [],
   "sources": [
    {
-    "title": "Wipro stock heads into October 15 results with soft guidance",
-    "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/wipro-stock-heads-into-october-15-results-with-soft-guidance/70254350",
-    "source": "ad-hoc-news.de",
-    "published": "2026-10-07T03:42:00+00:00",
+    "title": "Wipro Q2 Results: Revenue Guidance Stays Muted for Oct 15",
+    "link": "https://www.whalesbook.com/news/English/bankingfinance/Wipro-Q2-Results-Revenue-Guidance-Stays-Muted-for-Oct-15/6acba7ac79a16deaeaed70fb",
+    "source": "whalesbook.com",
+    "published": "2026-10-11T13:44:00+00:00",
+    "official": false
+   },
+   {
+    "title": "Wipro Q2 Results: Revenue growth hogi flat, investors ki nazar ab margin par!",
+    "link": "https://www.whalesbook.com/news/Hinglish/bankingfinance/Wipro-Q2-Results-Revenue-Guidance-Stays-Muted-for-Oct-15/6acba7ac79a16deaeaed70fb",
+    "source": "whalesbook.com",
+    "published": "2026-10-11T13:44:00+00:00",
     "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Wipro",
-  "analysed_at": "2026-10-13T17:13:11+00:00"
+  "analysed_at": "2026-10-13T17:51:52+00:00"
  }
 }
