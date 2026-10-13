@@ -1,0 +1,6 @@
+company,period_end,quarter,metric,value_inr_cr,source
+HCLTech,2026-09-30,Q2 FY27,net_income,5132,NSE results filing (read by the agent)
+HCLTech,2026-09-30,Q2 FY27,revenue,35620,NSE results filing (read by the agent)
+TCS,2026-09-30,Q2 FY27,net_income,13884,NSE results filing (read by the agent)
+TCS,2026-09-30,Q2 FY27,operating_income,17565.1,NSE results filing (read by the agent)
+TCS,2026-09-30,Q2 FY27,revenue,73188,NSE results filing (read by the agent)
