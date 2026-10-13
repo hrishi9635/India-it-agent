@@ -30,11 +30,15 @@ from datetime import datetime, timezone
 
 from agent import analyst, market
 from agent import filings as filingsmod
+from agent import overrides as ovr
 from agent import news as newsmod
 from agent.llm import LLM, AIError
 from agent.quarters import label as quarter_label_of
 from agent.quarters import months_text, previous_quarter_end, target_quarter
 from agent.settings import DATA, load_companies, load_settings, save_key
+
+
+FIN_FIELDS = ["company", "ticker", "period_end", "quarter", "metric", "value_inr_cr", "source"]
 
 
 def read_json(name, default):
@@ -163,7 +167,9 @@ def main():
     bench = market.benchmark_prices(yf, settings["BENCHMARK_TICKER"])
     old_fin = read_csv("financials.csv")
     fin_all = merge_rows(old_fin, fin_new, ["company", "period_end", "metric"], refreshed)
-    write_csv("financials.csv", fin_all, ["company", "ticker", "period_end", "quarter", "metric", "value_inr_cr", "source"])
+    # official numbers win over Yahoo: first those read from exchange filings, then your hand-checked overrides
+    fin_all = ovr.apply(fin_all, ovr.read_rows(DATA / "filed_financials.csv"), ovr.read_rows(DATA / "overrides.csv"))
+    write_csv("financials.csv", fin_all, FIN_FIELDS)
     if mkt_rows:
         old_m = {r["company"]: r for r in read_csv("market.csv")}
         for r in mkt_rows:
@@ -181,7 +187,10 @@ def main():
     for c in companies:
         queries = [f"{c['search']} {qlabel} results", f"{c['search']} quarterly results",
                    f"{c['search']} deal OR guidance OR CEO",
-                   f"{c['search']} (site:bloomberg.com OR site:reuters.com)"]
+                   f"{c['search']} (site:bloomberg.com OR site:reuters.com)",
+                   f"{c['search']} media OR gaming OR broadcaster OR publishing OR edtech OR telecom deal"]
+        if c.get("media_vertical"):
+            queries.append(f"{c['search']} {c['media_vertical'].split(';')[0]} vertical growth")
         items = []
         for q in queries:
             items += newsmod.search(q, c["aliases"], settings["NEWS_DAYS"])
@@ -303,6 +312,33 @@ def main():
                 print(f"      Unexpected problem: {e}")
                 log["errors"].append(f"ai {name}: {traceback.format_exc(limit=2)}")
         write_json("insights.json", insights)
+        # keep the official numbers the AI read, so Yahoo's gaps and mistakes are corrected for good
+        filed_rows = ovr.read_rows(DATA / "filed_financials.csv")
+        for name in analysed:
+            res = insights.get(name) or {}
+            if res.get("official") and res.get("results_found") and res.get("quarter") == qlabel:
+                filed_rows = ovr.apply(filed_rows, ovr.rows_from_filing(name, qe.isoformat(), qlabel, res.get("metrics") or {},
+                                                                         (res.get("filing") or {}).get("exchange", "BSE")))
+        write_csv("filed_financials.csv", filed_rows, ovr.FIELDS)
+        # media / communications vertical, one row per company and quarter, so the trend builds up
+        vfields = ["company", "quarter", "period_end", "vertical", "revenue_share_pct", "growth_qoq_pct",
+                   "growth_yoy_pct", "growth_cc_yoy_pct", "commentary", "source"]
+        vrows = {(r["company"], r["quarter"]): r for r in read_csv("verticals.csv")}
+        for name, res in insights.items():
+            mv = (res or {}).get("media_vertical")
+            if (res or {}).get("results_found") and isinstance(mv, dict) and any(
+                    mv.get(k) is not None for k in ("revenue_share_pct", "growth_qoq_pct", "growth_yoy_pct", "growth_cc_yoy_pct")):
+                q = res.get("quarter")
+                old = vrows.get((name, q), {})
+                new = {"company": name, "quarter": q, "period_end": qe.isoformat() if q == qlabel else "",
+                                    "vertical": mv.get("name") or "", "revenue_share_pct": mv.get("revenue_share_pct"),
+                                    "growth_qoq_pct": mv.get("growth_qoq_pct"), "growth_yoy_pct": mv.get("growth_yoy_pct"),
+                                    "growth_cc_yoy_pct": mv.get("growth_cc_yoy_pct"), "commentary": mv.get("commentary") or "",
+                                    "source": "exchange filing" if res.get("official") else "news"}
+                vrows[(name, q)] = {k: (v if v not in (None, "") else old.get(k, "")) for k, v in new.items()}
+        write_csv("verticals.csv", list(vrows.values()), vfields)
+        fin_all = ovr.apply(fin_all, filed_rows, ovr.read_rows(DATA / "overrides.csv"))
+        write_csv("financials.csv", fin_all, FIN_FIELDS)
     log["steps"].append(f"AI analysed: {', '.join(analysed) or 'none'}")
 
     # ---------- 4. sector view ----------

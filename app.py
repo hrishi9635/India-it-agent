@@ -23,7 +23,8 @@ st.set_page_config(page_title="Indian IT Results Dashboard", page_icon="📈", l
 
 # ---------------------------------------------------------------- look & feel
 INK, MUTED, LINE, PANEL = "#16213E", "#5B6475", "#E4E7EC", "#FFFFFF"
-GOOD, BAD, WARN, ACCENT = "#0F9D58", "#D93025", "#E37400", "#2F5BEA"
+GOOD, BAD, WARN, ACCENT = "#0CA30C", "#D03B3B", "#C98500", "#2A78D6"
+PEER, BENCH, ACCENT_SOFT = "#C3C7CF", "#52514E", "#86B6EF"   # other companies, Nifty IT, secondary bars
 PALETTE = ["#2F5BEA", "#E8590C", "#0CA678", "#7048E8", "#D6336C",
            "#1098AD", "#F59F00", "#5C940D", "#AE3EC9", "#495057"]
 
@@ -109,10 +110,37 @@ def show_chart(fig):
 
 
 def show_table(df, **kw):
+    df = df.copy()
+    for c in df.columns:  # show a dash, not "None", where a value wasn't found
+        if df[c].dtype == object:
+            df[c] = df[c].where(df[c].notna() & (df[c].astype(str) != "None"), "—")
     try:
         st.dataframe(df, width="stretch", hide_index=True, **kw)
     except Exception:  # older Streamlit versions
         st.dataframe(df, use_container_width=True, hide_index=True, **kw)
+
+
+def focus_lines(fig, frame, xcol, ycol, focus, names, suffix="", fmt=",.1f"):
+    """All companies as thin grey lines, the chosen one in blue on top, Nifty IT dotted. Direct labels at the end."""
+    order = [n for n in names if n != focus] + ([focus] if focus in names else [])
+    for n in order:
+        g = frame[frame["_name"] == n]
+        if g.empty:
+            continue
+        on, bench = n == focus, n == "Nifty IT"
+        fig.add_trace(go.Scatter(
+            x=g[xcol], y=g[ycol], name=n, mode="lines+markers" if on and len(g) < 30 else "lines",
+            line=dict(color=ACCENT if on else (BENCH if bench else PEER), width=2.6 if on else (1.6 if bench else 1.2),
+                      dash="dot" if bench else "solid"),
+            marker=dict(size=8, color=ACCENT, line=dict(color="white", width=2)) if on else None,
+            opacity=1 if (on or bench) else 0.85, showlegend=on or bench,
+            hovertemplate=f"<b>{n}</b> · %{{x}}: %{{y:{fmt}}}{suffix}<extra></extra>"))
+        if on or bench:
+            last = g.dropna(subset=[ycol]).tail(1)
+            if not last.empty:
+                fig.add_annotation(x=last[xcol].iloc[0], y=last[ycol].iloc[0], text=f"<b>{n}</b>" if on else n,
+                                   showarrow=False, xanchor="left", xshift=8, font=dict(color=INK if on else MUTED, size=12))
+    return fig
 
 
 def kpi(col, label, value, note=""):
@@ -121,6 +149,19 @@ def kpi(col, label, value, note=""):
 
 
 # ---------------------------------------------------------------- data
+def corrected(fin, *fixes):
+    """Official numbers win over Yahoo: exchange-filing numbers, then hand-checked overrides (data/overrides.csv)."""
+    parts = [d for d in (fin, *fixes) if d is not None and not d.empty and {"company", "period_end", "metric", "value_inr_cr"} <= set(d.columns)]
+    if not parts:
+        return fin
+    allr = pd.concat(parts, ignore_index=True)
+    allr = allr[~allr["company"].astype(str).str.startswith("#")]
+    allr["value_inr_cr"] = pd.to_numeric(allr["value_inr_cr"], errors="coerce")
+    allr["period_end"] = allr["period_end"].astype(str).str[:10]
+    allr = allr.dropna(subset=["value_inr_cr"]).drop_duplicates(["company", "period_end", "metric"], keep="last")
+    return allr.sort_values(["company", "period_end", "metric"]).reset_index(drop=True)
+
+
 def stamp():
     return tuple(p.stat().st_mtime for p in sorted(DATA.glob("*")) if p.is_file())
 
@@ -134,6 +175,18 @@ def load(data_version):
         except json.JSONDecodeError:
             return default
 
+    def rc_from_header(name):
+        """Hand-edited CSVs may have stray lines (e.g. '---') above the header; skip them."""
+        p = DATA / name
+        if not p.exists():
+            return pd.DataFrame()
+        lines = p.read_text(encoding="utf-8-sig").splitlines()
+        start = next((i for i, l in enumerate(lines) if l.strip().lower().startswith("company,")), None)
+        if start is None:
+            return pd.DataFrame()
+        import io
+        return pd.read_csv(io.StringIO("\n".join(lines[start:])))
+
     def rc(name):
         p = DATA / name
         return pd.read_csv(p, encoding="utf-8-sig") if p.exists() and p.stat().st_size > 0 else pd.DataFrame()
@@ -141,9 +194,9 @@ def load(data_version):
     with open(ROOT / "companies.csv", encoding="utf-8-sig", newline="") as fh:
         comps = [r for r in csv.DictReader(fh) if (r.get("name") or "").strip()]
     return {
-        "companies": comps, "fin": rc("financials.csv"), "market": rc("market.csv"), "prices": rc("prices.csv"),
+        "companies": comps, "fin": corrected(rc("financials.csv"), rc_from_header("filed_financials.csv"), rc_from_header("overrides.csv")), "market": rc("market.csv"), "prices": rc("prices.csv"),
         "insights": rj("insights.json", {}), "sector": rj("sector.json", {}), "news": rj("news.json", {}),
-        "runs": rj("run_log.json", []), "filings": rj("filings.json", {}),
+        "runs": rj("run_log.json", []), "filings": rj("filings.json", {}), "verticals": rc_from_header("verticals.csv"),
     }
 
 
@@ -151,7 +204,7 @@ D = load(stamp())
 ORDER = [c["short_name"] or c["name"] for c in D["companies"]]
 NAMES = {(c["short_name"] or c["name"]): c["name"] for c in D["companies"]}
 COLOR = {n: PALETTE[i % len(PALETTE)] for i, n in enumerate(ORDER)}
-COLOR["Nifty IT"] = "#868E96"
+COLOR["Nifty IT"] = BENCH
 INS, SECTOR, FIL = D["insights"], D["sector"], D["filings"]
 
 if D["fin"].empty and not INS:
@@ -217,6 +270,8 @@ with st.sidebar:
     st.markdown("### 📈 Indian IT Results")
     st.markdown(f"<div class='sub'>Quarter in focus: <b>{esc(target_q or '—')}</b><br>"
                 f"Results out: <b>{len(reported)}</b> of {len(ORDER)} companies</div>", unsafe_allow_html=True)
+    if ORDER:
+        st.progress(len(reported) / len(ORDER))
     page = st.radio("Go to", ["Overview", "Sector view", "Company deep-dive", "Financial trends",
                               "Share price & valuation", "Media · Gaming · EdTech · Publishing", "News", "About & data"],
                     label_visibility="collapsed")
@@ -307,14 +362,17 @@ if page == "Overview":
         st.markdown(f"<p class='lead'>{esc(SECTOR['headline'])}</p>", unsafe_allow_html=True)
 
     sc = scorecard()
-    tot_rev = sc["Revenue (₹ cr)"].sum(min_count=1)
+    common_q = sc["Data quarter"].dropna().astype(str).str.replace(" (filing)", "", regex=False).mode()
+    common_q = common_q.iloc[0] if len(common_q) else None
+    same_q = sc[sc["Data quarter"].astype(str).str.replace(" (filing)", "", regex=False) == str(common_q)]
+    tot_rev = same_q["Revenue (₹ cr)"].sum(min_count=1)
     yoy = [v for v in sc["Revenue YoY %"] if pd.notna(v)]
     mar = [v for v in sc["Op. margin %"] if pd.notna(v)]
     nifty = D["prices"][D["prices"]["company"] == "Nifty IT"]["close"] if not D["prices"].empty else pd.Series(dtype=float)
     nifty_ret = (nifty.iloc[-1] / nifty.iloc[0] - 1) * 100 if len(nifty) > 1 else None
     k = st.columns(5)
     kpi(k[0], "Results out", f"{len(reported)}/{len(ORDER)}", f"for {target_q}")
-    kpi(k[1], "Combined quarterly revenue", inr_cr(tot_rev), "latest quarter in data")
+    kpi(k[1], "Combined quarterly revenue", inr_cr(tot_rev), f"{len(same_q)} companies · {common_q or '—'}")
     kpi(k[2], "Median revenue growth", pct(statistics.median(yoy)) if yoy else "—", "year on year, ₹ reported")
     kpi(k[3], "Median operating margin", pct(statistics.median(mar), False) if mar else "—", "latest quarter")
     kpi(k[4], "Nifty IT, 1 year", pct(nifty_ret), "share-price index")
@@ -347,7 +405,7 @@ if page == "Overview":
         fig = go.Figure(go.Scatter(
             x=d["x"], y=d["Op. margin %"], mode="markers+text", text=d["Company"], textposition="top center",
             marker=dict(size=size, sizemode="area", sizeref=2.0 * max(size.max(), 1) / (55 ** 2), sizemin=8,
-                        color=[COLOR.get(n, ACCENT) for n in d["Company"]], opacity=0.8, line=dict(color="white", width=1)),
+                        color=ACCENT, opacity=0.75, line=dict(color="white", width=2)),
             customdata=d[["Market cap (₹ cr)"]],
             hovertemplate="<b>%{text}</b><br>Growth %{x:+.1f}%<br>Margin %{y:.1f}%<br>Mcap ₹%{customdata[0]:,.0f} cr<extra></extra>"))
         fig.update_xaxes(title="Revenue growth, year on year (%)", ticksuffix="%")
@@ -356,7 +414,7 @@ if page == "Overview":
     with c2:
         d = sc.dropna(subset=["Revenue (₹ cr)"]).sort_values("Revenue (₹ cr)")
         fig = go.Figure(go.Bar(x=d["Revenue (₹ cr)"], y=d["Company"], orientation="h",
-                               marker_color=[COLOR.get(n, ACCENT) for n in d["Company"]],
+                               marker=dict(color=ACCENT, cornerradius=4),
                                text=[inr_cr(v) for v in d["Revenue (₹ cr)"]], textposition="outside", cliponaxis=False,
                                hovertemplate="%{y}: ₹%{x:,.0f} cr<extra></extra>"))
         fig.update_xaxes(showticklabels=False)
@@ -427,12 +485,26 @@ elif page == "Company deep-dive":
         st.markdown(f"<div class='callout'>{esc(ins['headline'])} &nbsp;{pill(ins.get('sentiment'))}"
                     f"<br><span class='sub'>{esc(ins.get('sentiment_reason'))}</span></div>", unsafe_allow_html=True)
 
+    SC = scorecard()
+    rank_cols = {"revenue": "Revenue (₹ cr)", "rev_yoy": "Revenue YoY %", "op_margin": "Op. margin %", "net_income": "Net profit (₹ cr)"}
+
+    def rank_note(yahoo_col):
+        col = rank_cols.get(yahoo_col)
+        if not col or col not in SC or name not in set(SC["Company"]):
+            return ""
+        vals = SC[["Company", col]].dropna()
+        if name not in set(vals["Company"]) or len(vals) < 3:
+            return ""
+        r = int(vals[col].rank(ascending=False, method="min")[vals["Company"] == name].iloc[0])
+        return f" · #{r} of {len(vals)}"
+
     def best(ai_key, yahoo_col, fmt):
         v = m_ai(name, ai_key) if ai_key else None
+        src = "from the filing" if ins.get("official") else "from results news"
         if v is not None:
-            return fmt(v), "from results news"
+            return fmt(v), src + rank_note(yahoo_col)
         v = latest_val(name, yahoo_col) if yahoo_col else None
-        return (fmt(v), "Yahoo Finance") if v is not None else ("—", "not found")
+        return (fmt(v), "Yahoo Finance" + rank_note(yahoo_col)) if v is not None else ("—", "not found")
 
     tiles = [
         ("Revenue", *best("revenue_inr_cr", "revenue", inr_cr)),
@@ -450,31 +522,31 @@ elif page == "Company deep-dive":
             kpi(c, lab, val, note)
         st.write("")
 
-    c1, c2 = st.columns(2)
-    with c1:
-        w = wide[wide["company"] == name] if not wide.empty else pd.DataFrame()
-        if not w.empty:
-            fig = make_subplots(specs=[[{"secondary_y": True}]])
-            fig.add_trace(go.Bar(x=w["quarter"], y=w["revenue"], name="Revenue (₹ cr)", marker_color=COLOR.get(name, ACCENT),
-                                 hovertemplate="%{x}: ₹%{y:,.0f} cr<extra></extra>"), secondary_y=False)
-            fig.add_trace(go.Scatter(x=w["quarter"], y=w["op_margin"], name="Operating margin %", mode="lines+markers",
-                                     line=dict(color=INK, width=2.5), hovertemplate="%{x}: %{y:.1f}%<extra></extra>"),
-                          secondary_y=True)
-            fig.update_yaxes(title_text="₹ crore", secondary_y=False)
-            fig.update_yaxes(title_text="Margin %", ticksuffix="%", secondary_y=True, showgrid=False)
-            show_chart(style(fig, 360, "Revenue and operating margin by quarter"))
-    with c2:
+    w = wide[wide["company"] == name].tail(8) if not wide.empty else pd.DataFrame()
+    c1, c2, c3 = st.columns(3)
+    if not w.empty:
+        with c1:  # revenue and margin as two charts: different units never share one chart
+            last = len(w) - 1
+            fig = go.Figure(go.Bar(x=w["quarter"], y=w["revenue"], marker=dict(color=[ACCENT if i == last else ACCENT_SOFT for i in range(len(w))], cornerradius=4),
+                                   text=[inr_cr(v) if i == last else "" for i, v in enumerate(w["revenue"])], textposition="outside", cliponaxis=False,
+                                   hovertemplate="%{x}: ₹%{y:,.0f} cr<extra></extra>"))
+            show_chart(style(fig, 320, "Revenue by quarter (₹ crore)", legend=False))
+        with c2:
+            fig = go.Figure(go.Scatter(x=w["quarter"], y=w["op_margin"], mode="lines+markers+text",
+                                       line=dict(color=ACCENT, width=2.5), marker=dict(size=8, color=ACCENT, line=dict(color="white", width=2)),
+                                       text=[pct(v, False) if i in (0, len(w) - 1) else "" for i, v in enumerate(w["op_margin"])],
+                                       textposition="top center", hovertemplate="%{x}: %{y:.1f}%<extra></extra>"))
+            fig.update_yaxes(ticksuffix="%")
+            show_chart(style(fig, 320, "Operating margin by quarter", legend=False))
+    with c3:
         p = D["prices"]
         if not p.empty:
-            p = p[p["company"].isin([name, "Nifty IT"])].copy()
-            fig = go.Figure()
-            for n2, g in p.groupby("company"):
-                g = g.sort_values("date")
-                fig.add_trace(go.Scatter(x=g["date"], y=g["close"] / g["close"].iloc[0] * 100, name=n2, mode="lines",
-                                         line=dict(color=COLOR.get(n2, ACCENT), width=2.2 if n2 == name else 1.5,
-                                                   dash="solid" if n2 == name else "dot"),
-                                         hovertemplate=f"{n2} %{{x}}: %{{y:.1f}}<extra></extra>"))
-            show_chart(style(fig, 360, "Share price vs Nifty IT (1 year, start = 100)"))
+            p = p[p["company"].isin([name, "Nifty IT"])].copy().sort_values("date")
+            p["idx"] = p.groupby("company")["close"].transform(lambda x: x / x.iloc[0] * 100)
+            p["_name"] = p["company"]
+            fig = focus_lines(go.Figure(), p, "date", "idx", name, [name, "Nifty IT"])
+            fig.add_hline(y=100, line=dict(color=LINE, width=1, dash="dash"))
+            show_chart(style(fig, 320, "Share price vs Nifty IT (1 year, start = 100)", legend=False))
 
     c1, c2 = st.columns(2)
     with c1:
@@ -514,29 +586,28 @@ elif page == "Company deep-dive":
             unsafe_allow_html=True)
 
 elif page == "Financial trends":
-    page_header("Financial trends", "Quarterly figures from Yahoo Finance, ₹ crore. History builds up every quarter the agent runs.")
+    page_header("Financial trends", "Quarterly figures in ₹ crore: company filings and hand-checked results where available, "
+                "Yahoo Finance otherwise. Pick a company to highlight it against its peers (grey).")
     if wide.empty:
         st.info("No financial data yet.")
     else:
-        pick = st.multiselect("Companies", ORDER, default=ORDER)
-        mode = st.radio("Show revenue as", ["₹ crore", "Indexed (first quarter = 100)"], horizontal=True)
+        c1, c2 = st.columns([1, 1.4])
+        focus = c1.selectbox("Highlight", ORDER, index=0, format_func=lambda n: NAMES.get(n, n))
+        mode = c2.radio("Show revenue as", ["Indexed (first quarter = 100)", "₹ crore"], horizontal=True)
+        pick = ORDER
         w = wide[wide["company"].isin(pick)].copy()
+        w["_name"] = w["company"]
         qs = sorted(w["quarter"].unique(), key=quarter_key)
 
         def lines(col, title, suffix="", index=False):
-            fig = go.Figure()
-            for n in pick:
-                g = w[w["company"] == n].sort_values("period_end")
-                y = g[col]
-                if index and len(y.dropna()):
-                    y = y / y.dropna().iloc[0] * 100
-                fig.add_trace(go.Scatter(x=g["quarter"], y=y, name=n, mode="lines+markers",
-                                         line=dict(color=COLOR.get(n), width=2.2), marker=dict(size=6),
-                                         hovertemplate=f"{n} · %{{x}}: %{{y:,.1f}}{suffix}<extra></extra>"))
+            g = w.sort_values("period_end").copy()
+            if index:
+                g[col] = g.groupby("company")[col].transform(lambda y: y / y.dropna().iloc[0] * 100 if y.notna().any() else y)
+            fig = focus_lines(go.Figure(), g, "quarter", col, focus, pick, suffix)
             fig.update_xaxes(categoryorder="array", categoryarray=qs)
             if suffix:
                 fig.update_yaxes(ticksuffix=suffix)
-            return style(fig, 400, title)
+            return style(fig, 400, title, legend=False)
 
         show_chart(lines("revenue", "Revenue" + (" (indexed)" if mode != "₹ crore" else " (₹ crore)"), index=mode != "₹ crore"))
         c1, c2 = st.columns(2)
@@ -548,10 +619,10 @@ elif page == "Financial trends":
         hm = w.pivot_table(index="company", columns="quarter", values="rev_qoq").reindex(columns=qs)
         hm = hm.reindex([n for n in pick if n in hm.index]).dropna(axis=1, how="all")
         if not hm.empty:
-            fig = go.Figure(go.Heatmap(z=hm.values, x=list(hm.columns), y=list(hm.index), colorscale=[[0, "#D93025"], [0.5, "#F8F9FA"], [1, "#0F9D58"]],
+            fig = go.Figure(go.Heatmap(z=hm.values, x=list(hm.columns), y=list(hm.index), colorscale=[[0, "#D03B3B"], [0.5, "#F0EFEC"], [1, "#2A78D6"]],
                                        zmid=0, text=[[pct(v) for v in r] for r in hm.values], texttemplate="%{text}",
                                        hovertemplate="%{y} · %{x}: %{z:+.1f}%<extra></extra>", colorbar=dict(title="QoQ %")))
-            show_chart(style(fig, 80 + 34 * len(hm), "Revenue growth vs previous quarter (₹ reported)", legend=False))
+            show_chart(style(fig, 80 + 34 * len(hm), "Revenue growth vs previous quarter (blue = grew, red = fell)", legend=False))
 
 elif page == "Share price & valuation":
     page_header("Share price & valuation", "Daily closing prices from Yahoo Finance. P/E = market cap ÷ last four quarters' net profit.")
@@ -559,35 +630,31 @@ elif page == "Share price & valuation":
     if p.empty:
         st.info("No price data yet.")
     else:
-        fig = go.Figure()
-        for n in ORDER + ["Nifty IT"]:
-            g = p[p["company"] == n].sort_values("date")
-            if g.empty:
-                continue
-            fig.add_trace(go.Scatter(x=g["date"], y=g["close"] / g["close"].iloc[0] * 100, name=n, mode="lines",
-                                     line=dict(color=COLOR.get(n), width=1.4 if n == "Nifty IT" else 1.8,
-                                               dash="dot" if n == "Nifty IT" else "solid"),
-                                     hovertemplate=f"{n} %{{x}}: %{{y:.1f}}<extra></extra>"))
-        fig.add_hline(y=100, line=dict(color="#C9CED6", width=1, dash="dash"))
-        show_chart(style(fig, 440, "One year of share prices (start = 100)"))
+        focus = st.selectbox("Highlight", ORDER, index=0, format_func=lambda n: NAMES.get(n, n), key="px_focus")
+        pp = p.sort_values("date").copy()
+        pp["idx"] = pp.groupby("company")["close"].transform(lambda x: x / x.iloc[0] * 100)
+        pp["_name"] = pp["company"]
+        fig = focus_lines(go.Figure(), pp, "date", "idx", focus, ORDER + ["Nifty IT"])
+        fig.add_hline(y=100, line=dict(color=LINE, width=1, dash="dash"))
+        show_chart(style(fig, 440, f"One year of share prices, start = 100 ({NAMES.get(focus, focus)} vs peers and Nifty IT)", legend=False))
 
         m = D["market"].copy()
         if not m.empty:
             c1, c2 = st.columns(2)
             with c1:
-                d = m.melt(id_vars="company", value_vars=["return_1m", "return_3m", "return_1y"], var_name="period", value_name="ret")
-                d["period"] = d["period"].map({"return_1m": "1 month", "return_3m": "3 months", "return_1y": "1 year"})
-                fig = go.Figure()
-                for per, col in zip(["1 month", "3 months", "1 year"], ["#A5B4FC", "#5C7CFA", "#2F5BEA"]):
-                    g = d[d["period"] == per]
-                    fig.add_trace(go.Bar(x=g["company"], y=g["ret"], name=per, marker_color=col,
-                                         hovertemplate="%{x}: %{y:+.1f}%<extra>" + per + "</extra>"))
-                fig.update_yaxes(ticksuffix="%")
-                show_chart(style(fig, 400, "Share-price returns"))
+                per = st.radio("Return over", ["1 month", "3 months", "1 year"], index=2, horizontal=True)
+                colname = {"1 month": "return_1m", "3 months": "return_3m", "1 year": "return_1y"}[per]
+                d = m.dropna(subset=[colname]).sort_values(colname)
+                fig = go.Figure(go.Bar(x=d[colname], y=d["company"], orientation="h",
+                                       marker=dict(color=[ACCENT if v >= 0 else BAD for v in d[colname]], cornerradius=4),
+                                       text=[pct(v) for v in d[colname]], textposition="outside", cliponaxis=False,
+                                       hovertemplate="%{y}: %{x:+.1f}%<extra></extra>"))
+                fig.update_xaxes(ticksuffix="%", zeroline=True, zerolinecolor=BENCH)
+                show_chart(style(fig, 400, f"Share-price return, {per} (blue = up, red = down)", legend=False))
             with c2:
                 d = m.dropna(subset=["market_cap_cr"]).sort_values("market_cap_cr")
                 fig = go.Figure(go.Bar(x=d["market_cap_cr"], y=d["company"], orientation="h",
-                                       marker_color=[COLOR.get(n, ACCENT) for n in d["company"]],
+                                       marker=dict(color=ACCENT, cornerradius=4),
                                        text=[inr_cr(v) for v in d["market_cap_cr"]], textposition="outside", cliponaxis=False,
                                        hovertemplate="%{y}: ₹%{x:,.0f} cr<extra></extra>"))
                 fig.update_xaxes(showticklabels=False)
@@ -600,31 +667,118 @@ elif page == "Share price & valuation":
 
 elif page == "Media · Gaming · EdTech · Publishing":
     page_header("Media, gaming, education & publishing",
-                "What the companies and the AI's sector view say about these client industries.")
+                "How Indian IT companies are doing with media, entertainment, gaming, education, publishing and telecom clients.")
+    DOMAIN_WORDS = {
+        "Media & broadcasting": ["media", "broadcast", "broadcaster", "news channel", "tv ", "television", "advertis"],
+        "Entertainment & streaming": ["entertainment", "streaming", "studio", "film", "music", "ott", "sports network"],
+        "Gaming": ["gaming", "game ", "games", "esports", "casino", "console"],
+        "Education": ["education", "edtech", "university", "learning", "school", "skilling"],
+        "Publishing": ["publishing", "publisher", "newspaper", "content"],
+        "Telecom": ["telecom", "telco", "5g", "network operator", "communications"],
+    }
+
+    def tag(text):
+        t = f" {str(text).lower()} "
+        return [d for d, words in DOMAIN_WORDS.items() if any(w in t for w in words)]
+
+    # 1. the AI's outlook per domain
     outlook = SECTOR.get("domain_outlook") or []
+    st.markdown("#### Outlook by industry")
     if outlook:
         cols = st.columns(3)
         for i, o in enumerate(outlook):
             cols[i % 3].markdown(f"<div class='card'><h4>{esc(o.get('domain'))}{pill(o.get('signal'))}</h4>"
                                  f"<p>{esc(o.get('note'))}</p></div>", unsafe_allow_html=True)
+    else:
+        st.caption("The AI writes this once results are analysed for the quarter.")
+
+    # 2. the media / communications segment each company reports, quarter by quarter
+    st.markdown("#### Media & communications segment, as reported by each company")
+    V = D["verticals"].copy() if not D["verticals"].empty else pd.DataFrame()
+    if not V.empty:
+        for col in ("revenue_share_pct", "growth_qoq_pct", "growth_yoy_pct", "growth_cc_yoy_pct"):
+            V[col] = pd.to_numeric(V[col], errors="coerce")
+        V["_k"] = V["quarter"].map(quarter_key)
+        lastv = V.sort_values("_k").groupby("company").tail(1)
+        lastv["growth"] = lastv["growth_cc_yoy_pct"].fillna(lastv["growth_yoy_pct"])
+        c1, c2 = st.columns(2)
+        with c1:
+            d = lastv.dropna(subset=["growth"]).sort_values("growth")
+            if not d.empty:
+                fig = go.Figure(go.Bar(x=d["growth"], y=d["company"], orientation="h",
+                                       marker=dict(color=[ACCENT if v >= 0 else BAD for v in d["growth"]], cornerradius=4),
+                                       text=[pct(v) for v in d["growth"]], textposition="outside", cliponaxis=False,
+                                       customdata=d[["vertical", "quarter"]],
+                                       hovertemplate="<b>%{y}</b> · %{customdata[0]} (%{customdata[1]}): %{x:+.1f}%<extra></extra>"))
+                fig.update_xaxes(ticksuffix="%", zeroline=True, zerolinecolor=BENCH)
+                show_chart(style(fig, 80 + 42 * len(d), "Segment growth, year on year (constant currency where given)", legend=False))
+        with c2:
+            d = lastv.dropna(subset=["revenue_share_pct"]).sort_values("revenue_share_pct")
+            if not d.empty:
+                fig = go.Figure(go.Bar(x=d["revenue_share_pct"], y=d["company"], orientation="h",
+                                       marker=dict(color=ACCENT, cornerradius=4),
+                                       text=[pct(v, False) for v in d["revenue_share_pct"]], textposition="outside", cliponaxis=False,
+                                       hovertemplate="%{y}: %{x:.1f}% of revenue<extra></extra>"))
+                fig.update_xaxes(ticksuffix="%")
+                show_chart(style(fig, 80 + 42 * len(d), "Segment's share of company revenue", legend=False))
+        show_table(V.sort_values(["_k", "company"], ascending=[False, True])[
+            ["company", "quarter", "vertical", "revenue_share_pct", "growth_qoq_pct", "growth_yoy_pct", "growth_cc_yoy_pct", "commentary", "source"]
+        ].rename(columns={"company": "Company", "quarter": "Quarter", "vertical": "Segment", "revenue_share_pct": "Share of revenue %",
+                          "growth_qoq_pct": "QoQ %", "growth_yoy_pct": "YoY %", "growth_cc_yoy_pct": "YoY CC %",
+                          "commentary": "What was said", "source": "Source"}),
+            column_config={"What was said": st.column_config.TextColumn(width="large")})
+    else:
+        st.caption("Filled in automatically as each company files its results and fact sheet.")
+    with st.expander("Which segment we track for each company"):
+        show_table(pd.DataFrame([{"Company": c["short_name"] or c["name"], "Segment that holds media, publishing, gaming & education clients":
+                                  c.get("media_vertical") or "Not reported separately"} for c in D["companies"]]))
+    vrows = []
+    for n in ORDER:
+        ins = INS.get(n) or {}
+        for v in ins.get("verticals") or []:
+            if tag(v.get("name")) or "communication" in str(v.get("name")).lower() or "hi-tech" in str(v.get("name")).lower():
+                vrows.append({"Company": n, "Quarter": ins.get("quarter"), "Vertical": v.get("name"), "What was said": v.get("note")})
+    if vrows:
+        st.markdown("##### Other comments on these segments")
+        show_table(pd.DataFrame(vrows), column_config={"What was said": st.column_config.TextColumn(width="large")})
+
+    # 3. client and deal mentions the AI picked out of the results
     rows = []
     for n in ORDER:
         for mtn in (INS.get(n) or {}).get("megep_mentions") or []:
             rows.append({"Domain": mtn.get("domain"), "Company": n, "What was said": mtn.get("note"),
                          "Quarter": (INS.get(n) or {}).get("quarter")})
-    st.markdown("#### Every mention found this quarter")
+    st.markdown("#### Client and deal mentions in the results")
     if rows:
         df = pd.DataFrame(rows).sort_values(["Domain", "Company"])
         dom = st.multiselect("Domain", sorted(df["Domain"].dropna().unique()), default=sorted(df["Domain"].dropna().unique()))
         show_table(df[df["Domain"].isin(dom)], column_config={"What was said": st.column_config.TextColumn(width="large")})
-        cnt = df.groupby("Domain").size().sort_values()
-        fig = go.Figure(go.Bar(x=cnt.values, y=cnt.index, orientation="h", marker_color=ACCENT,
-                               hovertemplate="%{y}: %{x} mentions<extra></extra>"))
-        show_chart(style(fig, 80 + 40 * len(cnt), "Mentions by domain", legend=False))
     else:
-        st.info("No mentions yet. They appear once results are analysed.")
+        st.caption("None found in this quarter's results coverage yet.")
+
+    # 4. news about these industries, found automatically in each company's coverage
+    nrows = []
+    for n, items in D["news"].items():
+        for i in items:
+            for d in tag(f"{i.get('title')} {i.get('snippet', '')}"):
+                nrows.append({"Date": (i.get("published") or "")[:10], "Domain": d, "Company": n,
+                              "Headline": i.get("title"), "Source": i.get("source"), "Link": i.get("link")})
+    st.markdown("#### In the news")
+    if nrows:
+        nd = pd.DataFrame(nrows).drop_duplicates(["Headline", "Domain"]).sort_values("Date", ascending=False)
+        c1, c2 = st.columns([1.4, 1])
+        with c1:
+            show_table(nd, column_config={"Headline": st.column_config.TextColumn(width="large"),
+                                          "Link": st.column_config.LinkColumn("Open", display_text="open")})
+        with c2:
+            cnt = nd.groupby("Domain").size().sort_values()
+            fig = go.Figure(go.Bar(x=cnt.values, y=cnt.index, orientation="h", marker_color=ACCENT,
+                                   hovertemplate="%{y}: %{x} stories<extra></extra>"))
+            show_chart(style(fig, 80 + 40 * len(cnt), "Stories by industry (last 30 days)", legend=False))
+    else:
+        st.info("No media, gaming, education, publishing or telecom stories in the latest news yet.")
     st.caption("Indian IT companies rarely report these industries separately; most sit inside 'Communications, "
-               "Media & Technology' style verticals. Mentions come from news coverage of results.")
+               "Media & Technology' style verticals. Mentions come from results filings and news coverage.")
 
 elif page == "News":
     page_header("News", "Latest coverage per company from Google News and Bing News.")
@@ -668,6 +822,15 @@ This is not investment advice.
     st.markdown("All in the `data` folder: `financials.csv` (one row per company, quarter and metric — ready for "
                 "Excel, Power BI or Tableau), `market.csv`, `prices.csv`, `news.json`, `filings.json`, `insights.json`, "
                 "`sector.json`, `run_log.json`.")
+    dl = st.columns(4)
+    for c, (label, fname) in zip(dl, [("Financials (CSV)", "financials.csv"), ("Market data (CSV)", "market.csv"),
+                                      ("AI insights (JSON)", "insights.json"), ("Exchange filings (JSON)", "filings.json")]):
+        f = DATA / fname
+        if f.exists():
+            try:
+                c.download_button(f"⬇ {label}", f.read_bytes(), file_name=fname, width="stretch")
+            except TypeError:  # older Streamlit versions
+                c.download_button(f"⬇ {label}", f.read_bytes(), file_name=fname, use_container_width=True)
     if D["runs"]:
         st.markdown("#### Recent agent runs")
         show_table(pd.DataFrame([{"Finished (UTC)": (r.get("finished") or "")[:16].replace("T", " "),
