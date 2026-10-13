@@ -58,5 +58,6 @@ def load_companies():
                 "aliases": [a.strip() for a in (r.get("aliases") or r["name"]).split("|") if a.strip()],
                 "bse_code": (r.get("bse_code") or "").strip(),
                 "nse_symbol": [t.strip() for t in (r.get("nse_symbol") or "").split("|") if t.strip()],
+                "media_vertical": (r.get("media_vertical") or "").strip(),
             })
     return rows

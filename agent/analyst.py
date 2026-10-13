@@ -26,6 +26,9 @@ Rules:
   results filing is present, the results are out and results_date is that filing's date.
 - Filings may state amounts in ₹ crore, ₹ million or ₹ lakh. Convert rupee amounts to crore
   (1 crore = 10 million = 100 lakh). Use CONSOLIDATED figures, not standalone. US-dollar revenue in $ million.
+- media_vertical: the business segment that covers media, entertainment, publishing, gaming, education or
+  communications clients (its name is given with the company). Report its share of total revenue and its growth
+  exactly as the source states them; null when not stated.
 - Write short, plain, neutral sentences. Return one JSON object only."""
 
 COMPANY_SCHEMA = """{
@@ -44,6 +47,8 @@ COMPANY_SCHEMA = """{
  "highlights": ["3-5 short points"],
  "risks": ["1-3 short points"],
  "verticals": [{"name": "vertical name", "note": "growth or comment"}],
+ "media_vertical": {"name": "segment name", "revenue_share_pct": number|null, "growth_qoq_pct": number|null,
+                    "growth_yoy_pct": number|null, "growth_cc_yoy_pct": number|null, "commentary": "what was said, or null"},
  "megep_mentions": [{"domain": "Media & broadcasting|Entertainment & streaming|Gaming|Education|Publishing|Telecom", "note": "what was said, client or deal"}],
  "ai_signals": "what was said about AI revenue, deals or pricing, or null",
  "management_view": "one-sentence paraphrase of management commentary, or null",
@@ -99,6 +104,15 @@ def verify_numbers(result, corpus):
         if not any(re.search(rf"(?<![\d.]){re.escape(x.replace(',', ''))}(?![\d])", flat) for x in _num_variants(v)):
             result["metrics"][k] = None
             dropped.append(k)
+    mv = result.get("media_vertical")
+    if isinstance(mv, dict):  # the same check for the media vertical's numbers
+        for k, v in list(mv.items()):
+            if k in ("name", "commentary") or v is None:
+                continue
+            if not isinstance(v, (int, float)) or isinstance(v, bool) or not any(
+                    re.search(rf"(?<![\d.]){re.escape(x.replace(',', ''))}(?![\d])", flat) for x in _num_variants(v)):
+                mv[k] = None
+                dropped.append(f"media_vertical.{k}")
     result["unverified_dropped"] = dropped
     return result
 
@@ -192,7 +206,8 @@ def analyse_company(llm, company, items, quarter_label, quarter_months, yahoo_fa
     result = None
     for round_no in (1, 2):
         user = (f"Company: {company['name']} (also called {', '.join(company['aliases'])}).\n"
-                f"Quarter to analyse: {quarter_label} ({quarter_months}).\n"
+                + (f"Its media / communications segment is reported as: {company['media_vertical']}.\n" if company.get("media_vertical") else "")
+                + f"Quarter to analyse: {quarter_label} ({quarter_months}).\n"
                 f"Facts already known from the stock exchange data feed (for context, do not copy into metrics "
                 f"unless the sources state them): {json.dumps(yahoo_facts)}\n\n"
                 f"Sources:\n{corpus}\n\nReturn JSON exactly in this shape:\n{COMPANY_SCHEMA}")
