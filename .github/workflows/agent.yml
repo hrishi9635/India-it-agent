@@ -1,9 +1,16 @@
+# The schedule that runs the agent for free on GitHub's computers.
+# Four times a day it updates prices, news and stock-exchange filings. When a company's
+# results are filed, it runs the AI analysis. It then saves the data back to this
+# project, and the online dashboard updates by itself.
 name: Run the agent
 
 on:
-  schedule:
-    - cron: "30 14 * * *"
-  workflow_dispatch:
+  schedule:                 # 4 times a day, so results are picked up within hours of being filed
+    - cron: "15 8 * * *"      # 1:45 PM IST  (some companies announce during market hours)
+    - cron: "0 12 * * *"      # 5:30 PM IST  (most announce after the market closes at 3:30 PM)
+    - cron: "30 14 * * *"     # 8:00 PM IST
+    - cron: "30 17 * * *"     # 11:00 PM IST (late announcements)
+  workflow_dispatch:          # adds a "Run workflow" button for running it any time
     inputs:
       force:
         description: "Re-analyse every company with AI (yes/no)"
