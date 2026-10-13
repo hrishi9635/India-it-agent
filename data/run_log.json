@@ -1,5 +1,18 @@
 [
  {
+  "started": "2026-10-13T14:56:35+00:00",
+  "quarter": "Q2 FY27",
+  "steps": [
+   "market data for 10/10 companies",
+   "news updated",
+   "exchange filings checked; results filed: TCS, HCLTech",
+   "AI analysed: TCS, Infosys, HCLTech, Wipro, LTM, Tech Mahindra, OFSS, Persistent, Coforge, Mphasis"
+  ],
+  "errors": [],
+  "finished": "2026-10-13T15:07:12+00:00",
+  "ai_calls": 20
+ },
+ {
   "started": "2026-10-12T14:51:27+00:00",
   "quarter": "Q2 FY27",
   "steps": [

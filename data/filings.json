@@ -1,0 +1,148 @@
+{
+ "TCS": {
+  "checked": true,
+  "exchange": "NSE",
+  "count": 24,
+  "result": {
+   "title": "Tata Consultancy Services Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "detail": "",
+   "category": "Outcome of Board Meeting",
+   "subcategory": "",
+   "time": "2026-10-08T15:40",
+   "url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_08102026153124_Post_BM_SE_Letter_fin.pdf",
+   "alt_url": "",
+   "exchange": "NSE"
+  },
+  "press": {
+   "title": "Tata Consultancy Services Limited has informed the Exchange regarding a press release dated October 8, 2026, titled \"International Growth and Strategic Wins Underpin TCS Q2\".",
+   "detail": "",
+   "category": "Press Release",
+   "subcategory": "",
+   "time": "2026-10-08T15:43",
+   "url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_08102026154325_PressReleaseletter.pdf",
+   "alt_url": "",
+   "exchange": "NSE"
+  },
+  "next_results_date": null,
+  "error": null,
+  "checked_at": "2026-10-13T14:58",
+  "quarter": "Q2 FY27"
+ },
+ "Infosys": {
+  "checked": true,
+  "exchange": "NSE",
+  "count": 11,
+  "result": null,
+  "press": null,
+  "next_results_date": null,
+  "error": null,
+  "checked_at": "2026-10-13T14:58",
+  "quarter": "Q2 FY27"
+ },
+ "HCLTech": {
+  "checked": true,
+  "exchange": "NSE",
+  "count": 24,
+  "result": {
+   "title": "HCL Technologies Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "detail": "",
+   "category": "Outcome of Board Meeting",
+   "subcategory": "",
+   "time": "2026-10-12T16:58",
+   "url": "https://nsearchives.nseindia.com/corporate/HCLTECH_12102026165747_FinancialResults.pdf",
+   "alt_url": "",
+   "exchange": "NSE"
+  },
+  "press": {
+   "title": "HCL Technologies Limited has informed the Exchange regarding a press release dated October 12, 2026, titled \"Investor Release Q2 FY 2027\".",
+   "detail": "",
+   "category": "Press Release",
+   "subcategory": "",
+   "time": "2026-10-12T17:08",
+   "url": "https://nsearchives.nseindia.com/corporate/HCLTECH_12102026170757_InvestorRelease_5.pdf",
+   "alt_url": "",
+   "exchange": "NSE"
+  },
+  "next_results_date": null,
+  "error": null,
+  "checked_at": "2026-10-13T14:58",
+  "quarter": "Q2 FY27"
+ },
+ "Wipro": {
+  "checked": true,
+  "exchange": "NSE",
+  "count": 16,
+  "result": null,
+  "press": null,
+  "next_results_date": null,
+  "error": null,
+  "checked_at": "2026-10-13T14:58",
+  "quarter": "Q2 FY27"
+ },
+ "LTM": {
+  "checked": true,
+  "exchange": "NSE",
+  "count": 11,
+  "result": null,
+  "press": null,
+  "next_results_date": null,
+  "error": null,
+  "checked_at": "2026-10-13T14:58",
+  "quarter": "Q2 FY27"
+ },
+ "Tech Mahindra": {
+  "checked": true,
+  "exchange": "NSE",
+  "count": 12,
+  "result": null,
+  "press": null,
+  "next_results_date": null,
+  "error": null,
+  "checked_at": "2026-10-13T14:58",
+  "quarter": "Q2 FY27"
+ },
+ "OFSS": {
+  "checked": true,
+  "exchange": "NSE",
+  "count": 10,
+  "result": null,
+  "press": null,
+  "next_results_date": null,
+  "error": null,
+  "checked_at": "2026-10-13T14:58",
+  "quarter": "Q2 FY27"
+ },
+ "Persistent": {
+  "checked": true,
+  "exchange": "NSE",
+  "count": 40,
+  "result": null,
+  "press": null,
+  "next_results_date": null,
+  "error": null,
+  "checked_at": "2026-10-13T14:58",
+  "quarter": "Q2 FY27"
+ },
+ "Coforge": {
+  "checked": true,
+  "exchange": "NSE",
+  "count": 36,
+  "result": null,
+  "press": null,
+  "next_results_date": null,
+  "error": null,
+  "checked_at": "2026-10-13T14:58",
+  "quarter": "Q2 FY27"
+ },
+ "Mphasis": {
+  "checked": true,
+  "exchange": "NSE",
+  "count": 12,
+  "result": null,
+  "press": null,
+  "next_results_date": null,
+  "error": null,
+  "checked_at": "2026-10-13T14:58",
+  "quarter": "Q2 FY27"
+ }
+}
