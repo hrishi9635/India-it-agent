@@ -81,7 +81,7 @@
  "Infosys": {
   "results_found": false,
   "results_date": null,
-  "headline": "Infosys Q2 FY27 results have not been released in the available sources",
+  "headline": "Infosys Q2 FY27 results have not been released yet",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -114,30 +114,30 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No actual results data provided",
+  "sentiment_reason": "No results data released yet",
   "missing": [
-   "revenue_inr_cr",
-   "revenue_usd_m",
-   "revenue_growth_yoy_pct",
-   "cc_growth_qoq_pct",
-   "cc_growth_yoy_pct",
-   "net_profit_inr_cr",
-   "net_profit_growth_yoy_pct",
-   "operating_margin_pct",
-   "deal_wins_usd_bn",
+   "revenue",
+   "net profit",
+   "operating margin",
    "headcount",
-   "net_headcount_change",
-   "attrition_pct",
-   "dividend_per_share_inr",
-   "guidance",
-   "media_vertical details"
+   "dividend",
+   "media vertical share and growth",
+   "guidance details"
   ],
   "unverified_dropped": [],
-  "sources": [],
+  "sources": [
+   {
+    "title": "Infosys, Coforge LTTS Q2 results date and time: Key numbers to watch",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVzR2RmNodGJhWlQ2R3N2X2xDbGNfdG9NSUdFV08xMm1IajNibVNUS2poVzh3QzBBUFBZNDZ3SHhFWTZlV0RHVnhid1FTUDBybXpwQXN2TmEzeF84R1JwYzRpYWwzWUtsejNHcGZiVW8weHhCUEFEVFBXdWRvcDhRa3FVVWZOUERwaFNMY2dtWWFwQnZkd1JSYVljQnU1WDR0bWs1MEtpNjlYMUxDdk5uRGFMRURfTjBHMEtTd2x5WWJwak8zcEtIU1VhRdIB0AFBVV95cUxNYjIwanNFTmxzdEdGSDhGY2Nwb0U4ODJqcUdmUWFxRExxZ1R3Z2FobFBSZ2FpU2hkLWp3MmtkZjJsd2JQVWRnYjVXYUxpM05wVmJlTUZNN1BKOC1naTB5MHVHMEJtVmZDaENLU3lSNEt1UkhXaGN6Y1hTeUFUMHRTSlBpaUxmYXZfMENRQXl6b3pSRTNvSFRxNjcyZF8zcmtlcmdad1FZVXZObWs2Sk55Y2htWE1HYlNWbUwzckVpZHdIVEw2eWNPUl80MVdWZGdx?oc=5",
+    "source": "Moneycontrol.com",
+    "published": "2026-10-13T08:45:09+00:00",
+    "official": false
+   }
+  ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Infosys",
-  "analysed_at": "2026-10-13T17:50:59+00:00"
+  "analysed_at": "2026-10-14T08:52:15+00:00"
  },
  "HCLTech": {
   "results_found": true,
@@ -224,7 +224,7 @@
  "LTM": {
   "results_found": false,
   "results_date": null,
-  "headline": "LTIMindtree has not yet released its Q2 FY27 financial results",
+  "headline": null,
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -257,7 +257,7 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No actual results have been announced yet",
+  "sentiment_reason": "No actual Q2 FY27 results were reported in the provided sources, only previews and unrelated announcements.",
   "missing": [
    "revenue_inr_cr",
    "revenue_usd_m",
@@ -273,79 +273,25 @@
    "attrition_pct",
    "dividend_per_share_inr",
    "guidance",
-   "media_vertical details"
+   "highlights",
+   "risks",
+   "verticals",
+   "media_vertical details",
+   "megep_mentions",
+   "ai_signals",
+   "management_view"
   ],
   "unverified_dropped": [],
   "sources": [],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "LTM",
-  "analysed_at": "2026-10-13T17:52:46+00:00"
+  "analysed_at": "2026-10-14T08:54:02+00:00"
  },
  "Tech Mahindra": {
   "results_found": false,
   "results_date": null,
-  "headline": "Tech Mahindra has not yet released its Q2 FY27 financial results",
-  "metrics": {
-   "revenue_inr_cr": null,
-   "revenue_usd_m": null,
-   "revenue_growth_yoy_pct": null,
-   "cc_growth_qoq_pct": null,
-   "cc_growth_yoy_pct": null,
-   "net_profit_inr_cr": null,
-   "net_profit_growth_yoy_pct": null,
-   "operating_margin_pct": null,
-   "deal_wins_usd_bn": null,
-   "headcount": null,
-   "net_headcount_change": null,
-   "attrition_pct": null,
-   "dividend_per_share_inr": null
-  },
-  "guidance": null,
-  "guidance_change": "none",
-  "highlights": [],
-  "risks": [],
-  "verticals": [],
-  "media_vertical": {
-   "name": "Communications; Technology, Media & Entertainment",
-   "revenue_share_pct": null,
-   "growth_qoq_pct": null,
-   "growth_yoy_pct": null,
-   "growth_cc_yoy_pct": null,
-   "commentary": null
-  },
-  "megep_mentions": [],
-  "ai_signals": null,
-  "management_view": null,
-  "sentiment": "Neutral",
-  "sentiment_reason": "No results data released yet",
-  "missing": [
-   "revenue",
-   "net profit",
-   "operating margin",
-   "headcount",
-   "dividend",
-   "media vertical share and growth"
-  ],
-  "unverified_dropped": [],
-  "sources": [
-   {
-    "title": "Tech Mahindra Q2 Results: Date, Bonus Issue, Dividend, Share Price And More",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRW1oMEF0ZDhmbzZXdXAtT3RYYUhxc1lrcTdhTkM0UTNLTXp6Y3VTMFhqUGhpRnBNX3VYd25DZVk3dWNXM09IMzdldDNqT3ZaVENGelZGTzJ4SkVpUm1jUF9mVUxTbEowNWo0RndkQzhqWE8yUXZxaW5tY2w5Q0lBWHhjcklaQldTXzNSMFV6ekU1QlNaS0lxODl6U3ExNE5zcjFuZ09tNks5M1otbVdVbWswOEU4d9IBvgFBVV95cUxQWnZCbnpvV0U4Ui12YzR2NC1sYnFTR3pCVzJhSVhsUzFlTV9fYXdHOUJBYlhici1ibWtmR3FwR2hLMWpJTERKV1hlRHhZQkhPWUIyTEhjVWJ4eV90X3lxQW05d05UMkhJcFZWQWtxaUZ3anRRaUFVdl9tOXdzRjA3OFZlcHVlbDlweHQxTXl5SGpyYlQ0c2FnMnFHREVYOVVXQkJxaXo1eGZ4WXZoTjBBd0V6ZEowTnRIcWM5QjJn?oc=5",
-    "source": "NDTV Profit",
-    "published": "2026-09-30T07:00:00+00:00",
-    "official": false
-   }
-  ],
-  "official": false,
-  "quarter": "Q2 FY27",
-  "company": "Tech Mahindra",
-  "analysed_at": "2026-10-13T17:53:39+00:00"
- },
- "OFSS": {
-  "results_found": false,
-  "results_date": null,
-  "headline": "Oracle Financial Services Software has not released its Q2 FY27 results yet",
+  "headline": "Tech Mahindra has not yet released its Q2 FY27 results",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -394,6 +340,67 @@
    "attrition_pct",
    "dividend_per_share_inr",
    "guidance",
+   "media_vertical details"
+  ],
+  "unverified_dropped": [],
+  "sources": [],
+  "official": false,
+  "quarter": "Q2 FY27",
+  "company": "Tech Mahindra",
+  "analysed_at": "2026-10-14T08:54:54+00:00"
+ },
+ "OFSS": {
+  "results_found": false,
+  "results_date": null,
+  "headline": "No Q2 FY27 results have been announced for Oracle Financial Services Software yet",
+  "metrics": {
+   "revenue_inr_cr": null,
+   "revenue_usd_m": null,
+   "revenue_growth_yoy_pct": null,
+   "cc_growth_qoq_pct": null,
+   "cc_growth_yoy_pct": null,
+   "net_profit_inr_cr": null,
+   "net_profit_growth_yoy_pct": null,
+   "operating_margin_pct": null,
+   "deal_wins_usd_bn": null,
+   "headcount": null,
+   "net_headcount_change": null,
+   "attrition_pct": null,
+   "dividend_per_share_inr": null
+  },
+  "guidance": null,
+  "guidance_change": "none",
+  "highlights": [],
+  "risks": [],
+  "verticals": [],
+  "media_vertical": {
+   "name": null,
+   "revenue_share_pct": null,
+   "growth_qoq_pct": null,
+   "growth_yoy_pct": null,
+   "growth_cc_yoy_pct": null,
+   "commentary": null
+  },
+  "megep_mentions": [],
+  "ai_signals": null,
+  "management_view": null,
+  "sentiment": "Neutral",
+  "sentiment_reason": "No results data available",
+  "missing": [
+   "revenue_inr_cr",
+   "revenue_usd_m",
+   "revenue_growth_yoy_pct",
+   "cc_growth_qoq_pct",
+   "cc_growth_yoy_pct",
+   "net_profit_inr_cr",
+   "net_profit_growth_yoy_pct",
+   "operating_margin_pct",
+   "deal_wins_usd_bn",
+   "headcount",
+   "net_headcount_change",
+   "attrition_pct",
+   "dividend_per_share_inr",
+   "guidance",
    "media_vertical details",
    "megep_mentions",
    "ai_signals",
@@ -404,7 +411,7 @@
   "official": false,
   "quarter": "Q2 FY27",
   "company": "OFSS",
-  "analysed_at": "2026-10-13T17:54:09+00:00"
+  "analysed_at": "2026-10-14T08:55:24+00:00"
  },
  "Persistent": {
   "results_found": false,
@@ -442,7 +449,7 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No results data available yet",
+  "sentiment_reason": "No results data released yet",
   "missing": [
    "revenue_inr_cr",
    "revenue_usd_m",
@@ -458,7 +465,10 @@
    "attrition_pct",
    "dividend_per_share_inr",
    "guidance",
-   "media_vertical details"
+   "media_vertical details",
+   "megep_mentions",
+   "ai_signals",
+   "management_view"
   ],
   "unverified_dropped": [],
   "sources": [
@@ -470,24 +480,24 @@
     "official": false
    },
    {
-    "title": "IT sector Q2FY27: Infosys, HCL Tech, Wipro, Tech Mahindra results, interim dividend dates",
-    "link": "https://www.financialexpress.com/business/industry-it-sector-q2fy27-infosys-hcl-tech-wipro-tech-mahindra-results-interim-dividend-dates-4356310/",
-    "source": "financialexpress.com",
-    "published": "2026-10-07T23:40:00+00:00",
-    "official": false
-   },
-   {
     "title": "Persistent Systems Q2FY27 Results: Analyst call scheduled for October 15 at 5:00 pm IST",
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRUVIRWl6V1dQc21YLVhfa3FlLURrZWl3ZVpUWmxxWDJTLVhIZlRpbDlUSzcxNGR5M3NtbUt0Z3g5d01UQkZJbzRNSWMzYjRuMWw4b25fbWdRSE1BdWgwSmF3MlhHdmgxYjN5UHFaVWsyMFZYMWYySl9peHM0aUJBQ1p0OFZzU3hkZmt6dzJ1Zms3WmFlTEJUb3VJa0ZfWjNQc0tsd0UtUVkwOGxPRVJyYkEwcDAxWjFKQXVoeDBhZlpkUzlo?oc=5",
     "source": "scanx.trade",
     "published": "2026-10-06T07:00:00+00:00",
+    "official": false
+   },
+   {
+    "title": "IT sector Q2FY27: Infosys, HCL Tech, Wipro, Tech Mahindra results, interim dividend dates",
+    "link": "https://www.financialexpress.com/business/industry-it-sector-q2fy27-infosys-hcl-tech-wipro-tech-mahindra-results-interim-dividend-dates-4356310/",
+    "source": "financialexpress.com",
+    "published": "2026-10-07T23:40:00+00:00",
     "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Persistent",
-  "analysed_at": "2026-10-13T17:54:59+00:00"
+  "analysed_at": "2026-10-14T08:55:51+00:00"
  },
  "Coforge": {
   "results_found": false,
@@ -510,8 +520,15 @@
   },
   "guidance": null,
   "guidance_change": "none",
-  "highlights": [],
-  "risks": [],
+  "highlights": [
+   "Analysts are awaiting Coforge's Q2 FY27 earnings announcement.",
+   "The company recently announced several AI and CX platforms.",
+   "Board changes were reported, with a new chairperson appointed."
+  ],
+  "risks": [
+   "Potential slowdown in new business deals as noted by market commentary.",
+   "Pricing pressure from clients expecting cost pass‑through."
+  ],
   "verticals": [],
   "media_vertical": {
    "name": "Others (incl. media & publishing)",
@@ -522,10 +539,10 @@
    "commentary": null
   },
   "megep_mentions": [],
-  "ai_signals": null,
+  "ai_signals": "Coforge launched AI frameworks and an agentic CX platform, but no revenue impact disclosed.",
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No results data available yet",
+  "sentiment_reason": "No actual results released; only forward‑looking commentary.",
   "missing": [
    "revenue_inr_cr",
    "revenue_usd_m",
@@ -544,16 +561,94 @@
    "media_vertical details"
   ],
   "unverified_dropped": [],
-  "sources": [],
+  "sources": [
+   {
+    "title": "Coforge launches AI framework: what it means for Coforge stock",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWGkyTmpVNmhiMnNjYmZHUFllNWREOVJIaW9PRTgtWnV4bjlNdGpzV1ZpdDVJZzVOX1dpd0FJNkktbE4tM0FBVUM1WEtEVFhONktNVTJzWjVob2ZNZzRsb2l1bjhTcHdQRHotMWJNanRQaWNpb0FhTjE2SDRkUlFwTkhCNGVGVkVOczc5SUx3amx2MnFMMFB3WFJIYUN0Q1E4MkZ4NWxDQUVVWGREOWZRMUpjWUdfckJWOHZ4QQ?oc=5",
+    "source": "ad-hoc-news.de",
+    "published": "2026-10-14T01:13:04+00:00",
+    "official": false
+   },
+   {
+    "title": "Indian IT Stocks In Blockbuster Rally; HCL Skyrockets 7%; TCS, Infosys, Coforge Up 3-6%; Eyes On Q2, Dividends",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPV0thckNKUGRWNmw0RjhKcERyRktEQ0F3THB1MjVDdEtYcGh3R0JHODlnRlBmSE5FQWtacXdyTWNBZWNGNzVKN1BPWG54ZjJoVVU4ZERYNDNvTHNkblRXMGtGYk44RGpoV1BldXRrOXRSZXB1WHV3MWxEV1phNDVNQ3NxX3JPd0R2b2VBelpmRkVveW9iTExULXRuTkFjTnJnem1KS3ZVT2diNGtPR1ZIT2tlT01RZUl2T2xRYy0wLU1IN2l3MjAyVEhqRFJiOTVlc2JzWlNqQjdFdw?oc=5",
+    "source": "Goodreturns",
+    "published": "2026-10-13T09:09:42+00:00",
+    "official": false
+   },
+   {
+    "title": "Infosys, Coforge LTTS Q2 results date and time: Key numbers to watch",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVzR2RmNodGJhWlQ2R3N2X2xDbGNfdG9NSUdFV08xMm1IajNibVNUS2poVzh3QzBBUFBZNDZ3SHhFWTZlV0RHVnhid1FTUDBybXpwQXN2TmEzeF84R1JwYzRpYWwzWUtsejNHcGZiVW8weHhCUEFEVFBXdWRvcDhRa3FVVWZOUERwaFNMY2dtWWFwQnZkd1JSYVljQnU1WDR0bWs1MEtpNjlYMUxDdk5uRGFMRURfTjBHMEtTd2x5WWJwak8zcEtIU1VhRdIB0AFBVV95cUxNYjIwanNFTmxzdEdGSDhGY2Nwb0U4ODJqcUdmUWFxRExxZ1R3Z2FobFBSZ2FpU2hkLWp3MmtkZjJsd2JQVWRnYjVXYUxpM05wVmJlTUZNN1BKOC1naTB5MHVHMEJtVmZDaENLU3lSNEt1UkhXaGN6Y1hTeUFUMHRTSlBpaUxmYXZfMENRQXl6b3pSRTNvSFRxNjcyZF8zcmtlcmdad1FZVXZObWs2Sk55Y2htWE1HYlNWbUwzckVpZHdIVEw2eWNPUl80MVdWZGdx?oc=5",
+    "source": "Moneycontrol.com",
+    "published": "2026-10-13T08:45:09+00:00",
+    "official": false
+   },
+   {
+    "title": "Coforge stock heads into Q2 results after chair change",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSWd1SDROdktHeHptUllXR0pjLS1qRllKdHJ5dTR4dU1VR0FybVE3SmROQmZsYnVXY2RCTjNBaUIwZ2NUeEZHNzdHTVBiX2ZJRWtkcnZ0VW9DRmlZUXJXY0F0cUFRdUtQNGhwb3ZCaC1NTk9zTkFHbVhiM2RuTURRYllwVjloTE5Ib00yVUpoalFNdWcwQzdWRWZfOXQ3SDdZYlZRYnF6bi1LdkxMNjdlSUFLSQ?oc=5",
+    "source": "AD HOC NEWS",
+    "published": "2026-10-07T01:52:30+00:00",
+    "official": false
+   },
+   {
+    "title": "Coforge Brings Intent Engineering Framework",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1ud0tUd1FoNDVyREJpclVxdC1HWUJLNDc5U3ZTZjRsZzFCamE1Y183VDk0VDdRTkFjbWRNN3FaN3hxWEZfVFpOZ0p2UnpSbjMyTkI4Q25ONDBHUDVZLVhaNWJVU2toakJjSUxxZ3VNTWgzSmZ4VXozT1YxSnVSUQ?oc=5",
+    "source": "VARIndia",
+    "published": "2026-10-06T00:22:30+00:00",
+    "official": false
+   },
+   {
+    "title": "Coforge announces CXNova, an agentic CX orchestration platform",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdFdiaUFKeXhlRUJsY212ZEFRTkh0M1drSTZ6aE4yeENGMS03XzFBUWxwTDVtNVhoZU54Qi02OC1oX3ZVVGVWaXcwVW1weHZoOVN1dngyc0VJdVFXbFBQdGkwNjdKZ1VhdGkwOGd4RGZIMXhxM0dHaFMwYWFhRDFoMEtsamxsS1dGQ2dkUEp0azN0SVl3X0E?oc=5",
+    "source": "varindia",
+    "published": "2026-10-05T22:16:25+00:00",
+    "official": false
+   },
+   {
+    "title": "Coforge expands AgenticOps capabilities to power enterprise autonomy",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZW93MUhoekwtR2VNeUxsYS1pbWhNck1oTk1qLWd5bHlQODN6b2trVlhaTUJiaHRlSWZLRGNJR3BYVC1DaldFWDlRaWxRdTdCdHpHUDJtd0lLSU1Bb19QSER5Q3YycVdVaDNtM2dpX2NmaFdnNlVqcjNjWXFwZlZrb2g3dXJKMXctTm5LN2NTRWNFN1JNc2NqSDNHOFZ6TktCcG1wWTRtand0NDhYemtTVjc2Sjg2NjN4S1JFQg?oc=5",
+    "source": "scanx.trade",
+    "published": "2026-10-05T14:37:08+00:00",
+    "official": false
+   },
+   {
+    "title": "From Coforge To Sagility: PL Capital's Preferred IT Picks Ahead Of A Challenging Q2 Results; Full List Inside",
+    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOblRDbHpERjhoVG81Z3JlbmZWbDNuejFVQlFkZVRDZXJmRjBTcnZ4SEhOelV1Z0EtakF3azdiQVluaHNGNml1bXk0NVljdldoT21zanpIeGxzUl85QVoyRVF1a09Ca3FqLVlMYURfZVBXbXg0RUtmbk9MR2plYzJjSl9uUWhLQ0tsY21fM0Nqb2FCMEw4U2V3ZXVTUVRtS0JiWFJ3dXRGMlotb2RsMjZtT1J0WWxOTGIta3BPSjUxM3k1dTRINDh3X0NrQzFLYzNEY2RZSk1maHRLMjJaeUVHMFpwdVMwM1F0NUUxNA?oc=5",
+    "source": "NDTV Profit",
+    "published": "2026-10-05T07:00:00+00:00",
+    "official": false
+   },
+   {
+    "title": "TCS, Tech Mahindra, Coforge, Mphasis: IT stocks picks and investment ideas after Accenture results ahead of Q2 earnings",
+    "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQVjhOa243eUJhVHlVWTg3U3AwSXhtQUJXVEEzVTdhQ2NqT1hGbXFWVzNteUlLTndnNHpyUDFXQW9zR2lxVUwtaFZ6NTg4czB3clFfR1R1cVhaRUxPbUpfVEM0UEt1ZWZ1WXhPb2Fud1BUdXhIOTQ5b2ZaNkxfSnVYRXV6Y09ZSWc5RDVBSDNKUzJSRy04Wlp1ZWZmc0Q0Tm5uY2VhZ0h4SktGbFRkSENCZklXWEhIQldPWmFDdkMwdDBUbXF1YmZhTlVSeElMaXhvRmZoS3diNHJNLVBxZ3lEdC12VWE5c2lkM3UyWGsxdmR0UVc2NlVBeVJteXZSUVA0ZVY0eTFSYkJuQ2NtcjVKRVYyQdIBmAJBVV95cUxPdUI5TjFRRE01RlRZbU90NTEyVmVPSk1FTnU2eEQ5ZUN5UUJwaVV6T1ZjMWw5bVo2aDVhTlRVd01QMnptMzFHZGxoWGcyUzBQa3dvQzI2Yld2Zi05MFpjLWxkZnZHanpIcXpHZW1sWmI5SnN0Z3lNZ3lXWUJFeGpwM2NpNU9oVHVTUmxnQXJ3NnZMU2liNmVxU1hjeHRUdC05UHJlREJyaW9BTlp0ODNSd19jUUpFc18yTjNfbHBoMFJLUEt2TlBBdi1nNW01LWhJdlNOUFdJdm80WjVLcWk3SExHajNhQk1MSnJhdW5KdVljX3hIakwtZlVZUHZBV1hqTlJaelhwNFRFMUZWNnFQc2gwMzlNcm9B?oc=5",
+    "source": "Livemint",
+    "published": "2026-10-04T10:37:16+00:00",
+    "official": false
+   },
+   {
+    "title": "LTM, Cyient, Zen, Birlasoft share price target, stop-loss - IT stocks to buy for over 32% returns ahead of Q2 results",
+    "link": "https://www.livemint.com/market/stock-market-news/ltm-cyient-zen-birlasoft-share-price-target-stop-loss-it-stocks-to-buy-for-over-32-returns-ahead-of-q2-results-11791111110434.html",
+    "source": "livemint.com",
+    "published": "2026-10-04T04:36:00+00:00",
+    "official": false
+   },
+   {
+    "title": "IT Q2 Results FY27: TCS, Infosys, HCLTech, Coforge, Tata Tech Announce Earnings Dates",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVXNvSVZkSEtuVVB2akY1NnFKSkdIbHVZekJkQ3cxbVM1YjcxcFFreks1LUVUS1pZUzVtTVNoUXpvLUl4SXVqa1EwblhxS2pzN1RXUm5EanBueFk5dk55blVnanN5T0VrcVZPVDUzU3VkT3Y5MDVRenRiakhfYWxhNzE4NTJFbmk1blNDV19zX1Y2ZVZUa3I2dFNQYkI0NmU4TGt2VFZYWU4yc1NfejFYSEx2UUQyNnVUcjRIUHhrOG9leFBP0gHMAUFVX3lxTFBpRDFmRjFpVFFUcV82X1JpRm50Zi1TZWtOTzFCNUVwN3Rwbm5HYVZNNmowNFRJOVo0MkhBSU8zQWc1MUFuMkZCUXd5a21vUkRqZWxWTW5iZkJuc01qTDFMX08wOXpBR1pvZjJpQzdRdlRtbGNrWlAzSzRVbmFLUzExT0UtRFBuZU1URzI4Nl9jMC1FemhKdG1VSDd3d3pKekx4OXFjWmUyVzRELW41LWV2bzd3VzBNYUVwTlZjTjFReGxoLU4yQ1dZVEoydA?oc=5",
+    "source": "NDTV Profit",
+    "published": "2026-09-24T07:00:00+00:00",
+    "official": false
+   }
+  ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Coforge",
-  "analysed_at": "2026-10-13T17:55:53+00:00"
+  "analysed_at": "2026-10-14T08:56:42+00:00"
  },
  "Mphasis": {
   "results_found": false,
   "results_date": null,
-  "headline": "Mphasis Q2 FY27 results have not been released yet",
+  "headline": "Mphasis Q2 FY27 results have not been announced yet",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -586,7 +681,7 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No actual results disclosed yet",
+  "sentiment_reason": "No results data available yet",
   "missing": [
    "revenue_inr_cr",
    "revenue_usd_m",
@@ -608,24 +703,16 @@
    "media_vertical.growth_cc_yoy_pct"
   ],
   "unverified_dropped": [],
-  "sources": [
-   {
-    "title": "Mphasis Q2 FY2027 Earnings Call Date and Investor Details",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOay1fQzJWYUkxQ2txYU1KdkVZWVp1dFp0bldIVDVDVFl6WGx6STM0SU11Q0hmd251bG5CUDJNZkw2ekM1U3MycjhlazZLUDBBUzg4UlQ3eVJJMVdxckVpRjJIZ2laU0EzTWtncDBhMTBIZmh1Q2NEYlVMSVh2RktEVkE4UzZOU1MxUjI0eTFocFBzVlRSNExYLUMybFhIMVZCNExWc3E5UTVYVW5jMHdSTE9B?oc=5",
-    "source": "Kalkine India",
-    "published": "2026-10-09T10:02:00+00:00",
-    "official": false
-   }
-  ],
+  "sources": [],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Mphasis",
-  "analysed_at": "2026-10-13T17:56:46+00:00"
+  "analysed_at": "2026-10-14T08:57:35+00:00"
  },
  "Wipro": {
   "results_found": false,
   "results_date": null,
-  "headline": "Wipro has not yet released its Q2 FY27 actual results",
+  "headline": "Wipro's Q2 FY27 results have not been released yet",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -641,17 +728,10 @@
    "attrition_pct": null,
    "dividend_per_share_inr": null
   },
-  "guidance": "Management expects IT services revenue to be flat, with a range of -1.5% to +0.5% YoY for Q2 FY27.",
-  "guidance_change": "retained",
-  "highlights": [
-   "Revenue guidance is flat to slightly negative.",
-   "Operating margin expected to improve by 20‑40 basis points.",
-   "Focus on margin expansion and deal conversion."
-  ],
-  "risks": [
-   "Weak client spending on discretionary IT projects.",
-   "Potential margin pressure from AI‑led contract competition."
-  ],
+  "guidance": null,
+  "guidance_change": "none",
+  "highlights": [],
+  "risks": [],
   "verticals": [],
   "media_vertical": {
    "name": "Technology & Communications",
@@ -662,25 +742,30 @@
    "commentary": null
   },
   "megep_mentions": [],
-  "ai_signals": "Management highlighted AI as a focus area but gave no specific revenue or deal numbers.",
-  "management_view": "Management is concentrating on margin recovery and converting its deal pipeline amid cautious client spending.",
+  "ai_signals": null,
+  "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No actual results yet; only guidance indicating flat revenue and modest margin improvement.",
+  "sentiment_reason": "No results data available yet",
   "missing": [
-   "actual revenue, profit, margins, headcount, dividend, media vertical share and growth"
+   "revenue",
+   "net profit",
+   "operating margin",
+   "headcount",
+   "dividend",
+   "media vertical share and growth"
   ],
   "unverified_dropped": [],
   "sources": [
    {
-    "title": "Wipro Q2 Results: Revenue Guidance Stays Muted for Oct 15",
-    "link": "https://www.whalesbook.com/news/English/bankingfinance/Wipro-Q2-Results-Revenue-Guidance-Stays-Muted-for-Oct-15/6acba7ac79a16deaeaed70fb",
-    "source": "whalesbook.com",
-    "published": "2026-10-11T13:44:00+00:00",
+    "title": "Wipro Q2 results preview: Revenue growth likely over 8%, margins in focus",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWV9JdDByWnpveWx0bGRvbEd0amJjeDE1UFdRSWVyZ0E4MzNEbmFfM2QweEdVaXh0Q0NNNEhDeTRSMHdxd0hJUnEwd2pjZ0k3TDVoaG15QVQtWmV1Y2ZpSU82Q0lZTE9NR20wSjRfc0pfMFhyUFZUVGwzQ0FpdFBNbUdhX24zVHp0UzhrMXFJNkFPMTAzLW1iSVNicVk5YVZmNk9UY3lMX0ItdVlaMG5yX0k5RXk1cGkxVldrTzUzTlR1YjhMMVI0ZUM4SXBuZUdjSVFZ0gHYAUFVX3lxTFBqTUNDYV9DNG1JdGdKTFFEM2IxWWpXWUJDLUlZSlgwMEg0d2VSd3AwMUM5R20xdG9RdWQ2b3lDNjUxLTViNHAwNHQ0UDNYc185cHlpai1lS1Z2WFBzVkJ1X0dSSDNYZzRYZ1BNOXZYSEFUVkc0b0hBNGNnOWNPM19OblVMZGVRZDJxMUNtbjZWaG9SQThCdVBEVTY2QTgydE93MDRDNkQ4OHVRZ0hFZ05tdDhVVFQ1NFpBei04RHQwNm1nYXk5Z2NZMTBkY25sMkw4UzdEbUhLNA?oc=5",
+    "source": "Business Standard",
+    "published": "2026-10-14T07:05:28+00:00",
     "official": false
    },
    {
-    "title": "Wipro Q2 Results: Revenue growth hogi flat, investors ki nazar ab margin par!",
-    "link": "https://www.whalesbook.com/news/Hinglish/bankingfinance/Wipro-Q2-Results-Revenue-Guidance-Stays-Muted-for-Oct-15/6acba7ac79a16deaeaed70fb",
+    "title": "Wipro Q2 Results: Revenue Guidance Stays Muted for Oct 15",
+    "link": "https://www.whalesbook.com/news/English/bankingfinance/Wipro-Q2-Results-Revenue-Guidance-Stays-Muted-for-Oct-15/6acba7ac79a16deaeaed70fb",
     "source": "whalesbook.com",
     "published": "2026-10-11T13:44:00+00:00",
     "official": false
@@ -689,6 +774,6 @@
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Wipro",
-  "analysed_at": "2026-10-13T17:51:52+00:00"
+  "analysed_at": "2026-10-14T08:53:09+00:00"
  }
 }
