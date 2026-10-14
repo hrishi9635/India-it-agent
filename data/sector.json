@@ -1,83 +1,83 @@
 {
- "headline": "Indian IT services showed solid revenue growth with AI emerging as a key driver in Q2 FY27.",
- "summary": "TCS posted ₹73,188 cr revenue and a 24% operating margin, confirming steady growth. HCLTech delivered 3% QoQ revenue rise and a 21% YoY profit increase, citing strong AI sales. Several peers have not yet reported results, keeping the broader picture incomplete.",
+ "headline": "Indian IT services posted solid revenue growth in Q2 FY27, led by TCS and HCLTech.",
+ "summary": "TCS reported ₹73,188 cr revenue with a 24% operating margin and strong deal wins. HCLTech posted 3% QoQ revenue growth and highlighted AI sales as a key driver. Several peers have not yet released results, keeping the broader picture incomplete. Overall, the sector showed healthy top‑line expansion and improving margins.",
  "themes": [
   {
-   "title": "AI‑driven revenue",
-   "detail": "Both TCS and HCLTech highlighted AI contributions, with TCS reaching $3.1 bn annualized AI revenue and HCLTech reporting a 78% YoY jump in AI revenue.",
+   "title": "AI‑driven growth",
+   "detail": "Both TCS and HCLTech emphasized AI revenue, with TCS reaching $3.1 bn annualized AI revenue and HCLTech reporting a 78% YoY jump in AI sales.",
    "companies": [
     "TCS",
     "HCLTech"
    ]
   },
   {
-   "title": "Profit acceleration",
-   "detail": "HCLTech posted a 21% YoY rise in net profit, while TCS maintained a healthy 24% operating margin.",
+   "title": "Steady deal wins",
+   "detail": "TCS secured $9.6 bn of new contracts while HCLTech added $3.258 bn, supporting revenue momentum.",
    "companies": [
-    "HCLTech",
-    "TCS"
+    "TCS",
+    "HCLTech"
    ]
   }
  ],
  "leaders": [
   {
    "company": "TCS",
-   "why": "Highest revenue and strong operating margin with positive AI revenue signal."
+   "why": "Highest revenue and margin; strong deal wins and AI revenue crossing 10% of total."
   },
   {
    "company": "HCLTech",
-   "why": "Profit growth outpaced revenue, driven by AI sales and clear FY27 guidance."
+   "why": "Strong AI‑driven profit growth and clear FY27 guidance."
   }
  ],
  "laggards": [
   {
    "company": "Infosys",
-   "why": "Results not yet released, leaving performance uncertain."
+   "why": "Results not yet released, limiting visibility."
   },
   {
    "company": "Wipro",
-   "why": "Results not yet released and no AI or profit signals disclosed."
+   "why": "Results not yet released; lower QoQ revenue growth in exchange data."
   }
  ],
  "domain_outlook": [
   {
    "domain": "Media & broadcasting",
    "signal": "Not enough data",
-   "note": "No company mentions or AI signals specific to this domain."
+   "note": "No mentions of media or broadcasting themes in the available summaries."
   },
   {
    "domain": "Entertainment & streaming",
    "signal": "Not enough data",
-   "note": "No relevant mentions in the available summaries."
+   "note": "No relevant signals were identified."
   },
   {
    "domain": "Gaming",
    "signal": "Not enough data",
-   "note": "No company references or thematic signals."
+   "note": "No gaming‑related information provided."
   },
   {
    "domain": "Education",
    "signal": "Not enough data",
-   "note": "No data points or mentions related to education."
+   "note": "No education‑related mentions found."
   },
   {
    "domain": "Publishing",
    "signal": "Not enough data",
-   "note": "No relevant information provided."
+   "note": "No publishing signals detected."
   },
   {
    "domain": "Telecom",
    "signal": "Not enough data",
-   "note": "No telecom‑specific signals observed."
+   "note": "No telecom‑specific data available."
   }
  ],
  "watch_next": [
-  "Q2 FY27 results for Infosys, Wipro, Tech Mahindra and OFSS",
-  "Progress on AI revenue targets for TCS and HCLTech",
-  "Impact of AI framework launches by Coforge on revenue",
-  "Any guidance updates from lagging peers",
-  "Quarter‑over‑quarter margin trends across the sector"
+  "Q3 FY27 earnings releases of Infosys, Wipro, and other peers",
+  "Progress on AI revenue targets across the sector",
+  "Any updates to FY27 guidance from HCLTech and other companies",
+  "Deal win trends in the second half of FY27",
+  "Impact of macro‑economic factors on client spending"
  ],
  "quarter": "Q2 FY27",
- "written_at": "2026-10-14T08:58:02+00:00"
+ "written_at": "2026-10-14T12:35:16+00:00"
 }

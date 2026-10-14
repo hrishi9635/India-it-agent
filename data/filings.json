@@ -2,7 +2,7 @@
  "TCS": {
   "checked": true,
   "exchange": "NSE",
-  "count": 25,
+  "count": 26,
   "result": {
    "title": "Tata Consultancy Services Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
    "detail": "",
@@ -25,7 +25,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-14T08:51",
+  "checked_at": "2026-10-14T12:28",
   "quarter": "Q2 FY27"
  },
  "Infosys": {
@@ -36,7 +36,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-14T08:51",
+  "checked_at": "2026-10-14T12:28",
   "quarter": "Q2 FY27"
  },
  "HCLTech": {
@@ -65,7 +65,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-14T08:51",
+  "checked_at": "2026-10-14T12:28",
   "quarter": "Q2 FY27"
  },
  "Wipro": {
@@ -76,18 +76,18 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-14T08:51",
+  "checked_at": "2026-10-14T12:28",
   "quarter": "Q2 FY27"
  },
  "LTM": {
   "checked": true,
   "exchange": "NSE",
-  "count": 11,
+  "count": 12,
   "result": null,
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-14T08:51",
+  "checked_at": "2026-10-14T12:28",
   "quarter": "Q2 FY27"
  },
  "Tech Mahindra": {
@@ -98,18 +98,18 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-14T08:51",
+  "checked_at": "2026-10-14T12:28",
   "quarter": "Q2 FY27"
  },
  "OFSS": {
   "checked": true,
   "exchange": "NSE",
-  "count": 10,
+  "count": 13,
   "result": null,
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-14T08:51",
+  "checked_at": "2026-10-14T12:28",
   "quarter": "Q2 FY27"
  },
  "Persistent": {
@@ -120,7 +120,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-14T08:51",
+  "checked_at": "2026-10-14T12:28",
   "quarter": "Q2 FY27"
  },
  "Coforge": {
@@ -131,18 +131,18 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-14T08:51",
+  "checked_at": "2026-10-14T12:28",
   "quarter": "Q2 FY27"
  },
  "Mphasis": {
   "checked": true,
   "exchange": "NSE",
-  "count": 12,
+  "count": 13,
   "result": null,
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-14T08:51",
+  "checked_at": "2026-10-14T12:28",
   "quarter": "Q2 FY27"
  }
 }
