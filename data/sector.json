@@ -1,21 +1,23 @@
 {
- "headline": "Indian IT services posted solid revenue growth in Q2 FY27, led by TCS and HCLTech.",
- "summary": "TCS reported ₹73,188 cr revenue with a 24% operating margin and strong deal wins. HCLTech posted 3% QoQ revenue growth and highlighted AI sales as a key driver. Several peers have not yet released results, keeping the broader picture incomplete. Overall, the sector showed healthy top‑line expansion and improving margins.",
+ "headline": "Indian IT services posted solid revenue growth, led by TCS and HCLTech, while many peers await results.",
+ "summary": "TCS reported ₹73,188 cr revenue with a 24% operating margin and strong deal wins. HCLTech posted 3% QoQ revenue growth and highlighted AI sales driving a 21% YoY profit rise. Several mid‑tier firms such as Infosys, Wipro and Tech Mahindra have not yet released Q2 numbers, keeping the sector outlook uncertain.",
  "themes": [
   {
-   "title": "AI‑driven growth",
-   "detail": "Both TCS and HCLTech emphasized AI revenue, with TCS reaching $3.1 bn annualized AI revenue and HCLTech reporting a 78% YoY jump in AI sales.",
+   "title": "AI as a growth driver",
+   "detail": "Both TCS and HCLTech flagged AI revenue contributions, with TCS reaching $3.1 bn and HCLTech seeing a 78% YoY jump.",
    "companies": [
     "TCS",
     "HCLTech"
    ]
   },
   {
-   "title": "Steady deal wins",
-   "detail": "TCS secured $9.6 bn of new contracts while HCLTech added $3.258 bn, supporting revenue momentum.",
+   "title": "Revenue momentum",
+   "detail": "Top‑line growth ranged from 1.3% QoQ for TCS to double‑digit YoY gains for several peers.",
    "companies": [
     "TCS",
-    "HCLTech"
+    "HCLTech",
+    "Infosys",
+    "Wipro"
    ]
   }
  ],
@@ -26,58 +28,58 @@
   },
   {
    "company": "HCLTech",
-   "why": "Strong AI‑driven profit growth and clear FY27 guidance."
+   "why": "Profit rose 21% YoY on AI‑driven sales; guidance remains upbeat."
   }
  ],
  "laggards": [
   {
    "company": "Infosys",
-   "why": "Results not yet released, limiting visibility."
+   "why": "Results not released, creating uncertainty."
   },
   {
    "company": "Wipro",
-   "why": "Results not yet released; lower QoQ revenue growth in exchange data."
+   "why": "Results pending and modest revenue growth."
   }
  ],
  "domain_outlook": [
   {
    "domain": "Media & broadcasting",
    "signal": "Not enough data",
-   "note": "No mentions of media or broadcasting themes in the available summaries."
+   "note": "No mentions of media or broadcasting activities."
   },
   {
    "domain": "Entertainment & streaming",
    "signal": "Not enough data",
-   "note": "No relevant signals were identified."
+   "note": "No relevant signals in the reports."
   },
   {
    "domain": "Gaming",
    "signal": "Not enough data",
-   "note": "No gaming‑related information provided."
+   "note": "No gaming related information provided."
   },
   {
    "domain": "Education",
    "signal": "Not enough data",
-   "note": "No education‑related mentions found."
+   "note": "No education sector references found."
   },
   {
    "domain": "Publishing",
    "signal": "Not enough data",
-   "note": "No publishing signals detected."
+   "note": "No publishing activity mentioned."
   },
   {
    "domain": "Telecom",
    "signal": "Not enough data",
-   "note": "No telecom‑specific data available."
+   "note": "No telecom-specific data in the summaries."
   }
  ],
  "watch_next": [
-  "Q3 FY27 earnings releases of Infosys, Wipro, and other peers",
-  "Progress on AI revenue targets across the sector",
-  "Any updates to FY27 guidance from HCLTech and other companies",
-  "Deal win trends in the second half of FY27",
-  "Impact of macro‑economic factors on client spending"
+  "Q2 results for Infosys, Wipro, Tech Mahindra and OFSS",
+  "AI revenue contribution trends across the sector",
+  "Mid‑tier firms' guidance updates",
+  "Deal win volumes in the US market",
+  "Margin performance versus guidance"
  ],
  "quarter": "Q2 FY27",
- "written_at": "2026-10-14T12:35:16+00:00"
+ "written_at": "2026-10-14T15:09:14+00:00"
 }
