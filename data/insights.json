@@ -80,8 +80,8 @@
  },
  "Infosys": {
   "results_found": false,
-  "results_date": null,
-  "headline": "Infosys announced its Q2 FY27 results in late October 2026.",
+  "results_date": "2026-10-23",
+  "headline": "Infosys announced its Q2 FY27 results",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -114,15 +114,23 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No quantitative results were disclosed in the available sources.",
+  "sentiment_reason": "No performance details provided",
   "missing": [
-   "revenue",
-   "net profit",
-   "operating margin",
+   "revenue_inr_cr",
+   "revenue_usd_m",
+   "revenue_growth_yoy_pct",
+   "cc_growth_qoq_pct",
+   "cc_growth_yoy_pct",
+   "net_profit_inr_cr",
+   "net_profit_growth_yoy_pct",
+   "operating_margin_pct",
+   "deal_wins_usd_bn",
    "headcount",
-   "dividend",
-   "media vertical share and growth",
-   "guidance details"
+   "net_headcount_change",
+   "attrition_pct",
+   "dividend_per_share_inr",
+   "guidance",
+   "media_vertical details"
   ],
   "unverified_dropped": [],
   "sources": [
@@ -139,26 +147,12 @@
     "source": "Kalkine India",
     "published": "2026-10-15T07:03:00+00:00",
     "official": false
-   },
-   {
-    "title": "Infosys, Tech Mahindra and Persistent Systems Results",
-    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNcVhqellUZGp2MnI3TVo0STVJcUcwb3NjUk01cWlJNXJhUFB2QnVfd0h0cjZHUVFwRDdNX295THNWU0NTQW5nb21CaktrQW9lckJ6YmF6dmo5cWlJZmZHVDRoVEJuNzJ1enpjVVkzY2xiMEZWVnFaS1dvR1VFVjBTekdfTzh2cVJMZ0FIcjR0NmFFQjVUaHllV3pBSTh2WnVvR2JENHVKOGNac1l2c2RIOXdmOENPZENhSHdEOVdZS0czNVA4UzduZjV5UkZLZjZpa0lnNA?oc=5",
-    "source": "Kalkine India",
-    "published": "2026-10-14T13:29:00+00:00",
-    "official": false
-   },
-   {
-    "title": "Infosys CEO: AI Could Be Half of Work in Two to Three Years",
-    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOZmhlcEpwZTZnZTZWNV9iaFR5MFM1XzVsU1F2eWVUNlNybXNXMVA0RzhRSGlub3ZyUzdOSldTVEtEeXc0Vl83dm12VVlUQmJLbGRZRExXWl9kVEh5YkwzRHJQMFNwWjZrRjNGb01RaFdGczl0czR3U2FIWWJsdnUydV9GMlNvUnhYX3ZSX25OcmQtNFIxRHVsWUYzaXhKdEdzS09kQ05iMHNYVEh5S2lVRjh0MHBxNzFpelRPV0dLeGc0c3hMR00wUkdsYTVSUG51eEpPQ3l4NEFYbjRIS0hKUVJR?oc=5",
-    "source": "Kalkine India",
-    "published": "2026-10-14T11:38:00+00:00",
-    "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Infosys",
-  "analysed_at": "2026-10-15T15:05:16+00:00"
+  "analysed_at": "2026-10-15T18:01:38+00:00"
  },
  "HCLTech": {
   "results_found": true,
@@ -263,8 +257,15 @@
   },
   "guidance": null,
   "guidance_change": "none",
-  "highlights": [],
-  "risks": [],
+  "highlights": [
+   "Multiple multi‑million‑dollar AI‑led managed services deals announced in mid‑October 2026",
+   "CEO Venu Lambu emphasized confidence in the IT sector despite broader tech concerns",
+   "Company scheduled its Q2 FY27 earnings call for 17 October 2026"
+  ],
+  "risks": [
+   "Delay in releasing quarterly results may increase market uncertainty",
+   "Reliance on large North‑American deals could expose the firm to regional slowdown"
+  ],
   "verticals": [],
   "media_vertical": {
    "name": "Technology, Media & Communications",
@@ -275,25 +276,109 @@
    "commentary": null
   },
   "megep_mentions": [],
-  "ai_signals": null,
-  "management_view": null,
+  "ai_signals": "Company highlighted AI‑led managed services deals in North America, indicating a focus on AI‑driven revenue growth",
+  "management_view": "Management expressed optimism about margin upside from large AI and managed services contracts",
   "sentiment": "Neutral",
-  "sentiment_reason": "No results have been announced yet",
+  "sentiment_reason": "No actual results released yet; only forward‑looking statements and deal announcements",
   "missing": [
-   "revenue",
-   "net profit",
-   "operating margin",
-   "headcount",
-   "dividend",
-   "media vertical share and growth",
-   "guidance details"
+   "revenue figures",
+   "profit figures",
+   "margin percentages",
+   "headcount data",
+   "dividend details",
+   "media vertical revenue share and growth"
   ],
   "unverified_dropped": [],
-  "sources": [],
+  "sources": [
+   {
+    "title": "LTM shares gain on bagging multi-million dollar deal from American specialty engineering & construction firm",
+    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQb3FwWEtsV0hKSnQ0dGtZOWl5QXl5eVhyTnNEel8zbTZnc0V2dFJOYmZ5eTFoTnZ6a2lEUWtmbERKSzl0UGJsWVExZkEzOXZRX1lkSDBKcHVzRlpWaVhBX3l5QjBSdkdwTkhuYTZaamlyQUZHSEhhZEx0T3d3V25yRGJPUGtiZmJYNzNzM0xyTzh0UmR4bzdqbWVidmR0aC1naHFJQzdSa3EzVDVMZVB5T0NQdXk2alFoXzNtVy1NSWxvLTFSSkp4V3Z4cVl1M1hQYm1WQzk2ZnY5YzZPRlgzVllZcDc1bEJpUGfSAe8BQVVfeXFMT292LUVVV3A5aGlRNFhCSFQwT3J4VGp1YUNOT1dYWjVJS3BKTnJaWWNTQ0UzVjg2Y3ZMcGRfaVZqYVRUclc3dEFIUUFfbEJSZXJHRGxDY011bEJFLXhoNGYtRUhlQkN4TzRPOXFZM1dWQWhzcVR2U1B3VWNsM2NxdUdXaG5XNndCbjZuZ3B4YVB1LTVwWmRsXzB2UEdyMGE1eVBtcl9DV0I0Vy1zbndjc3hWQ0wxdmkwaXEzQlpTTmVacWpieTVZUjN4LUdZcWhFQjR1cWtYdWtGdU1IOHBBcFBDMEVPLS02bU9TYWFjQ2M?oc=5",
+    "source": "CNBC TV18",
+    "published": "2026-10-15T08:15:03+00:00",
+    "official": false
+   },
+   {
+    "title": "LTM Wins Multi-Million-Dollar AI-Led Managed Services Deal From North American Engineering Firm",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNRHI5eUFvM2tFYnpNbFg1ZjlWVmZwR1JPay1naG5ONG80SUZBeFlxZDk3dDlwZmtWVVBmYTgzb2RuZ2FVVWd6WTZSMTB2bXAtNkNneDBrSzVfUjFQN0VmV1BJM0MxRGlvdUV5cGJzSjgtbWd4MHNMWER5Y01pWjFoWkJTVG1NdkgzWDZGblRONW5tM1lJclFvb0UxLWwzRnJWZHdWS09YaTdDRGtzWmFjX3kyRFlhT2MxamVQeXVLU3J4NThOT2Z2MzR3clJkREF4NXQyZTEwbVcyQQ?oc=5",
+    "source": "Trade Brains",
+    "published": "2026-10-15T08:07:34+00:00",
+    "official": false
+   },
+   {
+    "title": "LTM Secures Multi-Million Dollar AI-led Managed Services Deal",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeUFSSHhndVg3SURMRmJpNVpXM2RLa2tGclR1U1BNb2RHbUZqRHdNYzVLR3NpT3UtNXZsZzRuZjR2RDl3eUh1SmdIVHpMWExlaE1oaU5ZaUZpWlppd2o5WnlIZkpSWjhPanJaTGV6RUVlY0NsaHVEU3FPb1FtX21MR3NQeHlCX2hCeFQ0T3F5WVpGUjhBOFNxeHhzTGdwR2JfV0I5ag?oc=5",
+    "source": "PSU Connect",
+    "published": "2026-10-15T07:10:00+00:00",
+    "official": false
+   },
+   {
+    "title": "LTM signs three-year deal to manage infrastructure, cybersecurity and applications",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPTGRCMFd3Zkhnd3lsTXNrLUVDMk5vWWdEQlJxRVN5X1FmbnhwZHI0Ny0wcjRBeGVLVGpXc3k4cUptaEN0cHhUOWlNY256NUZJcGk3VlJvRGQ3RHNadEpqbzFxYXVZc0Z4ZUdDTEJKR09IR3gxcko4SElHSWVBb3l1aGFGSGpENm1BbU5veDM2cl9DZTZ0U0NWS2xZTFpPN2o4UlN2UURLM2pPajZqZzRHa1pHOTBxbU9JOGhPdFpFWmdYSjlwTDdWR3ZiamNaaHZiOHRoaFl1RV_SAd8BQVVfeXFMTl9NaGlqZUptYXhVZ2pwLWxzYzVlWG45T3RLWDFqWkl0RUhLNEJ4cWo4RDJRVTFKa3dSclpnT2JXYm9nTUhmYjlzYTRYSWVhQXl2eDdJd09aOEVkNXRXdWZXa1dMb0dzSk9XQm55Ui0zNG1aS20wUWsxYkFTNThFTWpqVUlSdWVUckc1S2lhRVJjNHd5OTlabXpibFZ2SzVGdEZKTzRPdFQ5QUVOdDlyemQ3SXBUSGVhZTVNcWgwZjRvcy1aeTZFS1h4TDMtTTBoSFppZDctTlhISlo5ajgyQQ?oc=5",
+    "source": "The Financial Express",
+    "published": "2026-10-15T06:47:51+00:00",
+    "official": false
+   },
+   {
+    "title": "LTM Wins Multi-Million-Dollar Managed Services Deal in North America",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQOVUyOXYtRTkxblJWS21Yb0MwSkJ6cWp6UV90T21QU3NoUkFwOC01c2R4SFJkMWNfRWh6d2haSmZ0TWw5NlJ4R1BRdWMxNkdqcXVRTF9GSU1ZYW42RTNITXJJUjJpVG5PSzF1TmJRNVI1d3lPV2Y4OEd0Q19IM2FwanE0SUs0Yk9FRzkzWDZGVG9MQXZlaUNOWW9sbk1sZHVWN005aXIxcWJ3Qjl6LW9rRjE2UmdKa1RHQnNmZjhB?oc=5",
+    "source": "marketscreener.com",
+    "published": "2026-10-15T06:14:27+00:00",
+    "official": false
+   },
+   {
+    "title": "LTM Wins Multi-Million Dollar Managed Services Deal",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNlF1RWhvUDZuWjVSbTBZN0xBRGtEMmU4dmVCcE8tNi13YTlNcWR4STZpbmpPSGcyRkwzVlhadGoxUmZXNjZxMzhkRVhra1VXakVzZUhtd19JcGw2VFI4al9JTkZGakI3LTBjbzljUnVuRzltZ2ZzWVQxMjdzdTBqQmo5VXdXYlFVZ1BTU2JIbTd1SHJDRXZZZXNzUEE5RF9CdHMxNXB2R01TNnE5dHZMbnQzMVV1UC1VMzJJ?oc=5",
+    "source": "Kalkine India",
+    "published": "2026-10-15T05:16:00+00:00",
+    "official": false
+   },
+   {
+    "title": "LTM Limited Q2 FY27 Earnings Call Date and Details",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYU1EN2VuYldOSmlfaEYxeDYzbjlTWmJTclJzMC02amx4emUzS2ptNTlITDZBODBid0lqQjcwdXNZX0RHTnFZdHRXVFplWlRCckRDdXo5ZHNmVzVQRzRTb1R6Zmg3UFdFS3otSjh6c2dYeTRiRjdPdmJBZFBlR2swNkVaVzhzS1VxTWhuRVk4b2FzU2RsVGE0THFhVktfQ1N2Wjh3UllCX2VZdw?oc=5",
+    "source": "Kalkine India",
+    "published": "2026-10-12T12:53:00+00:00",
+    "official": false
+   },
+   {
+    "title": "LTM: Large Deals And AI Revenue Now Carry The Case For Margin Upside",
+    "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPUTNaZDEwUEVFd0J4V2l3NU1JYllxSUNUeW5KYkJjNXphUnlmWXhFZW1uVTd2MzdVYUJUNzBUV0lIVklYdTY3SUlqRjJCbnZyTVlpUDhzMEV5R2tTRmJPLXZwQjNfY3dWenhjM0xCXzl5aDBPSG1sTUtRZDBIOWpGSjhYT0VqV0lSVmhVXzQ1WjNhQjRCNTcwLVVOXzJfcVlnTGp2dGJ3RWROaGVMaWViWE1FbTE1cGZVSU51ZWZURHZnLV9VQzU3NE5ZUkZpc2I3NGhhNzlPX1BJOGVGZFhlUmN4d3NPQ3ZsejA3ajZhekhVSi11bjBONVpjRGVnZnhXYXNzbzdzZXFTenY0NE9MamNlUjZ1a3k0WHdKUXJ5SU0wdk1TZWh1ZEU0cm5ieVdQMndXbmVLN0tQYS05OXB3UWZCeDhIQ3c?oc=5",
+    "source": "Simply Wall Street",
+    "published": "2026-10-09T07:00:00+00:00",
+    "official": false
+   },
+   {
+    "title": "Fear among techies unfounded, best time to be in IT: LTM CEO Venu Lambu",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWUU1b2h3cldKZ0tJVTVIb29tV0xaRnkyTHdHb3VYb1ptdzN5dC1XbDhHUnRuQ19Ia2RvcHk5VGhYUnVRT1Fhc09yd2JkQU9QVXBHSEZOaTZtbS1TOWdPWWg2X3JJdzZXTkx1SlpSSTZDN1dVNVpaT1hLMHFNX3pVWWpHWGlWVDJ2dUk0X1FfbnZKUVZFY1J4Qm5WRWprS0Jva19wd1I1NFZjN05oRGc2a1h3Wm1UZw?oc=5",
+    "source": "Deccan Herald",
+    "published": "2026-10-06T07:00:00+00:00",
+    "official": false
+   },
+   {
+    "title": "LTM Introduces BlueVerse AgentTraceIQ and Partners with Rubrik for AI Oversight",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPajJtanZ4NlV2cF9kZE1PZ0dkeldYZHNNdU1CQ0pnM2J0Qm03MFZrYkw4QkFBenEwT3ZSQ1FfUHpvT3JfTGFyNi1OWHpvVWREOGIwUzMtZ2ZJeXNjVTY5cVhvTndVQm9WN0ZpU2VPanBXOFp1TWdjeFVyaE43OXA4RnZVNE9rTlhONjNQS3RZRi1GaGtkSVJuYzlORng4aUZCRzZwSjJYNGo?oc=5",
+    "source": "Sahi",
+    "published": "2026-10-05T07:00:00+00:00",
+    "official": false
+   },
+   {
+    "title": "LTIMindtree Q2 FY27 Preview: Revenue & Margin Trends",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQ2E2UW1ZUUxoaFlZMEdrWXNKcXIyTHpPYnc3VW1zdDN4UmEtUU41Z1JiQktNSF9qNDVLZ2pKRm1GSnY3djNzYnRhZURQMjJWdDBLNENRem90N1BnMFRMSVB6SExhRzl0LXFWc3BYeTRRMlhEYlJOQ0ZFZXZGUWJWZWYwM1E?oc=5",
+    "source": "Univest",
+    "published": "2026-09-17T07:00:00+00:00",
+    "official": false
+   },
+   {
+    "title": "LTIMindtree Share Price Fall: Market Cap, Valuation View",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1RTUVfcHJKVnlUREJ2MnctRHBENXRPTVdIWFFvUVktRmlCMzRfeXRzOGFaRktpS2IwVlhRYnhDMXJZRm9qUmc4bzlxbHJTRWo4dXV2LVpnNFB4MkVOSTU3c3EtMDlyTkVlQlZmZFJaSjhhLUJoaU4xUnJtQTJTbm8?oc=5",
+    "source": "Univest",
+    "published": "2026-09-16T07:00:00+00:00",
+    "official": false
+   }
+  ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "LTM",
-  "analysed_at": "2026-10-15T15:06:10+00:00"
+  "analysed_at": "2026-10-15T18:02:09+00:00"
  },
  "Tech Mahindra": {
   "results_found": true,
@@ -418,7 +503,7 @@
  "OFSS": {
   "results_found": false,
   "results_date": null,
-  "headline": "Oracle Financial Services Software has not yet released its Q2 FY27 results",
+  "headline": null,
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -451,7 +536,7 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No results data released yet",
+  "sentiment_reason": "No quarterly results were found in the provided sources",
   "missing": [
    "revenue_inr_cr",
    "revenue_usd_m",
@@ -480,16 +565,16 @@
   "official": false,
   "quarter": "Q2 FY27",
   "company": "OFSS",
-  "analysed_at": "2026-10-15T15:06:39+00:00"
+  "analysed_at": "2026-10-15T18:02:36+00:00"
  },
  "Persistent": {
   "results_found": false,
   "results_date": "2026-10-15",
-  "headline": "Persistent Systems posted Q2 FY27 revenue of 4,663.9 cr INR, up 20% YoY, with net profit of 351.5 cr INR",
+  "headline": "Persistent Systems posted revenue of ₹4,663.9 cr (≈$487.6 m) up 30.3% YoY while profit fell to ₹351.5 cr",
   "metrics": {
    "revenue_inr_cr": 4663.9,
    "revenue_usd_m": 487.6,
-   "revenue_growth_yoy_pct": 20.0,
+   "revenue_growth_yoy_pct": 30.3,
    "cc_growth_qoq_pct": null,
    "cc_growth_yoy_pct": null,
    "net_profit_inr_cr": 351.5,
@@ -504,22 +589,16 @@
   "guidance": null,
   "guidance_change": "none",
   "highlights": [
-   "Revenue grew 20% YoY to 4,663.9 cr INR",
-   "Net profit fell ~25% QoQ to 351.5 cr INR",
-   "EBIT margin reported at 15%",
-   "Company completed 94% stake acquisition of Nagarro SE",
-   "Strong demand in Software, Hi‑Tech & Emerging Industries segment"
+   "Revenue rose 30.3% YoY to ₹4,663.9 cr",
+   "Profit after tax declined 25% QoQ to ₹351.5 cr due to exceptional acquisition costs",
+   "26th consecutive quarter of revenue growth",
+   "Acquisition of 94.04% stake in Nagarro SE and $1.25 bn fundraising announced"
   ],
   "risks": [
-   "Margin compression as profit fell despite revenue rise",
-   "Integration risk from Nagarro acquisition"
+   "Margin pressure from high acquisition-related expenses",
+   "Potential integration risk of Nagarro acquisition"
   ],
-  "verticals": [
-   {
-    "name": "Software, Hi-Tech & Emerging Industries",
-    "note": "core segment driving growth"
-   }
-  ],
+  "verticals": [],
   "media_vertical": {
    "name": "Software, Hi-Tech & Emerging Industries",
    "revenue_share_pct": null,
@@ -530,28 +609,30 @@
   },
   "megep_mentions": [],
   "ai_signals": null,
-  "management_view": "Management highlighted continued top‑line momentum and the strategic Nagarro acquisition as key growth drivers",
-  "sentiment": "Positive",
-  "sentiment_reason": "Revenue growth outpaced profit decline",
+  "management_view": null,
+  "sentiment": "Neutral",
+  "sentiment_reason": "Strong revenue growth offset by a sharp profit decline",
   "missing": [
-   "operating_margin_pct",
-   "cc_growth_qoq_pct",
-   "cc_growth_yoy_pct",
-   "net_profit_growth_yoy_pct",
-   "deal_wins_usd_bn",
-   "headcount",
-   "net_headcount_change",
-   "attrition_pct",
-   "dividend_per_share_inr",
-   "media_vertical revenue share and growth"
+   "operating margin",
+   "net profit YoY growth",
+   "constant‑currency growth figures",
+   "headcount and attrition data",
+   "media‑vertical revenue share and growth"
   ],
   "unverified_dropped": [],
   "sources": [
    {
-    "title": "Persistent Systems PERSISTENT Q2 FY27 Audited Results Approved",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQa1lfdDJ0RUw5cHZkVnBFZ01VS1N1VmxYaHdWenRTTm4tcXFNdzRCY3pWM0xqa1pSeEJ4X1E5YW11dkhVZVRfR2xTd00yenNKTGIwdUFGaGJJNWhQMUUwZi1TT1dyMU9XWFhQb0p0cmp2SEtxSmx4VXVlejZpaFVvNjU3NUt3d0hmYzlKTGx1VU8yQkpGZ0xSSjFqaV9rdHRsV25KMVdtUVl3VHY5a1JOa3V6SnE4d3NGdk1TOW51Ti1tQ3BJ?oc=5",
-    "source": "Kalkine India",
-    "published": "2026-10-15T10:26:00+00:00",
+    "title": "Persistent Systems Q2 profit falls 25.4% to ₹351 crore; revenue up 30.3%",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQOUNveUZkYkh0WUV5Z3JHeTdlajgxLVFSLTZsemw5MHBiM1JRTFp2Z0hob0VNMFhRT3N4eDZfYWZ0Q1pVb0FGb3FfWkotTTlrY3RhaU90dHBlTUVYbDVHSm1FbGdONzIxc25pS3N2Y05aUFRRbUtLM043S0FmaGg3NlJwSWJHMnU0QWdVQVZzTnZwUUdrRFdvdV9abDh0U3FDWEg1RERESlhqQ1d0NjNxVTNTdjZOTmw4aXQ1ZElWNXNuQzlKdlBvWEJ1NDZ2SGcxdmFOWmNnY0LSAdgBQVVfeXFMUDlDb3lGZGJIdFlFeWdyR3k3ZWo4MS1RUi02bHpsOTBwYjNSUUxadmdIaG9FTTBYUU9zeHg2X2FmdENaVW9BRm9xX1pKLU05a2N0YWlPdHRwZU1FWGw1R0ptRWxnTjcyMXNuaUtzdmNOWlBUUW1LSzNON0tBZmhoNzZScEliRzJ1NEFnVUFWc052cFFHa0RXb3VfWmw4dFNxQ1hINUREREpYakNXdDYzcVUzU3Y2Tk5sOGl0NWRJVjVzbkM5SnZQb1hCdTQ2dkhnMXZhTlpjZ2NC?oc=5",
+    "source": "Business Standard",
+    "published": "2026-10-15T16:14:25+00:00",
+    "official": false
+   },
+   {
+    "title": "Persistent Systems Limited Reports Earnings Results for the Second Quarter and Six Months Ended September 30, 2026",
+    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNSlo1YlhCZmlaVE82SGpUOWxNTkFia2l4V0xLdTRGcVlRMlV2amhfcUtnNno4TTk2V05Wc2hoZHIyVHNQeEM5UFZpc2lFYXNMLTd0VUpSV1FGRVFickpQR1RCM2plTEhOSGNLQlpiQTdiemVmS19zWlJheDF5TXhTXzNaUjRIS3BSU3duNVJ2VF9tTkZScUxHemVJVGZBRDBkYXRGNGhJTVVGR2JDaUE4OUlJRXg0MFVxbkdYemw0TUV5WERtTGxFOXp5MFlVbzVld09zMWNWSl92ajV0WjhHV194MWV3MGlt?oc=5",
+    "source": "www.marketscreener.com",
+    "published": "2026-10-15T15:49:00+00:00",
     "official": false
    },
    {
@@ -569,29 +650,36 @@
     "official": false
    },
    {
-    "title": "Persistent Systems Q2 Revenue Rises to 4,663 Crore; Profit Dips to 351 Crore",
-    "link": "https://www.whalesbook.com/corporate-news/English/technology/Persistent-Systems-Q2-Revenue-Rises-to-4663-Crore-Profit-Dips-to-351-Crore/6ad0acdfb2eb76fd08c45631",
-    "source": "whalesbook.com",
-    "published": "2026-10-14T19:07:00+00:00",
+    "title": "Persistent Systems Q2 Net Profit Falls 25% to Rs 351 Cr; Revenue Up 30%",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZXQyZHAwVVppSXJ4QUhCMWl2ZXdFeXdFTng4eEFSYzZsZGdFQ0M1YXJzODNUN3ZHVkQ0T2VPMGR1dGYtMW5aRHhuVmZDSGVZUWdOR3pVS2IzM2VuNnQtUUtQMlhPUkhMOXNLWlF4QmI2MUEzMnVaY2lhQmZwekxJOTNXb2dXbW41bEhRQ2pUUi1NZzNrWXVvRFZyYno1UFdL?oc=5",
+    "source": "HDFC Sky",
+    "published": "2026-10-15T11:38:05+00:00",
     "official": false
    },
    {
-    "title": "Persistent Systems Q2 Profit Drops to Rs 351 Crore Despite Revenue Surge",
-    "link": "https://www.whalesbook.com/corporate-news/English/technology/Persistent-Systems-Q2-Profit-Drops-to-Rs-351-Crore-Despite-Revenue-Surge/6ad0aaf0b2eb76fd08c4504e",
+    "title": "Persistent Systems Q2 Revenue Rises to 4,663 Crore; Profit Dips to 351 Crore",
+    "link": "https://www.whalesbook.com/corporate-news/English/technology/Persistent-Systems-Q2-Revenue-Rises-to-4663-Crore-Profit-Dips-to-351-Crore/6ad0acdfb2eb76fd08c45631",
     "source": "whalesbook.com",
-    "published": "2026-10-14T19:02:00+00:00",
+    "published": "2026-10-15T09:07:00+00:00",
+    "official": false
+   },
+   {
+    "title": "Earnings Central: Wipro, TechM, Polycab and Nestlé lead a busy Q2 results day",
+    "link": "https://www.cnbctv18.com/market/earnings/earnings-central-wipro-techm-polycab-and-jio-financial-nestle-busy-q2-results-day-20012965.htm",
+    "source": "cnbctv18.com",
+    "published": "2026-10-15T08:06:00+00:00",
     "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Persistent",
-  "analysed_at": "2026-10-15T15:07:31+00:00"
+  "analysed_at": "2026-10-15T18:03:27+00:00"
  },
  "Coforge": {
   "results_found": false,
-  "results_date": null,
-  "headline": "Coforge's Q2 FY27 results have not been released yet",
+  "results_date": "2026-10-14",
+  "headline": "Coforge released its Q2 FY27 results on 14 Oct 2026",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -624,7 +712,82 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No results data available yet",
+  "sentiment_reason": "No performance data provided in the sources",
+  "missing": [
+   "revenue_inr_cr",
+   "revenue_usd_m",
+   "revenue_growth_yoy_pct",
+   "cc_growth_qoq_pct",
+   "cc_growth_yoy_pct",
+   "net_profit_inr_cr",
+   "net_profit_growth_yoy_pct",
+   "operating_margin_pct",
+   "deal_wins_usd_bn",
+   "headcount",
+   "net_headcount_change",
+   "attrition_pct",
+   "dividend_per_share_inr",
+   "guidance",
+   "highlights",
+   "risks",
+   "verticals",
+   "media_vertical details",
+   "megep_mentions",
+   "ai_signals",
+   "management_view"
+  ],
+  "unverified_dropped": [],
+  "sources": [
+   {
+    "title": "Coforge NSE:COFORGE Regulation 74(5) Certificate Q2 FY27",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNc21pNEVjckEwOURDMUdUTXZ4Y0VLUjVSZnRQNExJTzNodlZBd0Z5ZUlySGtQTS1iN3Q0T3pMREpsd2tIYTBkcHF2a21PczZ3dkRlbi1DTWQ3ODFCM2JRalpWdWhXMHIxQkxDMjJySFhkWmEybXoyNkdIRHdaaUZRbGNCd1JUYUduVld1Rm1TMktibHZHbWhyaV8xRUM5Zl95MVlOb09HelVmbDJwSmxkXzBhNXptSWc?oc=5",
+    "source": "Kalkine India",
+    "published": "2026-10-14T08:34:00+00:00",
+    "official": false
+   }
+  ],
+  "official": false,
+  "quarter": "Q2 FY27",
+  "company": "Coforge",
+  "analysed_at": "2026-10-15T18:04:21+00:00"
+ },
+ "Mphasis": {
+  "results_found": false,
+  "results_date": null,
+  "headline": null,
+  "metrics": {
+   "revenue_inr_cr": null,
+   "revenue_usd_m": null,
+   "revenue_growth_yoy_pct": null,
+   "cc_growth_qoq_pct": null,
+   "cc_growth_yoy_pct": null,
+   "net_profit_inr_cr": null,
+   "net_profit_growth_yoy_pct": null,
+   "operating_margin_pct": null,
+   "deal_wins_usd_bn": null,
+   "headcount": null,
+   "net_headcount_change": null,
+   "attrition_pct": null,
+   "dividend_per_share_inr": null
+  },
+  "guidance": null,
+  "guidance_change": "none",
+  "highlights": [],
+  "risks": [],
+  "verticals": [],
+  "media_vertical": {
+   "name": "Technology, Media & Telecom",
+   "revenue_share_pct": null,
+   "growth_qoq_pct": null,
+   "growth_yoy_pct": null,
+   "growth_cc_yoy_pct": null,
+   "commentary": null
+  },
+  "megep_mentions": [],
+  "ai_signals": null,
+  "management_view": null,
+  "sentiment": "Neutral",
+  "sentiment_reason": "No actual Q2 FY27 results were reported in the provided sources.",
   "missing": [
    "revenue_inr_cr",
    "revenue_usd_m",
@@ -643,70 +806,6 @@
    "media_vertical details"
   ],
   "unverified_dropped": [],
-  "sources": [],
-  "official": false,
-  "quarter": "Q2 FY27",
-  "company": "Coforge",
-  "analysed_at": "2026-10-15T15:08:25+00:00"
- },
- "Mphasis": {
-  "results_found": false,
-  "results_date": null,
-  "headline": "Mphasis has not yet released its Q2 FY27 financial results.",
-  "metrics": {
-   "revenue_inr_cr": null,
-   "revenue_usd_m": null,
-   "revenue_growth_yoy_pct": null,
-   "cc_growth_qoq_pct": null,
-   "cc_growth_yoy_pct": null,
-   "net_profit_inr_cr": null,
-   "net_profit_growth_yoy_pct": null,
-   "operating_margin_pct": null,
-   "deal_wins_usd_bn": null,
-   "headcount": null,
-   "net_headcount_change": null,
-   "attrition_pct": null,
-   "dividend_per_share_inr": null
-  },
-  "guidance": null,
-  "guidance_change": "none",
-  "highlights": [
-   "Mphasis announced a £35.4 million contract extension with Social Security Scotland.",
-   "Analyst coverage and stock price previews increased ahead of the upcoming Q2 results.",
-   "The company faced a revised tax demand of ₹2,417.80 crore for AY 23‑24."
-  ],
-  "risks": [
-   "Potential impact of the large tax demand on profitability.",
-   "Uncertainty until actual Q2 results are disclosed."
-  ],
-  "verticals": [],
-  "media_vertical": {
-   "name": "Technology, Media & Telecom",
-   "revenue_share_pct": null,
-   "growth_qoq_pct": null,
-   "growth_yoy_pct": null,
-   "growth_cc_yoy_pct": null,
-   "commentary": null
-  },
-  "megep_mentions": [
-   {
-    "domain": "Telecom",
-    "note": "£35.4 million deal with Social Security Scotland (benefits platform support)."
-   }
-  ],
-  "ai_signals": null,
-  "management_view": null,
-  "sentiment": "Neutral",
-  "sentiment_reason": "No actual results released; only forward‑looking statements and contract news.",
-  "missing": [
-   "revenue",
-   "net profit",
-   "operating margin",
-   "headcount",
-   "dividend",
-   "media segment revenue share and growth"
-  ],
-  "unverified_dropped": [],
   "sources": [
    {
     "title": "Mphasis Q2 FY2027 Earnings Call Date and Investor Details",
@@ -714,26 +813,12 @@
     "source": "Kalkine India",
     "published": "2026-10-09T10:02:00+00:00",
     "official": false
-   },
-   {
-    "title": "Mphasis extends GBP 35.4 million deal: what it means for Mphasis stock",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZ1ZFaVNFZEI3OUhfVlV4VDBiWWJsZ2RMVmQ5ZmpsVVUyWTUwb2xic0hrZ2pWN2VMU3pKaXoxVXI1cThjLU5mUXdIekExNkdaY3E0dk1hYVNTWS1zUkVXMFdBQ3BKODJlQTIxb1J3cHYzUFQtX0kyUWNRYVhUT3hWSXhjSHhIMkx4Z0lIWWZKc1V0VDY2MWx0S0g5cl9NNktIcWxFellEUXpNYmJaVW5mQXNFSUFKYlg0UkNtQVBTcGZpUFNTdTBB?oc=5",
-    "source": "ad-hoc-news.de",
-    "published": "2026-10-14T00:10:07+00:00",
-    "official": false
-   },
-   {
-    "title": "Mphasis receives revised tax demand of ₹2,417.80 crore for AY 23-24",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSWIwUTltcXduRU5VSFBzbE9GM21tS1dpUVR2NVk0TEl5VkNpLXh4Nm1TMHU3YmFIM0xEeHpCc3VRaHctTEtrT0wwd05LNjFoYV8xMjh0eThULVpNX2tTRE9hU0d6SWRFZ2hyZldVTzJrSzNQYUNBV2lYajhJRlQ3TS0xbHJVa3lfU2I2bDd6bFhRdl9zWjk1SzliX1RieGExNGF2UFc4Z0FSS2pkZDE5OVFrMnhoaGc?oc=5",
-    "source": "scanx.trade",
-    "published": "2026-10-14T13:35:08+00:00",
-    "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Mphasis",
-  "analysed_at": "2026-10-15T15:09:18+00:00"
+  "analysed_at": "2026-10-15T18:05:14+00:00"
  },
  "Wipro": {
   "results_found": true,

@@ -1,10 +1,10 @@
 {
- "headline": "Indian IT services posted solid top‑line growth, led by AI‑driven revenue gains.",
- "summary": "TCS and HCLTech reported double‑digit revenue growth and strong operating margins. Tech Mahindra and Wipro also grew, though Wipro saw a slight profit dip. Several peers (Infosys, LTM, OFSS, Coforge) have not released Q2 numbers yet, limiting full sector visibility.",
+ "headline": "Indian IT services posted solid top‑line growth, led by TCS and HCLTech, while AI initiatives gained traction.",
+ "summary": "Revenue rose across the sector, with TCS reporting ₹73,188 cr and a 24% operating margin. HCLTech delivered 3% QoQ revenue growth and highlighted AI sales as a key driver. Tech Mahindra and Wipro posted double‑digit YoY revenue growth, but profit momentum was mixed. Several peers (Infosys, LTM, OFSS) have not released results, limiting a full view.",
  "themes": [
   {
-   "title": "AI as a growth catalyst",
-   "detail": "TCS, HCLTech and Wipro highlighted AI revenue contributions and new AI‑native deals, driving higher margins.",
+   "title": "AI‑driven growth",
+   "detail": "Companies such as TCS, HCLTech and Wipro emphasized AI revenue contributions and strategic investments.",
    "companies": [
     "TCS",
     "HCLTech",
@@ -12,73 +12,74 @@
    ]
   },
   {
-   "title": "Robust deal wins",
-   "detail": "TCS secured $9.6 bn of new contracts and HCLTech added $3.26 bn, underscoring continued demand for digital transformation.",
+   "title": "Margin pressure at mid‑tier players",
+   "detail": "Mid‑size firms reported operating margins below 20%, indicating cost pressures despite revenue gains.",
    "companies": [
-    "TCS",
-    "HCLTech"
+    "Tech Mahindra",
+    "Persistent",
+    "Coforge"
    ]
   }
  ],
  "leaders": [
   {
    "company": "TCS",
-   "why": "Highest revenue at ₹73,188 cr and 24% operating margin, with strong AI and deal‑win performance."
+   "why": "Highest revenue and strong 24% operating margin, with positive profit growth."
   },
   {
    "company": "HCLTech",
-   "why": "21% YoY profit rise, AI revenue jump of 78% YoY and clear FY27 guidance."
+   "why": "Consistent revenue growth, AI sales highlighted, and clear FY27 guidance."
   }
  ],
  "laggards": [
   {
-   "company": "Wipro",
-   "why": "Revenue grew modestly (9% YoY) and net profit fell 1.9% YoY, with no Q2 revenue figure from the exchange feed."
+   "company": "Infosys",
+   "why": "Results not yet released, limiting visibility."
   },
   {
-   "company": "Tech Mahindra",
-   "why": "Revenue growth modest (15.6% YoY) and margin data missing, indicating weaker momentum."
+   "company": "OFSS",
+   "why": "No Q2 results disclosed despite strong margin data."
   }
  ],
  "domain_outlook": [
   {
    "domain": "Media & broadcasting",
    "signal": "Not enough data",
-   "note": "No company mentions or AI signals specific to this sector."
+   "note": "No specific mentions or revenue signals for this domain."
   },
   {
    "domain": "Entertainment & streaming",
    "signal": "Not enough data",
-   "note": "No relevant mentions in the reports."
+   "note": "No company commentary on this sector."
   },
   {
    "domain": "Gaming",
    "signal": "Not enough data",
-   "note": "No gaming‑related activity reported."
+   "note": "No relevant AI or service references."
   },
   {
    "domain": "Education",
    "signal": "Not enough data",
-   "note": "No education‑focused deals or commentary."
+   "note": "No explicit activity reported."
   },
   {
    "domain": "Publishing",
    "signal": "Not enough data",
-   "note": "No publishing sector references."
+   "note": "No data points available."
   },
   {
    "domain": "Telecom",
-   "signal": "Positive",
-   "note": "Mphasis highlighted a £35.4 m telecom deal, indicating ongoing demand in the telecom services space."
+   "signal": "Not enough data",
+   "note": "No telecom‑specific deals or trends disclosed."
   }
  ],
  "watch_next": [
   "Q3 FY27 revenue guidance from TCS and HCLTech",
-  "Full results from Infosys, LTM, OFSS and Coforge",
+  "Actual results from Infosys, LTM and OFSS",
   "Progress on AI‑native unit performance at Wipro",
-  "Impact of emerging telecom contracts on Mphasis",
-  "Any shift in attrition trends across the majors"
+  "Margin trends for mid‑tier players",
+  "Impact of AI‑driven deals on overall sector growth"
  ],
  "quarter": "Q2 FY27",
- "written_at": "2026-10-15T15:09:47+00:00"
+ "written_at": "2026-10-15T18:05:41+00:00"
 }
