@@ -25,7 +25,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-15T08:53",
+  "checked_at": "2026-10-15T12:27",
   "quarter": "Q2 FY27"
  },
  "Infosys": {
@@ -36,7 +36,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-15T08:53",
+  "checked_at": "2026-10-15T12:27",
   "quarter": "Q2 FY27"
  },
  "HCLTech": {
@@ -65,18 +65,36 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-15T08:53",
+  "checked_at": "2026-10-15T12:27",
   "quarter": "Q2 FY27"
  },
  "Wipro": {
   "checked": true,
   "exchange": "NSE",
-  "count": 17,
-  "result": null,
-  "press": null,
+  "count": 19,
+  "result": {
+   "title": "Wipro Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "detail": "",
+   "category": "Outcome of Board Meeting",
+   "subcategory": "",
+   "time": "2026-10-15T15:47",
+   "url": "https://nsearchives.nseindia.com/corporate/Wipro_Secretarial_15102026154647_Reg33Financials.pdf",
+   "alt_url": "",
+   "exchange": "NSE"
+  },
+  "press": {
+   "title": "Wipro Limited has informed the Exchange regarding a press release dated October 15, 2026, titled \"Wipro announces results for the Quarter ended September 30, 2026\".",
+   "detail": "",
+   "category": "Press Release",
+   "subcategory": "",
+   "time": "2026-10-15T15:51",
+   "url": "https://nsearchives.nseindia.com/corporate/Wipro_Secretarial_15102026155126_PressRelease.pdf",
+   "alt_url": "",
+   "exchange": "NSE"
+  },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-15T08:53",
+  "checked_at": "2026-10-15T12:27",
   "quarter": "Q2 FY27"
  },
  "LTM": {
@@ -87,18 +105,36 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-15T08:53",
+  "checked_at": "2026-10-15T12:27",
   "quarter": "Q2 FY27"
  },
  "Tech Mahindra": {
   "checked": true,
   "exchange": "NSE",
-  "count": 12,
-  "result": null,
-  "press": null,
+  "count": 18,
+  "result": {
+   "title": "Tech Mahindra Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "detail": "",
+   "category": "Outcome of Board Meeting",
+   "subcategory": "",
+   "time": "2026-10-15T16:57",
+   "url": "https://nsearchives.nseindia.com/corporate/TECHM_15102026165627_Outcome_FINAL_Signed.pdf",
+   "alt_url": "",
+   "exchange": "NSE"
+  },
+  "press": {
+   "title": "Tech Mahindra Limited has informed the Exchange regarding a press release dated October 15, 2026, titled \"Press Release on the financial results\".",
+   "detail": "",
+   "category": "Press Release",
+   "subcategory": "",
+   "time": "2026-10-15T17:08",
+   "url": "https://nsearchives.nseindia.com/corporate/TECHM_15102026170811_Outcome_FINAL_Signed.pdf",
+   "alt_url": "",
+   "exchange": "NSE"
+  },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-15T08:53",
+  "checked_at": "2026-10-15T12:27",
   "quarter": "Q2 FY27"
  },
  "OFSS": {
@@ -109,18 +145,18 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-15T08:53",
+  "checked_at": "2026-10-15T12:27",
   "quarter": "Q2 FY27"
  },
  "Persistent": {
   "checked": true,
   "exchange": "NSE",
-  "count": 41,
+  "count": 45,
   "result": null,
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-15T08:53",
+  "checked_at": "2026-10-15T12:27",
   "quarter": "Q2 FY27"
  },
  "Coforge": {
@@ -131,7 +167,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-15T08:53",
+  "checked_at": "2026-10-15T12:27",
   "quarter": "Q2 FY27"
  },
  "Mphasis": {
@@ -142,7 +178,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-15T08:53",
+  "checked_at": "2026-10-15T12:27",
   "quarter": "Q2 FY27"
  }
 }
