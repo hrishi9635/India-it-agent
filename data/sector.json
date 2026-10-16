@@ -1,93 +1,89 @@
 {
- "headline": "Indian IT services posted solid revenue growth in Q2 FY27, led by TCS and HCLTech.",
- "summary": "Revenue rose across the sector, with TCS reporting ₹73,188 cr and a 24% margin. HCLTech showed strong AI-driven profit growth and reaffirmed its FY27 guidance. Mid‑tier players LTM and Tech Mahindra posted double‑digit top‑line growth. Several peers have not yet released results, keeping the outlook incomplete.",
+ "headline": "Indian IT services posted solid revenue growth, driven by AI and strong deal wins.",
+ "summary": "Most listed firms reported double‑digit YoY revenue growth. AI‑related sales were highlighted by TCS, HCLTech, LTM and Wipro. Deal wins in the US exceeded $9 bn for TCS. Profit trends were mixed, with Persistent seeing a sharp profit decline despite revenue expansion.",
  "themes": [
   {
-   "title": "AI as a growth catalyst",
-   "detail": "HCLTech highlighted AI sales driving profit, while TCS and Wipro noted AI revenue crossing 10% of total.",
+   "title": "AI‑driven services",
+   "detail": "AI revenue grew sharply across several firms, becoming a key growth driver.",
    "companies": [
     "TCS",
     "HCLTech",
+    "LTM",
     "Wipro"
    ]
   },
   {
-   "title": "Steady dividend payouts",
-   "detail": "Most reporting companies declared or maintained dividends, supporting shareholder returns.",
+   "title": "Large US deal wins",
+   "detail": "US‑based contracts contributed significant new revenue, especially for TCS.",
    "companies": [
     "TCS",
-    "LTM",
-    "Tech Mahindra"
+    "HCLTech"
    ]
   }
  ],
  "leaders": [
   {
+   "company": "Persistent",
+   "why": "Revenue grew 32.7% YoY, the highest among peers."
+  },
+  {
+   "company": "Tech Mahindra",
+   "why": "Revenue up 21.2% YoY with strong margin expansion."
+  },
+  {
    "company": "TCS",
-   "why": "Largest revenue, strong margin and positive AI revenue"
-  },
-  {
-   "company": "HCLTech",
-   "why": "High profit growth and clear FY27 guidance"
-  },
-  {
-   "company": "LTM",
-   "why": "13.6% YoY revenue rise and dividend increase"
+   "why": "Maintained a 24% operating margin and secured $9.6 bn of new deals."
   }
  ],
  "laggards": [
   {
-   "company": "Infosys",
-   "why": "Results not released, limiting visibility"
+   "company": "Persistent",
+   "why": "Net profit fell 25% YoY, indicating margin pressure."
   },
   {
-   "company": "OFSS",
-   "why": "Results not released despite strong prior growth"
-  },
-  {
-   "company": "Coforge",
-   "why": "No Q2 FY27 results available"
+   "company": "Wipro",
+   "why": "Revenue growth slowed to 9.1% YoY and profit dipped 1.9%."
   }
  ],
  "domain_outlook": [
   {
    "domain": "Media & broadcasting",
    "signal": "Not enough data",
-   "note": "No mentions of this sector in the reports."
+   "note": "No specific mentions in the reports."
   },
   {
    "domain": "Entertainment & streaming",
    "signal": "Not enough data",
-   "note": "No mentions of this sector in the reports."
+   "note": "No specific mentions in the reports."
   },
   {
    "domain": "Gaming",
    "signal": "Not enough data",
-   "note": "No mentions of this sector in the reports."
+   "note": "No specific mentions in the reports."
   },
   {
    "domain": "Education",
    "signal": "Not enough data",
-   "note": "No mentions of this sector in the reports."
+   "note": "No specific mentions in the reports."
   },
   {
    "domain": "Publishing",
    "signal": "Not enough data",
-   "note": "No mentions of this sector in the reports."
+   "note": "No specific mentions in the reports."
   },
   {
    "domain": "Telecom",
    "signal": "Not enough data",
-   "note": "No mentions of this sector in the reports."
+   "note": "No specific mentions in the reports."
   }
  ],
  "watch_next": [
-  "Infosys Q2 FY27 results",
-  "OFSS Q2 FY27 results",
-  "Coforge Q2 FY27 results",
-  "Wipro Q3 FY27 revenue guidance execution",
-  "AI revenue trends across the sector"
+  "Q3 FY27 AI revenue trends",
+  "Progress on TCS and HCLTech US deal pipelines",
+  "Profit margin recovery at Persistent",
+  "Wipro's guidance for Q3 FY27",
+  "Infosys and OFSS results once released"
  ],
  "quarter": "Q2 FY27",
- "written_at": "2026-10-16T15:07:06+00:00"
+ "written_at": "2026-10-16T18:04:58+00:00"
 }

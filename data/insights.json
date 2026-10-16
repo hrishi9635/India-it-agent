@@ -81,7 +81,7 @@
  "Infosys": {
   "results_found": false,
   "results_date": null,
-  "headline": "Infosys Q2 FY27 results have not been released yet.",
+  "headline": "Infosys Q2 FY27 results have not been disclosed in the available sources",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -114,7 +114,7 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No actual results data available yet.",
+  "sentiment_reason": "No actual results data were found",
   "missing": [
    "revenue_inr_cr",
    "revenue_usd_m",
@@ -149,24 +149,17 @@
     "official": false
    },
    {
-    "title": "IT Sector Q2 Results Preview: TCS, HCL, Infosys, Wipro To See Muted Quarter; Check Dates, Dividends, Bonus",
-    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNVWw2NEE0aDVWZ0dNV2VMZDQzcDlKZ29WUXZWQmEtNXJCaU5sSHZxRHQzZnBfQXlWeldRZl90SXBMaUF1MGo2VlpJNjVTcXpkU1djRUN6bTBkTlFGSGJ4SU5USEZCVi1zU2lZeFFLcXpYSVhtM0RjX01ZM0FFSWZlUGI1WXJPcmRlNEZERkJZWnJkUFkxRmZValNTTWZLdXBlNlJaQkNLWDktejVITkhPOTVjRzV6WkNNX3dIM2tPdTEyTGJocllZSlRDRDF0V2JrRmN0MmlxSFJJWTg?oc=5",
-    "source": "Goodreturns",
-    "published": "2026-10-11T07:00:00+00:00",
-    "official": false
-   },
-   {
-    "title": "After TCS ₹12 dividend, all eyes on Infosys Q2 results, dividend; date, time, earnings schedule, yield, stock report",
-    "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQNUxEMDVnUkMtWEpxZVRJcHVydjJuQXZKSzA0Z0IwVV84THNVZzJibGw3cWIzRkF6QlQxY1BrSjAzUlJ0ZlhNVkprTFhoX0lORVFHNHktYUVnNzhxVTA5T1pJV2pJajFBU1VqQXh4aHFhMVNLeVFHTFkyQTZyYW0zSTNBWTBjX2NTQTd5b3VTUmNRTFBlRW1ESG9jcUdmQWlULUxCMmwydHVMX0YxV1dHTlV5dkpsQzNDTTNvLXVEXy1Ta1phT3lIeFI0VkUyVEhXcWE2Rm1OZzQ4UjZiNFhLYl9pS3VlSGZoVEI1MmJleHNqTzNoSVRWZkdXVFZvZ3dlcXg3OEtFQm82VUw1UUHSAZMCQVVfeXFMTUdDZldNRWc5UHdiczNnUkN3SFJDcWJDOV9ZTEJiTVFPMHBoVWxfR3NOMXVXV0dYVTdLTWI5N0pMMF91S0R1bWpHRlFZVm1pTDYyTGxuaUl2Wk1FS0FjSTAxdkVMN2lzLVBwaXlwX2dnUXg2aGFlaVc3cjZYejRIZllwQmtvSFp3NGdrRXhFU0RFYW1ucVRyTmtyYzVic1g5QlhpR2U3bGFmT0RoWVZBbmY1ZmVvdzNHcEpFOFhoWDVkekc5dDZhM29LYVVBcFF2OHhRYUpFZkJYSkxyLTJjdEQwaVhJbmJ4cWtXTDdHWFUtS01XaE1nc3FDLUNFbWp4TlhFb09qdU44SWw3aFJ5ZWh1ZjA?oc=5",
-    "source": "Livemint",
-    "published": "2026-10-09T12:02:30+00:00",
+    "title": "Infosys, Coforge LTTS Q2 results date and time: Key numbers to watch",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVzR2RmNodGJhWlQ2R3N2X2xDbGNfdG9NSUdFV08xMm1IajNibVNUS2poVzh3QzBBUFBZNDZ3SHhFWTZlV0RHVnhid1FTUDBybXpwQXN2TmEzeF84R1JwYzRpYWwzWUtsejNHcGZiVW8weHhCUEFEVFBXdWRvcDhRa3FVVWZOUERwaFNMY2dtWWFwQnZkd1JSYVljQnU1WDR0bWs1MEtpNjlYMUxDdk5uRGFMRURfTjBHMEtTd2x5WWJwak8zcEtIU1VhRdIB0AFBVV95cUxNYjIwanNFTmxzdEdGSDhGY2Nwb0U4ODJqcUdmUWFxRExxZ1R3Z2FobFBSZ2FpU2hkLWp3MmtkZjJsd2JQVWRnYjVXYUxpM05wVmJlTUZNN1BKOC1naTB5MHVHMEJtVmZDaENLU3lSNEt1UkhXaGN6Y1hTeUFUMHRTSlBpaUxmYXZfMENRQXl6b3pSRTNvSFRxNjcyZF8zcmtlcmdad1FZVXZObWs2Sk55Y2htWE1HYlNWbUwzckVpZHdIVEw2eWNPUl80MVdWZGdx?oc=5",
+    "source": "Moneycontrol.com",
+    "published": "2026-10-13T08:45:09+00:00",
     "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Infosys",
-  "analysed_at": "2026-10-16T15:03:30+00:00"
+  "analysed_at": "2026-10-16T18:01:23+00:00"
  },
  "HCLTech": {
   "results_found": true,
@@ -511,7 +504,7 @@
  "OFSS": {
   "results_found": false,
   "results_date": null,
-  "headline": "Oracle Financial Services Software has not yet announced its Q2 FY27 results",
+  "headline": "No Q2 FY27 results have been announced for Oracle Financial Services Software yet",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -544,7 +537,7 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No results data available yet",
+  "sentiment_reason": "No results data available",
   "missing": [
    "revenue_inr_cr",
    "revenue_usd_m",
@@ -560,6 +553,9 @@
    "attrition_pct",
    "dividend_per_share_inr",
    "guidance",
+   "highlights",
+   "risks",
+   "verticals",
    "media_vertical details",
    "megep_mentions",
    "ai_signals",
@@ -570,21 +566,21 @@
   "official": false,
   "quarter": "Q2 FY27",
   "company": "OFSS",
-  "analysed_at": "2026-10-16T15:04:00+00:00"
+  "analysed_at": "2026-10-16T18:01:53+00:00"
  },
  "Persistent": {
   "results_found": false,
   "results_date": "2026-10-15",
-  "headline": "Persistent Systems posted revenue of Rs 4,494.2 cr (US$ 487.6 m) in Q2 FY27, up 20% YoY, while profit rose modestly 2.4% YoY",
+  "headline": "Persistent Systems posted Q2 FY27 revenue of Rs 4,494.17 cr ($487.6 m) with a 20% YoY increase but net profit fell 25% to Rs 351 cr",
   "metrics": {
    "revenue_inr_cr": 4494.17,
    "revenue_usd_m": 487.6,
-   "revenue_growth_yoy_pct": 20.0,
+   "revenue_growth_yoy_pct": 20,
    "cc_growth_qoq_pct": null,
    "cc_growth_yoy_pct": null,
-   "net_profit_inr_cr": null,
-   "net_profit_growth_yoy_pct": 2.42,
-   "operating_margin_pct": null,
+   "net_profit_inr_cr": 351,
+   "net_profit_growth_yoy_pct": -25,
+   "operating_margin_pct": 15,
    "deal_wins_usd_bn": null,
    "headcount": null,
    "net_headcount_change": null,
@@ -594,14 +590,14 @@
   "guidance": null,
   "guidance_change": "none",
   "highlights": [
-   "Revenue grew 20% YoY to Rs 4,494.2 cr",
-   "Profit (PAT) increased 2.4% YoY despite acquisition-related costs",
-   "EBIT margin reported at 15% (source 33)",
-   "Company raised $948 m debt to fund acquisitions"
+   "Revenue rose 30% YoY in INR terms, driven by strong demand and the Nagarro acquisition.",
+   "Net profit declined 25% YoY due to higher integration costs and margin pressure.",
+   "EBIT margin slipped to 15%, below analyst expectations.",
+   "US‑dollar revenue reached $487.6 m, up 20% YoY."
   ],
   "risks": [
-   "Margin pressure from integration of Nagarro acquisition",
-   "Higher debt levels increasing financial risk"
+   "Margin compression from integration costs of the Nagarro deal.",
+   "Potential slowdown in discretionary IT spending."
   ],
   "verticals": [],
   "media_vertical": {
@@ -615,14 +611,13 @@
   "megep_mentions": [],
   "ai_signals": null,
   "management_view": null,
-  "sentiment": "Neutral",
-  "sentiment_reason": "Strong revenue growth offset by modest profit rise and margin pressure",
+  "sentiment": "Negative",
+  "sentiment_reason": "Profit fell sharply and margins missed estimates despite revenue growth.",
   "missing": [
-   "net profit amount",
-   "operating margin percentage",
+   "constant‑currency QoQ growth",
    "headcount and attrition data",
-   "dividend details",
-   "media vertical revenue share and growth"
+   "dividend declaration",
+   "detailed segment revenue share"
   ],
   "unverified_dropped": [],
   "sources": [
@@ -631,6 +626,13 @@
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRXRyUmc2T1VReTJGbkRuS2taRG5xZnhNYWVJeTgza1R0WmhMaG5HQTYydVhYS215aVZLUXRfQUdRUkxNdXRJWGJfNmdPWTRfMTZUUW1RRTVHYWM0UDJ1OFpDV3hvRG5qNFcwY3F1Q0JGTkRPRlkyRXJjNmhlX2VyZTVuV1NXMWxXN3dQeWtpQjJIQjhITlFvZThZTF9CekM3S05kN2piNTBPQQ?oc=5",
     "source": "CXOToday.com",
     "published": "2026-10-15T18:18:19+00:00",
+    "official": false
+   },
+   {
+    "title": "Persistent Systems (PERSISTENT) Posts Q2 Revenue $487.6M, Up 20% YoY",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSUpMaUxTOFF5MnJtLVBOREpGeXhFYmJMUGI0UEFPczY1MXV5QU14Zjgzemp3VHhWOFI3Q3l3TmJON2E0ak1KVUl1dS1ETnRyRlJiZEtCZTlISDdwWFlBWFdLT3FEbXFqbUZKQ3JsX3dWQ1FMSGU2OFBmSHRaVGVFQmd2azUwRTByZmo4TEJpQWtBUjRWR2ZVWDRld1VFUmpRREUzVXprNFd5bjhmN0lqcE1aY2diWDA1cm9RSk9MamRZZG8?oc=5",
+    "source": "TradingView",
+    "published": "2026-10-15T12:39:00+00:00",
     "official": false
    },
    {
@@ -646,17 +648,24 @@
     "source": "Univest",
     "published": "2026-10-15T12:03:00+00:00",
     "official": false
+   },
+   {
+    "title": "Persistent Systems Q2 Net Profit Falls 25% to Rs 351 Cr; Revenue Up 30%",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZXQyZHAwVVppSXJ4QUhCMWl2ZXdFeXdFTng4eEFSYzZsZGdFQ0M1YXJzODNUN3ZHVkQ0T2VPMGR1dGYtMW5aRHhuVmZDSGVZUWdOR3pVS2IzM2VuNnQtUUtQMlhPUkhMOXNLWlF4QmI2MUEzMnVaY2lhQmZwekxJOTNXb2dXbW41bEhRQ2pUUi1NZzNrWXVvRFZyYno1UFdL?oc=5",
+    "source": "HDFC Sky",
+    "published": "2026-10-15T11:38:05+00:00",
+    "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Persistent",
-  "analysed_at": "2026-10-16T15:04:51+00:00"
+  "analysed_at": "2026-10-16T18:02:44+00:00"
  },
  "Coforge": {
   "results_found": false,
-  "results_date": "2026-10-14",
-  "headline": "Coforge announced its Q2 FY27 results on October 14, 2026.",
+  "results_date": null,
+  "headline": "Coforge's Q2 FY27 results have not been released yet",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -673,7 +682,7 @@
    "dividend_per_share_inr": null
   },
   "guidance": null,
-  "guidance_change": "unknown",
+  "guidance_change": "none",
   "highlights": [],
   "risks": [],
   "verticals": [],
@@ -689,7 +698,7 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No performance details were provided in the available source.",
+  "sentiment_reason": "No results data available yet",
   "missing": [
    "revenue_inr_cr",
    "revenue_usd_m",
@@ -705,9 +714,10 @@
    "attrition_pct",
    "dividend_per_share_inr",
    "guidance",
-   "media_vertical revenue share and growth",
    "highlights",
    "risks",
+   "verticals",
+   "media_vertical details",
    "megep_mentions",
    "ai_signals",
    "management_view"
@@ -715,22 +725,22 @@
   "unverified_dropped": [],
   "sources": [
    {
-    "title": "Coforge NSE:COFORGE Regulation 74(5) Certificate Q2 FY27",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNc21pNEVjckEwOURDMUdUTXZ4Y0VLUjVSZnRQNExJTzNodlZBd0Z5ZUlySGtQTS1iN3Q0T3pMREpsd2tIYTBkcHF2a21PczZ3dkRlbi1DTWQ3ODFCM2JRalpWdWhXMHIxQkxDMjJySFhkWmEybXoyNkdIRHdaaUZRbGNCd1JUYUduVld1Rm1TMktibHZHbWhyaV8xRUM5Zl95MVlOb09HelVmbDJwSmxkXzBhNXptSWc?oc=5",
-    "source": "Kalkine India",
-    "published": "2026-10-14T08:34:00+00:00",
+    "title": "IT Q2 results FY27: TCS, Infosys, HCLTech, Coforge, Tata Tech announce earnings dates",
+    "link": "https://www.msn.com/en-in/money/technology/it-q2-results-fy27-tcs-infosys-hcltech-coforge-tata-tech-announce-earnings-dates/ar-AA2cRgKP",
+    "source": "msn.com",
+    "published": "2026-09-23T20:50:00+00:00",
     "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Coforge",
-  "analysed_at": "2026-10-16T15:05:45+00:00"
+  "analysed_at": "2026-10-16T18:03:38+00:00"
  },
  "Mphasis": {
   "results_found": false,
   "results_date": null,
-  "headline": "Mphasis has not yet released its Q2 FY27 financial results",
+  "headline": "Mphasis Q2 FY27 results have not been released yet",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -763,7 +773,7 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No results have been announced yet",
+  "sentiment_reason": "No actual results have been announced; only pre‑release commentary is available",
   "missing": [
    "revenue_inr_cr",
    "revenue_usd_m",
@@ -782,11 +792,47 @@
    "media_vertical details"
   ],
   "unverified_dropped": [],
-  "sources": [],
+  "sources": [
+   {
+    "title": "Nifty IT jumps 2%; Mphasis, Coforge, Infosys, TCS among top gainers - Reason behind the rally, Q2 results expectations",
+    "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNeHJXenhOdlhOYWFfMHRNY3B1OXJzYjlwWlVJQklnU3AzTDVMSkxpLUtnWVBmR0JfRXdHbVRva1ZseWZDQzN6LTlmdWtIVlNMOS04emJXdnUwcFptd3l0cEFyUVNhaFlXd0VCRGpCUHVPWWRSb0RwNUZPSzczSS1GVXlmdXRVVEx0N2ptbHdxU05wWFl0ekZpSjhDcmhMTHlHUnF6NlNJVUdJZE05RzFHenVKRmpzOTE1VDNGMmltNzFDUURzenVDRDRxYmZFRDRucWVtQXBMQmVWYm85RndEWlZPREl2aktXMGp6VHhrcUs5cGhFY0xkTm9HZzExcl9ULTNUN2lIRG9VS2Nl0gGSAkFVX3lxTFB3NlBzVWlPb2lxYlRNY0FxY3FQVG1ob1FScm9mc05xMGhLRVlJeFl1aW90V1hRVVJLdjNTRmRycnRxQzZqYVRkMmpMYlVKVVk2eXlLb0RBLVIwMWVmb0Y1bUVDZkV5VjhCTWFfcF8yMFV2endVV09mTnNTWFpEazVOMlR3YUJMSjNMWVpOMTZiMHFwYkVkemtzM2h0SzRoeVhqUGRXVUxGZXF6T2VRenBGVW1UbTVkSk9qVFRSRHdpQm5RZVkzMUdCQ2IwcHVscG9DN0NLNW1ldDFuZlBwWGNXNng2NWxkV0NENjI0RlV6RzFwc01KQ2ozLU5VNkpEZ3lZcUZJNURGUW8xSENLNkxabkE?oc=5",
+    "source": "Livemint",
+    "published": "2026-10-01T08:01:45+00:00",
+    "official": false
+   },
+   {
+    "title": "TCS, HCL Tech to Mphasis: IT stocks to add in portfolio ahead of Q2 results | Check target price, upside, preview",
+    "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOVFhTckljQzNhS2J3S3lRUXhYUXA3SnJsZFpqMmJCODk0T3I3SnY1VklkT1NNTUNwZ2kxU3ZjWkhvTXp5cHIzR2pqVVB1cmI0bGR3ZV9qcEJHM05HT0ttY0FfTHh6N25jR2xjQVBYRXRIeVdMdC13azhqQmlKZ3VZbWg1Qm9HVW1IVC1nMDRXeHpQRVhvSkhiWXhxbXhXNF91SndpOFotZDg3blJ5eXJBQjYza2t2SWlyQVBNemJJTnAwRV9lT25vclRsWWtyVGFieHFhTVFhSUhhTkZVMklHX2xLT0F6VW5qeFNEOEJXVmVUYlNKdk9V?oc=5",
+    "source": "TradingView",
+    "published": "2026-10-05T10:47:59+00:00",
+    "official": false
+   },
+   {
+    "title": "IT Stocks to Buy Before Q2 Results: TCS, HCL Tech, Mphasis",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQi1Zdk5uTjBXWTVGNlJqZTQ3bmJyYjVMTzRBQnozQnNaVGFVcmNDVjJQZTJwaFZjUTlsOUVuQ01lVm1rR3h6emlvemtRUzFUcUdwNXd5amhuS1l5VDhxOURQRERrSVBBR3k3SFBBOFozTUFyY2ZlSnlyNG1sUlBsT0g0R3JEWDA?oc=5",
+    "source": "Univest",
+    "published": "2026-10-05T07:00:00+00:00",
+    "official": false
+   },
+   {
+    "title": "TCS, Tech Mahindra, Coforge, Mphasis: IT stocks picks and investment ideas after Accenture results ahead of Q2 earnings",
+    "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQVjhOa243eUJhVHlVWTg3U3AwSXhtQUJXVEEzVTdhQ2NqT1hGbXFWVzNteUlLTndnNHpyUDFXQW9zR2lxVUwtaFZ6NTg4czB3clFfR1R1cVhaRUxPbUpfVEM0UEt1ZWZ1WXhPb2Fud1BUdXhIOTQ5b2ZaNkxfSnVYRXV6Y09ZSWc5RDVBSDNKUzJSRy04Wlp1ZWZmc0Q0Tm5uY2VhZ0h4SktGbFRkSENCZklXWEhIQldPWmFDdkMwdDBUbXF1YmZhTlVSeElMaXhvRmZoS3diNHJNLVBxZ3lEdC12VWE5c2lkM3UyWGsxdmR0UVc2NlVBeVJteXZSUVA0ZVY0eTFSYkJuQ2NtcjVKRVYyQdIBmAJBVV95cUxPdUI5TjFRRE01RlRZbU90NTEyVmVPSk1FTnU2eEQ5ZUN5UUJwaVV6T1ZjMWw5bVo2aDVhTlRVd01QMnptMzFHZGxoWGcyUzBQa3dvQzI2Yld2Zi05MFpjLWxkZnZHanpIcXpHZW1sWmI5SnN0Z3lNZ3lXWUJFeGpwM2NpNU9oVHVTUmxnQXJ3NnZMU2liNmVxU1hjeHRUdC05UHJlREJyaW9BTlp0ODNSd19jUUpFc18yTjNfbHBoMFJLUEt2TlBBdi1nNW01LWhJdlNOUFdJdm80WjVLcWk3SExHajNhQk1MSnJhdW5KdVljX3hIakwtZlVZUHZBV1hqTlJaelhwNFRFMUZWNnFQc2gwMzlNcm9B?oc=5",
+    "source": "Livemint",
+    "published": "2026-10-04T07:00:00+00:00",
+    "official": false
+   },
+   {
+    "title": "Nifty IT Index Today: Mphasis, Coforge Lead 2% Rally",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1VaWVhVVFmRG5KNHQtbUVIN0Rod2YwM1pPdmhXWDBfdXpPTnJUdWJUWENUNHEtVlhWelBFTFp1RE9BdE1LYU53SUw5Vl83YUZYMUs0VlhoX0dRUWpIZUhXb04xWnVPdUxtaElpMFVLUGdTWEhRS2c?oc=5",
+    "source": "Univest",
+    "published": "2026-10-01T08:44:33+00:00",
+    "official": false
+   }
+  ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Mphasis",
-  "analysed_at": "2026-10-16T15:06:39+00:00"
+  "analysed_at": "2026-10-16T18:04:31+00:00"
  },
  "Wipro": {
   "results_found": true,
