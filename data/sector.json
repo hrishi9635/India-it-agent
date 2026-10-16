@@ -1,10 +1,10 @@
 {
- "headline": "Indian IT services posted solid top‑line growth, led by TCS and HCLTech, while AI initiatives gained traction.",
- "summary": "Revenue rose across the sector, with TCS reporting ₹73,188 cr and a 24% operating margin. HCLTech delivered 3% QoQ revenue growth and highlighted AI sales as a key driver. Tech Mahindra and Wipro posted double‑digit YoY revenue growth, but profit momentum was mixed. Several peers (Infosys, LTM, OFSS) have not released results, limiting a full view.",
+ "headline": "Indian IT services posted solid revenue growth in Q2 FY27, led by TCS and HCLTech.",
+ "summary": "TCS reported ₹73,188 cr revenue with a 24% operating margin, the highest in the sector. HCLTech and Tech Mahindra also posted double‑digit YoY revenue growth, supported by AI‑related deals. Wipro grew revenue 9% YoY but saw a slight profit decline. Several peers (Infosys, LTM, OFSS, Persistent, Coforge, Mphasis) have not released results yet, keeping the full picture incomplete.",
  "themes": [
   {
-   "title": "AI‑driven growth",
-   "detail": "Companies such as TCS, HCLTech and Wipro emphasized AI revenue contributions and strategic investments.",
+   "title": "AI as a growth driver",
+   "detail": "AI‑related sales and revenue contributions are highlighted by TCS, HCLTech and Wipro, indicating early momentum from AI investments.",
    "companies": [
     "TCS",
     "HCLTech",
@@ -13,9 +13,8 @@
   },
   {
    "title": "Margin pressure at mid‑tier players",
-   "detail": "Mid‑size firms reported operating margins below 20%, indicating cost pressures despite revenue gains.",
+   "detail": "Mid‑tier firms such as Persistent and Coforge show lower operating margins and mixed profit trends.",
    "companies": [
-    "Tech Mahindra",
     "Persistent",
     "Coforge"
    ]
@@ -24,62 +23,62 @@
  "leaders": [
   {
    "company": "TCS",
-   "why": "Highest revenue and strong 24% operating margin, with positive profit growth."
+   "why": "Largest revenue and strong 24% operating margin."
   },
   {
    "company": "HCLTech",
-   "why": "Consistent revenue growth, AI sales highlighted, and clear FY27 guidance."
+   "why": "Double‑digit profit growth and AI‑driven revenue boost."
   }
  ],
  "laggards": [
   {
-   "company": "Infosys",
-   "why": "Results not yet released, limiting visibility."
+   "company": "Wipro",
+   "why": "Revenue growth modest and net profit fell YoY."
   },
   {
-   "company": "OFSS",
-   "why": "No Q2 results disclosed despite strong margin data."
+   "company": "Infosys",
+   "why": "Results not yet released, limiting visibility."
   }
  ],
  "domain_outlook": [
   {
    "domain": "Media & broadcasting",
    "signal": "Not enough data",
-   "note": "No specific mentions or revenue signals for this domain."
+   "note": "No company mentions specific to this domain."
   },
   {
    "domain": "Entertainment & streaming",
    "signal": "Not enough data",
-   "note": "No company commentary on this sector."
+   "note": "No company mentions specific to this domain."
   },
   {
    "domain": "Gaming",
    "signal": "Not enough data",
-   "note": "No relevant AI or service references."
+   "note": "No company mentions specific to this domain."
   },
   {
    "domain": "Education",
    "signal": "Not enough data",
-   "note": "No explicit activity reported."
+   "note": "No company mentions specific to this domain."
   },
   {
    "domain": "Publishing",
    "signal": "Not enough data",
-   "note": "No data points available."
+   "note": "No company mentions specific to this domain."
   },
   {
    "domain": "Telecom",
    "signal": "Not enough data",
-   "note": "No telecom‑specific deals or trends disclosed."
+   "note": "No company mentions specific to this domain."
   }
  ],
  "watch_next": [
   "Q3 FY27 revenue guidance from TCS and HCLTech",
-  "Actual results from Infosys, LTM and OFSS",
-  "Progress on AI‑native unit performance at Wipro",
-  "Margin trends for mid‑tier players",
-  "Impact of AI‑driven deals on overall sector growth"
+  "Actual results from Infosys, LTM, OFSS, Coforge and Mphasis",
+  "Progress on AI‑driven services and their impact on margins",
+  "Attrition trends across the sector",
+  "Any new large‑scale deal wins in the US market"
  ],
  "quarter": "Q2 FY27",
- "written_at": "2026-10-15T18:05:41+00:00"
+ "written_at": "2026-10-16T08:57:01+00:00"
 }
