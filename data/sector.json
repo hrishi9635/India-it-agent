@@ -1,10 +1,10 @@
 {
- "headline": "Indian IT services posted solid revenue growth, driven by AI and strong deal wins.",
- "summary": "Most listed firms reported double‑digit YoY revenue growth. AI‑related sales were highlighted by TCS, HCLTech, LTM and Wipro. Deal wins in the US exceeded $9 bn for TCS. Profit trends were mixed, with Persistent seeing a sharp profit decline despite revenue expansion.",
+ "headline": "Indian IT services posted solid revenue growth, driven by AI and strong demand in large caps.",
+ "summary": "Most listed firms reported double‑digit YoY revenue growth, with TCS, Infosys and HCLTech leading the top line. Operating margins remained healthy for the majors, while profit slipped at Persistent. AI‑related sales were highlighted as a new growth driver across several companies.",
  "themes": [
   {
-   "title": "AI‑driven services",
-   "detail": "AI revenue grew sharply across several firms, becoming a key growth driver.",
+   "title": "AI‑driven growth",
+   "detail": "AI revenue crossed $3 bn at TCS and jumped 78% YoY at HCLTech, with other firms citing early momentum.",
    "companies": [
     "TCS",
     "HCLTech",
@@ -13,77 +13,82 @@
    ]
   },
   {
-   "title": "Large US deal wins",
-   "detail": "US‑based contracts contributed significant new revenue, especially for TCS.",
+   "title": "Revenue expansion",
+   "detail": "All reporting companies posted YoY revenue growth above 9%, led by OFSS and Coforge in the exchange feed.",
    "companies": [
     "TCS",
-    "HCLTech"
+    "Infosys",
+    "HCLTech",
+    "LTM",
+    "Tech Mahindra",
+    "Coforge",
+    "OFSS"
    ]
   }
  ],
  "leaders": [
   {
-   "company": "Persistent",
-   "why": "Revenue grew 32.7% YoY, the highest among peers."
+   "company": "OFSS",
+   "why": "YoY revenue up 82% and operating margin 59.6%"
   },
   {
-   "company": "Tech Mahindra",
-   "why": "Revenue up 21.2% YoY with strong margin expansion."
+   "company": "Coforge",
+   "why": "YoY revenue up 61.5% with 24.2% QoQ growth"
   },
   {
    "company": "TCS",
-   "why": "Maintained a 24% operating margin and secured $9.6 bn of new deals."
+   "why": "Largest revenue base, 24% operating margin and strong AI revenue"
   }
  ],
  "laggards": [
   {
    "company": "Persistent",
-   "why": "Net profit fell 25% YoY, indicating margin pressure."
+   "why": "Net profit fell 25% despite revenue growth"
   },
   {
-   "company": "Wipro",
-   "why": "Revenue growth slowed to 9.1% YoY and profit dipped 1.9%."
+   "company": "Infosys",
+   "why": "Results not disclosed, limiting visibility"
   }
  ],
  "domain_outlook": [
   {
    "domain": "Media & broadcasting",
    "signal": "Not enough data",
-   "note": "No specific mentions in the reports."
+   "note": "No mentions in the reports."
   },
   {
    "domain": "Entertainment & streaming",
    "signal": "Not enough data",
-   "note": "No specific mentions in the reports."
+   "note": "No mentions in the reports."
   },
   {
    "domain": "Gaming",
    "signal": "Not enough data",
-   "note": "No specific mentions in the reports."
+   "note": "No mentions in the reports."
   },
   {
    "domain": "Education",
    "signal": "Not enough data",
-   "note": "No specific mentions in the reports."
+   "note": "No mentions in the reports."
   },
   {
    "domain": "Publishing",
    "signal": "Not enough data",
-   "note": "No specific mentions in the reports."
+   "note": "No mentions in the reports."
   },
   {
    "domain": "Telecom",
-   "signal": "Not enough data",
-   "note": "No specific mentions in the reports."
+   "signal": "Mixed",
+   "note": "Mphasis noted a £35.4 m telecom‑related deal; overall impact unclear."
   }
  ],
  "watch_next": [
-  "Q3 FY27 AI revenue trends",
-  "Progress on TCS and HCLTech US deal pipelines",
-  "Profit margin recovery at Persistent",
-  "Wipro's guidance for Q3 FY27",
-  "Infosys and OFSS results once released"
+  "Quarterly AI revenue contribution and margin impact",
+  "Guidance revisions from HCLTech and Wipro",
+  "Profit trends at Persistent and other mid‑caps",
+  "Potential earnings releases from Infosys and OFSS",
+  "Macro‑economic influences on IT services demand"
  ],
  "quarter": "Q2 FY27",
- "written_at": "2026-10-16T18:04:58+00:00"
+ "written_at": "2026-10-16T18:46:29+00:00"
 }
