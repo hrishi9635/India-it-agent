@@ -13,6 +13,10 @@ DEFAULTS = {
     "LLM_PAUSE_SECONDS": "25",
     "NEWS_DAYS": "30",
     "BENCHMARK_TICKER": "^CNXIT",
+    # web addresses of the dashboard copies (shown as links in every copy, the email and Telegram)
+    "SITE_STREAMLIT": "https://itresults.streamlit.app/",
+    "SITE_CLOUDFLARE": "",
+    "SITE_HUGGINGFACE": "",
 }
 
 
