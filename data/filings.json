@@ -2,7 +2,7 @@
  "TCS": {
   "checked": true,
   "exchange": "NSE",
-  "count": 28,
+  "count": 29,
   "result": {
    "title": "Tata Consultancy Services Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
    "detail": "",
@@ -25,7 +25,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-16T08:51",
+  "checked_at": "2026-10-16T12:26",
   "quarter": "Q2 FY27"
  },
  "Infosys": {
@@ -36,7 +36,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-16T08:51",
+  "checked_at": "2026-10-16T12:26",
   "quarter": "Q2 FY27"
  },
  "HCLTech": {
@@ -65,13 +65,13 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-16T08:51",
+  "checked_at": "2026-10-16T12:26",
   "quarter": "Q2 FY27"
  },
  "Wipro": {
   "checked": true,
   "exchange": "NSE",
-  "count": 22,
+  "count": 24,
   "result": {
    "title": "Wipro Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
    "detail": "",
@@ -94,18 +94,36 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-16T08:51",
+  "checked_at": "2026-10-16T12:26",
   "quarter": "Q2 FY27"
  },
  "LTM": {
   "checked": true,
   "exchange": "NSE",
-  "count": 14,
-  "result": null,
-  "press": null,
+  "count": 18,
+  "result": {
+   "title": "LTM Limited has submitted to the Exchange, the unaudited financial results and interim dividend for the period ended Sep 30, 2026.",
+   "detail": "",
+   "category": "Outcome of Board Meeting",
+   "subcategory": "",
+   "time": "2026-10-16T16:57",
+   "url": "https://nsearchives.nseindia.com/corporate/LTI_16102026165454_Outcome_Final_Signed.pdf",
+   "alt_url": "",
+   "exchange": "NSE"
+  },
+  "press": {
+   "title": "LTM Limited has informed the Exchange about Investor Presentation",
+   "detail": "",
+   "category": "Investor Presentation",
+   "subcategory": "",
+   "time": "2026-10-16T17:38",
+   "url": "https://nsearchives.nseindia.com/corporate/LTI_16102026173744_Outcome_Final_Signed.pdf",
+   "alt_url": "",
+   "exchange": "NSE"
+  },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-16T08:51",
+  "checked_at": "2026-10-16T12:26",
   "quarter": "Q2 FY27"
  },
  "Tech Mahindra": {
@@ -134,7 +152,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-16T08:51",
+  "checked_at": "2026-10-16T12:26",
   "quarter": "Q2 FY27"
  },
  "OFSS": {
@@ -145,7 +163,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-16T08:51",
+  "checked_at": "2026-10-16T12:26",
   "quarter": "Q2 FY27"
  },
  "Persistent": {
@@ -156,7 +174,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-16T08:51",
+  "checked_at": "2026-10-16T12:26",
   "quarter": "Q2 FY27"
  },
  "Coforge": {
@@ -167,7 +185,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-16T08:52",
+  "checked_at": "2026-10-16T12:26",
   "quarter": "Q2 FY27"
  },
  "Mphasis": {
@@ -178,7 +196,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-16T08:52",
+  "checked_at": "2026-10-16T12:26",
   "quarter": "Q2 FY27"
  }
 }

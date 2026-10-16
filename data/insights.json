@@ -81,7 +81,7 @@
  "Infosys": {
   "results_found": false,
   "results_date": null,
-  "headline": "Infosys Q2 FY27 results have not been released yet",
+  "headline": "Infosys Q2 FY27 results have not been released yet.",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -114,7 +114,7 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No results data available yet",
+  "sentiment_reason": "No results data available yet.",
   "missing": [
    "revenue_inr_cr",
    "revenue_usd_m",
@@ -130,43 +130,17 @@
    "attrition_pct",
    "dividend_per_share_inr",
    "guidance",
-   "media_vertical details"
+   "media_vertical details",
+   "megep_mentions",
+   "ai_signals",
+   "management_view"
   ],
   "unverified_dropped": [],
-  "sources": [
-   {
-    "title": "IT Sector Q2 Results Preview: TCS, HCL, Infosys, Wipro To See Muted Quarter; Check Dates, Dividends, Bonus",
-    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNVWw2NEE0aDVWZ0dNV2VMZDQzcDlKZ29WUXZWQmEtNXJCaU5sSHZxRHQzZnBfQXlWeldRZl90SXBMaUF1MGo2VlpJNjVTcXpkU1djRUN6bTBkTlFGSGJ4SU5USEZCVi1zU2lZeFFLcXpYSVhtM0RjX01ZM0FFSWZlUGI1WXJPcmRlNEZERkJZWnJkUFkxRmZValNTTWZLdXBlNlJaQkNLWDktejVITkhPOTVjRzV6WkNNX3dIM2tPdTEyTGJocllZSlRDRDF0V2JrRmN0MmlxSFJJWTg?oc=5",
-    "source": "Goodreturns",
-    "published": "2026-10-11T07:00:00+00:00",
-    "official": false
-   },
-   {
-    "title": "After TCS ₹12 dividend, all eyes on Infosys Q2 results, dividend; date, time, earnings schedule, yield, stock report",
-    "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQNUxEMDVnUkMtWEpxZVRJcHVydjJuQXZKSzA0Z0IwVV84THNVZzJibGw3cWIzRkF6QlQxY1BrSjAzUlJ0ZlhNVkprTFhoX0lORVFHNHktYUVnNzhxVTA5T1pJV2pJajFBU1VqQXh4aHFhMVNLeVFHTFkyQTZyYW0zSTNBWTBjX2NTQTd5b3VTUmNRTFBlRW1ESG9jcUdmQWlULUxCMmwydHVMX0YxV1dHTlV5dkpsQzNDTTNvLXVEXy1Ta1phT3lIeFI0VkUyVEhXcWE2Rm1OZzQ4UjZiNFhLYl9pS3VlSGZoVEI1MmJleHNqTzNoSVRWZkdXVFZvZ3dlcXg3OEtFQm82VUw1UUHSAZMCQVVfeXFMTUdDZldNRWc5UHdiczNnUkN3SFJDcWJDOV9ZTEJiTVFPMHBoVWxfR3NOMXVXV0dYVTdLTWI5N0pMMF91S0R1bWpHRlFZVm1pTDYyTGxuaUl2Wk1FS0FjSTAxdkVMN2lzLVBwaXlwX2dnUXg2aGFlaVc3cjZYejRIZllwQmtvSFp3NGdrRXhFU0RFYW1ucVRyTmtyYzVic1g5QlhpR2U3bGFmT0RoWVZBbmY1ZmVvdzNHcEpFOFhoWDVkekc5dDZhM29LYVVBcFF2OHhRYUpFZkJYSkxyLTJjdEQwaVhJbmJ4cWtXTDdHWFUtS01XaE1nc3FDLUNFbWp4TlhFb09qdU44SWw3aFJ5ZWh1ZjA?oc=5",
-    "source": "Livemint",
-    "published": "2026-10-09T12:02:30+00:00",
-    "official": false
-   },
-   {
-    "title": "IT sector Q2FY27: Infosys, HCL Tech, Wipro, Tech Mahindra results, interim dividend dates",
-    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQcTNfVXhzQzVKNmxTeXdOa1BOTkpLVHNqN1hOcXhGNU9XVXBGVTUwVmZJZVZVaHl3QUFuRklILWpiM0FvZ0pOZWRoLVZvd2VSbm4tTEVxQkdtalh0cmRPVzljbnVrUk9KdS1iNU1KalJmSXJlVVU0OXhuLVhjN29zUldZU0pKc28wUmVSU2RRRjhBRDBiRHUwNFljUFU3cWk5ZkF4ZVNsd2NtNjhDVWw5UDJVRHdGal9IMXBmLUlBX2dCODBrWGZFem04T3JHOWx2UVBQaml0S283d0ZU0gHjAUFVX3lxTE9heThmMDRVYW9TR0otVkVVaTg2VW9MZkJ6UDAzRzRLUUZmOXNQbHBGdVlrMVZxNXNTQjBlRVBYeXZNSW1LeWlnYWhPalEzd2R6emJHRUYzQ0pWQUJWNHFobDVCX1dRVlptdUVGREJLdFBvUkhjbDdDeTBYdGNuNE50dW5PZXhHVTZGVGtKTm14TjJyR3JmcmFIeUVrcG1WRVFzVU5FWFNuV19uUmpfUGEwVkpycTZpb004RVZ2bG10c2NWSzE5eThXWjVDN01EbWotZFJ1RTE1VkczbFZWbnBBaHhv?oc=5",
-    "source": "The Financial Express",
-    "published": "2026-10-08T06:40:09+00:00",
-    "official": false
-   },
-   {
-    "title": "Infosys Q2 2026 quarterly results: Announcement date and time, earnings schedule, dividend history - Details",
-    "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOZEdDQXdNcjVjVjVZTDNLc29XRTJvMjFuRWlVM3BHSFBMaFdIc0dfRW9XXzZqbUtPSVJYcGdxRXV4QVkyWEUwVDY0Q1F5ckVNN3l3VEZHNG1iaEVVMFpoNWJmX211WFNRb0dlSHhyVi1Ya2R3M2NvZlNhSlBYQ0ZnWnE1TDdJN01VNUVneFhmMVg0VHdSdVJtVnlmcEo0cmtNUUo1STRuUEN3bUFoV2dwbXVhYXdOa1J6Z0U0bi1EcTRkT2h1YWl6b19zbUo2UlhzcGtWb1F0ZjZEWGt5WDhSUkZMRjgwd0k1WXZ4Wk9GVlNGaUdiWFk3UHNLWFVJWko1NUFv0gGIAkFVX3lxTFBwMDdPMjBCdnlTc2tSZEEtUE9uMmxmZGhYQlB4RHBhaktzWHk2ak9pZXU1bzNuR3hUcldNRjYzWEtWYzNtUjNSVVZkb1pjQzNMQ0RxUGM4dXZPVHVxc2txbGRPYkhONFpCU2hPUEN5MlljdFFEekpNY0xCczZ5ZjlDRlBHdV9qSFlSVHo3Rm9ibGdwRkcydDJBbWhhdlZsX0VMMmtjUGpZMTFEeFg4eHBldTdhRklzX25zaXh1b2tCX05ZcFRwNjFnNHdlME1OUzM3bW1oLWt0bEM1SXU3ekR1TlVjVmdjM0FBbjByV242NGliSXJyb3QySmNUNnViNGt0a0hpU0tpYw?oc=5",
-    "source": "Livemint",
-    "published": "2026-10-06T07:00:00+00:00",
-    "official": false
-   }
-  ],
+  "sources": [],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Infosys",
-  "analysed_at": "2026-10-16T08:52:33+00:00"
+  "analysed_at": "2026-10-16T12:27:19+00:00"
  },
  "HCLTech": {
   "results_found": true,
@@ -251,34 +225,36 @@
   }
  },
  "LTM": {
-  "results_found": false,
-  "results_date": null,
-  "headline": "LTIMindtree is slated to announce its Q2 FY27 results on October 16, 2026, but figures have not been released yet",
+  "results_found": true,
+  "results_date": "2026-10-16",
+  "headline": "LTM posts Q2 FY27 revenue of ₹11,808 cr, up 13.6% YoY, while net profit slips modestly to about ₹1,380 cr and declares a ₹25 interim dividend.",
   "metrics": {
-   "revenue_inr_cr": null,
+   "revenue_inr_cr": 11808,
    "revenue_usd_m": null,
-   "revenue_growth_yoy_pct": null,
+   "revenue_growth_yoy_pct": 13.6,
    "cc_growth_qoq_pct": null,
    "cc_growth_yoy_pct": null,
-   "net_profit_inr_cr": null,
+   "net_profit_inr_cr": 1379.9,
    "net_profit_growth_yoy_pct": null,
    "operating_margin_pct": null,
    "deal_wins_usd_bn": null,
    "headcount": null,
    "net_headcount_change": null,
    "attrition_pct": null,
-   "dividend_per_share_inr": null
+   "dividend_per_share_inr": 25
   },
   "guidance": null,
   "guidance_change": "none",
   "highlights": [
-   "Management scheduled an earnings call for October 12, 2026",
-   "Multiple multi‑million‑dollar AI‑led managed services deals were announced in mid‑October",
-   "Analyst previews note weak Q2 growth but potential margin upside from AI revenue"
+   "Revenue rose 13.6% YoY to ₹11,808 cr.",
+   "Net profit fell modestly to ₹1,380 cr, a small sequential decline.",
+   "Interim dividend of ₹25 per share announced.",
+   "AI‑related revenue jumped 47% YoY.",
+   "Management highlighted strong demand in digital and cloud services."
   ],
   "risks": [
-   "Uncertainty around actual Q2 performance until results are disclosed",
-   "Potential slowdown in overall IT services demand as indicated by preview articles"
+   "Margin pressure from higher employee and subcontracting costs.",
+   "Potential slowdown in discretionary IT spending."
   ],
   "verticals": [],
   "media_vertical": {
@@ -290,53 +266,101 @@
    "commentary": null
   },
   "megep_mentions": [],
-  "ai_signals": "Company highlighted AI‑led managed services deals in North America, suggesting growing AI revenue contribution",
-  "management_view": null,
-  "sentiment": "Neutral",
-  "sentiment_reason": "No financial results available yet; only deal announcements and previews",
+  "ai_signals": "AI revenue surged 47% YoY, driven by new AI‑led managed services deals.",
+  "management_view": "Management said the quarter showed robust top‑line growth backed by AI and digital transformation wins.",
+  "sentiment": "Positive",
+  "sentiment_reason": "Revenue growth outpaced profit decline and dividend was raised.",
   "missing": [
-   "revenue figures",
-   "net profit",
    "operating margin",
-   "headcount",
-   "dividend",
+   "constant‑currency growth figures",
+   "deal win values in USD",
+   "headcount and attrition data",
    "media vertical revenue share and growth"
   ],
   "unverified_dropped": [],
   "sources": [
    {
-    "title": "LTM Limited Q2 FY27 Earnings Call Date and Details",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYU1EN2VuYldOSmlfaEYxeDYzbjlTWmJTclJzMC02amx4emUzS2ptNTlITDZBODBid0lqQjcwdXNZX0RHTnFZdHRXVFplWlRCckRDdXo5ZHNmVzVQRzRTb1R6Zmg3UFdFS3otSjh6c2dYeTRiRjdPdmJBZFBlR2swNkVaVzhzS1VxTWhuRVk4b2FzU2RsVGE0THFhVktfQ1N2Wjh3UllCX2VZdw?oc=5",
-    "source": "Kalkine India",
-    "published": "2026-10-12T12:53:00+00:00",
+    "title": "OFFICIAL NSE FILING: LTM Limited has submitted to the Exchange, the unaudited financial results and interim dividend for the period ended Sep 30, 2026.",
+    "link": "https://nsearchives.nseindia.com/corporate/LTI_16102026165454_Outcome_Final_Signed.pdf",
+    "source": "NSE filing",
+    "published": "2026-10-16T16:57:00+05:30",
+    "official": true
+   },
+   {
+    "title": "OFFICIAL NSE FILING: LTM Limited has informed the Exchange about Investor Presentation",
+    "link": "https://nsearchives.nseindia.com/corporate/LTI_16102026173744_Outcome_Final_Signed.pdf",
+    "source": "NSE filing",
+    "published": "2026-10-16T17:38:00+05:30",
+    "official": true
+   },
+   {
+    "title": "LTM Q2 FY27 Results | Revenue ₹11,808 Cr +13.6% YoY | Dividend ₹25",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ZcVdXX253WVRBbTNINEN2dUczWEJuX3hYWWRvSFpOS293Q2x5UVd0WGdkR21qTVJ0M3RGRzJoS1FQOHYxRkNNR0dFd3Q1SE5XZENJYTFGX2VNWVBRTXlKNFRJNHFsb0lmSnhLV1Z6N1Q5cEtLLUY3S0MyVl9nQQ?oc=5",
+    "source": "PSU Connect",
+    "published": "2026-10-16T12:08:00+00:00",
     "official": false
    },
    {
-    "title": "IT Q2 Preview: Weak Growth, Attractive Valuations; Tech Mahindra, LTIMindtree Among Anand Rathi's Top Picks",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9XWXkwS05Id2hxMk04Rm84SjJ5RjNHYlZaaGVzUEJydHR6bTItamx3SkhwcjR2NklFTXYycW4zQ2Z2dTNpVlE2b3pNR0JBWWFWakFXeDJDdjNkZXpxSzNrN2lwQnZ4NFVCcXV3SlZKbW52N0U?oc=5",
-    "source": "NDTV Profit",
-    "published": "2026-10-06T07:00:00+00:00",
+    "title": "India's LTM beats second-quarter revenue view",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV2dUYmtmWmhNUC0wU2dOVjRIb3FfcThUU0UwcDRpelc4aTExcHhwMWhjaWtyT0VlSC1pVmZwS2c5YUwwYWowT0ZsNUJtVm5GYWQ1TWRZTG1VbGpGbXFHWnBXLThsTGYzMXR4R1dkME5RRU9kRXNrZjVVbFotRC1VWjRaOF9rSjNGWXdZNGpzb0xiVlp4cHRNb3FJQjR6cE9sQ0tWdw?oc=5",
+    "source": "Reuters",
+    "published": "2026-10-16T11:56:05+00:00",
     "official": false
    },
    {
-    "title": "Top Q2 results today, October 16: DLF, PNB, LTIMindtree, Federal Bank, Tejas Networks among companies to announce earnings",
-    "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPVzdkTXF1MkFZNzZnX2d6akxCbHhqcVdCLWlGUjlJeWhyOUhVczEzcEcyRm9LLU9kRUhCakZkM05HRDVlZ2lWM1k4QS11QWNPamNyNm5QN2QxTm1ZVEgyRGFvSWxsbVFKZThkaS1yTDdxLVRSelVSSzIwLURkd3J5STdDazFkS19zdEM4Z2ZqM0QxQ3FjcDFfM21UczY1WGs5VC1uZDcyZnQxU3N1UEhNdVNoWkttTlVvSmR5Smp6dUdSNS1TRmtGNkNVWWFRREtlZXNzMTcxNUt5WXpuUVJKT3AzLU5SdTUtWHV0RXA4SGtPM3AzOF9WNjI0eTZXMGFqa0dMMzgzZS1menFHT2s2Tw?oc=5",
+    "title": "LTM posts marginal second-quarter profit decline in India IT services",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOM1pXaXdpU3lRRnhCSmxSQXdWa3ZYeEhlOEVxV3dualZrSkQ5dzE1dUU3RHBNc3dyY1hsb09MbVppNHd6ZDlLVE1teFFrdzJZQkhMUGIzcXZIZG4zMEZPdmJFM2Nwa3lvbS05Z3dqNDRhLXlycVlhU2xGWF9uV2pfUDJrOGpZQk9TLWR0ZHZR?oc=5",
+    "source": "Traders Union",
+    "published": "2026-10-16T11:40:32+00:00",
+    "official": false
+   },
+   {
+    "title": "LTM Q2 profit falls 5% sequentially despite 47% jump in AI revenue; dividend declared",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPVHcwcHR1YWx1MUtjcGJoZmsxaUJRTm9GRk50Nmwzd3drc014VzNSRkdVSTFqMFZYZVNzc3QwOUQ0TUVaMnl5TkJWZGdKYzJ4MUxRa0NRc0t5Ti1YRUxNZDJxSlMxZXZnV2l1VndMa052Y0tfTUNYNFBKUEZGQ3BtekhEX3BDZjI2WkpuMVBUeThubWMzR1ZKemsxQVJ5Nm5UYU04MHJnZWhFQUNRX2JnNjlGUzdrbWZiOVpoZV8yTy1vY1cxSGJKNkRpTlRYV1NMQU1DN3VwbkRWZ9IB3wFBVV95cUxNNFVKaUItLWtWdThoVGdRZUhuRDNPUXplUkJ1d3ZYbWdjYmswbjd6UnFfZTJuNWw0V0c5VUFVc2tjcEZsbUhBYXVUeHZxZVNNTWU1LWJuNmROQXRrcWhyU3RtUUVZOVNILTI4dEVqWnlsZDJsTGEtemdBeFpvc1Zpb1NJb1UwRmFFOWhFX1ptX2JYZktMZTdjc1VYUkJSWnEwSm52QWZjNXRRNktabkg0R1JtaEdoYUxFbDE0emppczlDdlpNV1U0UTJZanlSZHU0QURUUmV3OG5LRURzejdr?oc=5",
+    "source": "CNBC TV18",
+    "published": "2026-10-16T11:40:24+00:00",
+    "official": false
+   },
+   {
+    "title": "India's LTM reports marginal fall in second-quarter profit",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTHF3UmpfMmlpR1gxcmxKNUQxQjhZZGp6cG1zS3l5REFKVHRZTm8xQkd3Qmh4ZHNGQXVsSkhGRDdQOXpncDJuT21VNldxa3hINkdYb0p2cjZWWUtOWVVFRFJwWUpmMkhuZ1NSQTdlMXJpV3pEeS1PN2s4NEU3LTJrc1dLVDJwYTFrMVJIN1l1NXNtMmdvdHJUMVdfMnUwWllHSVRpaTRFTlZwZktPMGdCdA?oc=5",
+    "source": "www.marketscreener.com",
+    "published": "2026-10-16T11:31:01+00:00",
+    "official": false
+   },
+   {
+    "title": "LTM Q2FY27 Results: Revenue up 13.6% YoY to ₹1,18,076 million",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQU0hnMWROTGVHQVFTRmhKcV80M09OWHEwZ3lnQW16N3FyWXBwOWxLNVFnYjIyZGp6cVRncUkwbmRSeWZocjBQVXJLQ0F4QVZyekFMd2gtel8wLUtNbXhCdGJWZWpDZTVPVXhzYjRIRjBqOUtsV2FqS0pFWGNfWU1QR29yTzEtZU41RFNoSnNHekJpT1ZDU2FTejFJU1piNVNRLW0tYXVJOEpLNk1PN3oxdmN3?oc=5",
+    "source": "scanx.trade",
+    "published": "2026-10-16T11:26:01+00:00",
+    "official": false
+   },
+   {
+    "title": "LTM Q2 FY27 Profit Flat, Revenue Up 13.6%; Declares Dividend",
+    "link": "https://money.rediff.com/news/market/ltm-q2-fy27-profit-flat-revenue-up-13-6-declares-dividend/56363120261016",
+    "source": "money.rediff.com",
+    "published": "2026-10-15T20:42:00+00:00",
+    "official": false
+   },
+   {
+    "title": "LTM Q2 results: Net profit falls 4.8% QoQ to Rs 1,397.9 crore, revenue up 1.7%",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQOFlTTmhuUnY3TmItOVRfX0lINzdha2RVenQzRnN0cmwzdWI1cnh0MXlIaHNlT0dBRmRlcXc3Z2EtZVp4UXJqblExMkQwWVhPNXZxZkhvOHJRenZ4d3FIZk9WVEpNWHF3anp1cHVwYXY1VnZTVWk3S2xTcUV2MnRucUN5c0kyQ2h2UVR0Mk1SZmNFS2F2c2g2Q0RVeEZCU3pGWFVVcEYtTUpCYWJUQVFyQkNfUGVaanU3OWttd21xWXJhb1hfc3lPbHlsMU80Z0U2c3JHOEEzSXE?oc=5",
     "source": "Business Upturn",
-    "published": "2026-10-16T02:35:26+00:00",
-    "official": false
-   },
-   {
-    "title": "Top Q2 results today, October 16: DLF, PNB, LTIMindtree, Federal Bank, Tejas Networks among companies to announce earnings",
-    "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPVzdkTXF1MkFZNzZnX2d6akxCbHhqcVdCLWlGUjlJeWhyOUhVczEzcEcyRm9LLU9kRUhCakZkM05HRDVlZ2lWM1k4QS11QWNPamNyNm5QN2QxTm1ZVEgyRGFvSWxsbVFKZThkaS1yTDdxLVRSelVSSzIwLURkd3J5STdDazFkS19zdEM4Z2ZqM0QxQ3FjcDFfM21UczY1WGs5VC1uZDcyZnQxU3N1UEhNdVNoWkttTlVvSmR5Smp6dUdSNS1TRmtGNkNVWWFRREtlZXNzMTcxNUt5WXpuUVJKT3AzLU5SdTUtWHV0RXA4SGtPM3AzOF9WNjI0eTZXMGFqa0dMMzgzZS1menFHT2s2Tw?oc=5",
-    "source": "Business Upturn",
-    "published": "2026-10-16T02:35:26+00:00",
+    "published": "2026-10-16T11:36:32+00:00",
     "official": false
    }
   ],
-  "official": false,
+  "official": true,
   "quarter": "Q2 FY27",
   "company": "LTM",
-  "analysed_at": "2026-10-16T08:53:27+00:00"
+  "analysed_at": "2026-10-16T12:28:14+00:00",
+  "filing": {
+   "exchange": "NSE",
+   "title": "LTM Limited has submitted to the Exchange, the unaudited financial results and interim dividend for the period ended Sep 30, 2026.",
+   "url": "https://nsearchives.nseindia.com/corporate/LTI_16102026165454_Outcome_Final_Signed.pdf",
+   "filed": "2026-10-16T16:57",
+   "press_url": "https://nsearchives.nseindia.com/corporate/LTI_16102026173744_Outcome_Final_Signed.pdf"
+  }
  },
  "Tech Mahindra": {
   "results_found": true,
@@ -461,7 +485,7 @@
  "OFSS": {
   "results_found": false,
   "results_date": null,
-  "headline": "Oracle Financial Services Software has not yet released its Q2 FY27 results",
+  "headline": "Oracle Financial Services Software has not yet announced its Q2 FY27 results",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -494,7 +518,7 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No results data available yet",
+  "sentiment_reason": "No results data released yet",
   "missing": [
    "revenue_inr_cr",
    "revenue_usd_m",
@@ -520,21 +544,21 @@
   "official": false,
   "quarter": "Q2 FY27",
   "company": "OFSS",
-  "analysed_at": "2026-10-16T08:53:57+00:00"
+  "analysed_at": "2026-10-16T12:28:44+00:00"
  },
  "Persistent": {
   "results_found": false,
   "results_date": "2026-10-15",
-  "headline": "Persistent Systems posted Q2 FY27 revenue of Rs 4,494.17 crore with modest profit growth",
+  "headline": "Persistent Systems posted revenue of Rs 4,494.17 cr ($487.6 m) in Q2 FY27 but net profit fell about 25% to Rs 351 cr",
   "metrics": {
    "revenue_inr_cr": 4494.17,
-   "revenue_usd_m": null,
-   "revenue_growth_yoy_pct": null,
+   "revenue_usd_m": 487.6,
+   "revenue_growth_yoy_pct": 20,
    "cc_growth_qoq_pct": null,
    "cc_growth_yoy_pct": null,
-   "net_profit_inr_cr": null,
-   "net_profit_growth_yoy_pct": 2.42,
-   "operating_margin_pct": null,
+   "net_profit_inr_cr": 351,
+   "net_profit_growth_yoy_pct": -25,
+   "operating_margin_pct": 15,
    "deal_wins_usd_bn": null,
    "headcount": null,
    "net_headcount_change": null,
@@ -544,13 +568,15 @@
   "guidance": null,
   "guidance_change": "none",
   "highlights": [
-   "Revenue reached Rs 4,494.17 crore, up year‑on‑year.",
-   "Profit after tax rose 2.42% YoY.",
-   "Software, Hi‑Tech & Emerging Industries segment grew 28.5%."
+   "Revenue grew ~30% YoY to Rs 4,494 cr",
+   "Net profit dropped ~25% YoY to Rs 351 cr",
+   "EBIT margin slipped to about 15%",
+   "Company raised debt to fund acquisitions",
+   "Share price fell ~5% after results"
   ],
   "risks": [
-   "Profit margin pressure despite revenue growth.",
-   "Higher debt levels after recent bond raise."
+   "Margin pressure from recent acquisitions",
+   "Profit decline despite revenue growth"
   ],
   "verticals": [],
   "media_vertical": {
@@ -558,23 +584,44 @@
    "revenue_share_pct": null,
    "growth_qoq_pct": null,
    "growth_yoy_pct": null,
-   "growth_cc_yoy_pct": 28.5,
-   "commentary": "The segment grew 28.5% as the company expanded AI services."
+   "growth_cc_yoy_pct": null,
+   "commentary": null
   },
   "megep_mentions": [],
-  "ai_signals": "AI services expansion drove the 28.5% growth in the Software, Hi‑Tech segment.",
+  "ai_signals": null,
   "management_view": null,
-  "sentiment": "Neutral",
-  "sentiment_reason": "Revenue grew but profit margin slipped, leading to mixed market reaction.",
+  "sentiment": "Negative",
+  "sentiment_reason": "Profit fell sharply while margins missed estimates",
   "missing": [
-   "net profit amount",
-   "operating margin",
-   "revenue growth YoY percentage",
-   "headcount and attrition data",
-   "dividend details"
+   "cc_growth_qoq_pct",
+   "cc_growth_yoy_pct",
+   "deal_wins_usd_bn",
+   "headcount",
+   "net_headcount_change",
+   "attrition_pct",
+   "dividend_per_share_inr",
+   "guidance",
+   "media_vertical revenue share and growth",
+   "megep_mentions",
+   "ai_signals",
+   "management_view"
   ],
   "unverified_dropped": [],
   "sources": [
+   {
+    "title": "Persistent Announces $487.6M Revenue in Q2 FY27 with 20.0% Y-o-Y Growth",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRXRyUmc2T1VReTJGbkRuS2taRG5xZnhNYWVJeTgza1R0WmhMaG5HQTYydVhYS215aVZLUXRfQUdRUkxNdXRJWGJfNmdPWTRfMTZUUW1RRTVHYWM0UDJ1OFpDV3hvRG5qNFcwY3F1Q0JGTkRPRlkyRXJjNmhlX2VyZTVuV1NXMWxXN3dQeWtpQjJIQjhITlFvZThZTF9CekM3S05kN2piNTBPQQ?oc=5",
+    "source": "CXOToday.com",
+    "published": "2026-10-15T18:18:19+00:00",
+    "official": false
+   },
+   {
+    "title": "Persistent Systems announces financial results for Q2 and half year ending September 2026",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORnNxdG5lR3N4TlBLQi1HZHRoUWJzb1RhaHNjaHpZakY5Sm1NYmtGN0dzcU1iOHJCTTNBdXBSX3FOa1JxX2V6R2Z5VUpfeERCeGEyN2tMRUcxQzgxYTBQSmM0U0dld3lrZS0zVFZrSkxSZHdsNVhYMC04QjBRTDlkYlZ3aXBaWW9PWWJCaW91SmZraW1iRTdQSGVHV0Nua3ZzeExBcjBrZ1F0R3FLOFhKQ1hrMlB2SmlkSllaRWJOdUFtNGti?oc=5",
+    "source": "Business Upturn",
+    "published": "2026-10-15T13:24:31+00:00",
+    "official": false
+   },
    {
     "title": "Persistent Systems Q2 Results FY27: PAT Rises 2.42%, Revenue at Rs 4,494.17 Cr",
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5TeWVEcWRNSFVCb1RiOC1fbldtcDJLWDB2anZIeWNuMXFnVVVSbTJIZmRIUlU2dUlzTEFSQ3p2bXpIeXVzMS1sWl91aWZsRGtSSVNuX1k2Z1EtUVg0a2FzNzhlczFsM2VfQmhaOTdLdEV1NmJnV2hjaHFVWTRjQQ?oc=5",
@@ -583,22 +630,29 @@
     "official": false
    },
    {
-    "title": "Persistent’s Software, Hi-Tech Revenue Grows 28.5% as It Expands AI Services",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNDdEY29fZWNHRlJSSEkyZUxFWTZJM1NUZ1pmYmYzNk9xMDNfeTJ0bV93d0NOeUZ6VHNZZFZ2QUdfbkJraFdJOE9PcWpmeVJqSnRMWWxxQTZoRkp4WkxMNFFkOWk1OERGc0kwZ1o0UUk0TDd0SldNOUl5cmFiT1kzX3BWdHlhQnJDTHFCNEp3blRjUHJTbE5nalhrVENKdzluNmpnTG1ZUXBnb0E2ckdJ?oc=5",
-    "source": "Analytics India Magazine",
-    "published": "2026-10-16T06:38:04+00:00",
+    "title": "Persistent Systems Q2 Net Profit Falls 25% to Rs 351 Cr; Revenue Up 30%",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZXQyZHAwVVppSXJ4QUhCMWl2ZXdFeXdFTng4eEFSYzZsZGdFQ0M1YXJzODNUN3ZHVkQ0T2VPMGR1dGYtMW5aRHhuVmZDSGVZUWdOR3pVS2IzM2VuNnQtUUtQMlhPUkhMOXNLWlF4QmI2MUEzMnVaY2lhQmZwekxJOTNXb2dXbW41bEhRQ2pUUi1NZzNrWXVvRFZyYno1UFdL?oc=5",
+    "source": "HDFC Sky",
+    "published": "2026-10-15T11:38:05+00:00",
+    "official": false
+   },
+   {
+    "title": "Persistent Systems (PERSISTENT) Q2 Revenue $487.6M, Up 20% YoY; EBIT Margin 15%",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNeU0wNmNXeERnMU1lVDhNMWs0aG53b3FydExlU1d6NFdpRk5odmVhY2ZyNHlmQzFyUlVuNlZhb1BQU3JPOXppaUF1U1BQWWlNSXpybXBJY3hlLVVrTnFIc3JHMG0waE1DUEszRE1maVZ5OVFMeVcwTEtJVXVrZmllVlA5NmVPeS1VSnZfWnFBRTdPWlBFVkV3NmQxSW9fUllSd2psamVSR1JBSDBRRnJRdGRBc2NYN21tQkJJQ2c3akxJZTY3NTFGVTRqa2gzbTQ?oc=5",
+    "source": "TradingView",
+    "published": "2026-10-15T12:34:00+00:00",
     "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Persistent",
-  "analysed_at": "2026-10-16T08:54:47+00:00"
+  "analysed_at": "2026-10-16T12:29:36+00:00"
  },
  "Coforge": {
   "results_found": false,
-  "results_date": "2026-10-14",
-  "headline": "Coforge announced its Q2 FY27 results",
+  "results_date": null,
+  "headline": "Coforge Q2 FY27 results have not been released yet",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -631,7 +685,7 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No performance data provided in the sources",
+  "sentiment_reason": "No actual results disclosed yet",
   "missing": [
    "revenue_inr_cr",
    "revenue_usd_m",
@@ -646,9 +700,7 @@
    "net_headcount_change",
    "attrition_pct",
    "dividend_per_share_inr",
-   "guidance details",
-   "highlights",
-   "risks",
+   "guidance",
    "media_vertical details"
   ],
   "unverified_dropped": [],
@@ -659,17 +711,31 @@
     "source": "Kalkine India",
     "published": "2026-10-14T08:34:00+00:00",
     "official": false
+   },
+   {
+    "title": "Infosys, Coforge LTTS Q2 results date and time: Key numbers to watch",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVzR2RmNodGJhWlQ2R3N2X2xDbGNfdG9NSUdFV08xMm1IajNibVNUS2poVzh3QzBBUFBZNDZ3SHhFWTZlV0RHVnhid1FTUDBybXpwQXN2TmEzeF84R1JwYzRpYWwzWUtsejNHcGZiVW8weHhCUEFEVFBXdWRvcDhRa3FVVWZOUERwaFNMY2dtWWFwQnZkd1JSYVljQnU1WDR0bWs1MEtpNjlYMUxDdk5uRGFMRURfTjBHMEtTd2x5WWJwak8zcEtIU1VhRdIB0AFBVV95cUxNYjIwanNFTmxzdEdGSDhGY2Nwb0U4ODJqcUdmUWFxRExxZ1R3Z2FobFBSZ2FpU2hkLWp3MmtkZjJsd2JQVWRnYjVXYUxpM05wVmJlTUZNN1BKOC1naTB5MHVHMEJtVmZDaENLU3lSNEt1UkhXaGN6Y1hTeUFUMHRTSlBpaUxmYXZfMENRQXl6b3pSRTNvSFRxNjcyZF8zcmtlcmdad1FZVXZObWs2Sk55Y2htWE1HYlNWbUwzckVpZHdIVEw2eWNPUl80MVdWZGdx?oc=5",
+    "source": "Moneycontrol.com",
+    "published": "2026-10-13T08:45:09+00:00",
+    "official": false
+   },
+   {
+    "title": "IT Q2 Results FY27: TCS, Infosys, HCLTech, Coforge, Tata Tech Announce Earnings Dates",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVXNvSVZkSEtuVVB2akY1NnFKSkdIbHVZekJkQ3cxbVM1YjcxcFFreks1LUVUS1pZUzVtTVNoUXpvLUl4SXVqa1EwblhxS2pzN1RXUm5EanBueFk5dk55blVnanN5T0VrcVZPVDUzU3VkT3Y5MDVRenRiakhfYWxhNzE4NTJFbmk1blNDV19zX1Y2ZVZUa3I2dFNQYkI0NmU4TGt2VFZYWU4yc1NfejFYSEx2UUQyNnVUcjRIUHhrOG9leFBP0gHMAUFVX3lxTFBpRDFmRjFpVFFUcV82X1JpRm50Zi1TZWtOTzFCNUVwN3Rwbm5HYVZNNmowNFRJOVo0MkhBSU8zQWc1MUFuMkZCUXd5a21vUkRqZWxWTW5iZkJuc01qTDFMX08wOXpBR1pvZjJpQzdRdlRtbGNrWlAzSzRVbmFLUzExT0UtRFBuZU1URzI4Nl9jMC1FemhKdG1VSDd3d3pKekx4OXFjWmUyVzRELW41LWV2bzd3VzBNYUVwTlZjTjFReGxoLU4yQ1dZVEoydA?oc=5",
+    "source": "NDTV Profit",
+    "published": "2026-09-24T07:00:00+00:00",
+    "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Coforge",
-  "analysed_at": "2026-10-16T08:55:41+00:00"
+  "analysed_at": "2026-10-16T12:30:30+00:00"
  },
  "Mphasis": {
   "results_found": false,
   "results_date": null,
-  "headline": "Mphasis Q2 FY27 results have not been released yet",
+  "headline": "Mphasis has not yet released its Q2 FY27 financial results",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -702,21 +768,30 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No actual results data available yet",
+  "sentiment_reason": "No results have been announced yet",
   "missing": [
-   "revenue",
-   "net profit",
-   "operating margin",
+   "revenue_inr_cr",
+   "revenue_usd_m",
+   "revenue_growth_yoy_pct",
+   "cc_growth_qoq_pct",
+   "cc_growth_yoy_pct",
+   "net_profit_inr_cr",
+   "net_profit_growth_yoy_pct",
+   "operating_margin_pct",
+   "deal_wins_usd_bn",
    "headcount",
-   "dividend",
-   "media vertical share and growth"
+   "net_headcount_change",
+   "attrition_pct",
+   "dividend_per_share_inr",
+   "guidance",
+   "media_vertical details"
   ],
   "unverified_dropped": [],
   "sources": [],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Mphasis",
-  "analysed_at": "2026-10-16T08:56:34+00:00"
+  "analysed_at": "2026-10-16T12:31:23+00:00"
  },
  "Wipro": {
   "results_found": true,
