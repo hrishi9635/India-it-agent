@@ -20,3 +20,9 @@ NEWS_DAYS=30
 
 # Index used as the market benchmark (Nifty IT).
 BENCHMARK_TICKER=^CNXIT
+
+# Web addresses of the dashboard copies. Fill these in once each copy is set up;
+# they appear as links on every copy, in the email and in Telegram messages.
+SITE_STREAMLIT=https://itresults.streamlit.app/
+SITE_CLOUDFLARE=
+SITE_HUGGINGFACE=
