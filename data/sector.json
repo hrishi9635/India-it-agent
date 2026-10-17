@@ -1,10 +1,10 @@
 {
- "headline": "Indian IT services posted solid revenue growth, driven by AI gains at the top firms.",
- "summary": "TCS posted ₹73,188 cr revenue with a 24% operating margin and AI revenue above 10% of total. HCLTech and LTM also showed double‑digit top‑line growth, highlighting AI as a key driver. Mid‑tier players such as Infosys and Wipro reported healthy revenue growth but mixed profit trends. Several smaller firms have not yet released results, limiting full sector visibility.",
+ "headline": "Indian IT services posted solid revenue growth, driven by AI and strong deal wins.",
+ "summary": "Most listed firms reported double‑digit revenue growth YoY. TCS led with ₹73,188 cr and a 24% operating margin. HCLTech highlighted AI‑driven profit acceleration, while LTM and Tech Mahindra posted healthy top‑line gains. Profit margins varied, and several peers have yet to release results.",
  "themes": [
   {
    "title": "AI as a growth catalyst",
-   "detail": "AI‑related revenue and deal wins are highlighted by TCS, HCLTech and LTM, supporting higher margins and profit growth.",
+   "detail": "AI revenue crossed 10% of TCS total and jumped 78% YoY at HCLTech, with LTM reporting a 47% surge.",
    "companies": [
     "TCS",
     "HCLTech",
@@ -12,76 +12,83 @@
    ]
   },
   {
-   "title": "Margin pressure at mid‑tier",
-   "detail": "Wipro's operating margin slipped to 16.5% and profit fell YoY, indicating cost pressures despite revenue growth.",
+   "title": "Robust deal wins",
+   "detail": "Large US‑dollar contracts were secured, notably $9.6 bn for TCS and $3.258 bn for HCLTech.",
    "companies": [
-    "Wipro"
+    "TCS",
+    "HCLTech",
+    "Persistent"
+   ]
+  },
+  {
+   "title": "Dividend payouts",
+   "detail": "Companies returned cash, with LTM announcing a ₹25 interim dividend and TCS paying ₹12 per share.",
+   "companies": [
+    "LTM",
+    "TCS",
+    "Tech Mahindra"
    ]
   }
  ],
  "leaders": [
   {
    "company": "TCS",
-   "why": "Highest revenue, strong margin and AI revenue >10%"
+   "why": "Highest revenue and strong operating margin; AI revenue now 10% of total."
   },
   {
-   "company": "HCLTech",
-   "why": "Double‑digit profit growth and explicit AI revenue jump"
-  },
-  {
-   "company": "LTM",
-   "why": "13.6% YoY revenue rise and AI‑led services expansion"
+   "company": "Tech Mahindra",
+   "why": "15.6% YoY revenue growth and solid dividend payout."
   }
  ],
  "laggards": [
   {
    "company": "Persistent",
-   "why": "Modest profit growth and negative sentiment"
+   "why": "Revenue grew but profit fell 25% and margins are low."
   },
   {
-   "company": "Wipro",
-   "why": "Margin contraction and profit decline"
+   "company": "Infosys",
+   "why": "Results not yet released, limiting visibility."
   }
  ],
  "domain_outlook": [
   {
    "domain": "Media & broadcasting",
    "signal": "Not enough data",
-   "note": "No mentions of media or broadcasting in the reports."
+   "note": "No mentions of media projects."
   },
   {
    "domain": "Entertainment & streaming",
    "signal": "Not enough data",
-   "note": "No relevant signals were identified."
+   "note": "No relevant signals."
   },
   {
    "domain": "Gaming",
    "signal": "Not enough data",
-   "note": "No gaming related information provided."
+   "note": "No gaming related activity reported."
   },
   {
    "domain": "Education",
    "signal": "Not enough data",
-   "note": "No education related mentions."
+   "note": "No education sector references."
   },
   {
    "domain": "Publishing",
    "signal": "Not enough data",
-   "note": "No publishing signals observed."
+   "note": "No publishing activity noted."
   },
   {
    "domain": "Telecom",
    "signal": "Not enough data",
-   "note": "Telecom sector not referenced in the data."
+   "note": "No telecom-specific mentions."
   }
  ],
  "watch_next": [
-  "Q3 FY27 earnings of Infosys, OFSS and Coforge",
-  "Progress on AI revenue contribution at mid‑tier firms",
-  "Attrition trends across the sector",
-  "Guidance updates from Wipro and HCLTech",
-  "Impact of global macro conditions on IT services demand"
+  "Q3 FY27 AI revenue trends and margin impact",
+  "Release of Infosys and OFSS Q2 results",
+  "Guidance updates from HCLTech and Wipro",
+  "Deal win pipeline in the US market",
+  "Evolution of dividend policies across peers"
  ],
  "quarter": "Q2 FY27",
- "written_at": "2026-10-17T12:22:57+00:00"
+ "written_at": "2026-10-17T14:58:08+00:00"
 }
