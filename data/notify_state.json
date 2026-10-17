@@ -1,4 +1,13 @@
 {
- "email": {},
+ "email": {
+  "announced": [
+   "HCLTech|Q2 FY27",
+   "LTM|Q2 FY27",
+   "TCS|Q2 FY27",
+   "Tech Mahindra|Q2 FY27",
+   "Wipro|Q2 FY27"
+  ],
+  "last_weekly": "2026-10-17"
+ },
  "telegram": {}
 }
