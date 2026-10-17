@@ -114,7 +114,7 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No actual results announced yet",
+  "sentiment_reason": "No actual results reported yet",
   "missing": [
    "revenue_inr_cr",
    "revenue_usd_m",
@@ -133,33 +133,11 @@
    "media_vertical details"
   ],
   "unverified_dropped": [],
-  "sources": [
-   {
-    "title": "Q2 Results on October 23–24: Infosys, BPCL, IndusInd Bank and 39 Other Stocks in Focus",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNV2o0Y3FsTEFucUtJMnpJWktmQm83NkJlUXZzMWpFLV80a3BPTGItU0Q0RVh5OW5JTjVBd2l5djM1ZUVMd0NHcjVQcVRBclBHbWxLelpsYWpJY3ZxMnNLeUxTWkpOemRSRWhoZ2IwajhJUG00QUFDb1FJNDJVaDhua2RkLVBBYTYxR0ZsT3lZVUk5bm1XTlpBendTRlc1aUhwSWFUSEdvaDZtbFpLdW9aal95VElwaUlPekNNVS1odzE4WTg?oc=5",
-    "source": "Kalkine India",
-    "published": "2026-10-15T08:04:00+00:00",
-    "official": false
-   },
-   {
-    "title": "TCS, HCLTech Q2 FY27 Results; Infosys Reports 23 October",
-    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNc2xHUVVjUW40NHptVFlnTS12M1ZJS1RsNVI4Q25XVEhYZ0hkS3NlYVRqMVB2Q241QzUtdTN5U3ZaNE5XLWNkVE15NEJPS2Qyb0Ffel9pbndvS2FRX1pLWFBLa0prdGstVndCYWNEc0x4eWNmaUY1d2J5WjFlRThnNEtENm8tSXFyNDVtRzR6anJxZVc4QW5rNG1PQUtwUlZJN0Rsek50cUxYX1BWXzlfeUdRbUNtQVc3WmhzbEVaVldtMzFqYld0X0xTM0F0WUVlTHowNGJtWnc?oc=5",
-    "source": "Kalkine India",
-    "published": "2026-10-15T07:03:00+00:00",
-    "official": false
-   },
-   {
-    "title": "Infosys Q2 2026 quarterly results: Announcement date and time, earnings schedule, dividend history - Details",
-    "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOZEdDQXdNcjVjVjVZTDNLc29XRTJvMjFuRWlVM3BHSFBMaFdIc0dfRW9XXzZqbUtPSVJYcGdxRXV4QVkyWEUwVDY0Q1F5ckVNN3l3VEZHNG1iaEVVMFpoNWJmX211WFNRb0dlSHhyVi1Ya2R3M2NvZlNhSlBYQ0ZnWnE1TDdJN01VNUVneFhmMVg0VHdSdVJtVnlmcEo0cmtNUUo1STRuUEN3bUFoV2dwbXVhYXdOa1J6Z0U0bi1EcTRkT2h1YWl6b19zbUo2UlhzcGtWb1F0ZjZEWGt5WDhSUkZMRjgwd0k1WXZ4Wk9GVlNGaUdiWFk3UHNLWFVJWko1NUFv0gGIAkFVX3lxTFBwMDdPMjBCdnlTc2tSZEEtUE9uMmxmZGhYQlB4RHBhaktzWHk2ak9pZXU1bzNuR3hUcldNRjYzWEtWYzNtUjNSVVZkb1pjQzNMQ0RxUGM4dXZPVHVxc2txbGRPYkhONFpCU2hPUEN5MlljdFFEekpNY0xCczZ5ZjlDRlBHdV9qSFlSVHo3Rm9ibGdwRkcydDJBbWhhdlZsX0VMMmtjUGpZMTFEeFg4eHBldTdhRklzX25zaXh1b2tCX05ZcFRwNjFnNHdlME1OUzM3bW1oLWt0bEM1SXU3ekR1TlVjVmdjM0FBbjByV242NGliSXJyb3QySmNUNnViNGt0a0hpU0tpYw?oc=5",
-    "source": "Livemint",
-    "published": "2026-10-06T07:00:00+00:00",
-    "official": false
-   }
-  ],
+  "sources": [],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Infosys",
-  "analysed_at": "2026-10-17T14:55:00+00:00"
+  "analysed_at": "2026-10-17T17:54:40+00:00"
  },
  "HCLTech": {
   "results_found": true,
@@ -504,7 +482,7 @@
  "OFSS": {
   "results_found": false,
   "results_date": null,
-  "headline": "OFSS has not yet released its Q2 FY27 financial results",
+  "headline": "Oracle Financial Services Software has not yet released its Q2 FY27 results",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -522,14 +500,8 @@
   },
   "guidance": null,
   "guidance_change": "none",
-  "highlights": [
-   "Company announced a trading window ahead of the upcoming Q2 FY27 results (source 13).",
-   "No actual financial numbers for Q2 FY27 have been disclosed in the available sources."
-  ],
-  "risks": [
-   "Potential impact of Oracle's force‑majeure notice on data‑centre projects (multiple sources).",
-   "Uncertainty around Q2 FY27 performance until results are announced."
-  ],
+  "highlights": [],
+  "risks": [],
   "verticals": [],
   "media_vertical": {
    "name": null,
@@ -543,7 +515,7 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No results disclosed; only procedural announcements.",
+  "sentiment_reason": "No results have been announced yet",
   "missing": [
    "revenue_inr_cr",
    "revenue_usd_m",
@@ -559,7 +531,10 @@
    "attrition_pct",
    "dividend_per_share_inr",
    "guidance",
-   "media_vertical details"
+   "media_vertical details",
+   "megep_mentions",
+   "ai_signals",
+   "management_view"
   ],
   "unverified_dropped": [],
   "sources": [
@@ -574,22 +549,22 @@
   "official": false,
   "quarter": "Q2 FY27",
   "company": "OFSS",
-  "analysed_at": "2026-10-17T14:55:30+00:00"
+  "analysed_at": "2026-10-17T17:55:10+00:00"
  },
  "Persistent": {
   "results_found": false,
-  "results_date": "2026-10-16",
-  "headline": "Persistent Systems posted a 30% YoY revenue rise to Rs 4,494.17 cr but net profit fell about 25% to roughly Rs 351 cr",
+  "results_date": "2026-10-15",
+  "headline": "Persistent Systems posts strong 30% revenue growth but profit falls sharply in Q2 FY27",
   "metrics": {
    "revenue_inr_cr": 4494.17,
    "revenue_usd_m": null,
    "revenue_growth_yoy_pct": 30.3,
    "cc_growth_qoq_pct": null,
    "cc_growth_yoy_pct": null,
-   "net_profit_inr_cr": 351,
-   "net_profit_growth_yoy_pct": -25,
+   "net_profit_inr_cr": 352,
+   "net_profit_growth_yoy_pct": null,
    "operating_margin_pct": null,
-   "deal_wins_usd_bn": 0.633,
+   "deal_wins_usd_bn": null,
    "headcount": null,
    "net_headcount_change": null,
    "attrition_pct": null,
@@ -598,13 +573,13 @@
   "guidance": null,
   "guidance_change": "none",
   "highlights": [
-   "Revenue up 30% YoY, driven by strong demand across segments",
-   "Consolidated net profit down ~25% YoY, margin pressure from Nagarro acquisition costs",
-   "Total contract value (TCV) of new deals reached $633 million",
-   "Shares fell 4‑5% on the earnings announcement"
+   "Revenue rose 30.3% YoY to Rs 4,494.2 cr",
+   "Net profit fell to Rs 352 cr, a sharp decline quarter‑on‑quarter",
+   "Growth driven by continued demand across software and hi‑tech segments",
+   "Profit pressure attributed to higher integration costs from the Nagarro acquisition"
   ],
   "risks": [
-   "Margin compression due to integration costs of recent acquisitions",
+   "Margin compression due to acquisition‑related expenses",
    "Potential slowdown in discretionary IT spending"
   ],
   "verticals": [],
@@ -620,12 +595,13 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Negative",
-  "sentiment_reason": "Profit decline and margin miss outweighed revenue growth",
+  "sentiment_reason": "Profit drop despite strong revenue growth",
   "missing": [
    "operating margin",
    "constant‑currency growth figures",
+   "deal wins in USD",
    "headcount and attrition data",
-   "dividend declaration",
+   "dividend details",
    "media vertical revenue share and growth"
   ],
   "unverified_dropped": [],
@@ -645,20 +621,6 @@
     "official": false
    },
    {
-    "title": "Persistent Systems Q2 Net Profit Falls 25% to Rs 351 Cr; Revenue Up 30%",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZXQyZHAwVVppSXJ4QUhCMWl2ZXdFeXdFTng4eEFSYzZsZGdFQ0M1YXJzODNUN3ZHVkQ0T2VPMGR1dGYtMW5aRHhuVmZDSGVZUWdOR3pVS2IzM2VuNnQtUUtQMlhPUkhMOXNLWlF4QmI2MUEzMnVaY2lhQmZwekxJOTNXb2dXbW41bEhRQ2pUUi1NZzNrWXVvRFZyYno1UFdL?oc=5",
-    "source": "HDFC Sky",
-    "published": "2026-10-15T11:38:05+00:00",
-    "official": false
-   },
-   {
-    "title": "Persistent Systems Q2 PAT falls 27.3% QoQ to Rs 352 crore despite revenue growth",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdzJiaGJnNlROLVJpTXVzVjN2UnNMdElqZmp4d2I5MWpCc3BUTXd3N3BhZ29Hdi15RkhKSF9RTUwwMWIzOEFVTlVRX0hZMTh6VjRkZDVIUFZweVZZeXpVdHhtaXl6S3NkNzB3SE1rdzdySko0M01FbUxBaDFabS1iM1NfRy1DOXN5VGh2UDUzZjV0Y1dsX2NUaTg3bktPRnNTSm42Q1AyaHVZQ3FJMlVQV3Y2UDVnZEpoMkMzem52ZHpGVWM?oc=5",
-    "source": "Zee Business",
-    "published": "2026-10-15T11:29:31+00:00",
-    "official": false
-   },
-   {
     "title": "Persistent Systems Q2 results: Profit declines 27% QoQ to ₹352 crore as margins shrink; TCV at $633 million",
     "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOcDdlaDRkeFJoWGVuV0czSFFtLVRIc2ZCYUJaX0JBclIxZjM1eE0xTWVBSjYzYU4tel9fQk5abTNuemZrX0JsT3hYYTZvZzhzamV6bFF5TFpQcDAtcXVJS3ZZRWtaSFlWbS1COXJZYUVEZGpQZ2V6LU55WG9rMnI2MmJDQjRnQjM3MlJQd1Y5X0dielRfeWRFSE8yTkYyejhQQ194N1lPSE9DRmZuamoxU0ZhcGVnTnIxeHo3NlVSWXJUeTZtYnpab3pkanB2Vjl6VzBVT0xFUlJJaGY3ZU9FVWY1OHM3SHFMZzZadDlBSzhXdEtLZjFJ?oc=5",
     "source": "Upstox",
@@ -669,12 +631,12 @@
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Persistent",
-  "analysed_at": "2026-10-17T14:56:21+00:00"
+  "analysed_at": "2026-10-17T17:56:01+00:00"
  },
  "Coforge": {
   "results_found": false,
-  "results_date": null,
-  "headline": "Coforge Q2 FY27 results have not been released yet",
+  "results_date": "2026-10-14",
+  "headline": "Coforge announced its Q2 FY27 results",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -692,16 +654,8 @@
   },
   "guidance": null,
   "guidance_change": "none",
-  "highlights": [
-   "Analysts expect Coforge to post modest sequential growth in Q2 FY27, with mid‑size IT firms projected to grow 0.6‑6.3% YoY.",
-   "The company recently launched an AI framework and announced the CXNova platform, signalling a focus on AI‑driven services.",
-   "Coforge's media & communications segment is listed under \"Others (incl. media & publishing)\" but no specific revenue share or growth was disclosed.",
-   "Stock price rallied 3‑6% ahead of the earnings window, reflecting market optimism."
-  ],
-  "risks": [
-   "Weak new business pipeline and pricing pressure as clients delay decisions.",
-   "Economic uncertainty could curb discretionary technology spending."
-  ],
+  "highlights": [],
+  "risks": [],
   "verticals": [],
   "media_vertical": {
    "name": "Others (incl. media & publishing)",
@@ -712,97 +666,44 @@
    "commentary": null
   },
   "megep_mentions": [],
-  "ai_signals": "Coforge announced an AI framework and the CXNova platform, indicating a push to monetize AI capabilities.",
+  "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No actual results released; coverage consists of expectations and product announcements.",
+  "sentiment_reason": "No quantitative results were disclosed in the available source",
   "missing": [
-   "actual revenue, profit, margins, headcount, dividend, media segment share and growth"
+   "revenue_inr_cr",
+   "revenue_usd_m",
+   "revenue_growth_yoy_pct",
+   "cc_growth_qoq_pct",
+   "cc_growth_yoy_pct",
+   "net_profit_inr_cr",
+   "net_profit_growth_yoy_pct",
+   "operating_margin_pct",
+   "deal_wins_usd_bn",
+   "headcount",
+   "net_headcount_change",
+   "attrition_pct",
+   "dividend_per_share_inr",
+   "guidance",
+   "media_vertical.revenue_share_pct",
+   "media_vertical.growth_qoq_pct",
+   "media_vertical.growth_yoy_pct",
+   "media_vertical.growth_cc_yoy_pct"
   ],
   "unverified_dropped": [],
   "sources": [
    {
-    "title": "Indian IT Stocks In Blockbuster Rally; HCL Skyrockets 7%; TCS, Infosys, Coforge Up 3-6%; Eyes On Q2, Dividends",
-    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPV0thckNKUGRWNmw0RjhKcERyRktEQ0F3THB1MjVDdEtYcGh3R0JHODlnRlBmSE5FQWtacXdyTWNBZWNGNzVKN1BPWG54ZjJoVVU4ZERYNDNvTHNkblRXMGtGYk44RGpoV1BldXRrOXRSZXB1WHV3MWxEV1phNDVNQ3NxX3JPd0R2b2VBelpmRkVveW9iTExULXRuTkFjTnJnem1KS3ZVT2diNGtPR1ZIT2tlT01RZUl2T2xRYy0wLU1IN2l3MjAyVEhqRFJiOTVlc2JzWlNqQjdFdw?oc=5",
-    "source": "Goodreturns",
-    "published": "2026-10-13T09:09:42+00:00",
-    "official": false
-   },
-   {
-    "title": "Infosys, Coforge LTTS Q2 results date and time: Key numbers to watch",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVzR2RmNodGJhWlQ2R3N2X2xDbGNfdG9NSUdFV08xMm1IajNibVNUS2poVzh3QzBBUFBZNDZ3SHhFWTZlV0RHVnhid1FTUDBybXpwQXN2TmEzeF84R1JwYzRpYWwzWUtsejNHcGZiVW8weHhCUEFEVFBXdWRvcDhRa3FVVWZOUERwaFNMY2dtWWFwQnZkd1JSYVljQnU1WDR0bWs1MEtpNjlYMUxDdk5uRGFMRURfTjBHMEtTd2x5WWJwak8zcEtIU1VhRdIB0AFBVV95cUxNYjIwanNFTmxzdEdGSDhGY2Nwb0U4ODJqcUdmUWFxRExxZ1R3Z2FobFBSZ2FpU2hkLWp3MmtkZjJsd2JQVWRnYjVXYUxpM05wVmJlTUZNN1BKOC1naTB5MHVHMEJtVmZDaENLU3lSNEt1UkhXaGN6Y1hTeUFUMHRTSlBpaUxmYXZfMENRQXl6b3pSRTNvSFRxNjcyZF8zcmtlcmdad1FZVXZObWs2Sk55Y2htWE1HYlNWbUwzckVpZHdIVEw2eWNPUl80MVdWZGdx?oc=5",
-    "source": "Moneycontrol.com",
-    "published": "2026-10-13T08:45:09+00:00",
-    "official": false
-   },
-   {
-    "title": "IT stocks brace for a weak \"strong\" quarter: Motilal Oswal names HCLTech, Tech Mahindra, Coforge as top picks",
-    "link": "https://news.google.com/rss/articles/CBMitwJBVV95cUxPT1BKaXlnSXY4eUZQclNpd1Ital9xSjQ5Z05FanU1OGZqZ2xMYkVJMkIxZExTY1JLUUZnREN5YlhrZ0libzMyNWZFQlZNbVhyelBzcmsxa0dYZ3lfODRLV1JQUUFmWmpESlpnS3R4OXo5TnVzMUFrcVh1NllielpwckJQLTF1R01sZzYzbVBYdjNCZ3pwN1V0eFA5SU5IVHB1UVk2TGJqMFVyYjNRVGl6WHlDTFNZMnBPRE5hYTFMa1hXdWJ1MW1OVW10UTE5UFlfN1g5R2hmRVlnZkNSM01kOFBNN1k4aVVHZExiVEZLYnltZmRBYzNkbGYwNUNzZDY3aGZ5d3BiUUVoU0dlaHpqY0NNLVFHOTBkNjVNUFg5Rk5YbnRQTVdDWkYyNFY5b3NNV002LVE1OA?oc=5",
-    "source": "The Economic Times",
-    "published": "2026-10-08T07:00:00+00:00",
-    "official": false
-   },
-   {
-    "title": "Coforge stock heads into Q2 results after chair change",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSWd1SDROdktHeHptUllXR0pjLS1qRllKdHJ5dTR4dU1VR0FybVE3SmROQmZsYnVXY2RCTjNBaUIwZ2NUeEZHNzdHTVBiX2ZJRWtkcnZ0VW9DRmlZUXJXY0F0cUFRdUtQNGhwb3ZCaC1NTk9zTkFHbVhiM2RuTURRYllwVjloTE5Ib00yVUpoalFNdWcwQzdWRWZfOXQ3SDdZYlZRYnF6bi1LdkxMNjdlSUFLSQ?oc=5",
-    "source": "AD HOC NEWS",
-    "published": "2026-10-07T01:52:30+00:00",
-    "official": false
-   },
-   {
-    "title": "Coforge announces CXNova, an agentic CX orchestration platform",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdFdiaUFKeXhlRUJsY212ZEFRTkh0M1drSTZ6aE4yeENGMS03XzFBUWxwTDVtNVhoZU54Qi02OC1oX3ZVVGVWaXcwVW1weHZoOVN1dngyc0VJdVFXbFBQdGkwNjdKZ1VhdGkwOGd4RGZIMXhxM0dHaFMwYWFhRDFoMEtsamxsS1dGQ2dkUEp0azN0SVl3X0E?oc=5",
-    "source": "varindia",
-    "published": "2026-10-05T22:16:25+00:00",
-    "official": false
-   },
-   {
-    "title": "Coforge expands AgenticOps capabilities to power enterprise autonomy",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZW93MUhoekwtR2VNeUxsYS1pbWhNck1oTk1qLWd5bHlQODN6b2trVlhaTUJiaHRlSWZLRGNJR3BYVC1DaldFWDlRaWxRdTdCdHpHUDJtd0lLSU1Bb19QSER5Q3YycVdVaDNtM2dpX2NmaFdnNlVqcjNjWXFwZlZrb2g3dXJKMXctTm5LN2NTRWNFN1JNc2NqSDNHOFZ6TktCcG1wWTRtand0NDhYemtTVjc2Sjg2NjN4S1JFQg?oc=5",
-    "source": "scanx.trade",
-    "published": "2026-10-05T14:37:08+00:00",
-    "official": false
-   },
-   {
-    "title": "From Coforge To Sagility: PL Capital's Preferred IT Picks Ahead Of A Challenging Q2 Results; Full List Inside",
-    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOblRDbHpERjhoVG81Z3JlbmZWbDNuejFVQlFkZVRDZXJmRjBTcnZ4SEhOelV1Z0EtakF3azdiQVluaHNGNml1bXk0NVljdldoT21zanpIeGxzUl85QVoyRVF1a09Ca3FqLVlMYURfZVBXbXg0RUtmbk9MR2plYzJjSl9uUWhLQ0tsY21fM0Nqb2FCMEw4U2V3ZXVTUVRtS0JiWFJ3dXRGMlotb2RsMjZtT1J0WWxOTGIta3BPSjUxM3k1dTRINDh3X0NrQzFLYzNEY2RZSk1maHRLMjJaeUVHMFpwdVMwM1F0NUUxNA?oc=5",
-    "source": "NDTV Profit",
-    "published": "2026-10-05T07:00:00+00:00",
-    "official": false
-   },
-   {
-    "title": "TCS, Tech Mahindra, Coforge, Mphasis: IT stocks picks and investment ideas after Accenture results ahead of Q2 earnings",
-    "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQVjhOa243eUJhVHlVWTg3U3AwSXhtQUJXVEEzVTdhQ2NqT1hGbXFWVzNteUlLTndnNHpyUDFXQW9zR2lxVUwtaFZ6NTg4czB3clFfR1R1cVhaRUxPbUpfVEM0UEt1ZWZ1WXhPb2Fud1BUdXhIOTQ5b2ZaNkxfSnVYRXV6Y09ZSWc5RDVBSDNKUzJSRy04Wlp1ZWZmc0Q0Tm5uY2VhZ0h4SktGbFRkSENCZklXWEhIQldPWmFDdkMwdDBUbXF1YmZhTlVSeElMaXhvRmZoS3diNHJNLVBxZ3lEdC12VWE5c2lkM3UyWGsxdmR0UVc2NlVBeVJteXZSUVA0ZVY0eTFSYkJuQ2NtcjVKRVYyQdIBmAJBVV95cUxPdUI5TjFRRE01RlRZbU90NTEyVmVPSk1FTnU2eEQ5ZUN5UUJwaVV6T1ZjMWw5bVo2aDVhTlRVd01QMnptMzFHZGxoWGcyUzBQa3dvQzI2Yld2Zi05MFpjLWxkZnZHanpIcXpHZW1sWmI5SnN0Z3lNZ3lXWUJFeGpwM2NpNU9oVHVTUmxnQXJ3NnZMU2liNmVxU1hjeHRUdC05UHJlREJyaW9BTlp0ODNSd19jUUpFc18yTjNfbHBoMFJLUEt2TlBBdi1nNW01LWhJdlNOUFdJdm80WjVLcWk3SExHajNhQk1MSnJhdW5KdVljX3hIakwtZlVZUHZBV1hqTlJaelhwNFRFMUZWNnFQc2gwMzlNcm9B?oc=5",
-    "source": "Livemint",
-    "published": "2026-10-04T07:00:00+00:00",
-    "official": false
-   },
-   {
-    "title": "LTM, Cyient, Zen, Birlasoft share price target, stop-loss - IT stocks to buy for over 32% returns ahead of Q2 results",
-    "link": "https://www.livemint.com/market/stock-market-news/ltm-cyient-zen-birlasoft-share-price-target-stop-loss-it-stocks-to-buy-for-over-32-returns-ahead-of-q2-results-11791111110434.html",
-    "source": "livemint.com",
-    "published": "2026-10-04T04:36:00+00:00",
-    "official": false
-   },
-   {
-    "title": "TCS, Infosys, HCL Tech, TechM, Wipro, LTM, Coforge, HEXT: Fresh target, Q2 previews for IT stocks",
-    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxObm9lZEhyZzVjTktyTUVKTlpSN1BrNDBHMGxjbVpoYUVWOElsRDJtcnp2RkhtTGFzLU5nd1A3S2NzaG14V3ZhTkJLVUtMdG40U210ZXdwRUNldWNLSW1EY1JzMlE3MllPeDJPeEF1T3d1eXZlWEdHQXdwZjh2NXJLR21BbE5vWjEtMGdWZGhBaE8zU1J6RzJyMS1kVTBXLTdnOEcwRkFEUjd5TFJTenN6eEFqZkVUdUZQYXlIa29ONEkxSE1QNmJPX2lJRXFGNzhucTFkMlpKQ2VpdXR5bDFtbG1hbEN3Q1VwT0k1eWtpM3JNZm5QMGRJcdIB_gFBVV95cUxNVDBfdUdkVWFzc1EweG5Bd1UwWkpOSnpVdFdITWdRbFlyLTl1VGczRjUwMFFYcDF6aHQ5YTBmWGdmWDBiSlhkYU5sOFpIV2k3YlgxNHU2Rkc5MkxaNnNpV2kta29za2stcnRhMDJJcmE1N3VrVndIQ1B2UW1DMXJ3ZmN4X0VKWlg4SlhYYWQ2UTluaVc4S1R2LVFESkplTFc4Ukp6YzVrMW9ScG83ZWo4Sl92MkpLN08tTWNZa3NiLUEwRDgwVzAzTFhMcEdsZzlrbkN0aFhza0tBUWQ3QTVjNF9iMlBqaU1RUnZEVUxZN01FWExnZE10bkNkZFlpQQ?oc=5",
-    "source": "Business Today",
-    "published": "2026-10-02T07:00:00+00:00",
-    "official": false
-   },
-   {
-    "title": "Nifty IT jumps 2%; Mphasis, Coforge, Infosys, TCS among top gainers - Reason behind the rally, Q2 results expectations",
-    "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNeHJXenhOdlhOYWFfMHRNY3B1OXJzYjlwWlVJQklnU3AzTDVMSkxpLUtnWVBmR0JfRXdHbVRva1ZseWZDQzN6LTlmdWtIVlNMOS04emJXdnUwcFptd3l0cEFyUVNhaFlXd0VCRGpCUHVPWWRSb0RwNUZPSzczSS1GVXlmdXRVVEx0N2ptbHdxU05wWFl0ekZpSjhDcmhMTHlHUnF6NlNJVUdJZE05RzFHenVKRmpzOTE1VDNGMmltNzFDUURzenVDRDRxYmZFRDRucWVtQXBMQmVWYm85RndEWlZPREl2aktXMGp6VHhrcUs5cGhFY0xkTm9HZzExcl9ULTNUN2lIRG9VS2Nl0gGSAkFVX3lxTFB3NlBzVWlPb2lxYlRNY0FxY3FQVG1ob1FScm9mc05xMGhLRVlJeFl1aW90V1hRVVJLdjNTRmRycnRxQzZqYVRkMmpMYlVKVVk2eXlLb0RBLVIwMWVmb0Y1bUVDZkV5VjhCTWFfcF8yMFV2endVV09mTnNTWFpEazVOMlR3YUJMSjNMWVpOMTZiMHFwYkVkemtzM2h0SzRoeVhqUGRXVUxGZXF6T2VRenBGVW1UbTVkSk9qVFRSRHdpQm5RZVkzMUdCQ2IwcHVscG9DN0NLNW1ldDFuZlBwWGNXNng2NWxkV0NENjI0RlV6RzFwc01KQ2ozLU5VNkpEZ3lZcUZJNURGUW8xSENLNkxabkE?oc=5",
-    "source": "Livemint",
-    "published": "2026-10-01T08:01:45+00:00",
+    "title": "Coforge NSE:COFORGE Regulation 74(5) Certificate Q2 FY27",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNc21pNEVjckEwOURDMUdUTXZ4Y0VLUjVSZnRQNExJTzNodlZBd0Z5ZUlySGtQTS1iN3Q0T3pMREpsd2tIYTBkcHF2a21PczZ3dkRlbi1DTWQ3ODFCM2JRalpWdWhXMHIxQkxDMjJySFhkWmEybXoyNkdIRHdaaUZRbGNCd1JUYUduVld1Rm1TMktibHZHbWhyaV8xRUM5Zl95MVlOb09HelVmbDJwSmxkXzBhNXptSWc?oc=5",
+    "source": "Kalkine India",
+    "published": "2026-10-14T08:34:00+00:00",
     "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Coforge",
-  "analysed_at": "2026-10-17T14:56:51+00:00"
+  "analysed_at": "2026-10-17T17:56:55+00:00"
  },
  "Mphasis": {
   "results_found": false,
@@ -863,7 +764,7 @@
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Mphasis",
-  "analysed_at": "2026-10-17T14:57:41+00:00"
+  "analysed_at": "2026-10-17T17:57:48+00:00"
  },
  "Wipro": {
   "results_found": true,
