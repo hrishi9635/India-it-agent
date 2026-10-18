@@ -1,69 +1,91 @@
 {
- "headline": "Indian IT services posted solid revenue growth with AI contributions rising this quarter",
- "summary": "Most major players reported double‑digit revenue growth YoY. TCS and Wipro maintained strong operating margins, while HCLTech highlighted AI sales as a key driver. Persistent showed the fastest revenue expansion but profit fell sharply. Several firms have not yet released results, keeping the outlook partially uncertain.",
+ "headline": "Quarterly results show solid revenue growth across major Indian IT firms, driven by AI initiatives.",
+ "summary": "TCS posted 15.4% YoY revenue growth and a 24% operating margin. HCLTech and LTM also reported double‑digit growth, highlighting strong AI sales. Tech Mahindra delivered the highest YoY growth at 21.2%. Wipro saw modest revenue gain but a slight profit decline.",
  "themes": [
   {
-   "title": "AI‑driven revenue",
-   "detail": "AI sales and related services are highlighted as growth drivers across multiple companies.",
+   "title": "AI‑driven growth",
+   "detail": "AI revenue contributed significantly to top‑line expansion and margin improvement.",
    "companies": [
     "TCS",
     "HCLTech",
     "LTM",
     "Wipro"
    ]
+  },
+  {
+   "title": "Steady revenue expansion",
+   "detail": "Most peers posted double‑digit YoY revenue growth, supported by robust deal wins.",
+   "companies": [
+    "Tech Mahindra",
+    "Infosys",
+    "Coforge",
+    "Persistent"
+   ]
   }
  ],
  "leaders": [
   {
-   "company": "Persistent",
-   "why": "Revenue grew over 30% YoY, the highest among peers"
+   "company": "Tech Mahindra",
+   "why": "21.2% YoY revenue growth, strong profit expansion"
+  },
+  {
+   "company": "LTM",
+   "why": "20% YoY revenue growth and rising AI‑led services"
+  },
+  {
+   "company": "TCS",
+   "why": "Largest revenue base with 15.4% YoY growth and 24% margin"
   }
  ],
  "laggards": [
   {
-   "company": "HCLTech",
-   "why": "Revenue growth modest at ~11% YoY and profit margin pressure"
+   "company": "Wipro",
+   "why": "Revenue up modestly but profit fell 1.9% YoY"
+  },
+  {
+   "company": "Infosys",
+   "why": "Results not yet released, limiting visibility"
   }
  ],
  "domain_outlook": [
   {
    "domain": "Media & broadcasting",
    "signal": "Not enough data",
-   "note": "No mentions of this sector in the reports"
+   "note": "No mentions of media projects or contracts."
   },
   {
    "domain": "Entertainment & streaming",
    "signal": "Not enough data",
-   "note": "No mentions of this sector in the reports"
+   "note": "No relevant signals in the reports."
   },
   {
    "domain": "Gaming",
    "signal": "Not enough data",
-   "note": "No mentions of this sector in the reports"
+   "note": "No gaming‑related activity reported."
   },
   {
    "domain": "Education",
    "signal": "Not enough data",
-   "note": "No mentions of this sector in the reports"
+   "note": "No education sector references found."
   },
   {
    "domain": "Publishing",
    "signal": "Not enough data",
-   "note": "No mentions of this sector in the reports"
+   "note": "No publishing engagements disclosed."
   },
   {
    "domain": "Telecom",
    "signal": "Not enough data",
-   "note": "No mentions of this sector in the reports"
+   "note": "Telecom‑specific data absent."
   }
  ],
  "watch_next": [
-  "Q3 FY27 revenue guidance from TCS and Wipro",
-  "Actual results from Infosys, OFSS, Mphasis and Coforge",
+  "Infosys Q2 FY27 results release",
+  "OFSS earnings publication",
+  "Coforge revenue and margin trends",
   "Progress on AI‑native unit performance at Wipro",
-  "Attrition trends across the sector",
-  "Impact of AI deal wins on profit margins"
+  "Guidance updates from HCLTech and other peers"
  ],
  "quarter": "Q2 FY27",
- "written_at": "2026-10-17T17:58:15+00:00"
+ "written_at": "2026-10-18T08:51:33+00:00"
 }
