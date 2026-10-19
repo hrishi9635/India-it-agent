@@ -25,18 +25,18 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-19T08:56",
+  "checked_at": "2026-10-19T12:29",
   "quarter": "Q2 FY27"
  },
  "Infosys": {
   "checked": true,
   "exchange": "NSE",
-  "count": 11,
+  "count": 13,
   "result": null,
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-19T08:56",
+  "checked_at": "2026-10-19T12:29",
   "quarter": "Q2 FY27"
  },
  "HCLTech": {
@@ -65,7 +65,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-19T08:56",
+  "checked_at": "2026-10-19T12:29",
   "quarter": "Q2 FY27"
  },
  "Wipro": {
@@ -94,7 +94,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-19T08:56",
+  "checked_at": "2026-10-19T12:29",
   "quarter": "Q2 FY27"
  },
  "LTM": {
@@ -123,7 +123,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-19T08:56",
+  "checked_at": "2026-10-19T12:29",
   "quarter": "Q2 FY27"
  },
  "Tech Mahindra": {
@@ -152,7 +152,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-19T08:56",
+  "checked_at": "2026-10-19T12:29",
   "quarter": "Q2 FY27"
  },
  "OFSS": {
@@ -163,7 +163,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-19T08:56",
+  "checked_at": "2026-10-19T12:29",
   "quarter": "Q2 FY27"
  },
  "Persistent": {
@@ -174,7 +174,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-19T08:56",
+  "checked_at": "2026-10-19T12:29",
   "quarter": "Q2 FY27"
  },
  "Coforge": {
@@ -185,7 +185,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-19T08:56",
+  "checked_at": "2026-10-19T12:29",
   "quarter": "Q2 FY27"
  },
  "Mphasis": {
@@ -196,7 +196,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-19T08:56",
+  "checked_at": "2026-10-19T12:29",
   "quarter": "Q2 FY27"
  }
 }
