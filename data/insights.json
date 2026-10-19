@@ -81,7 +81,7 @@
  "Infosys": {
   "results_found": false,
   "results_date": null,
-  "headline": "Infosys has not yet released its Q2 FY27 results",
+  "headline": "Infosys Q2 FY27 results have not been released yet",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -130,16 +130,41 @@
    "attrition_pct",
    "dividend_per_share_inr",
    "guidance",
-   "media_vertical details",
+   "media_vertical revenue_share_pct",
+   "media_vertical growth_qoq_pct",
+   "media_vertical growth_yoy_pct",
+   "media_vertical growth_cc_yoy_pct",
    "ai_signals",
    "management_view"
   ],
   "unverified_dropped": [],
-  "sources": [],
+  "sources": [
+   {
+    "title": "Infosys to Announce Q2 Results on October 23, 2026",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNekIyT1dUS3BKN2VQU011bWxvV2hfM0JNQmpBRUdLM3JLZUVzOWt4ZWVoSWRNcVN3a2lYNVAzbUhKQU4tdmxySmRYYndmTzZDVGdWM3VIZjY5MnptVkc5ZVJFSlBfeEJJdFhoMTdJa0p3T3g2N2EzMFVfN24wVno2UnJGS1ZMVjlreDNaVTJJSGNXYklj?oc=5",
+    "source": "PSU Connect",
+    "published": "2026-10-19T10:48:00+00:00",
+    "official": false
+   },
+   {
+    "title": "Infosys to announce second quarter results on October 23, 2026",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWVZZU3VLYlczRlJ2cDBCdkg3MDVFbzh2UF9YS3F3cGVWa1lxUnFMR3Fzak9aeEtKelZpaVlUNFotM2pLODlxMjQ4NkxDX3B4UExHMmR4YnFlUUg1VWdlZUJzRnFObG9OVG8zN3VzUG1tVDVldFpiVV8tZ2RCRnRDVC03c3gtbjlnRENRd2EweGxMbWNXbHMzUzlzVHB5UkE?oc=5",
+    "source": "Business Upturn",
+    "published": "2026-10-19T10:16:40+00:00",
+    "official": false
+   },
+   {
+    "title": "Infosys Q2 Results: Guidance cut ka dar ya deal pipeline ka kamaal?",
+    "link": "https://www.whalesbook.com/news/Hinglish/brokerage-reports/Infosys-Q2-Earnings-Investors-Eye-Guidance-Deal-Pipeline/6ad4e9b079a16deaeaf5e9bd",
+    "source": "whalesbook.com",
+    "published": "2026-10-18T14:15:00+00:00",
+    "official": false
+   }
+  ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Infosys",
-  "analysed_at": "2026-10-19T15:10:45+00:00"
+  "analysed_at": "2026-10-19T18:00:42+00:00"
  },
  "HCLTech": {
   "results_found": true,
@@ -517,38 +542,53 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No results data available for Q2 FY27",
+  "sentiment_reason": "No actual Q2 FY27 results were disclosed in the provided sources.",
   "missing": [
-   "results_date",
-   "headline",
-   "revenue",
-   "net_profit",
-   "operating_margin",
-   "growth metrics",
+   "revenue_inr_cr",
+   "revenue_usd_m",
+   "revenue_growth_yoy_pct",
+   "cc_growth_qoq_pct",
+   "cc_growth_yoy_pct",
+   "net_profit_inr_cr",
+   "net_profit_growth_yoy_pct",
+   "operating_margin_pct",
+   "deal_wins_usd_bn",
+   "headcount",
+   "net_headcount_change",
+   "attrition_pct",
+   "dividend_per_share_inr",
    "guidance",
    "highlights",
    "risks",
    "verticals",
-   "media_vertical details",
+   "media_vertical",
    "megep_mentions",
    "ai_signals",
    "management_view"
   ],
   "unverified_dropped": [],
-  "sources": [],
+  "sources": [
+   {
+    "title": "Oracle Financial Services closes trading window ahead of Q2FY27 results",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQd1BDSHlUS21meXVvVkhobm5ZaGdHNkRRcUlZbHhOOHNqRjlKcUg4TVhYVHNzc3pEcklhX2tvMGF6M1F3dGJtZmpXSGZCTk1veWtWOVFVYXVJLXptQmR6cXpHWDgxQTRoRUpzcThIcVB3eGFoYnE1dHRWSG5uem94dXpqV3VqUHVnRVlmc1BGMGdFTl8xdUpDZkRLTm1RYkdEZkJORkUxczZycC1wQV9YZHZtc3hOMUtzby16Ynk0eFNvLTA?oc=5",
+    "source": "scanx.trade",
+    "published": "2026-09-30T07:00:00+00:00",
+    "official": false
+   }
+  ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "OFSS",
-  "analysed_at": "2026-10-19T15:11:14+00:00"
+  "analysed_at": "2026-10-19T18:01:12+00:00"
  },
  "Persistent": {
   "results_found": false,
-  "results_date": "2026-10-15",
-  "headline": "Persistent Systems posted Q2 FY27 revenue of Rs 4,494.2 cr, up 30% YoY, while net profit fell 25% QoQ",
+  "results_date": "2026-10-16",
+  "headline": "Persistent Systems posted a 30% revenue jump YoY but net profit fell about 25% QoQ in Q2 FY27",
   "metrics": {
-   "revenue_inr_cr": 4494.17,
-   "revenue_usd_m": null,
-   "revenue_growth_yoy_pct": 30.0,
+   "revenue_inr_cr": null,
+   "revenue_usd_m": 487.6,
+   "revenue_growth_yoy_pct": 20.0,
    "cc_growth_qoq_pct": null,
    "cc_growth_yoy_pct": null,
    "net_profit_inr_cr": null,
@@ -563,14 +603,14 @@
   "guidance": null,
   "guidance_change": "none",
   "highlights": [
-   "Revenue rose 30% YoY to Rs 4,494.2 cr",
-   "Consolidated net profit declined about 25% QoQ",
-   "Management highlighted strong demand in hi‑tech and emerging industries",
-   "The company announced a large debt raise to fund acquisitions"
+   "Revenue rose ~30% YoY, driven by digital engineering and AI services",
+   "Consolidated net profit declined ~25% QoQ",
+   "Company announced plans to fund Nagarro acquisition via debt raise",
+   "Management highlighted strong demand in hi‑tech and emerging industries"
   ],
   "risks": [
-   "Margin pressure from higher costs and acquisition integration",
-   "Potential slowdown in US client spending"
+   "Margin pressure from higher acquisition‑related costs",
+   "Potential integration risk of the pending Nagarro deal"
   ],
   "verticals": [],
   "media_vertical": {
@@ -582,26 +622,20 @@
    "commentary": null
   },
   "megep_mentions": [],
-  "ai_signals": null,
-  "management_view": "Management said the quarter showed robust top‑line growth driven by hi‑tech and emerging industry clients despite a dip in profit.",
+  "ai_signals": "Management cited AI‑led digital engineering as a growth driver",
+  "management_view": "Management said the quarter showed strong top‑line momentum despite a dip in profit",
   "sentiment": "Neutral",
-  "sentiment_reason": "Strong revenue growth offset by a sharp profit decline.",
+  "sentiment_reason": "Revenue growth offset by profit decline and margin pressure",
   "missing": [
-   "net profit amount",
-   "operating margin",
-   "headcount and attrition data",
-   "deal wins in USD",
-   "media vertical revenue share and growth"
+   "INR revenue amount",
+   "Net profit amount",
+   "Operating margin",
+   "Constant‑currency growth figures",
+   "Headcount and attrition data",
+   "Dividend declaration"
   ],
   "unverified_dropped": [],
   "sources": [
-   {
-    "title": "Persistent Systems Q2 Results FY27: PAT Rises 2.42%, Revenue at Rs 4,494.17 Cr",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5TeWVEcWRNSFVCb1RiOC1fbldtcDJLWDB2anZIeWNuMXFnVVVSbTJIZmRIUlU2dUlzTEFSQ3p2bXpIeXVzMS1sWl91aWZsRGtSSVNuX1k2Z1EtUVg0a2FzNzhlczFsM2VfQmhaOTdLdEV1NmJnV2hjaHFVWTRjQQ?oc=5",
-    "source": "Univest",
-    "published": "2026-10-15T12:03:00+00:00",
-    "official": false
-   },
    {
     "title": "Persistent Systems Q2FY27: Net profit down 25% QoQ, revenue up 30%",
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdFBhM3VnbVJkY01Ma0c2TE9qanVITTdwZFhBbWdTQWdab2dyLUlvZ20wcGdkNi1sQmZseTVtWUZ1Qm04VUVVblgyZ2FuQkRFTjFWd2R6eWJSTk42b3NpczVsQjcxQXA3ZkZpUWJwNzViWnZXdXpjblI2MjFYdXhRM2NlRmdDWWJJY2QxSFIwWk9DY2ZULU53VC1HWFRweDZQVVVtTER4Q1E3ckVQYzVUQzFFdWtFekxSV0Fpa0tEYjdYdjRV?oc=5",
@@ -610,22 +644,29 @@
     "official": false
    },
    {
-    "title": "Persistent Systems Revenue Grows 30% in Q2, Was the Nagarro Deal the Only Reason for Lower Profit?",
-    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQWWxaOEROeVVqU0lzVzdnLUpXeWhNSkRZa1VjMml6c1l4b0VjNHhFZGVtYkRxaHdOQ0RPclhyZ0c5VVFhdFVjRXREYkRLVTBDSFhuOFRDSjM3Qm5vSm56dWNPcDVsVG85N3VaTFYyVXRnYjBNQmVjVEdPcUpLdl9BckFKcXdYRGpBNmQ3RHVLRFVTVENPRWYwek5KbW9RUXJvam5oWGxKV01Mc1lTZ3BRazJaNFRhQ0hEX1QwTXVBVFEwSDktSDNKRWN1Ym9JMjlOU3FkQ2pXNE10Zw?oc=5",
-    "source": "Trade Brains",
-    "published": "2026-10-16T06:11:58+00:00",
+    "title": "Persistent Systems (NSE:PERSISTENT) Q2 FY27 Revenue, Profit and Margin Trends",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbUJ0ejN2U2U2cnJCOXUwR1hWYnJzb3RVN1hqOVRKb1pPUWdldGFXMkN0Z211M2dIUDVkdURoZVI0NDAzWlB6OG5tN0toM1YxeVpHN1NUbVNGUHpQeXFvTXpDRFFGaS1Ycmhwb3UzY0xtVW1ObDBkN2FTUVUzSlFjWl94XzhoSTY5cmY1Q1VWT0JuZXI1Mmk5N0tJeDNOdHF3WDMza3l0Tjc0V181eEhmR182VVZFV296emljcmVqRk9LbHVvT3VCeU1EbzBaQQ?oc=5",
+    "source": "Kalkine India",
+    "published": "2026-10-16T11:11:00+00:00",
+    "official": false
+   },
+   {
+    "title": "Persistent Announces $487.6M Revenue in Q2 FY27 with 20.0% Y-o-Y Growth",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRXRyUmc2T1VReTJGbkRuS2taRG5xZnhNYWVJeTgza1R0WmhMaG5HQTYydVhYS215aVZLUXRfQUdRUkxNdXRJWGJfNmdPWTRfMTZUUW1RRTVHYWM0UDJ1OFpDV3hvRG5qNFcwY3F1Q0JGTkRPRlkyRXJjNmhlX2VyZTVuV1NXMWxXN3dQeWtpQjJIQjhITlFvZThZTF9CekM3S05kN2piNTBPQQ?oc=5",
+    "source": "CXOToday.com",
+    "published": "2026-10-15T18:18:19+00:00",
     "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Persistent",
-  "analysed_at": "2026-10-19T15:12:05+00:00"
+  "analysed_at": "2026-10-19T18:02:03+00:00"
  },
  "Coforge": {
   "results_found": false,
-  "results_date": null,
-  "headline": "Coforge's Q2 FY27 results have not been released yet.",
+  "results_date": "2026-10-14",
+  "headline": "Coforge announced its Q2 FY27 results",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -658,7 +699,7 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No results data available yet.",
+  "sentiment_reason": "No performance data provided in the sources",
   "missing": [
    "revenue_inr_cr",
    "revenue_usd_m",
@@ -674,30 +715,33 @@
    "attrition_pct",
    "dividend_per_share_inr",
    "guidance",
-   "media_vertical.revenue_share_pct",
-   "media_vertical.growth_qoq_pct",
-   "media_vertical.growth_yoy_pct",
-   "media_vertical.growth_cc_yoy_pct"
+   "highlights",
+   "risks",
+   "media_vertical revenue_share_pct",
+   "media_vertical growth metrics",
+   "megep_mentions",
+   "ai_signals",
+   "management_view"
   ],
   "unverified_dropped": [],
   "sources": [
    {
-    "title": "Q2 results this week: Eternal, Adani Green Energy, L&T, Infosys, Coforge and Kotak Bank among others to announce Q2 FY27 earnings - List",
-    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNd1RNUE5kR3g4alctQnVSQTRYd3RJVFp4ZFhHMXo2WG5HUkRFbHpGNTVrRVZvLXpNaFh3UjJrZFF0NHdHeHkwNDhqNFp2elN6MDBGNjJFRmw0S09TNlVpUFk5Tng3MWR4NjYyeTBfV3hCcFAzTTl6NlNMa0ZkUk9zQTkwWTNxaFJVdWlYLUpMdTd2ZGtub2dKQTY2ZkhBZDd6ejBRM1BqTFpiZVhxVml2UzBNNjhEN2FQZHpiZEJybmZwb3QxSjE4dGppSGU1UEd0cjBuUkhDQV9aUERhWUlhSWFuVzNwQmJu0gHuAUFVX3lxTFBDbnVTTGR1bkFmYVEwaE9BYTlRd2dCaXJfT3N4cmNMSklNV1NmVmZ6RVZhME9EbGZYR2VjbzlUU3R3VXYyS0hibUc5bnhWRDM0dEtrSDNjcV9OY0hLcFRldU5QUHdSYkJqbHFGS1hxTVRYSHBJMlA0NjJ4RnpLNWFaZFd5WWlnbEZjZW5yNk5zRXdRWW92UktvVjVSeVpzYmtubVEycldieVl3OElVVnRtNzR1WnVmRXNWZk5yeW1feWtmTUhhS1JIUDdBSTloekstaFlWSEREYUxJTGpyN0hGZ1dsVVJGcmh4YWNZTmc?oc=5",
-    "source": "ET Now",
-    "published": "2026-10-18T01:59:52+00:00",
+    "title": "Coforge NSE:COFORGE Regulation 74(5) Certificate Q2 FY27",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNc21pNEVjckEwOURDMUdUTXZ4Y0VLUjVSZnRQNExJTzNodlZBd0Z5ZUlySGtQTS1iN3Q0T3pMREpsd2tIYTBkcHF2a21PczZ3dkRlbi1DTWQ3ODFCM2JRalpWdWhXMHIxQkxDMjJySFhkWmEybXoyNkdIRHdaaUZRbGNCd1JUYUduVld1Rm1TMktibHZHbWhyaV8xRUM5Zl95MVlOb09HelVmbDJwSmxkXzBhNXptSWc?oc=5",
+    "source": "Kalkine India",
+    "published": "2026-10-14T08:34:00+00:00",
     "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Coforge",
-  "analysed_at": "2026-10-19T15:12:58+00:00"
+  "analysed_at": "2026-10-19T18:02:33+00:00"
  },
  "Mphasis": {
   "results_found": false,
   "results_date": null,
-  "headline": "Mphasis Q2 FY27 results have not been released in the available sources",
+  "headline": "Mphasis has not yet released its Q2 FY27 financial results",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -730,32 +774,38 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No results data available to assess sentiment",
+  "sentiment_reason": "No results disclosed yet, only call schedule announced",
   "missing": [
-   "revenue_inr_cr",
-   "revenue_usd_m",
-   "revenue_growth_yoy_pct",
-   "cc_growth_qoq_pct",
-   "cc_growth_yoy_pct",
-   "net_profit_inr_cr",
-   "net_profit_growth_yoy_pct",
-   "operating_margin_pct",
-   "deal_wins_usd_bn",
+   "revenue",
+   "net profit",
+   "operating margin",
+   "growth metrics",
    "headcount",
-   "net_headcount_change",
-   "attrition_pct",
-   "dividend_per_share_inr",
-   "guidance",
-   "highlights",
-   "risks",
-   "media_vertical revenue share and growth"
+   "dividend",
+   "guidance details",
+   "media vertical performance"
   ],
   "unverified_dropped": [],
-  "sources": [],
+  "sources": [
+   {
+    "title": "Mphasis to host Q1 FY2027 earnings call on July 24, 2026",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZkw5TTFaR2lla2tiVHllejdxOGtoX1d4czYwOXNKV25ZcU9HSVhEaFJyTGpZakFDR2xzZU53UWItSU91dXRqT0NQZkJfXzQ5V1VqTzhTSTduZlEwZXpVMlgwOThEVU1qdEJlY3FiOWRCOEJlVUdfSUlDWTR2UjNQdUZIbXhJbkQyZnJmaldLV3RTdzBZTEZ6QlNxWFdMalVfQU9KdXRJMXRSRGc?oc=5",
+    "source": "scanx.trade",
+    "published": "2026-10-18T12:31:44+00:00",
+    "official": false
+   },
+   {
+    "title": "Mphasis Q2 FY2027 Earnings Call Date and Investor Details",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOay1fQzJWYUkxQ2txYU1KdkVZWVp1dFp0bldIVDVDVFl6WGx6STM0SU11Q0hmd251bG5CUDJNZkw2ekM1U3MycjhlazZLUDBBUzg4UlQ3eVJJMVdxckVpRjJIZ2laU0EzTWtncDBhMTBIZmh1Q2NEYlVMSVh2RktEVkE4UzZOU1MxUjI0eTFocFBzVlRSNExYLUMybFhIMVZCNExWc3E5UTVYVW5jMHdSTE9B?oc=5",
+    "source": "Kalkine India",
+    "published": "2026-10-09T10:02:00+00:00",
+    "official": false
+   }
+  ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Mphasis",
-  "analysed_at": "2026-10-19T15:13:51+00:00"
+  "analysed_at": "2026-10-19T18:03:24+00:00"
  },
  "Wipro": {
   "results_found": true,
