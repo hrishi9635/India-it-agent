@@ -1,91 +1,92 @@
 {
- "headline": "Indian IT services posted solid revenue growth, with AI driving margins.",
- "summary": "TCS posted ₹73,188 cr revenue and a 24% operating margin, the highest margin in the sector. HCLTech and Tech Mahindra delivered double‑digit top‑line growth, while L&T Technology Services and Wipro also grew above 9%. AI revenue is expanding rapidly, highlighted by HCLTech’s 78% YoY AI growth and TCS’s $3.1 bn AI run‑rate. Several peers (Infosys, OFSS, Mphasis) have not yet released results, adding uncertainty.",
+ "headline": "Indian IT services posted solid revenue growth in Q2 FY27, driven by AI‑related wins.",
+ "summary": "Most listed firms reported double‑digit revenue growth, with TCS leading at 15.4% YoY and a 24% operating margin. HCLTech highlighted AI sales as a key driver, posting 11.5% YoY growth and a 78% jump in AI revenue. Wipro showed modest 9% revenue growth but a slight dip in profit. Several peers (Infosys, OFSS, Mphasis) have not released results, limiting full sector visibility.",
  "themes": [
   {
-   "title": "AI‑driven growth",
-   "detail": "AI sales are boosting revenue and margins, especially at HCLTech and TCS.",
+   "title": "AI as a growth catalyst",
+   "detail": "AI‑led deals and revenue streams are highlighted by TCS, HCLTech and Wipro, indicating early traction across the sector.",
    "companies": [
     "TCS",
-    "HCLTech"
+    "HCLTech",
+    "Wipro"
    ]
   },
   {
-   "title": "Margin expansion",
-   "detail": "Operating margins above 20% at TCS and Infosys indicate pricing power.",
+   "title": "Margin pressure at mid‑tier players",
+   "detail": "Companies like Persistent and Tech Mahindra posted lower margins or profit declines despite revenue growth.",
    "companies": [
-    "TCS",
-    "Infosys"
-   ]
-  },
-  {
-   "title": "Revenue acceleration",
-   "detail": "Coforge and OFSS show very high YoY revenue jumps, though results are not yet reported.",
-   "companies": [
-    "Coforge",
-    "OFSS"
+    "Persistent",
+    "Tech Mahindra"
    ]
   }
  ],
  "leaders": [
   {
    "company": "TCS",
-   "why": "Highest revenue and a 24% operating margin, strong AI revenue."
+   "why": "Highest revenue, 24% operating margin and strong AI revenue crossing 10% of total."
   },
   {
-   "company": "Tech Mahindra",
-   "why": "15.6% YoY revenue growth and solid profit expansion."
+   "company": "HCLTech",
+   "why": "Strong AI sales, 78% YoY AI revenue growth and solid profit expansion."
+  },
+  {
+   "company": "LTM",
+   "why": "13.6% YoY revenue growth and dividend increase."
   }
  ],
  "laggards": [
   {
    "company": "Persistent",
-   "why": "Revenue grew 30% YoY but profit fell 25%, indicating margin pressure."
+   "why": "Revenue grew but net profit fell 25% QoQ, indicating margin stress."
   },
   {
    "company": "Infosys",
-   "why": "Results not released; AI spend may pressure margins."
+   "why": "Results pending, no data to assess performance."
+  },
+  {
+   "company": "OFSS",
+   "why": "Results pending, no data to assess performance."
   }
  ],
  "domain_outlook": [
   {
    "domain": "Media & broadcasting",
    "signal": "Not enough data",
-   "note": "No mentions of media or broadcasting in the reports."
+   "note": "No company mentions or AI signals specific to this domain."
   },
   {
    "domain": "Entertainment & streaming",
    "signal": "Not enough data",
-   "note": "No relevant signals were identified."
+   "note": "No company mentions or AI signals specific to this domain."
   },
   {
    "domain": "Gaming",
    "signal": "Not enough data",
-   "note": "No gaming related information provided."
+   "note": "No company mentions or AI signals specific to this domain."
   },
   {
    "domain": "Education",
    "signal": "Not enough data",
-   "note": "No education related information provided."
+   "note": "No company mentions or AI signals specific to this domain."
   },
   {
    "domain": "Publishing",
    "signal": "Not enough data",
-   "note": "No publishing related information provided."
+   "note": "No company mentions or AI signals specific to this domain."
   },
   {
    "domain": "Telecom",
    "signal": "Not enough data",
-   "note": "No telecom related information provided."
+   "note": "No company mentions or AI signals specific to this domain."
   }
  ],
  "watch_next": [
-  "Infosys Q2 FY27 earnings and margin guidance",
-  "OFSS revenue and margin trends",
-  "AI revenue contribution across peers",
-  "Coforge’s high YoY growth sustainability",
-  "Wipro Q3 FY27 performance versus guidance"
+  "Q3 FY27 earnings of Infosys, OFSS and Mphasis",
+  "Progress of AI‑native units at Wipro and TCS",
+  "Margin trends at mid‑tier players like Persistent",
+  "Impact of deal wins on HCLTech’s FY27 guidance",
+  "Any new AI‑related contracts in the telecom sector"
  ],
  "quarter": "Q2 FY27",
- "written_at": "2026-10-18T17:58:32+00:00"
+ "written_at": "2026-10-19T09:00:33+00:00"
 }
