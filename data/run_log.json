@@ -1,5 +1,18 @@
 [
  {
+  "started": "2026-10-20T12:25:02+00:00",
+  "quarter": "Q2 FY27",
+  "steps": [
+   "market data for 10/10 companies",
+   "news updated",
+   "exchange filings checked; results filed: TCS, HCLTech, Wipro, LTM, Tech Mahindra",
+   "AI analysed: Infosys, OFSS, Persistent, Coforge, Mphasis"
+  ],
+  "errors": [],
+  "finished": "2026-10-20T12:31:25+00:00",
+  "ai_calls": 10
+ },
+ {
   "started": "2026-10-20T08:50:30+00:00",
   "quarter": "Q2 FY27",
   "steps": [
@@ -375,18 +388,5 @@
   "errors": [],
   "finished": "2026-10-13T16:32:48+00:00",
   "ai_calls": 15
- },
- {
-  "started": "2026-10-13T14:56:35+00:00",
-  "quarter": "Q2 FY27",
-  "steps": [
-   "market data for 10/10 companies",
-   "news updated",
-   "exchange filings checked; results filed: TCS, HCLTech",
-   "AI analysed: TCS, Infosys, HCLTech, Wipro, LTM, Tech Mahindra, OFSS, Persistent, Coforge, Mphasis"
-  ],
-  "errors": [],
-  "finished": "2026-10-13T15:07:12+00:00",
-  "ai_calls": 20
  }
 ]
