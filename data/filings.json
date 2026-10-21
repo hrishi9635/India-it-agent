@@ -25,7 +25,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-20T18:02",
+  "checked_at": "2026-10-21T08:53",
   "quarter": "Q2 FY27"
  },
  "Infosys": {
@@ -36,7 +36,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-20T18:02",
+  "checked_at": "2026-10-21T08:53",
   "quarter": "Q2 FY27"
  },
  "HCLTech": {
@@ -65,7 +65,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-20T18:02",
+  "checked_at": "2026-10-21T08:53",
   "quarter": "Q2 FY27"
  },
  "Wipro": {
@@ -94,13 +94,13 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-20T18:02",
+  "checked_at": "2026-10-21T08:53",
   "quarter": "Q2 FY27"
  },
  "LTM": {
   "checked": true,
   "exchange": "NSE",
-  "count": 21,
+  "count": 22,
   "result": {
    "title": "LTM Limited has submitted to the Exchange, the unaudited financial results and interim dividend for the period ended Sep 30, 2026.",
    "detail": "",
@@ -112,18 +112,18 @@
    "exchange": "NSE"
   },
   "press": {
-   "title": "LTM Limited has informed the Exchange about Investor Presentation",
+   "title": "LTM Limited has informed the Exchange regarding a press release dated October 21, 2026, titled \"LTM Launches BlueVerse ValueMesh to Help Enterprises Scale AI Across Oracle Transformations\".",
    "detail": "",
-   "category": "Investor Presentation",
+   "category": "Press Release",
    "subcategory": "",
-   "time": "2026-10-16T17:38",
-   "url": "https://nsearchives.nseindia.com/corporate/LTI_16102026173744_Outcome_Final_Signed.pdf",
+   "time": "2026-10-21T10:47",
+   "url": "https://nsearchives.nseindia.com/corporate/LTI_21102026104657_StockexchangeSigned.pdf",
    "alt_url": "",
    "exchange": "NSE"
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-20T18:02",
+  "checked_at": "2026-10-21T08:54",
   "quarter": "Q2 FY27"
  },
  "Tech Mahindra": {
@@ -152,7 +152,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-20T18:02",
+  "checked_at": "2026-10-21T08:54",
   "quarter": "Q2 FY27"
  },
  "OFSS": {
@@ -163,7 +163,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-20T18:02",
+  "checked_at": "2026-10-21T08:54",
   "quarter": "Q2 FY27"
  },
  "Persistent": {
@@ -174,7 +174,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-20T18:02",
+  "checked_at": "2026-10-21T08:54",
   "quarter": "Q2 FY27"
  },
  "Coforge": {
@@ -185,7 +185,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-20T18:02",
+  "checked_at": "2026-10-21T08:54",
   "quarter": "Q2 FY27"
  },
  "Mphasis": {
@@ -196,7 +196,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-20T18:02",
+  "checked_at": "2026-10-21T08:54",
   "quarter": "Q2 FY27"
  }
 }
