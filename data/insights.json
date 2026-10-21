@@ -81,7 +81,7 @@
  "Infosys": {
   "results_found": false,
   "results_date": null,
-  "headline": "Infosys has not yet released its Q2 FY27 financial results",
+  "headline": "Infosys has not yet released its Q2 FY27 results",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -114,7 +114,7 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No results data available yet",
+  "sentiment_reason": "No results data released yet",
   "missing": [
    "revenue_inr_cr",
    "revenue_usd_m",
@@ -130,8 +130,10 @@
    "attrition_pct",
    "dividend_per_share_inr",
    "guidance",
-   "media_vertical details",
-   "megep_mentions",
+   "media_vertical.revenue_share_pct",
+   "media_vertical.growth_qoq_pct",
+   "media_vertical.growth_yoy_pct",
+   "media_vertical.growth_cc_yoy_pct",
    "ai_signals",
    "management_view"
   ],
@@ -140,7 +142,7 @@
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Infosys",
-  "analysed_at": "2026-10-21T08:54:39+00:00"
+  "analysed_at": "2026-10-21T12:29:06+00:00"
  },
  "HCLTech": {
   "results_found": true,
@@ -485,7 +487,7 @@
  "OFSS": {
   "results_found": false,
   "results_date": "2026-10-19",
-  "headline": "OFSS Q2 FY27 revenue climbs 12.05% YoY",
+  "headline": "OFSS Q2 FY27 revenue climbs 12.05% YoY as EPS reaches ₹302.11",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -502,13 +504,15 @@
    "dividend_per_share_inr": null
   },
   "guidance": null,
-  "guidance_change": "unknown",
+  "guidance_change": "none",
   "highlights": [
-   "Revenue grew 12.05% YoY in Q2 FY27",
+   "Revenue grew 12.05% YoY",
    "EPS reported at ₹302.11",
    "Shares slipped 2.37% after results"
   ],
-  "risks": [],
+  "risks": [
+   "Share price weakness post‑announcement"
+  ],
   "verticals": [],
   "media_vertical": {
    "name": null,
@@ -521,20 +525,25 @@
   "megep_mentions": [],
   "ai_signals": null,
   "management_view": null,
-  "sentiment": "Neutral",
-  "sentiment_reason": "Revenue rose but share price fell, indicating mixed market reaction",
+  "sentiment": "Negative",
+  "sentiment_reason": "Share price fell 2.37% on the day of results",
   "missing": [
-   "revenue amount (INR crore)",
-   "revenue amount (USD million)",
-   "net profit amount",
-   "net profit growth",
-   "operating margin",
-   "deal wins",
-   "headcount data",
-   "attrition",
-   "dividend per share",
-   "guidance details",
-   "media vertical share and growth"
+   "revenue_inr_cr",
+   "revenue_usd_m",
+   "cc_growth_qoq_pct",
+   "cc_growth_yoy_pct",
+   "net_profit_inr_cr",
+   "net_profit_growth_yoy_pct",
+   "operating_margin_pct",
+   "deal_wins_usd_bn",
+   "headcount",
+   "net_headcount_change",
+   "attrition_pct",
+   "dividend_per_share_inr",
+   "media_vertical details",
+   "megep_mentions",
+   "ai_signals",
+   "management_view"
   ],
   "unverified_dropped": [],
   "sources": [
@@ -549,22 +558,22 @@
   "official": false,
   "quarter": "Q2 FY27",
   "company": "OFSS",
-  "analysed_at": "2026-10-21T08:55:09+00:00"
+  "analysed_at": "2026-10-21T12:29:36+00:00"
  },
  "Persistent": {
   "results_found": false,
   "results_date": "2026-10-15",
-  "headline": "Persistent Systems posted 20% YoY revenue growth to Rs 4,494.17 cr in Q2 FY27 but margins missed estimates amid acquisition costs",
+  "headline": "Revenue rose 30% YoY while profit fell 27% due to one‑off Nagarro acquisition costs",
   "metrics": {
-   "revenue_inr_cr": 4494.17,
+   "revenue_inr_cr": null,
    "revenue_usd_m": 487.6,
-   "revenue_growth_yoy_pct": 20.0,
-   "cc_growth_qoq_pct": null,
+   "revenue_growth_yoy_pct": 30.3,
+   "cc_growth_qoq_pct": 7.8,
    "cc_growth_yoy_pct": null,
-   "net_profit_inr_cr": null,
-   "net_profit_growth_yoy_pct": 2.42,
-   "operating_margin_pct": null,
-   "deal_wins_usd_bn": null,
+   "net_profit_inr_cr": 351.5,
+   "net_profit_growth_yoy_pct": null,
+   "operating_margin_pct": 15,
+   "deal_wins_usd_bn": 0.367,
    "headcount": null,
    "net_headcount_change": null,
    "attrition_pct": null,
@@ -573,14 +582,15 @@
   "guidance": null,
   "guidance_change": "none",
   "highlights": [
-   "Revenue rose 20% YoY to Rs 4,494.17 cr, driven by strong hi‑tech and AI services.",
-   "Net profit (PAT) increased 2.42% YoY, but absolute figure not disclosed.",
-   "Margins fell short of expectations as integration costs from the Nagarro acquisition weighed on earnings.",
-   "Share price slipped over 5% after the results release."
+   "Revenue grew 30.3% YoY to $487.6 million",
+   "Constant‑currency revenue growth was 7.8% QoQ",
+   "PAT fell 27% sequentially to ₹351.5 crore, hit by a ₹185.34 crore one‑off expense",
+   "EBIT margin slipped to 15% (down 100 bps QoQ)",
+   "Total contract value (TCV) stood at $367 million, down 61% QoQ"
   ],
   "risks": [
-   "Higher integration and financing costs from the Nagarro deal could pressure profitability.",
-   "Margin compression despite revenue growth."
+   "One‑off acquisition costs from the Nagarro deal depress profit",
+   "Margin pressure from wage hikes and lower utilisation"
   ],
   "verticals": [],
   "media_vertical": {
@@ -592,57 +602,50 @@
    "commentary": null
   },
   "megep_mentions": [],
-  "ai_signals": "AI‑led digital engineering services contributed to the 28.5% growth in the Software, Hi‑Tech segment.",
-  "management_view": "Management highlighted robust revenue momentum but cautioned that acquisition‑related costs would affect short‑term margins.",
+  "ai_signals": null,
+  "management_view": null,
   "sentiment": "Negative",
-  "sentiment_reason": "Profit growth was modest and margins missed, leading to a sharp share price decline.",
+  "sentiment_reason": "Profit dropped sharply despite strong revenue growth",
   "missing": [
-   "net profit amount (INR crore)",
-   "operating margin percentage",
-   "media vertical revenue share and growth",
-   "headcount and attrition data",
-   "dividend per share"
+   "Revenue in INR crore",
+   "Revenue share of media vertical",
+   "Headcount and attrition data",
+   "Net profit YoY growth percentage",
+   "CC YoY growth"
   ],
   "unverified_dropped": [],
   "sources": [
    {
-    "title": "Persistent Systems Q2 Results FY27: PAT Rises 2.42%, Revenue at Rs 4,494.17 Cr",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5TeWVEcWRNSFVCb1RiOC1fbldtcDJLWDB2anZIeWNuMXFnVVVSbTJIZmRIUlU2dUlzTEFSQ3p2bXpIeXVzMS1sWl91aWZsRGtSSVNuX1k2Z1EtUVg0a2FzNzhlczFsM2VfQmhaOTdLdEV1NmJnV2hjaHFVWTRjQQ?oc=5",
-    "source": "Univest",
-    "published": "2026-10-15T12:03:00+00:00",
+    "title": "Persistent Systems shares fall 5% after Q2 results - Bulls see market cap doubling, bears see 27% fall",
+    "link": "https://www.cnbctv18.com/market/persistent-systems-share-price-q2-result-reaction-buy-sell-bulls-market-cap-double-bears-see-sharp-fall-20013142.htm",
+    "source": "cnbctv18.com",
+    "published": "2026-10-15T20:13:00+00:00",
     "official": false
    },
    {
-    "title": "Persistent Announces $487.6M Revenue in Q2 FY27 with 20.0% Y-o-Y Growth",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRnhJSlM0aEJFZGRhU0taTGpKZU4xdzJsX1p4R1lydFBLdnB3Y0VDRFA1alpSREVyZC1KU3ZjbmZOTEpUMVRpLXVEdjNVQkNIcFo2dXhRcWFoRVJGN1dQdHNPVng4VXBwWm9ZeFlLTnl0RzFLNE9CVl9KMnJVSnZCSy1EYU9GS05BWWxwWnVpam9hRnVESWtnSmIzMXhpd09USUd0TVlQREFrc2o4TTVRVVRXa3A3b0lVdXlxWXA3Z2hYWFk?oc=5",
-    "source": "PR Newswire",
-    "published": "2026-10-15T12:34:00+00:00",
+    "title": "Persistent Systems Q2 FY27 revenue up 30.3% year-on-year",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZVQ3M3U4dnplel9kWlZyNXhYLUdFdWdYRi1EeEMwNlFPM1BuRVNwSTNzNW11OHVZSEV2Y2pzazdDUzN0dXMzeDZwRVhHWk5SaGhmbUg1d0djYk9nR01FWnB0bkRPaTJQRE44VE10cnpISW5iaU9iNGNRNHVKMWdaM0UybHotTVJmWDNWUG50OUl4aktfME1PRXh4UUJqLW42ZDNmeHhB0gGmAUFVX3lxTFBlVDczdTh2emV6X2RaVnI1eFgtR0V1Z1hGLUR4QzA2UU8zUG5FU3BJM3M1bXU4dVlIRXZjanNrN0NTM3R1czN4NnBFWEdaTlJoaGZtSDV3R2NiT2dHTUVacHRuRE9pMlBETjhUTXRyekhJbmJpT2I0Y1E0dUoxZ1ozRTJsei1NUmZYM1ZQbnQ5SXhqS18wTU9FeHhRQmotbjZkM2Z4eEE?oc=5",
+    "source": "TechGig",
+    "published": "2026-10-15T14:10:55+00:00",
     "official": false
    },
    {
-    "title": "Persistent Systems Q2 Results FY27: PAT Rises 2.42%, Revenue at Rs 4,494.17 Cr",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5TeWVEcWRNSFVCb1RiOC1fbldtcDJLWDB2anZIeWNuMXFnVVVSbTJIZmRIUlU2dUlzTEFSQ3p2bXpIeXVzMS1sWl91aWZsRGtSSVNuX1k2Z1EtUVg0a2FzNzhlczFsM2VfQmhaOTdLdEV1NmJnV2hjaHFVWTRjQQ?oc=5",
-    "source": "Univest",
-    "published": "2026-10-15T12:03:00+00:00",
-    "official": false
-   },
-   {
-    "title": "Persistent’s Software, Hi-Tech Revenue Grows 28.5% as It Expands AI Services",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNDdEY29fZWNHRlJSSEkyZUxFWTZJM1NUZ1pmYmYzNk9xMDNfeTJ0bV93d0NOeUZ6VHNZZFZ2QUdfbkJraFdJOE9PcWpmeVJqSnRMWWxxQTZoRkp4WkxMNFFkOWk1OERGc0kwZ1o0UUk0TDd0SldNOUl5cmFiT1kzX3BWdHlhQnJDTHFCNEp3blRjUHJTbE5nalhrVENKdzluNmpnTG1ZUXBnb0E2ckdJ?oc=5",
-    "source": "Analytics India Magazine",
-    "published": "2026-10-16T06:13:34+00:00",
+    "title": "Persistent Systems announces financial results for Q2 and half year ending September 2026",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORnNxdG5lR3N4TlBLQi1HZHRoUWJzb1RhaHNjaHpZakY5Sm1NYmtGN0dzcU1iOHJCTTNBdXBSX3FOa1JxX2V6R2Z5VUpfeERCeGEyN2tMRUcxQzgxYTBQSmM0U0dld3lrZS0zVFZrSkxSZHdsNVhYMC04QjBRTDlkYlZ3aXBaWW9PWWJCaW91SmZraW1iRTdQSGVHV0Nua3ZzeExBcjBrZ1F0R3FLOFhKQ1hrMlB2SmlkSllaRWJOdUFtNGti?oc=5",
+    "source": "Business Upturn",
+    "published": "2026-10-15T13:24:31+00:00",
     "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Persistent",
-  "analysed_at": "2026-10-21T08:56:00+00:00"
+  "analysed_at": "2026-10-21T12:30:28+00:00"
  },
  "Coforge": {
   "results_found": false,
   "results_date": null,
-  "headline": "Coforge's Q2 FY27 results have not been released yet",
+  "headline": "Coforge Q2 FY27 results have not been released yet",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -696,6 +699,13 @@
   "unverified_dropped": [],
   "sources": [
    {
+    "title": "Coforge schedules October 23 results call for Coforge stock",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdXhReDNraFU5aHE0cUlKQVBoWXhFVm5OM0FPQ21JallZWlFRdFVBWlFXWE1PSVFuUGUyYUJ4YnptZ192ZlBjZUV2NnV1dS1EdVcycTBudDNfazFqeExtSm9SOFNuNWVzSVJnRGFhZnJ4eC0taDRqM1prS0YyT3BBRUdIR0taMndaZ0E2N21lUXVQUTRFRmJjc2k5QS1yNWRxczdhTDdiOFpJbVJKREV2dXhKN3FOUHFQd0E?oc=5",
+    "source": "ad-hoc-news.de",
+    "published": "2026-10-19T23:02:47+00:00",
+    "official": false
+   },
+   {
     "title": "Q2 results this week: Eternal, Adani Green Energy, L&T, Infosys, Coforge and Kotak Bank among others to announce Q2 FY27 earnings - List",
     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNd1RNUE5kR3g4alctQnVSQTRYd3RJVFp4ZFhHMXo2WG5HUkRFbHpGNTVrRVZvLXpNaFh3UjJrZFF0NHdHeHkwNDhqNFp2elN6MDBGNjJFRmw0S09TNlVpUFk5Tng3MWR4NjYyeTBfV3hCcFAzTTl6NlNMa0ZkUk9zQTkwWTNxaFJVdWlYLUpMdTd2ZGtub2dKQTY2ZkhBZDd6ejBRM1BqTFpiZVhxVml2UzBNNjhEN2FQZHpiZEJybmZwb3QxSjE4dGppSGU1UEd0cjBuUkhDQV9aUERhWUlhSWFuVzNwQmJu0gHuAUFVX3lxTFBDbnVTTGR1bkFmYVEwaE9BYTlRd2dCaXJfT3N4cmNMSklNV1NmVmZ6RVZhME9EbGZYR2VjbzlUU3R3VXYyS0hibUc5bnhWRDM0dEtrSDNjcV9OY0hLcFRldU5QUHdSYkJqbHFGS1hxTVRYSHBJMlA0NjJ4RnpLNWFaZFd5WWlnbEZjZW5yNk5zRXdRWW92UktvVjVSeVpzYmtubVEycldieVl3OElVVnRtNzR1WnVmRXNWZk5yeW1feWtmTUhhS1JIUDdBSTloekstaFlWSEREYUxJTGpyN0hGZ1dsVVJGcmh4YWNZTmc?oc=5",
     "source": "ET Now",
@@ -703,10 +713,10 @@
     "official": false
    },
    {
-    "title": "Coforge stock heads into Q2 results after chair change",
-    "link": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/coforge-stock-heads-into-q2-results-after-chair-change/70248642",
-    "source": "ad-hoc-news.de",
-    "published": "2026-10-06T20:52:00+00:00",
+    "title": "Coforge NSE:COFORGE Regulation 74(5) Certificate Q2 FY27",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNc21pNEVjckEwOURDMUdUTXZ4Y0VLUjVSZnRQNExJTzNodlZBd0Z5ZUlySGtQTS1iN3Q0T3pMREpsd2tIYTBkcHF2a21PczZ3dkRlbi1DTWQ3ODFCM2JRalpWdWhXMHIxQkxDMjJySFhkWmEybXoyNkdIRHdaaUZRbGNCd1JUYUduVld1Rm1TMktibHZHbWhyaV8xRUM5Zl95MVlOb09HelVmbDJwSmxkXzBhNXptSWc?oc=5",
+    "source": "Kalkine India",
+    "published": "2026-10-14T08:34:00+00:00",
     "official": false
    },
    {
@@ -720,7 +730,7 @@
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Coforge",
-  "analysed_at": "2026-10-21T08:56:53+00:00"
+  "analysed_at": "2026-10-21T12:31:21+00:00"
  },
  "Mphasis": {
   "results_found": false,
@@ -742,7 +752,7 @@
    "dividend_per_share_inr": null
   },
   "guidance": null,
-  "guidance_change": "none",
+  "guidance_change": "unknown",
   "highlights": [],
   "risks": [],
   "verticals": [],
@@ -774,17 +784,14 @@
    "attrition_pct",
    "dividend_per_share_inr",
    "guidance",
-   "media_vertical revenue_share_pct",
-   "media_vertical growth_qoq_pct",
-   "media_vertical growth_yoy_pct",
-   "media_vertical growth_cc_yoy_pct"
+   "media_vertical details"
   ],
   "unverified_dropped": [],
   "sources": [],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Mphasis",
-  "analysed_at": "2026-10-21T08:57:46+00:00"
+  "analysed_at": "2026-10-21T12:32:15+00:00"
  },
  "Wipro": {
   "results_found": true,
