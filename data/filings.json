@@ -25,7 +25,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-22T08:55",
+  "checked_at": "2026-10-22T12:29",
   "quarter": "Q2 FY27"
  },
  "Infosys": {
@@ -36,7 +36,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-22T08:55",
+  "checked_at": "2026-10-22T12:29",
   "quarter": "Q2 FY27"
  },
  "HCLTech": {
@@ -65,7 +65,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-22T08:55",
+  "checked_at": "2026-10-22T12:29",
   "quarter": "Q2 FY27"
  },
  "Wipro": {
@@ -94,7 +94,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-22T08:55",
+  "checked_at": "2026-10-22T12:29",
   "quarter": "Q2 FY27"
  },
  "LTM": {
@@ -123,13 +123,13 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-22T08:55",
+  "checked_at": "2026-10-22T12:29",
   "quarter": "Q2 FY27"
  },
  "Tech Mahindra": {
   "checked": true,
   "exchange": "NSE",
-  "count": 22,
+  "count": 23,
   "result": {
    "title": "Tech Mahindra Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
    "detail": "",
@@ -152,7 +152,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-22T08:55",
+  "checked_at": "2026-10-22T12:29",
   "quarter": "Q2 FY27"
  },
  "OFSS": {
@@ -163,7 +163,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-22T08:55",
+  "checked_at": "2026-10-22T12:29",
   "quarter": "Q2 FY27"
  },
  "Persistent": {
@@ -174,7 +174,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-22T08:55",
+  "checked_at": "2026-10-22T12:29",
   "quarter": "Q2 FY27"
  },
  "Coforge": {
@@ -185,7 +185,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-22T08:55",
+  "checked_at": "2026-10-22T12:29",
   "quarter": "Q2 FY27"
  },
  "Mphasis": {
@@ -196,7 +196,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-22T08:55",
+  "checked_at": "2026-10-22T12:29",
   "quarter": "Q2 FY27"
  }
 }

@@ -1,83 +1,81 @@
 {
- "headline": "Indian IT services posted solid revenue growth in Q2 FY27, driven by strong performance at the top firms.",
- "summary": "TCS and HCLTech reported double‑digit revenue growth and healthy operating margins. Mid‑tier players such as L&T Technology Services and Tech Mahindra also posted robust top‑line gains. AI‑related revenue is emerging as a growth theme, highlighted by HCLTech and L&T. Several peers have not yet released results, limiting full sector visibility.",
+ "headline": "Indian IT services posted solid revenue growth, driven by AI‑related wins.",
+ "summary": "Revenue rose across the major players, with TCS posting ₹73,188 cr and a 24% margin. HCLTech highlighted AI sales as a key driver and posted a 21% profit rise. Mid‑tier firms such as LTM and Tech Mahindra also delivered double‑digit top‑line growth. Persistent reported a sharp profit decline, marking the sector's weakest performance.",
  "themes": [
   {
-   "title": "AI‑driven growth",
-   "detail": "AI revenue contributions are rising, with HCLTech noting a 78% YoY jump and L&T reporting a 47% surge.",
-   "companies": [
-    "HCLTech",
-    "LTM"
-   ]
-  },
-  {
-   "title": "Steady margin expansion",
-   "detail": "TCS maintained a 24% operating margin, while HCLTech improved to 18.2% in constant currency.",
+   "title": "AI‑driven revenue",
+   "detail": "AI services contributed to higher margins and profit growth at several firms.",
    "companies": [
     "TCS",
-    "HCLTech"
+    "HCLTech",
+    "LTM",
+    "Wipro"
    ]
   }
  ],
  "leaders": [
   {
-   "company": "Tech Mahindra",
-   "why": "21.2% YoY revenue growth and 15.6% profit increase."
+   "company": "TCS",
+   "why": "Highest revenue and strong 24% operating margin."
   },
   {
-   "company": "TCS",
-   "why": "Largest revenue base with 15.4% YoY growth and 24% operating margin."
+   "company": "HCLTech",
+   "why": "AI sales lifted profit 21% YoY and beat guidance."
+  },
+  {
+   "company": "Tech Mahindra",
+   "why": "15.6% YoY revenue growth with solid profit expansion."
   }
  ],
  "laggards": [
   {
    "company": "Persistent",
-   "why": "Revenue grew 20% YoY but profit fell 25.4% YoY, leading to negative sentiment."
+   "why": "Profit fell 25% YoY despite 30% revenue growth."
   },
   {
-   "company": "Wipro",
-   "why": "Revenue up only 9.1% YoY and profit slipped 1.9% YoY, with neutral sentiment."
+   "company": "Infosys",
+   "why": "Results not yet released, limiting visibility."
   }
  ],
  "domain_outlook": [
   {
    "domain": "Media & broadcasting",
    "signal": "Not enough data",
-   "note": "No company mentions or AI signals specific to this domain."
+   "note": "No mentions of this domain in the reports."
   },
   {
    "domain": "Entertainment & streaming",
    "signal": "Not enough data",
-   "note": "No relevant mentions in the provided summaries."
+   "note": "No mentions of this domain in the reports."
   },
   {
    "domain": "Gaming",
    "signal": "Not enough data",
-   "note": "No relevant mentions in the provided summaries."
+   "note": "No mentions of this domain in the reports."
   },
   {
    "domain": "Education",
    "signal": "Not enough data",
-   "note": "No relevant mentions in the provided summaries."
+   "note": "No mentions of this domain in the reports."
   },
   {
    "domain": "Publishing",
    "signal": "Not enough data",
-   "note": "No relevant mentions in the provided summaries."
+   "note": "No mentions of this domain in the reports."
   },
   {
    "domain": "Telecom",
    "signal": "Not enough data",
-   "note": "No relevant mentions in the provided summaries."
+   "note": "No mentions of this domain in the reports."
   }
  ],
  "watch_next": [
-  "Q3 FY27 earnings from Infosys, OFSS, and Mphasis",
-  "Progress on AI‑native unit performance at Wipro",
-  "Guidance updates from HCLTech and other mid‑tier players",
-  "Impact of attrition trends on headcount and profitability",
-  "Any new large‑scale AI or digital transformation deals announced"
+  "AI revenue contribution trends",
+  "Quarterly guidance updates from Infosys and OFSS",
+  "Attrition rates across majors",
+  "Deal win volumes in USD",
+  "Profit margin evolution at lagging firms"
  ],
  "quarter": "Q2 FY27",
- "written_at": "2026-10-22T08:59:46+00:00"
+ "written_at": "2026-10-22T12:34:03+00:00"
 }
