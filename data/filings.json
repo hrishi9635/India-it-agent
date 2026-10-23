@@ -25,13 +25,13 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-23T12:23",
+  "checked_at": "2026-10-23T15:08",
   "quarter": "Q2 FY27"
  },
  "Infosys": {
   "checked": true,
   "exchange": "NSE",
-  "count": 15,
+  "count": 16,
   "result": {
    "title": "Infosys Limited has submitted to the Exchange, Financial Results for the quarter and half year ended September 30, 2026 and declaration of interim dividend",
    "detail": "",
@@ -45,7 +45,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-23T12:23",
+  "checked_at": "2026-10-23T15:08",
   "quarter": "Q2 FY27"
  },
  "HCLTech": {
@@ -74,7 +74,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-23T12:23",
+  "checked_at": "2026-10-23T15:08",
   "quarter": "Q2 FY27"
  },
  "Wipro": {
@@ -103,7 +103,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-23T12:23",
+  "checked_at": "2026-10-23T15:08",
   "quarter": "Q2 FY27"
  },
  "LTM": {
@@ -132,7 +132,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-23T12:23",
+  "checked_at": "2026-10-23T15:08",
   "quarter": "Q2 FY27"
  },
  "Tech Mahindra": {
@@ -161,18 +161,27 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-23T12:23",
+  "checked_at": "2026-10-23T15:08",
   "quarter": "Q2 FY27"
  },
  "OFSS": {
   "checked": true,
   "exchange": "NSE",
-  "count": 15,
-  "result": null,
+  "count": 16,
+  "result": {
+   "title": "Oracle Financial Services Software Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "detail": "",
+   "category": "Outcome of Board Meeting",
+   "subcategory": "",
+   "time": "2026-10-23T20:38",
+   "url": "https://nsearchives.nseindia.com/corporate/OFSS_23102026203533_OutcomeofBoardMeeting23102026sd.pdf",
+   "alt_url": "",
+   "exchange": "NSE"
+  },
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-23T12:23",
+  "checked_at": "2026-10-23T15:08",
   "quarter": "Q2 FY27"
  },
  "Persistent": {
@@ -183,7 +192,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-23T12:23",
+  "checked_at": "2026-10-23T15:08",
   "quarter": "Q2 FY27"
  },
  "Coforge": {
@@ -212,7 +221,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-23T12:23",
+  "checked_at": "2026-10-23T15:09",
   "quarter": "Q2 FY27"
  },
  "Mphasis": {
@@ -223,7 +232,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-23T12:23",
+  "checked_at": "2026-10-23T15:09",
   "quarter": "Q2 FY27"
  }
 }

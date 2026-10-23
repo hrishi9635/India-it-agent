@@ -518,9 +518,9 @@
   }
  },
  "OFSS": {
-  "results_found": false,
-  "results_date": null,
-  "headline": "Quarterly results for Q2 FY27 have not been disclosed in the available sources",
+  "results_found": true,
+  "results_date": "2026-10-23",
+  "headline": null,
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -537,7 +537,7 @@
    "dividend_per_share_inr": null
   },
   "guidance": null,
-  "guidance_change": "none",
+  "guidance_change": "unknown",
   "highlights": [],
   "risks": [],
   "verticals": [],
@@ -553,36 +553,65 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No results data were found in the sources",
+  "sentiment_reason": "No commentary or metric details were extracted from the sources",
   "missing": [
-   "revenue",
-   "net profit",
-   "operating margin",
-   "growth rates",
+   "revenue_inr_cr",
+   "revenue_usd_m",
+   "revenue_growth_yoy_pct",
+   "cc_growth_qoq_pct",
+   "cc_growth_yoy_pct",
+   "net_profit_inr_cr",
+   "net_profit_growth_yoy_pct",
+   "operating_margin_pct",
+   "deal_wins_usd_bn",
    "headcount",
-   "dividend",
+   "net_headcount_change",
+   "attrition_pct",
+   "dividend_per_share_inr",
+   "headline",
    "guidance",
-   "media vertical details"
+   "highlights",
+   "risks",
+   "verticals",
+   "media_vertical",
+   "megep_mentions",
+   "ai_signals",
+   "management_view"
   ],
   "unverified_dropped": [],
-  "sources": [],
-  "official": false,
+  "sources": [
+   {
+    "title": "OFFICIAL NSE FILING: Oracle Financial Services Software Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+    "link": "https://nsearchives.nseindia.com/corporate/OFSS_23102026203533_OutcomeofBoardMeeting23102026sd.pdf",
+    "source": "NSE filing",
+    "published": "2026-10-23T20:38:00+05:30",
+    "official": true
+   }
+  ],
+  "official": true,
   "quarter": "Q2 FY27",
   "company": "OFSS",
-  "analysed_at": "2026-10-23T12:24:44+00:00"
+  "analysed_at": "2026-10-23T15:09:09+00:00",
+  "filing": {
+   "exchange": "NSE",
+   "title": "Oracle Financial Services Software Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "url": "https://nsearchives.nseindia.com/corporate/OFSS_23102026203533_OutcomeofBoardMeeting23102026sd.pdf",
+   "filed": "2026-10-23T20:38",
+   "press_url": null
+  }
  },
  "Persistent": {
   "results_found": false,
-  "results_date": "2026-10-16",
-  "headline": "Q2 FY27 revenue rose 30% YoY while net profit fell 25.4% YoY to ₹351.51 cr",
+  "results_date": "2026-10-15",
+  "headline": "Persistent Systems posted Q2 FY27 revenue of Rs 4,494.17 cr with a modest 2.42% rise in profit after tax.",
   "metrics": {
-   "revenue_inr_cr": null,
-   "revenue_usd_m": 487.6,
-   "revenue_growth_yoy_pct": 30,
-   "cc_growth_qoq_pct": 7.8,
-   "cc_growth_yoy_pct": 20.8,
-   "net_profit_inr_cr": 351.51,
-   "net_profit_growth_yoy_pct": -25.4,
+   "revenue_inr_cr": 4494.17,
+   "revenue_usd_m": null,
+   "revenue_growth_yoy_pct": null,
+   "cc_growth_qoq_pct": null,
+   "cc_growth_yoy_pct": null,
+   "net_profit_inr_cr": null,
+   "net_profit_growth_yoy_pct": 2.42,
    "operating_margin_pct": null,
    "deal_wins_usd_bn": null,
    "headcount": null,
@@ -591,25 +620,18 @@
    "dividend_per_share_inr": null
   },
   "guidance": null,
-  "guidance_change": "unknown",
+  "guidance_change": "none",
   "highlights": [
-   "Revenue grew ~30% YoY, driven by strong demand in software and AI services",
-   "Constant‑currency revenue up 20.8% YoY and 7.8% QoQ",
-   "Net profit declined 25.4% YoY to ₹351.51 cr, reflecting higher costs and integration expenses",
-   "Software, Hi‑Tech & Emerging Industries segment posted 28.5% growth"
+   "Revenue reached Rs 4,494.17 cr, beating estimates.",
+   "Profit after tax grew 2.42% YoY.",
+   "Company continued to focus on AI‑led digital engineering services."
   ],
   "risks": [
-   "Margin pressure as profit declines despite revenue growth",
-   "Integration risk from pending Nagarro acquisition"
+   "Margin pressure from higher wages and amortisation of recent acquisitions."
   ],
-  "verticals": [
-   {
-    "name": "Software, Hi‑Tech & Emerging Industries",
-    "note": "Revenue grew 28.5% YoY"
-   }
-  ],
+  "verticals": [],
   "media_vertical": {
-   "name": "Software, Hi‑Tech & Emerging Industries",
+   "name": "Software, Hi-Tech & Emerging Industries",
    "revenue_share_pct": null,
    "growth_qoq_pct": null,
    "growth_yoy_pct": null,
@@ -617,67 +639,38 @@
    "commentary": null
   },
   "megep_mentions": [],
-  "ai_signals": "AI‑led digital engineering services contributed to the strong revenue growth, with the segment expanding rapidly.",
+  "ai_signals": null,
   "management_view": null,
-  "sentiment": "Negative",
-  "sentiment_reason": "Profit drop outweighs revenue acceleration",
+  "sentiment": "Neutral",
+  "sentiment_reason": "Revenue beat but profit growth modest and margins under pressure.",
   "missing": [
-   "Revenue in INR crore",
-   "Operating margin",
-   "Deal wins value",
-   "Headcount and attrition data",
-   "Dividend details",
-   "Management commentary"
+   "revenue_usd_m",
+   "revenue_growth_yoy_pct",
+   "cc_growth_qoq_pct",
+   "cc_growth_yoy_pct",
+   "net_profit_inr_cr",
+   "operating_margin_pct",
+   "deal_wins_usd_bn",
+   "headcount",
+   "net_headcount_change",
+   "attrition_pct",
+   "dividend_per_share_inr",
+   "media_vertical revenue share and growth"
   ],
   "unverified_dropped": [],
   "sources": [
    {
-    "title": "Persistent Systems opens ₹4,265 Crore QIP to fund Nagarro acquisition as Q2 FY27 net profit dips 25.4% YoY to ₹351.51 Cr",
-    "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOR2FWc180cmVoQk5HdjVZLThkdUpvQUVJdkduRzZESHJLVjY2VWQxTVZWMjFBWWJlOFB6Ym9OMWs5c3RRRWtVOWtTTHlGMHJ3V0FhOU1CRUxPcjVzRWRVeGNDTUpjQ05JaklHZTc0ckNUYm8tR3pjN3ZGRVY3cGNyQXhGMnpTczRtbHhjS2VMcjY0SDY4RFdrNmdXVW1CT0hYM3N1Z0dFODhzSDhfd01id18tejVHVG9CTUgzV1NQdGN2WWd1Y0JZSnkyT2xjVjlISEFxRGR6WEllQW9wYlVMSV96V1hoTFJQd1R6RmxqdXBZdXM?oc=5",
-    "source": "Trade Brains",
-    "published": "2026-10-22T05:18:04+00:00",
-    "official": false
-   },
-   {
-    "title": "Persistent Systems Shares Fall 4% as Q2 Profit Drops 25.4%",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMmwzR1pkR2NmRWZiNGlMLUl2SUxmZkZOUGplYXpvUm9nQ21QekV3Zi1kYUtaWENyUTJ3MVRIcmlBeWd3TUZmTW56RmlDcnkxeGtoMGtMa0Y3VEtQYzJld3RvQUk2V1RqbzItZDE4aGIwdWJtNl80RFpJa0RwRHVXVFZfbnBtSWtlZ094R0haVHdmNHc2T01aNVlySkxFMzlKbjhteVJxcw?oc=5",
-    "source": "Dalal Street Investment Journal",
-    "published": "2026-10-16T08:21:33+00:00",
-    "official": false
-   },
-   {
-    "title": "Persistent’s Software, Hi-Tech Revenue Grows 28.5% as It Expands AI Services",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNDdEY29fZWNHRlJSSEkyZUxFWTZJM1NUZ1pmYmYzNk9xMDNfeTJ0bV93d0NOeUZ6VHNZZFZ2QUdfbkJraFdJOE9PcWpmeVJqSnRMWWxxQTZoRkp4WkxMNFFkOWk1OERGc0kwZ1o0UUk0TDd0SldNOUl5cmFiT1kzX3BWdHlhQnJDTHFCNEp3blRjUHJTbE5nalhrVENKdzluNmpnTG1ZUXBnb0E2ckdJ?oc=5",
-    "source": "Analytics India Magazine",
-    "published": "2026-10-16T06:13:34+00:00",
-    "official": false
-   },
-   {
-    "title": "Persistent Systems Revenue Grows 30% in Q2, Was the Nagarro Deal the Only Reason for Lower Profit?",
-    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQWWxaOEROeVVqU0lzVzdnLUpXeWhNSkRZa1VjMml6c1l4b0VjNHhFZGVtYkRxaHdOQ0RPclhyZ0c5VVFhdFVjRXREYkRLVTBDSFhuOFRDSjM3Qm5vSm56dWNPcDVsVG85N3VaTFYyVXRnYjBNQmVjVEdPcUpLdl9BckFKcXdYRGpBNmQ3RHVLRFVTVENPRWYwek5KbW9RUXJvam5oWGxKV01Mc1lTZ3BRazJaNFRhQ0hEX1QwTXVBVFEwSDktSDNKRWN1Ym9JMjlOU3FkQ2pXNE10Zw?oc=5",
-    "source": "Trade Brains",
-    "published": "2026-10-16T06:11:58+00:00",
-    "official": false
-   },
-   {
-    "title": "Persistent Systems shares: Why this stock fell 6% after Q2 results; target prices",
-    "link": "https://www.msn.com/en-in/money/top-stocks/persistent-systems-shares-why-this-stock-fell-6-after-q2-results-target-prices/ar-AA2elZtc",
-    "source": "msn.com",
-    "published": "2026-10-16T00:02:20+00:00",
-    "official": false
-   },
-   {
-    "title": "Persistent Systems announces financial results for Q2 and half year ending September 2026",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORnNxdG5lR3N4TlBLQi1HZHRoUWJzb1RhaHNjaHpZakY5Sm1NYmtGN0dzcU1iOHJCTTNBdXBSX3FOa1JxX2V6R2Z5VUpfeERCeGEyN2tMRUcxQzgxYTBQSmM0U0dld3lrZS0zVFZrSkxSZHdsNVhYMC04QjBRTDlkYlZ3aXBaWW9PWWJCaW91SmZraW1iRTdQSGVHV0Nua3ZzeExBcjBrZ1F0R3FLOFhKQ1hrMlB2SmlkSllaRWJOdUFtNGti?oc=5",
-    "source": "Business Upturn",
-    "published": "2026-10-15T13:24:31+00:00",
+    "title": "Persistent Systems Q2 Results FY27: PAT Rises 2.42%, Revenue at Rs 4,494.17 Cr",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5TeWVEcWRNSFVCb1RiOC1fbldtcDJLWDB2anZIeWNuMXFnVVVSbTJIZmRIUlU2dUlzTEFSQ3p2bXpIeXVzMS1sWl91aWZsRGtSSVNuX1k2Z1EtUVg0a2FzNzhlczFsM2VfQmhaOTdLdEV1NmJnV2hjaHFVWTRjQQ?oc=5",
+    "source": "Univest",
+    "published": "2026-10-15T12:03:00+00:00",
     "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Persistent",
-  "analysed_at": "2026-10-23T12:25:35+00:00"
+  "analysed_at": "2026-10-23T15:10:00+00:00"
  },
  "Coforge": {
   "results_found": true,
@@ -778,7 +771,7 @@
  "Mphasis": {
   "results_found": false,
   "results_date": null,
-  "headline": "Mphasis Q2 FY27 results have not been released yet",
+  "headline": "Mphasis has not yet released its Q2 FY27 financial results",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -811,7 +804,7 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No results data available yet",
+  "sentiment_reason": "No results data released yet",
   "missing": [
    "revenue_inr_cr",
    "revenue_usd_m",
@@ -827,24 +820,14 @@
    "attrition_pct",
    "dividend_per_share_inr",
    "guidance",
-   "highlights",
-   "risks",
    "media_vertical details"
   ],
   "unverified_dropped": [],
-  "sources": [
-   {
-    "title": "Mphasis Q2 FY2027 Earnings Call Date and Investor Details",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOay1fQzJWYUkxQ2txYU1KdkVZWVp1dFp0bldIVDVDVFl6WGx6STM0SU11Q0hmd251bG5CUDJNZkw2ekM1U3MycjhlazZLUDBBUzg4UlQ3eVJJMVdxckVpRjJIZ2laU0EzTWtncDBhMTBIZmh1Q2NEYlVMSVh2RktEVkE4UzZOU1MxUjI0eTFocFBzVlRSNExYLUMybFhIMVZCNExWc3E5UTVYVW5jMHdSTE9B?oc=5",
-    "source": "Kalkine India",
-    "published": "2026-10-09T07:00:00+00:00",
-    "official": false
-   }
-  ],
+  "sources": [],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Mphasis",
-  "analysed_at": "2026-10-23T12:27:23+00:00"
+  "analysed_at": "2026-10-23T15:10:55+00:00"
  },
  "Wipro": {
   "results_found": true,
