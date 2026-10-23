@@ -1,79 +1,78 @@
 {
- "headline": "Indian IT services posted solid revenue growth, with AI emerging as a key driver.",
- "summary": "Most listed firms reported double‑digit revenue gains YoY. TCS and HCLTech highlighted expanding AI revenues, crossing 10% of total sales for TCS and jumping 78% YoY for HCLTech. Profit growth was mixed; Tech Mahindra posted the strongest YoY profit rise, while Persistent saw a sharp decline. Dividend payouts remained stable across the sector.",
+ "headline": "AI adoption is the main driver of mixed revenue growth across Indian IT services in Q2 FY27.",
+ "summary": "Top‑line growth varied widely, with Coforge posting the strongest YoY increase and Infosys slowing to 1.5% YoY. Profit margins remained healthy for most firms, though some saw modest dips. AI‑related revenue and deal wins were highlighted by several companies, while guidance cuts signaled caution.",
  "themes": [
   {
    "title": "AI‑driven growth",
-   "detail": "AI revenue is rising fast, contributing to higher margins and new deal wins.",
-   "companies": [
-    "TCS",
-    "HCLTech",
-    "LTM",
-    "Wipro"
-   ]
-  },
-  {
-   "title": "Steady revenue expansion",
-   "detail": "Revenue grew in double digits for most majors, supported by strong service demand.",
+   "detail": "Multiple firms reported double‑digit AI revenue growth and linked it to larger deal wins.",
    "companies": [
     "TCS",
     "Infosys",
-    "Tech Mahindra",
-    "LTM"
+    "HCLTech",
+    "LTM",
+    "Wipro",
+    "Persistent"
+   ]
+  },
+  {
+   "title": "Guidance revisions",
+   "detail": "Infosys trimmed FY27 revenue guidance, reflecting slower top‑line momentum.",
+   "companies": [
+    "Infosys"
    ]
   }
  ],
  "leaders": [
   {
-   "company": "Tech Mahindra",
-   "why": "15.6% YoY profit rise and 21.2% YoY revenue growth, the strongest top‑line expansion."
+   "company": "Coforge",
+   "why": "YoY revenue up 53.6% (66.6% in exchange data) and EBIT margin guidance raised to 16%."
   }
  ],
  "laggards": [
   {
-   "company": "Persistent",
-   "why": "Profit fell 25.4% YoY despite revenue growth, indicating margin pressure."
+   "company": "Infosys",
+   "why": "Revenue growth slowed to 1.5% YoY and guidance cut to 1‑2% for FY27."
   }
  ],
  "domain_outlook": [
   {
    "domain": "Media & broadcasting",
    "signal": "Not enough data",
-   "note": "No specific mentions or AI projects tied to this domain."
+   "note": "No company mentions specific media projects."
   },
   {
    "domain": "Entertainment & streaming",
    "signal": "Not enough data",
-   "note": "No company commentary on this segment."
+   "note": "No company mentions specific entertainment projects."
   },
   {
    "domain": "Gaming",
    "signal": "Not enough data",
-   "note": "No relevant signals in the reports."
+   "note": "No company mentions gaming initiatives."
   },
   {
    "domain": "Education",
    "signal": "Not enough data",
-   "note": "No references to education services."
+   "note": "No company mentions education contracts."
   },
   {
    "domain": "Publishing",
    "signal": "Not enough data",
-   "note": "No data points available."
+   "note": "No company mentions publishing work."
   },
   {
    "domain": "Telecom",
    "signal": "Not enough data",
-   "note": "No telecom‑specific insights reported."
+   "note": "No company mentions telecom engagements."
   }
  ],
  "watch_next": [
-  "AI revenue share crossing 10% for more firms",
-  "Guidance updates from HCLTech and Wipro",
-  "Profit margin trends in high‑growth companies",
-  "Dividend policy changes across the sector",
-  "Impact of attrition rates on delivery capacity"
+  "Quarterly AI revenue trends and its impact on margins",
+  "Any revisions to FY27 revenue guidance",
+  "Performance of AI‑native units across firms",
+  "Deal win volumes in constant currency",
+  "Profitability of high‑growth firms like Coforge"
  ],
  "quarter": "Q2 FY27",
- "written_at": "2026-10-23T08:56:37+00:00"
+ "written_at": "2026-10-23T12:27:50+00:00"
 }

@@ -25,18 +25,27 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-23T08:52",
+  "checked_at": "2026-10-23T12:23",
   "quarter": "Q2 FY27"
  },
  "Infosys": {
   "checked": true,
   "exchange": "NSE",
-  "count": 13,
-  "result": null,
+  "count": 15,
+  "result": {
+   "title": "Infosys Limited has submitted to the Exchange, Financial Results for the quarter and half year ended September 30, 2026 and declaration of interim dividend",
+   "detail": "",
+   "category": "Outcome of Board Meeting",
+   "subcategory": "",
+   "time": "2026-10-23T16:08",
+   "url": "https://nsearchives.nseindia.com/corporate/Infosys_23102026160704_BM_Outcome_Oct232026_1.pdf",
+   "alt_url": "",
+   "exchange": "NSE"
+  },
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-23T08:52",
+  "checked_at": "2026-10-23T12:23",
   "quarter": "Q2 FY27"
  },
  "HCLTech": {
@@ -65,7 +74,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-23T08:52",
+  "checked_at": "2026-10-23T12:23",
   "quarter": "Q2 FY27"
  },
  "Wipro": {
@@ -94,7 +103,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-23T08:52",
+  "checked_at": "2026-10-23T12:23",
   "quarter": "Q2 FY27"
  },
  "LTM": {
@@ -123,7 +132,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-23T08:52",
+  "checked_at": "2026-10-23T12:23",
   "quarter": "Q2 FY27"
  },
  "Tech Mahindra": {
@@ -152,7 +161,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-23T08:52",
+  "checked_at": "2026-10-23T12:23",
   "quarter": "Q2 FY27"
  },
  "OFSS": {
@@ -163,7 +172,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-23T08:52",
+  "checked_at": "2026-10-23T12:23",
   "quarter": "Q2 FY27"
  },
  "Persistent": {
@@ -174,18 +183,36 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-23T08:52",
+  "checked_at": "2026-10-23T12:23",
   "quarter": "Q2 FY27"
  },
  "Coforge": {
   "checked": true,
   "exchange": "NSE",
-  "count": 38,
-  "result": null,
-  "press": null,
+  "count": 43,
+  "result": {
+   "title": "Coforge Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "detail": "",
+   "category": "Outcome of Board Meeting",
+   "subcategory": "",
+   "time": "2026-10-23T16:19",
+   "url": "https://nsearchives.nseindia.com/corporate/COFORGE_23102026161820_BMOutcome23102026F.pdf",
+   "alt_url": "",
+   "exchange": "NSE"
+  },
+  "press": {
+   "title": "Coforge Limited has informed the Exchange regarding a press release dated October 23, 2026, titled \"Press release on financial results\".",
+   "detail": "",
+   "category": "Press Release",
+   "subcategory": "",
+   "time": "2026-10-23T16:40",
+   "url": "https://nsearchives.nseindia.com/corporate/COFORGE_23102026163959_3PressReleaseF.pdf",
+   "alt_url": "",
+   "exchange": "NSE"
+  },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-23T08:52",
+  "checked_at": "2026-10-23T12:23",
   "quarter": "Q2 FY27"
  },
  "Mphasis": {
@@ -196,7 +223,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-23T08:52",
+  "checked_at": "2026-10-23T12:23",
   "quarter": "Q2 FY27"
  }
 }

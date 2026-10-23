@@ -1,6 +1,10 @@
 company,period_end,quarter,metric,value_inr_cr,source
+Coforge,2026-09-30,Q2 FY27,net_income,588.1,NSE results filing (read by the agent)
+Coforge,2026-09-30,Q2 FY27,operating_income,987.3,NSE results filing (read by the agent)
+Coforge,2026-09-30,Q2 FY27,revenue,6170.8,NSE results filing (read by the agent)
 HCLTech,2026-09-30,Q2 FY27,net_income,5132,NSE results filing (read by the agent)
 HCLTech,2026-09-30,Q2 FY27,revenue,35620,NSE results filing (read by the agent)
+Infosys,2026-09-30,Q2 FY27,net_income,7823,NSE results filing (read by the agent)
 LTM,2026-09-30,Q2 FY27,net_income,1379.9,NSE results filing (read by the agent)
 LTM,2026-09-30,Q2 FY27,revenue,11808,NSE results filing (read by the agent)
 TCS,2026-09-30,Q2 FY27,net_income,13884,NSE results filing (read by the agent)
