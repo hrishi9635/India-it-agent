@@ -1,77 +1,87 @@
 {
- "headline": "AI-driven growth lifts most majors, but revenue pace varies widely.",
- "summary": "TCS and HCLTech posted solid top‑line growth and strong operating margins, helped by expanding AI revenue. Infosys trimmed its FY27 guidance as revenue growth slowed to low single digits. Smaller players such as Coforge delivered exceptional YoY growth, while profit margins were mixed across the cohort.",
+ "headline": "AI-driven growth lifted revenues but profit margins varied across the sector in Q2 FY27.",
+ "summary": "Top‑line growth was strong for most majors, led by Coforge's 53.6% YoY revenue jump. TCS and Tech Mahindra posted solid double‑digit growth, while Infosys trimmed its FY guidance to 1‑2% revenue growth. Profit margins diverged, with HCLTech and Coforge expanding margins, but Infosys and Wipro saw modest or falling profits. AI revenue contributions rose sharply, especially at TCS, HCLTech and LTM.",
  "themes": [
   {
    "title": "AI as a revenue catalyst",
-   "detail": "AI revenue grew double‑digit YoY for several firms, boosting deal wins and margins.",
+   "detail": "AI revenue grew double‑digit YoY at several firms, underpinning deal wins and margin expansion.",
    "companies": [
     "TCS",
-    "Infosys",
     "HCLTech",
     "LTM",
+    "Coforge",
     "Wipro"
    ]
   },
   {
    "title": "Guidance tightening",
-   "detail": "Infosys cut FY27 revenue guidance, reflecting uncertainty in macro demand.",
+   "detail": "Infosys cut FY27 revenue guidance to 1‑2% and highlighted modest outlook, while other peers kept guidance unchanged.",
    "companies": [
     "Infosys"
+   ]
+  },
+  {
+   "title": "Margin pressure and attrition",
+   "detail": "Operating margins slipped at Infosys and Wipro amid higher attrition, whereas Coforge and HCLTech improved margins.",
+   "companies": [
+    "Infosys",
+    "Wipro",
+    "Coforge",
+    "HCLTech"
    ]
   }
  ],
  "leaders": [
   {
    "company": "Coforge",
-   "why": "YoY revenue growth of 66.6% and EBIT margin guidance raised to 16%."
+   "why": "Revenue surged 53.6% YoY and EBIT margin guidance was raised to 16%."
   }
  ],
  "laggards": [
   {
    "company": "Infosys",
-   "why": "Revenue growth slowed to 1.5% YoY and guidance was cut."
+   "why": "Revenue growth slowed to 1.5% YoY and FY guidance was cut to a 1‑2% range."
   }
  ],
  "domain_outlook": [
   {
    "domain": "Media & broadcasting",
    "signal": "Not enough data",
-   "note": "No company referenced this sector."
+   "note": "No company mentioned media‑broadcast projects."
   },
   {
    "domain": "Entertainment & streaming",
    "signal": "Not enough data",
-   "note": "No company referenced this sector."
+   "note": "No explicit references to entertainment or streaming deals."
   },
   {
    "domain": "Gaming",
    "signal": "Not enough data",
-   "note": "No company referenced this sector."
+   "note": "Gaming was not cited in any report."
   },
   {
    "domain": "Education",
    "signal": "Not enough data",
-   "note": "No company referenced this sector."
+   "note": "No education‑related activity reported."
   },
   {
    "domain": "Publishing",
    "signal": "Not enough data",
-   "note": "No company referenced this sector."
+   "note": "Publishing was not discussed."
   },
   {
    "domain": "Telecom",
    "signal": "Not enough data",
-   "note": "No company referenced this sector."
+   "note": "Telecom sector mentions were absent."
   }
  ],
  "watch_next": [
-  "Whether Infosys can revive growth after guidance cut",
-  "Impact of AI revenue on margins at TCS and HCLTech",
-  "Coforge's ability to sustain high growth",
-  "Guidance updates from Wipro and Tech Mahindra",
-  "Any earnings release from Mphasis and OFSS"
+  "Infosys FY27 revenue guidance trajectory",
+  "AI revenue share trends at TCS and HCLTech",
+  "Margin evolution at Wipro amid attrition",
+  "Deal win volumes for mid‑tier players",
+  "Impact of AI‑native services on new contract wins"
  ],
  "quarter": "Q2 FY27",
- "written_at": "2026-10-24T14:58:59+00:00"
+ "written_at": "2026-10-24T17:57:43+00:00"
 }
