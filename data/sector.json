@@ -1,86 +1,77 @@
 {
- "headline": "AI‑driven growth lifted revenues, but profit margins varied across the sector in Q2 FY27.",
- "summary": "Top‑line growth was strong for most majors, led by Coforge's 53.6% YoY revenue jump. TCS and Tech Mahindra posted solid double‑digit revenue gains, while Infosys trimmed its FY guidance to 1‑2% growth. Profit margins were mixed; HCLTech improved operating margin to 18.2%, whereas Infosys and Wipro saw modest or declining net profit growth. Dividend payouts remained stable, with most firms increasing or maintaining payouts.",
+ "headline": "AI-driven growth lifts most majors, but revenue pace varies widely.",
+ "summary": "TCS and HCLTech posted solid top‑line growth and strong operating margins, helped by expanding AI revenue. Infosys trimmed its FY27 guidance as revenue growth slowed to low single digits. Smaller players such as Coforge delivered exceptional YoY growth, while profit margins were mixed across the cohort.",
  "themes": [
   {
    "title": "AI as a revenue catalyst",
-   "detail": "Several firms highlighted AI‑related sales, with HCLTech reporting a 78% YoY AI revenue jump and TCS crossing $3.1 bn AI revenue.",
+   "detail": "AI revenue grew double‑digit YoY for several firms, boosting deal wins and margins.",
    "companies": [
     "TCS",
+    "Infosys",
     "HCLTech",
     "LTM",
     "Wipro"
    ]
   },
   {
-   "title": "Margin pressure and guidance cuts",
-   "detail": "Infosys cut FY revenue guidance to 1‑2% and saw operating margin stay flat, reflecting slower pricing power.",
+   "title": "Guidance tightening",
+   "detail": "Infosys cut FY27 revenue guidance, reflecting uncertainty in macro demand.",
    "companies": [
     "Infosys"
-   ]
-  },
-  {
-   "title": "Strong dividend commitment",
-   "detail": "Most companies declared or raised interim dividends, signalling confidence in cash flow.",
-   "companies": [
-    "TCS",
-    "LTM",
-    "Tech Mahindra",
-    "Coforge"
    ]
   }
  ],
  "leaders": [
   {
    "company": "Coforge",
-   "why": "Revenue surged 53.6% YoY, EBIT margin guidance raised to 16%."
+   "why": "YoY revenue growth of 66.6% and EBIT margin guidance raised to 16%."
   }
  ],
  "laggards": [
   {
    "company": "Infosys",
-   "why": "Revenue growth slowed to 1.5% YoY and FY guidance was cut."
+   "why": "Revenue growth slowed to 1.5% YoY and guidance was cut."
   }
  ],
  "domain_outlook": [
   {
    "domain": "Media & broadcasting",
    "signal": "Not enough data",
-   "note": "No company mentions specific media‑broadcast projects."
+   "note": "No company referenced this sector."
   },
   {
    "domain": "Entertainment & streaming",
    "signal": "Not enough data",
-   "note": "No explicit references to entertainment or streaming deals."
+   "note": "No company referenced this sector."
   },
   {
    "domain": "Gaming",
    "signal": "Not enough data",
-   "note": "Gaming was not highlighted in any report."
+   "note": "No company referenced this sector."
   },
   {
    "domain": "Education",
    "signal": "Not enough data",
-   "note": "No education‑related AI or services mentioned."
+   "note": "No company referenced this sector."
   },
   {
    "domain": "Publishing",
    "signal": "Not enough data",
-   "note": "Publishing activity was not discussed."
+   "note": "No company referenced this sector."
   },
   {
    "domain": "Telecom",
-   "signal": "Mixed",
-   "note": "AI‑led managed services deals were noted by LTM, but overall telecom impact remains unclear."
+   "signal": "Not enough data",
+   "note": "No company referenced this sector."
   }
  ],
  "watch_next": [
-  "Infosys FY guidance revision and its impact on margins",
-  "TCS AI revenue share crossing 10% of total",
-  "HCLTech's AI revenue trajectory",
+  "Whether Infosys can revive growth after guidance cut",
+  "Impact of AI revenue on margins at TCS and HCLTech",
   "Coforge's ability to sustain high growth",
-  "Wipro's AI‑Native unit performance"
+  "Guidance updates from Wipro and Tech Mahindra",
+  "Any earnings release from Mphasis and OFSS"
  ],
  "quarter": "Q2 FY27",
- "written_at": "2026-10-24T12:24:54+00:00"
+ "written_at": "2026-10-24T14:58:59+00:00"
 }
