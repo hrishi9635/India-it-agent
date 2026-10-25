@@ -51,9 +51,10 @@ HCLTech,HCLTECH.NS,2026-06-30,Q1 FY27,ebitda,7231.0,Yahoo Finance (INR (label sa
 HCLTech,HCLTECH.NS,2026-06-30,Q1 FY27,net_income,4624,HCLTech Q1 FY27 results
 HCLTech,HCLTECH.NS,2026-06-30,Q1 FY27,operating_income,5831,HCLTech Q1 FY27 results (EBIT 16.9%)
 HCLTech,HCLTECH.NS,2026-06-30,Q1 FY27,revenue,34579,HCLTech Q1 FY27 results
-HCLTech,,2026-09-30,Q2 FY27,net_income,5132,HCLTech Q2 FY27 results (12 Oct 2026)
-HCLTech,,2026-09-30,Q2 FY27,operating_income,6482.8,HCLTech Q2 FY27 results: EBIT margin 18.2% x revenue
-HCLTech,,2026-09-30,Q2 FY27,revenue,35620,HCLTech Q2 FY27 results (12 Oct 2026)
+HCLTech,HCLTECH.NS,2026-09-30,Q2 FY27,ebitda,7673.0,Yahoo Finance (INR (label said USD; checked))
+HCLTech,HCLTECH.NS,2026-09-30,Q2 FY27,net_income,5132,HCLTech Q2 FY27 results (12 Oct 2026)
+HCLTech,HCLTECH.NS,2026-09-30,Q2 FY27,operating_income,6482.8,HCLTech Q2 FY27 results: EBIT margin 18.2% x revenue
+HCLTech,HCLTECH.NS,2026-09-30,Q2 FY27,revenue,35620,HCLTech Q2 FY27 results (12 Oct 2026)
 Infosys,,2025-03-31,Q4 FY25,net_income,7033,Infosys Q4 FY25 results (17 Apr 2025)
 Infosys,,2025-03-31,Q4 FY25,operating_income,8594.3,Infosys Q4 FY25 results: operating margin 21.0% x revenue
 Infosys,,2025-03-31,Q4 FY25,revenue,40925,Infosys Q4 FY25 results (17 Apr 2025)
@@ -160,6 +161,10 @@ Persistent,PERSISTENT.NS,2026-06-30,Q1 FY27,ebitda,767.53,Yahoo Finance
 Persistent,PERSISTENT.NS,2026-06-30,Q1 FY27,net_income,483.04,Yahoo Finance
 Persistent,PERSISTENT.NS,2026-06-30,Q1 FY27,operating_income,581.61,Yahoo Finance
 Persistent,PERSISTENT.NS,2026-06-30,Q1 FY27,revenue,4303.23,Yahoo Finance
+Persistent,PERSISTENT.NS,2026-09-30,Q2 FY27,ebitda,657.93,Yahoo Finance
+Persistent,PERSISTENT.NS,2026-09-30,Q2 FY27,net_income,351.51,Yahoo Finance
+Persistent,PERSISTENT.NS,2026-09-30,Q2 FY27,operating_income,466.81,Yahoo Finance
+Persistent,PERSISTENT.NS,2026-09-30,Q2 FY27,revenue,4663.9,Yahoo Finance
 TCS,TCS.NS,2025-03-31,Q4 FY25,ebitda,18008.0,Yahoo Finance
 TCS,TCS.NS,2025-03-31,Q4 FY25,net_income,12224.0,Yahoo Finance
 TCS,TCS.NS,2025-03-31,Q4 FY25,operating_income,15601.0,Yahoo Finance
@@ -180,9 +185,10 @@ TCS,TCS.NS,2026-06-30,Q1 FY27,ebitda,19456.0,Yahoo Finance
 TCS,TCS.NS,2026-06-30,Q1 FY27,net_income,13349.0,Yahoo Finance
 TCS,TCS.NS,2026-06-30,Q1 FY27,operating_income,17317.0,Yahoo Finance
 TCS,TCS.NS,2026-06-30,Q1 FY27,revenue,72275.0,Yahoo Finance
-TCS,,2026-09-30,Q2 FY27,net_income,13884,NSE results filing (read by the agent)
-TCS,,2026-09-30,Q2 FY27,operating_income,17565.1,NSE results filing (read by the agent)
-TCS,,2026-09-30,Q2 FY27,revenue,73188,NSE results filing (read by the agent)
+TCS,TCS.NS,2026-09-30,Q2 FY27,ebitda,20152.0,Yahoo Finance
+TCS,TCS.NS,2026-09-30,Q2 FY27,net_income,13884,NSE results filing (read by the agent)
+TCS,TCS.NS,2026-09-30,Q2 FY27,operating_income,17565.1,NSE results filing (read by the agent)
+TCS,TCS.NS,2026-09-30,Q2 FY27,revenue,73188,NSE results filing (read by the agent)
 Tech Mahindra,TECHM.NS,2025-03-31,Q4 FY25,ebitda,2011.6,Yahoo Finance
 Tech Mahindra,TECHM.NS,2025-03-31,Q4 FY25,net_income,1166.7,Yahoo Finance
 Tech Mahindra,TECHM.NS,2025-03-31,Q4 FY25,operating_income,1405.3,Yahoo Finance
