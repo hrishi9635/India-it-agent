@@ -99,8 +99,10 @@ LTM,LTM.NS,2026-06-30,Q1 FY27,ebitda,2316.0,Yahoo Finance
 LTM,LTM.NS,2026-06-30,Q1 FY27,net_income,1466.3,Yahoo Finance
 LTM,LTM.NS,2026-06-30,Q1 FY27,operating_income,1799.3,Yahoo Finance
 LTM,LTM.NS,2026-06-30,Q1 FY27,revenue,11608.0,Yahoo Finance
-LTM,,2026-09-30,Q2 FY27,net_income,1379.9,NSE results filing (read by the agent)
-LTM,,2026-09-30,Q2 FY27,revenue,11808,NSE results filing (read by the agent)
+LTM,LTM.NS,2026-09-30,Q2 FY27,ebitda,2203.2,Yahoo Finance
+LTM,LTM.NS,2026-09-30,Q2 FY27,net_income,1379.9,NSE results filing (read by the agent)
+LTM,LTM.NS,2026-09-30,Q2 FY27,operating_income,1838.1,Yahoo Finance
+LTM,LTM.NS,2026-09-30,Q2 FY27,revenue,11808,NSE results filing (read by the agent)
 Mphasis,MPHASIS.NS,2025-03-31,Q4 FY25,ebitda,762.51,Yahoo Finance
 Mphasis,MPHASIS.NS,2025-03-31,Q4 FY25,net_income,446.49,Yahoo Finance
 Mphasis,MPHASIS.NS,2025-03-31,Q4 FY25,operating_income,567.21,Yahoo Finance
