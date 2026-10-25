@@ -171,7 +171,7 @@ TCS,TCS.NS,2025-03-31,Q4 FY25,operating_income,15601.0,Yahoo Finance
 TCS,TCS.NS,2025-03-31,Q4 FY25,revenue,64479.0,Yahoo Finance
 TCS,TCS.NS,2025-06-30,Q1 FY26,ebitda,18535.0,Yahoo Finance
 TCS,TCS.NS,2025-06-30,Q1 FY26,net_income,12760.0,Yahoo Finance
-TCS,TCS.NS,2025-06-30,Q1 FY26,operating_income,15514.0,Yahoo Finance
+TCS,TCS.NS,2025-06-30,Q1 FY26,operating_income,15539.0,Yahoo Finance
 TCS,TCS.NS,2025-06-30,Q1 FY26,revenue,63437.0,Yahoo Finance
 TCS,TCS.NS,2025-12-31,Q3 FY26,ebitda,15996.0,Yahoo Finance
 TCS,TCS.NS,2025-12-31,Q3 FY26,net_income,10657.0,Yahoo Finance
@@ -183,7 +183,7 @@ TCS,TCS.NS,2026-03-31,Q4 FY26,operating_income,17870.0,Yahoo Finance
 TCS,TCS.NS,2026-03-31,Q4 FY26,revenue,70698.0,Yahoo Finance
 TCS,TCS.NS,2026-06-30,Q1 FY27,ebitda,19456.0,Yahoo Finance
 TCS,TCS.NS,2026-06-30,Q1 FY27,net_income,13349.0,Yahoo Finance
-TCS,TCS.NS,2026-06-30,Q1 FY27,operating_income,17317.0,Yahoo Finance
+TCS,TCS.NS,2026-06-30,Q1 FY27,operating_income,17401.0,Yahoo Finance
 TCS,TCS.NS,2026-06-30,Q1 FY27,revenue,72275.0,Yahoo Finance
 TCS,TCS.NS,2026-09-30,Q2 FY27,ebitda,20152.0,Yahoo Finance
 TCS,TCS.NS,2026-09-30,Q2 FY27,net_income,13884,NSE results filing (read by the agent)
@@ -209,8 +209,10 @@ Tech Mahindra,TECHM.NS,2026-06-30,Q1 FY27,ebitda,2631.8,Yahoo Finance
 Tech Mahindra,TECHM.NS,2026-06-30,Q1 FY27,net_income,1465.1,Yahoo Finance
 Tech Mahindra,TECHM.NS,2026-06-30,Q1 FY27,operating_income,2263.9,Yahoo Finance
 Tech Mahindra,TECHM.NS,2026-06-30,Q1 FY27,revenue,15711.9,Yahoo Finance
-Tech Mahindra,,2026-09-30,Q2 FY27,net_income,1586,NSE results filing (read by the agent)
-Tech Mahindra,,2026-09-30,Q2 FY27,revenue,16180,NSE results filing (read by the agent)
+Tech Mahindra,TECHM.NS,2026-09-30,Q2 FY27,ebitda,2871.1,Yahoo Finance
+Tech Mahindra,TECHM.NS,2026-09-30,Q2 FY27,net_income,1586,NSE results filing (read by the agent)
+Tech Mahindra,TECHM.NS,2026-09-30,Q2 FY27,operating_income,2387.1,Yahoo Finance
+Tech Mahindra,TECHM.NS,2026-09-30,Q2 FY27,revenue,16180,NSE results filing (read by the agent)
 Wipro,,2025-03-31,Q4 FY25,net_income,3570,Wipro Q4 FY25 results (Form 6-K)
 Wipro,,2025-03-31,Q4 FY25,operating_income,3909,Wipro Q4 FY25 results: results from operating activities (IT services margin 17.5%)
 Wipro,,2025-03-31,Q4 FY25,revenue,22504,Wipro Q4 FY25 results (Form 6-K)
