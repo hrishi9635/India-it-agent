@@ -603,34 +603,34 @@
  "Persistent": {
   "results_found": false,
   "results_date": "2026-10-16",
-  "headline": "Revenue jumped over 30% YoY to Rs 4,663.9 cr while net profit fell 25.4% YoY to Rs 351.51 cr in Q2 FY27",
+  "headline": "Persistent Systems posted 20% YoY revenue growth in Q2 FY27 but net profit fell 25% YoY",
   "metrics": {
-   "revenue_inr_cr": 4663.9,
+   "revenue_inr_cr": null,
    "revenue_usd_m": null,
-   "revenue_growth_yoy_pct": 30.25,
+   "revenue_growth_yoy_pct": 20,
    "cc_growth_qoq_pct": null,
    "cc_growth_yoy_pct": null,
    "net_profit_inr_cr": 351.51,
-   "net_profit_growth_yoy_pct": -25.44,
+   "net_profit_growth_yoy_pct": -25.4,
    "operating_margin_pct": null,
-   "deal_wins_usd_bn": 0.6335,
+   "deal_wins_usd_bn": null,
    "headcount": null,
    "net_headcount_change": null,
    "attrition_pct": null,
    "dividend_per_share_inr": null
   },
   "guidance": null,
-  "guidance_change": "unknown",
+  "guidance_change": "none",
   "highlights": [
-   "Revenue rose 30.25% YoY to Rs 4,663.9 cr",
-   "Net profit declined 25.44% YoY to Rs 351.51 cr",
-   "Acquisition‑related expenses of Rs 185.34 cr were recorded",
-   "Orders booked worth USD 633.5 m TCV and USD 481 m ACV",
-   "QIP of Rs 4,265 cr launched to fund Nagarro acquisition"
+   "Revenue rose 20% YoY to 4,663.9 Cr",
+   "Net profit declined 25.4% YoY to 351.51 Cr",
+   "Nagarro acquisition nearing completion",
+   "Company launched a Rs 4,265 Cr QIP to fund the deal"
   ],
   "risks": [
-   "Margin pressure from acquisition costs",
-   "Profitability dip despite strong top‑line growth"
+   "Profit margin pressure from acquisition costs",
+   "Integration risk of Nagarro",
+   "Clients shifting spend from maintenance to higher‑margin services"
   ],
   "verticals": [],
   "media_vertical": {
@@ -642,45 +642,46 @@
    "commentary": null
   },
   "megep_mentions": [],
-  "ai_signals": null,
-  "management_view": "Management highlighted robust revenue momentum but noted profit pressure due to integration expenses of the Nagarro deal",
-  "sentiment": "Neutral",
-  "sentiment_reason": "Strong revenue growth offset by a sharp profit decline",
+  "ai_signals": "Management highlighted growing client demand for AI‑led engineering, product development and cloud modernisation.",
+  "management_view": "Management said revenue growth was strong but profit was hit by higher integration and financing costs.",
+  "sentiment": "Negative",
+  "sentiment_reason": "Profit fell sharply despite revenue growth.",
   "missing": [
    "operating margin",
-   "revenue in USD",
    "headcount and attrition data",
    "dividend details",
-   "media vertical revenue share and growth"
+   "revenue share of media vertical"
   ],
-  "unverified_dropped": [],
+  "unverified_dropped": [
+   "revenue_inr_cr"
+  ],
   "sources": [
    {
-    "title": "Persistent Systems shares plunge 4% after Q2 results — Buy or Sell? Brokerages weigh in",
-    "link": "https://www.zeebiz.com/market-news/news-persistent-systems-shares-plunge-4-after-q2-results-buy-or-sell-brokerages-weigh-in-404047",
-    "source": "zeebiz.com",
-    "published": "2026-10-16T03:34:00+00:00",
+    "title": "Persistent Systems Q2 Revenue Jumps 20% YoY; Nagarro Acquisition Nears Completion",
+    "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQS0txTFYzbklLMTkwT1JtNjByRmtwaE44OVpTeGZHYVkzcVlvY29IZmpYV3hZTXlhOVlIdjRzRm85V0xIc2JpcUJHY0NfYmxpdS11RWJkWmZwLUFFV0ZjSXBzajdpcVFLRTJMaUJuVzlwMDRUMTZVZWFtclVyS281MmM1MlJyTVhtUUtadzRQV18xLS1VaXc3TS1ZVEtlYmJQMGdYdzNqdllvT0l4MDBVUDJfWTE5LXJPdjEwSmpwYldhZkFtZ0dOWG5wLW5SVXBkYlQ3SXpYS1BKM3ZobTV2UUtlelRyM1cyZzV2bmc5RVh3b3JoU0JLV2gzOUNLc0lQZUE?oc=5",
+    "source": "Whalesbook",
+    "published": "2026-10-23T15:23:53+00:00",
     "official": false
    },
    {
-    "title": "Persistent Systems shares slide 5% despite Q2 revenue growth. Buy, sell or hold?",
-    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQcjMtckQ1T3FhdTREZ1J2Z19neWtNQ1I0R0VVUU9JRENKY3pQTHBkNWRLR0V6MnAwZHJYaWlfWkx5WVFfbVlueE9QbnZzYWhfRE15MzZZU2NDVWpMazAzaUZmX0xQMnkxZ1hzbjctZjFSQUY4Q00tdnlES01SdXdfS24zVm05M2xGZ01GWjlYTmsxZlhxb1lVaTNNMWk2ZHh6bVQ5dGpVcGdRdFFaYjJLa0pJNWxnTFV3akRyekt3Ti1pNS1iMUZNNnhtd3dINGxWXzZVaXdjZ2o1MUlLbEROTFFqb2vSAeoBQVVfeXFMTVFkQ2tKcTBOOWd1NlRaR2lXV3hDVGVBbUdDTVRLRHNJY3JNQ0Y4eFNuNXgyOHNsanBmUzlsS19WSDFNSFRpTm0tU0ZRcmxBYjBQWEhOc0pwMEVPdXo5b1pTVzB2SkdsNS1LRGc1N3dTRjlUZEdoR19TT2pvZERERlhNZnZnV2E4eUFWcUxvbVhuWVNqZExQMklYd0FRSWZNZXBlQ1Z5a1lVVDJJaVdJY1dMMXp3TEtidGRscGladUtlak1JOElwVFRkeENoVWkyUnh3Ynp0S25ORE1rN0d3SG9SYnZIRkx2d1J3?oc=5",
-    "source": "The Economic Times",
-    "published": "2026-10-16T05:19:41+00:00",
+    "title": "Persistent Systems opens Rs4,265 Crore QIP to fund Nagarro acquisition as Q2 FY27 net profit dips 25.4% YoY to Rs351.51 Cr",
+    "link": "https://www.msn.com/en-in/money/economy/persistent-systems-opens-rs4-265-crore-qip-to-fund-nagarro-acquisition-as-q2-fy27-net-profit-dips-25-4-yoy-to-rs351-51-cr/ar-AA2fOz2p",
+    "source": "msn.com",
+    "published": "2026-10-22T09:07:53+00:00",
     "official": false
    },
    {
-    "title": "Persistent Systems Q2 Revenue Beats Estimates, Margins Dip",
-    "link": "https://www.whalesbook.com/news/English/brokerage-reports/Persistent-Systems-Q2-Revenue-Beats-Estimates-Margins-Dip/6ad1c42279a16deaeaf3d87b",
-    "source": "whalesbook.com",
-    "published": "2026-10-16T04:58:00+00:00",
+    "title": "Persistent Systems (NSE:PERSISTENT) Q2 FY27 Revenue, Profit and Margin Trends",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbUJ0ejN2U2U2cnJCOXUwR1hWYnJzb3RVN1hqOVRKb1pPUWdldGFXMkN0Z211M2dIUDVkdURoZVI0NDAzWlB6OG5tN0toM1YxeVpHN1NUbVNGUHpQeXFvTXpDRFFGaS1Ycmhwb3UzY0xtVW1ObDBkN2FTUVUzSlFjWl94XzhoSTY5cmY1Q1VWT0JuZXI1Mmk5N0tJeDNOdHF3WDMza3l0Tjc0V181eEhmR182VVZFV296emljcmVqRk9LbHVvT3VCeU1EbzBaQQ?oc=5",
+    "source": "Kalkine India",
+    "published": "2026-10-16T11:11:00+00:00",
     "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Persistent",
-  "analysed_at": "2026-10-25T12:23:56+00:00"
+  "analysed_at": "2026-10-25T14:58:00+00:00"
  },
  "Coforge": {
   "results_found": true,
@@ -781,7 +782,7 @@
  "Mphasis": {
   "results_found": false,
   "results_date": null,
-  "headline": "Mphasis Q2 FY27 results have not been announced yet",
+  "headline": "Mphasis has not yet released its Q2 FY27 financial results",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -814,22 +815,43 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No results data available yet",
+  "sentiment_reason": "No results or commentary available yet",
   "missing": [
-   "revenue",
-   "net profit",
-   "operating margin",
+   "revenue_inr_cr",
+   "revenue_usd_m",
+   "revenue_growth_yoy_pct",
+   "cc_growth_qoq_pct",
+   "cc_growth_yoy_pct",
+   "net_profit_inr_cr",
+   "net_profit_growth_yoy_pct",
+   "operating_margin_pct",
+   "deal_wins_usd_bn",
    "headcount",
-   "dividend",
+   "net_headcount_change",
+   "attrition_pct",
+   "dividend_per_share_inr",
    "guidance",
-   "media vertical share and growth"
+   "highlights",
+   "risks",
+   "media_vertical details",
+   "megep_mentions",
+   "ai_signals",
+   "management_view"
   ],
   "unverified_dropped": [],
-  "sources": [],
+  "sources": [
+   {
+    "title": "Mphasis Q2 FY2027 Earnings Call Date and Investor Details",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOay1fQzJWYUkxQ2txYU1KdkVZWVp1dFp0bldIVDVDVFl6WGx6STM0SU11Q0hmd251bG5CUDJNZkw2ekM1U3MycjhlazZLUDBBUzg4UlQ3eVJJMVdxckVpRjJIZ2laU0EzTWtncDBhMTBIZmh1Q2NEYlVMSVh2RktEVkE4UzZOU1MxUjI0eTFocFBzVlRSNExYLUMybFhIMVZCNExWc3E5UTVYVW5jMHdSTE9B?oc=5",
+    "source": "Kalkine India",
+    "published": "2026-10-09T07:00:00+00:00",
+    "official": false
+   }
+  ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Mphasis",
-  "analysed_at": "2026-10-25T12:24:48+00:00"
+  "analysed_at": "2026-10-25T14:58:30+00:00"
  },
  "Wipro": {
   "results_found": true,
