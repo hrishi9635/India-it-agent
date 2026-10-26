@@ -774,7 +774,7 @@
  "Mphasis": {
   "results_found": false,
   "results_date": null,
-  "headline": "Mphasis Q2 FY27 results have not been released yet",
+  "headline": "No Q2 FY27 results announced yet",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -791,7 +791,7 @@
    "dividend_per_share_inr": null
   },
   "guidance": null,
-  "guidance_change": "none",
+  "guidance_change": "unknown",
   "highlights": [],
   "risks": [],
   "verticals": [],
@@ -807,30 +807,20 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No results data available yet",
+  "sentiment_reason": "No results data available",
   "missing": [
-   "revenue_inr_cr",
-   "revenue_usd_m",
-   "revenue_growth_yoy_pct",
-   "cc_growth_qoq_pct",
-   "cc_growth_yoy_pct",
-   "net_profit_inr_cr",
-   "net_profit_growth_yoy_pct",
-   "operating_margin_pct",
-   "deal_wins_usd_bn",
-   "headcount",
-   "net_headcount_change",
-   "attrition_pct",
-   "dividend_per_share_inr",
-   "guidance",
-   "media_vertical revenue share and growth"
+   "Q2 FY27 revenue",
+   "Q2 FY27 net profit",
+   "Q2 FY27 operating margin",
+   "Q2 FY27 headcount",
+   "Q2 FY27 guidance"
   ],
   "unverified_dropped": [],
   "sources": [],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Mphasis",
-  "analysed_at": "2026-10-26T09:02:16+00:00"
+  "analysed_at": "2026-10-26T14:58:35+00:00"
  },
  "Wipro": {
   "results_found": true,
