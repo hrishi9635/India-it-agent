@@ -1,83 +1,91 @@
 {
- "headline": "Quarterly results show strong revenue growth for mid‑caps while top‑tier firms see modest expansion.",
- "summary": "TCS posted 15% YoY revenue growth and a 24% operating margin. Coforge delivered the fastest top‑line expansion at 53.6% YoY and raised its EBIT margin guidance. Infosys trimmed FY27 revenue guidance to 1‑2% and reported only 1.5% YoY growth. AI revenue is becoming a notable driver, especially for HCLTech and LTM.",
+ "headline": "IT services grew modestly in Q2 FY27, with AI driving incremental revenue for several leaders.",
+ "summary": "Revenue growth across the sector ranged from 1.5% to 53.6% YoY, with TCS and HCLTech delivering solid operating margins. AI revenue and deal wins were highlighted by TCS, Infosys, HCLTech, and Wipro, indicating a continued shift toward AI‑native services. Dividend payouts remained strong, and guidance was generally stable or slightly trimmed.",
  "themes": [
   {
-   "title": "AI‑driven growth",
-   "detail": "Companies such as HCLTech, LTM and Wipro highlighted AI‑related revenue jumps and large‑deal wins.",
+   "title": "AI‑Native Growth",
+   "detail": "Companies that emphasized AI, such as TCS, Infosys, HCLTech, and Wipro, reported higher deal wins and revenue contributions from AI services.",
    "companies": [
+    "TCS",
+    "Infosys",
     "HCLTech",
-    "LTM",
     "Wipro"
    ]
   },
   {
-   "title": "Guidance tightening",
-   "detail": "Infosys cut its FY27 revenue outlook, reflecting a cautious view of the market.",
+   "title": "Margin Discipline",
+   "detail": "TCS and HCLTech maintained operating margins above 20%, while others like Coforge and Tech Mahindra improved or raised margin guidance.",
    "companies": [
-    "Infosys"
+    "TCS",
+    "HCLTech",
+    "Coforge",
+    "Tech Mahindra"
    ]
   }
  ],
  "leaders": [
   {
-   "company": "Coforge",
-   "why": "53.6% YoY revenue growth and raised FY27 EBIT margin guidance to 16%."
+   "company": "TCS",
+   "why": "Highest revenue and operating margin, strong AI revenue"
   },
   {
-   "company": "Tech Mahindra",
-   "why": "15.6% YoY revenue growth and solid operating margin."
+   "company": "HCLTech",
+   "why": "Largest YoY profit growth and significant AI revenue"
+  },
+  {
+   "company": "Coforge",
+   "why": "Highest YoY revenue growth and raised EBIT margin guidance"
   }
  ],
  "laggards": [
   {
    "company": "Infosys",
-   "why": "Revenue growth slowed to 1.5% YoY and guidance was cut."
+   "why": "Modest revenue growth and trimmed guidance"
   },
   {
-   "company": "Persistent",
-   "why": "Profit fell 25% YoY despite revenue growth."
+   "company": "Wipro",
+   "why": "Negative profit growth and only slight revenue increase"
   }
  ],
  "domain_outlook": [
   {
    "domain": "Media & broadcasting",
    "signal": "Not enough data",
-   "note": "No company mentioned this domain."
+   "note": "No company mentions in the data"
   },
   {
    "domain": "Entertainment & streaming",
    "signal": "Not enough data",
-   "note": "No company mentioned this domain."
+   "note": "No company mentions in the data"
   },
   {
    "domain": "Gaming",
    "signal": "Not enough data",
-   "note": "No company mentioned this domain."
+   "note": "No company mentions in the data"
   },
   {
    "domain": "Education",
    "signal": "Not enough data",
-   "note": "No company mentioned this domain."
+   "note": "No company mentions in the data"
   },
   {
    "domain": "Publishing",
    "signal": "Not enough data",
-   "note": "No company mentioned this domain."
+   "note": "No company mentions in the data"
   },
   {
    "domain": "Telecom",
    "signal": "Not enough data",
-   "note": "No company mentioned this domain."
+   "note": "No company mentions in the data"
   }
  ],
  "watch_next": [
-  "Whether Infosys can revive growth after guidance cut",
-  "Progress on AI revenue contribution for HCLTech and Wipro",
-  "Coforge's margin performance after raising guidance",
-  "Persistent's profit recovery trajectory",
-  "Impact of macro‑economic conditions on FY27 guidance across the sector"
+  "Monitor Infosys guidance cuts for FY27",
+  "Track Wipro’s AI investment outcomes",
+  "Observe Coforge’s margin improvement trajectory",
+  "Watch HCLTech’s AI revenue contribution",
+  "Check for Mphasis results release"
  ],
  "quarter": "Q2 FY27",
- "written_at": "2026-10-26T15:04:48+00:00"
+ "written_at": "2026-10-26T16:24:52+00:00"
 }
