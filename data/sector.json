@@ -1,92 +1,103 @@
 {
- "headline": "Indian IT services posted solid revenue growth, led by AI‑driven firms, but profit momentum varied.",
- "summary": "Revenue rose across the board, with TCS, HCLTech and Tech Mahindra posting double‑digit YoY gains. Profit growth was uneven; TCS and Coforge delivered strong margins, while Infosys trimmed guidance and Persistent saw profit decline. AI revenue is becoming a material contributor, especially for HCLTech and Wipro. Dividend payouts remained robust for most peers.",
+ "headline": "Indian IT services posted solid top‑line growth with AI‑driven deals lifting margins for several firms.",
+ "summary": "Revenue rose across the majority of the cohort, led by Coforge's 53.6% YoY surge and TCS's 15.4% increase. Profit growth was mixed; HCLTech and Coforge posted strong gains, while Infosys trimmed guidance and Persistent saw profit decline. AI revenue is becoming a material contributor, highlighted by TCS, HCLTech and Wipro. Guidance outlook is mixed, with Infosys cutting its FY27 growth target and HCLTech maintaining a modest outlook.",
  "themes": [
   {
    "title": "AI as a growth catalyst",
-   "detail": "Companies reporting AI revenue (HCLTech, Wipro, TCS) highlighted it as a key driver of deal wins and margin expansion.",
+   "detail": "AI‑related revenue and large‑deal wins are boosting top‑line growth for TCS, HCLTech and Wipro.",
    "companies": [
+    "TCS",
     "HCLTech",
-    "Wipro",
-    "TCS"
+    "Wipro"
    ]
   },
   {
-   "title": "Margin pressure at larger peers",
-   "detail": "Infosys and Wipro posted modest or slipping margins despite revenue growth, prompting guidance cuts or cautious outlooks.",
+   "title": "Margin divergence",
+   "detail": "Operating margins expanded for TCS (24%) and Coforge (16%) but remained flat or slipped for Infosys and Wipro.",
+   "companies": [
+    "TCS",
+    "Coforge",
+    "Infosys",
+    "Wipro"
+   ]
+  },
+  {
+   "title": "Guidance volatility",
+   "detail": "Infosys cut FY27 revenue guidance, while HCLTech kept a modest range and Wipro introduced a short‑term outlook.",
    "companies": [
     "Infosys",
+    "HCLTech",
     "Wipro"
    ]
   }
  ],
  "leaders": [
   {
-   "company": "TCS",
-   "why": "Highest revenue and operating margin, strong profit growth."
+   "company": "Coforge",
+   "why": "53.6% YoY revenue growth and raised EBIT margin guidance to 16%"
   },
   {
-   "company": "Coforge",
-   "why": "53.6% YoY revenue growth and raised EBIT margin guidance."
+   "company": "TCS",
+   "why": "Largest revenue base, 24% operating margin and $3.1 bn AI revenue"
   },
   {
    "company": "HCLTech",
-   "why": "AI‑driven sales lifted profit 21% YoY and solid margin expansion."
+   "why": "21% YoY profit rise driven by strong AI sales"
   }
  ],
  "laggards": [
   {
-   "company": "Persistent",
-   "why": "Revenue grew but profit fell 27% QoQ, indicating cost pressure."
-  },
-  {
    "company": "Infosys",
-   "why": "Revenue growth slowed to 1.5% YoY and guidance was cut."
+   "why": "Revenue growth slowed to 1.5% YoY and guidance cut to 1‑2%"
   },
   {
-   "company": "Wipro",
-   "why": "Profit slipped despite revenue growth, margin flat."
+   "company": "Persistent",
+   "why": "Profit fell 25% YoY despite 20% revenue growth"
+  },
+  {
+   "company": "Mphasis",
+   "why": "Results not released, no data to assess performance"
   }
  ],
  "domain_outlook": [
   {
    "domain": "Media & broadcasting",
    "signal": "Not enough data",
-   "note": "No company referenced this sector."
+   "note": "No company referenced this sector in their commentary."
   },
   {
    "domain": "Entertainment & streaming",
    "signal": "Not enough data",
-   "note": "No company referenced this sector."
+   "note": "No company referenced this sector in their commentary."
   },
   {
    "domain": "Gaming",
    "signal": "Not enough data",
-   "note": "No company referenced this sector."
+   "note": "No company referenced this sector in their commentary."
   },
   {
    "domain": "Education",
    "signal": "Not enough data",
-   "note": "No company referenced this sector."
+   "note": "No company referenced this sector in their commentary."
   },
   {
    "domain": "Publishing",
    "signal": "Not enough data",
-   "note": "No company referenced this sector."
+   "note": "No company referenced this sector in their commentary."
   },
   {
    "domain": "Telecom",
    "signal": "Not enough data",
-   "note": "No company referenced this sector."
+   "note": "No company referenced this sector in their commentary."
   }
  ],
  "watch_next": [
-  "AI revenue contribution trends for TCS and HCLTech",
-  "Infosys guidance revisions and margin recovery",
-  "Coforge's EBIT margin performance against the raised target",
-  "Persistent's profit recovery strategy",
-  "Wipro's AI‑Native unit results and Q3 service revenue guidance"
+  "Whether Infosys can lift its revenue growth after the FY27 guidance cut",
+  "Progress of AI‑driven revenue contribution at HCLTech and Wipro",
+  "Coforge's ability to sustain high growth and margin expansion",
+  "Guidance updates from TCS and Tech Mahindra for Q3 FY27",
+  "Impact of attrition trends on headcount and profitability across the majors"
  ],
  "quarter": "Q2 FY27",
- "written_at": "2026-10-25T17:58:51+00:00"
+ "written_at": "2026-10-26T09:02:43+00:00"
 }

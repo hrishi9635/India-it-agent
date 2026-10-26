@@ -5,8 +5,10 @@ Coforge,COFORGE.NS,2025-03-31,Q4 FY25,operating_income,418.3,Yahoo Finance
 Coforge,COFORGE.NS,2025-03-31,Q4 FY25,revenue,3422.2,Yahoo Finance
 Coforge,COFORGE.NS,2025-06-30,Q1 FY26,ebitda,570.8,Yahoo Finance
 Coforge,COFORGE.NS,2025-06-30,Q1 FY26,net_income,317.4,Yahoo Finance
-Coforge,COFORGE.NS,2025-06-30,Q1 FY26,operating_income,437.9,Yahoo Finance
+Coforge,COFORGE.NS,2025-06-30,Q1 FY26,operating_income,411.6,Yahoo Finance
 Coforge,COFORGE.NS,2025-06-30,Q1 FY26,revenue,3704.4,Yahoo Finance
+Coforge,COFORGE.NS,2025-09-30,Q2 FY26,operating_income,587.0,Yahoo Finance
+Coforge,COFORGE.NS,2025-09-30,Q2 FY26,revenue,4016.4,Yahoo Finance
 Coforge,COFORGE.NS,2025-12-31,Q3 FY26,ebitda,596.5,Yahoo Finance
 Coforge,COFORGE.NS,2025-12-31,Q3 FY26,net_income,250.2,Yahoo Finance
 Coforge,COFORGE.NS,2025-12-31,Q3 FY26,operating_income,559.4,Yahoo Finance
@@ -19,9 +21,10 @@ Coforge,COFORGE.NS,2026-06-30,Q1 FY27,ebitda,1029.8,Yahoo Finance
 Coforge,COFORGE.NS,2026-06-30,Q1 FY27,net_income,518.6,Yahoo Finance
 Coforge,COFORGE.NS,2026-06-30,Q1 FY27,operating_income,882.2,Yahoo Finance
 Coforge,COFORGE.NS,2026-06-30,Q1 FY27,revenue,5527.7,Yahoo Finance
-Coforge,,2026-09-30,Q2 FY27,net_income,588.1,NSE results filing (read by the agent)
-Coforge,,2026-09-30,Q2 FY27,operating_income,987.3,NSE results filing (read by the agent)
-Coforge,,2026-09-30,Q2 FY27,revenue,6170.8,NSE results filing (read by the agent)
+Coforge,COFORGE.NS,2026-09-30,Q2 FY27,ebitda,1191.9,Yahoo Finance
+Coforge,COFORGE.NS,2026-09-30,Q2 FY27,net_income,588.1,NSE results filing (read by the agent)
+Coforge,COFORGE.NS,2026-09-30,Q2 FY27,operating_income,987.3,NSE results filing (read by the agent)
+Coforge,COFORGE.NS,2026-09-30,Q2 FY27,revenue,6170.8,NSE results filing (read by the agent)
 HCLTech,,2024-09-30,Q2 FY25,net_income,4235,HCLTech Q2 FY26 investor release
 HCLTech,,2024-09-30,Q2 FY25,operating_income,5362,HCLTech Q2 FY26 investor release (EBIT 18.6%)
 HCLTech,,2024-09-30,Q2 FY25,revenue,28862,HCLTech Q2 FY26 investor release
