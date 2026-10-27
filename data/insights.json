@@ -356,122 +356,6 @@
    "press_url": "https://nsearchives.nseindia.com/corporate/TECHM_15102026170811_Outcome_FINAL_Signed.pdf"
   }
  },
- "Persistent": {
-  "results_found": true,
-  "results_date": "2026-10-23",
-  "headline": "Persistent Systems posted 20% YoY revenue growth in Q2 FY27 but net profit fell 25.4% YoY to ₹351.51 cr",
-  "metrics": {
-   "revenue_inr_cr": null,
-   "revenue_usd_m": 487.6,
-   "revenue_growth_yoy_pct": 20,
-   "cc_growth_qoq_pct": null,
-   "cc_growth_yoy_pct": null,
-   "net_profit_inr_cr": 351.51,
-   "net_profit_growth_yoy_pct": -25.4,
-   "operating_margin_pct": null,
-   "deal_wins_usd_bn": null,
-   "headcount": null,
-   "net_headcount_change": null,
-   "attrition_pct": null,
-   "dividend_per_share_inr": null
-  },
-  "guidance": null,
-  "guidance_change": "none",
-  "highlights": [
-   "Revenue jumped 20% YoY, driven by AI‑led digital engineering and cloud modernization projects.",
-   "Net profit declined 25.4% YoY to ₹351.51 cr, pressured by costs related to the pending Nagarro acquisition.",
-   "Management reiterated a margin target of 16‑17% for the fiscal year.",
-   "QIP of ₹4,265 cr launched to fund the Nagarro deal."
-  ],
-  "risks": [
-   "Profit pressure from integration costs of the Nagarro acquisition.",
-   "Margin miss versus the 16‑17% target."
-  ],
-  "verticals": [],
-  "media_vertical": {
-   "name": "Software, Hi-Tech & Emerging Industries",
-   "revenue_share_pct": null,
-   "growth_qoq_pct": null,
-   "growth_yoy_pct": null,
-   "growth_cc_yoy_pct": null,
-   "commentary": null
-  },
-  "megep_mentions": [],
-  "ai_signals": "Management highlighted increasing client spend on AI‑led engineering, product development and cloud modernization.",
-  "management_view": "Management is confident about achieving a 16‑17% margin despite short‑term profit dip.",
-  "sentiment": "Neutral",
-  "sentiment_reason": "Strong revenue growth offset by a sharp profit decline.",
-  "missing": [
-   "Revenue in INR crore",
-   "Operating margin percentage",
-   "Constant‑currency growth figures",
-   "Revenue share and growth of the media vertical",
-   "Headcount and attrition data"
-  ],
-  "unverified_dropped": [],
-  "sources": [
-   {
-    "title": "Persistent Systems Q2 Results: रेवेन्यू में **20%** की जोरदार उछाल, Nagarro अधिग्रहण के करीब",
-    "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOLVhVRzUtSFVHdXdYeHNyY2hYSHVOWE9KTDRNMHZhdG1VMEx4ekc5QnFWZjA3Y1YtaHFiSHFqZDhCbmhpUUN6bWpESVNrcjNFZkcwZXVCMW1QeThNYTNjNHpoeXNpRUNSb1QwN1ZRMk80dGFRb3V0enhSeG4yd2FpU2tkeDBzNk1kcC0zR25tUm1HMF9talJtNmIzYnh1ajFXRDl2NWt5R0xPbHA5c0R0bUtuNjd4c1Z3aktXRHFVUVp0MHdVMTdrRHVoYWJhd0ptZUhmVXBDV2w1aXRRRkYtMjZyczU3OVRxM2FFX2FqRFhOcHVZdHFPemdoSzd1czQ?oc=5",
-    "source": "Whalesbook",
-    "published": "2026-10-23T15:23:53+00:00",
-    "official": false
-   },
-   {
-    "title": "Persistent Systems Q2 FY27 Analyst Call: Key Takeaways",
-    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZHZqYVNJTG1nUnBlTWlyUE44d0JKMUc5Z0JvNkE0cDY0dTZoUmZObExOM1hFaTE0ODlBWjZIMGp2WGJWakZjc2E4amtUTkxjTlpaQXBaQ3FWaXhpajRLY1FvQ3ZvM2ZFYnlocEFOMVZKREcyUkFFbl9GbGd3WWdoNXRlNUVVaTQxV24wQ2w0SElXQzd4VGFXSW1telV0eTFDb05Bb05ncThVYWVON3dNZGlVQVJpVFdoRnFNMDZGUXNwSzMwVC1oVVZOcFR3d2ZQ?oc=5",
-    "source": "Kalkine India",
-    "published": "2026-10-23T15:13:00+00:00",
-    "official": false
-   },
-   {
-    "title": "Persistent Systems Q2 Revenue Jumps 20% YoY; Nagarro Acquisition Nears Completion",
-    "link": "https://www.whalesbook.com/corporate-news/English/technology/Persistent-Systems-Q2-Revenue-Jumps-20percent-YoY-Nagarro-Acquisition-Nears-Completion/6adb7a6bc6c6dccbb905fde2",
-    "source": "whalesbook.com",
-    "published": "2026-10-23T13:54:00+00:00",
-    "official": false
-   },
-   {
-    "title": "Persistent Systems ka Q2 Report Card: Revenue mein damdaar 20% growth, par Nagarro deal ka asar dikha",
-    "link": "https://www.whalesbook.com/corporate-news/Hinglish/technology/Persistent-Systems-Q2-Revenue-Jumps-20percent-YoY-Nagarro-Acquisition-Nears-Completion/6adb7a6bc6c6dccbb905fde2",
-    "source": "whalesbook.com",
-    "published": "2026-10-23T13:54:00+00:00",
-    "official": false
-   },
-   {
-    "title": "Persistent Systems opens Rs4,265 Crore QIP to fund Nagarro acquisition as Q2 FY27 net profit dips 25.4% YoY to Rs351.51 Cr",
-    "link": "https://www.msn.com/en-in/news/other/persistent-systems-opens-rs4265-crore-qip-to-fund-nagarro-acquisition-as-q2-fy27-net-profit-dips-254-yoy-to-rs35151-cr/ar-AA2fOz2p",
-    "source": "msn.com",
-    "published": "2026-10-22T09:07:53+00:00",
-    "official": false
-   },
-   {
-    "title": "Persistent Systems opens ₹4,265 Crore QIP to fund Nagarro acquisition as Q2 FY27 net profit dips 25.4% YoY to ₹351.51 Cr",
-    "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOR2FWc180cmVoQk5HdjVZLThkdUpvQUVJdkduRzZESHJLVjY2VWQxTVZWMjFBWWJlOFB6Ym9OMWs5c3RRRWtVOWtTTHlGMHJ3V0FhOU1CRUxPcjVzRWRVeGNDTUpjQ05JaklHZTc0ckNUYm8tR3pjN3ZGRVY3cGNyQXhGMnpTczRtbHhjS2VMcjY0SDY4RFdrNmdXVW1CT0hYM3N1Z0dFODhzSDhfd01id18tejVHVG9CTUgzV1NQdGN2WWd1Y0JZSnkyT2xjVjlISEFxRGR6WEllQW9wYlVMSV96V1hoTFJQd1R6RmxqdXBZdXM?oc=5",
-    "source": "Trade Brains",
-    "published": "2026-10-22T05:18:04+00:00",
-    "official": false
-   },
-   {
-    "title": "Persistent Announces $487.6M Revenue in Q2 FY27 with 20.0% Y-o-Y Growth",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNa01WNVRNTTVfT1RPYjJrTGZvN0lZQzdRLS1wYlk3dVpOWjRodEItUF8ySDJPUjBPeFBiNEo0YnhmUWRxalJDN1dZR3liWl9TMHVvWHdOcTFlMElXNlNkZC0zZXZ4Q1N0R0ZUV2hfeEJhSFdjYkVyYW9Ia2FkYkdxRkh2Mnd3bGtpeEQ5VkRsSGk5R3RsTGhIeUw0YVdCYzdaZEYyWnhaNm80QktpYkFJcHczajh1OUtYREhxcm9vblg2bUpselhF?oc=5",
-    "source": "Morningstar",
-    "published": "2026-10-15T12:34:00+00:00",
-    "official": false
-   },
-   {
-    "title": "Persistent Systems (NSE:PERSISTENT) Q2 FY27 Revenue, Profit and Margin Trends",
-    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbUJ0ejN2U2U2cnJCOXUwR1hWYnJzb3RVN1hqOVRKb1pPUWdldGFXMkN0Z211M2dIUDVkdURoZVI0NDAzWlB6OG5tN0toM1YxeVpHN1NUbVNGUHpQeXFvTXpDRFFGaS1Ycmhwb3UzY0xtVW1ObDBkN2FTUVUzSlFjWl94XzhoSTY5cmY1Q1VWT0JuZXI1Mmk5N0tJeDNOdHF3WDMza3l0Tjc0V181eEhmR182VVZFV296emljcmVqRk9LbHVvT3VCeU1EbzBaQQ?oc=5",
-    "source": "Kalkine India",
-    "published": "2026-10-16T11:11:00+00:00",
-    "official": false
-   }
-  ],
-  "official": false,
-  "quarter": "Q2 FY27",
-  "company": "Persistent",
-  "analysed_at": "2026-10-27T09:01:16+00:00"
- },
  "Coforge": {
   "results_found": true,
   "results_date": "2026-10-23",
@@ -571,7 +455,7 @@
  "Mphasis": {
   "results_found": false,
   "results_date": null,
-  "headline": "Mphasis Q2 FY27 results have not been released yet",
+  "headline": "Mphasis Q2 FY27 results have not been disclosed in the available sources",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -604,7 +488,7 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No actual results data available in the sources",
+  "sentiment_reason": "No actual results data were available to assess performance",
   "missing": [
    "revenue_inr_cr",
    "revenue_usd_m",
@@ -620,42 +504,45 @@
    "attrition_pct",
    "dividend_per_share_inr",
    "guidance",
-   "media_vertical details"
+   "media_vertical revenue_share_pct",
+   "media_vertical growth_qoq_pct",
+   "media_vertical growth_yoy_pct",
+   "media_vertical growth_cc_yoy_pct"
   ],
   "unverified_dropped": [],
   "sources": [],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Mphasis",
-  "analysed_at": "2026-10-27T09:02:09+00:00"
+  "analysed_at": "2026-10-27T12:39:15+00:00"
  },
  "TCS": {
   "results_found": true,
-  "results_date": "2026-10-09",
-  "headline": "TCS Q2 FY27 revenue rose 11.2% YoY to ₹73,188 cr and net profit jumped 4% QoQ to ₹13,884 cr",
+  "results_date": "2026-10-08",
+  "headline": "TCS posts Q2 FY27 revenue of ₹73,188 cr and net profit of ₹13,884 cr",
   "metrics": {
    "revenue_inr_cr": 73188,
-   "revenue_usd_m": 7642,
+   "revenue_usd_m": null,
    "revenue_growth_yoy_pct": 11.2,
    "cc_growth_qoq_pct": 0.5,
-   "cc_growth_yoy_pct": 2.8,
+   "cc_growth_yoy_pct": null,
    "net_profit_inr_cr": 13884,
    "net_profit_growth_yoy_pct": null,
-   "operating_margin_pct": 24,
-   "deal_wins_usd_bn": 9.6,
-   "headcount": null,
-   "net_headcount_change": 4000,
-   "attrition_pct": null,
-   "dividend_per_share_inr": null
+   "operating_margin_pct": 24.0,
+   "deal_wins_usd_bn": null,
+   "headcount": 598056,
+   "net_headcount_change": null,
+   "attrition_pct": 13.3,
+   "dividend_per_share_inr": 12
   },
   "guidance": null,
   "guidance_change": "none",
   "highlights": [
-   "Revenue up 11.2% YoY",
-   "Constant‑currency revenue grew 0.5% QoQ",
-   "Net profit ₹13,884 cr, up 4% QoQ",
-   "AI revenue $3.1 bn, >10% of total revenue",
-   "Deal wins total $9.6 bn in the quarter"
+   "Revenue grew 1.3% QoQ and 11.2% YoY in INR",
+   "Net profit reached ₹13,884 cr",
+   "Operating margin stood at 24%",
+   "AI revenue hit US$3.1 bn, crossing 10% of total revenue",
+   "Total contract value (TCV) was US$9.6 bn"
   ],
   "risks": [],
   "verticals": [],
@@ -668,67 +555,76 @@
    "commentary": null
   },
   "megep_mentions": [],
-  "ai_signals": "AI revenue reached $3.1 bn, accounting for more than 10% of total revenue",
-  "management_view": null,
+  "ai_signals": "AI revenue reached US$3.1 bn, exceeding 10% of total revenue",
+  "management_view": "CEO K Krithivasan said the company is pleased with broad‑based growth across international markets and industry segments",
   "sentiment": "Positive",
-  "sentiment_reason": "Revenue and profit beat expectations, strong AI contribution and sizable deal wins",
+  "sentiment_reason": "Strong top‑line and profit growth, solid margins and AI revenue expansion",
   "missing": [
-   "revenue_share_pct",
-   "media_vertical growth",
-   "headcount",
-   "attrition_pct",
-   "dividend_per_share_inr",
-   "guidance",
-   "verticals",
-   "megep_mentions",
-   "management_view"
+   "revenue_usd_m",
+   "cc_growth_yoy_pct",
+   "net_profit_growth_yoy_pct",
+   "deal_wins_usd_bn",
+   "net_headcount_change",
+   "media segment revenue share and growth"
   ],
   "unverified_dropped": [],
   "sources": [
    {
-    "title": "TCS Share Price Jumps 5.46% After Q2 FY27 Results; Net Profit Rises 4% QoQ to ₹13,884 Crore",
-    "link": "https://www.indiainfoline.com/news/companies/tcs-share-price-jumps-5-46-after-q2-fy27-results-net-profit-rises-4-qoq-to-13884-crore",
-    "source": "indiainfoline.com",
-    "published": "2026-10-09T04:21:00+00:00",
-    "official": false
+    "title": "OFFICIAL NSE FILING: Tata Consultancy Services Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+    "link": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_08102026153124_Post_BM_SE_Letter_fin.pdf",
+    "source": "NSE filing",
+    "published": "2026-10-08T15:40:00+05:30",
+    "official": true
+   },
+   {
+    "title": "OFFICIAL NSE FILING: Tata Consultancy Services Limited has informed the Exchange regarding a press release dated October 8, 2026, titled \"International Growth and Strategic Wins Underpin TCS Q2\".",
+    "link": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_08102026154325_PressReleaseletter.pdf",
+    "source": "NSE filing",
+    "published": "2026-10-08T15:43:00+05:30",
+    "official": true
    }
   ],
-  "official": false,
+  "official": true,
   "quarter": "Q2 FY27",
   "company": "TCS",
-  "analysed_at": "2026-10-27T08:58:03+00:00"
+  "analysed_at": "2026-10-27T12:33:42+00:00",
+  "filing": {
+   "exchange": "NSE",
+   "title": "Tata Consultancy Services Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_08102026153124_Post_BM_SE_Letter_fin.pdf",
+   "filed": "2026-10-08T15:40",
+   "press_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_08102026154325_PressReleaseletter.pdf"
+  }
  },
  "HCLTech": {
   "results_found": true,
   "results_date": "2026-10-12",
-  "headline": "HCLTech posts 15.4% YoY revenue rise to Rs 35,620 crore and 21% profit jump in Q2 FY27",
+  "headline": "HCLTech posted revenue of ₹35,620 cr and net profit of ₹5,132 cr in Q2 FY27, driven by strong AI and a 21% profit jump",
   "metrics": {
    "revenue_inr_cr": 35620,
-   "revenue_usd_m": null,
-   "revenue_growth_yoy_pct": 15.4,
-   "cc_growth_qoq_pct": null,
-   "cc_growth_yoy_pct": null,
+   "revenue_usd_m": 3724,
+   "revenue_growth_yoy_pct": 11.5,
+   "cc_growth_qoq_pct": 2.3,
+   "cc_growth_yoy_pct": 2.6,
    "net_profit_inr_cr": 5132,
-   "net_profit_growth_yoy_pct": null,
+   "net_profit_growth_yoy_pct": 21.2,
    "operating_margin_pct": null,
    "deal_wins_usd_bn": null,
-   "headcount": null,
-   "net_headcount_change": null,
-   "attrition_pct": null,
+   "headcount": 230339,
+   "net_headcount_change": 6450,
+   "attrition_pct": 12.8,
    "dividend_per_share_inr": 12
   },
-  "guidance": null,
-  "guidance_change": "none",
+  "guidance": "FY27 revenue growth guidance of 2.5%‑4.0% YoY in constant currency",
+  "guidance_change": "introduced",
   "highlights": [
-   "Revenue grew 15.4% YoY to Rs 35,620 crore",
-   "Consolidated net profit rose 21% YoY to Rs 5,132 crore",
-   "Board declared a Rs 12 per share dividend",
-   "Strong AI traction highlighted in management commentary"
+   "Revenue rose 3.0% QoQ to ₹35,620 cr",
+   "Net profit jumped 21% YoY to ₹5,132 cr",
+   "Advanced AI revenue reached $219 m",
+   "Dividend of ₹12 per share declared",
+   "Headcount grew by 6,450 to 2.30 L"
   ],
-  "risks": [
-   "Valuation concerns despite earnings beat",
-   "Pricing pressure and uneven client spending noted by analysts"
-  ],
+  "risks": [],
   "verticals": [],
   "media_vertical": {
    "name": "Telecommunications, Media, Publishing & Entertainment",
@@ -739,92 +635,89 @@
    "commentary": null
   },
   "megep_mentions": [],
-  "ai_signals": null,
-  "management_view": null,
+  "ai_signals": "Advanced AI revenue rose to $219 m, underpinning profit growth",
+  "management_view": "Management highlighted accelerating AI revenue and strategic partnerships as key growth drivers",
   "sentiment": "Positive",
-  "sentiment_reason": "Robust revenue and profit growth with dividend payout",
+  "sentiment_reason": "Strong top‑line and profit growth, AI traction and dividend payout",
   "missing": [
-   "revenue_usd_m",
-   "cc_growth_qoq_pct",
-   "cc_growth_yoy_pct",
    "operating_margin_pct",
    "deal_wins_usd_bn",
-   "headcount",
-   "net_headcount_change",
-   "attrition_pct",
-   "media_vertical details",
-   "verticals",
-   "megep_mentions",
-   "ai_signals",
-   "management_view"
+   "media_vertical revenue share and growth figures"
   ],
-  "unverified_dropped": [
-   "net_profit_growth_yoy_pct"
-  ],
+  "unverified_dropped": [],
   "sources": [
    {
-    "title": "HCL Tech Q2 Profit Jumps 21% to Rs 5,132 Crore, Rs 12 Dividend",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWUpiNk1neG1OV3FzY25hTmxiRVdiZE02QnIyN3hlRnNOUHROemRCODFjRmVNQlZwTS1Nb2VxQ0pQVDI0Ry02SjZSZXFLYnFCdW9yNzh1OUhJNi1DaVBYU0FFRDFuVHg4TGdtd0ZfcGVqY0pjUk1tNm5YUG5vVG9MUjR6Qy1hRFppZmdhNFQ3ejZadFd1cDVqbWpFMVVUNEl1NGlsOVpfYTVFSEtqeVhPdmpnTzVVbEd2SUwtRUZxaVU0TzJRVkxHblE4RG4?oc=5",
-    "source": "Univest",
-    "published": "2026-10-12T12:08:00+00:00",
-    "official": false
+    "title": "OFFICIAL NSE FILING: HCL Technologies Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+    "link": "https://nsearchives.nseindia.com/corporate/HCLTECH_12102026165747_FinancialResults.pdf",
+    "source": "NSE filing",
+    "published": "2026-10-12T16:58:00+05:30",
+    "official": true
    },
    {
-    "title": "HCLTech Q2 Results: Profit rises 10.5% QoQ, beats estimates; Rs 12 dividend declared",
-    "link": "https://www.zeebiz.com/market-news/news-hcltech-q2-results-profit-rises-105-qoq-beats-estimates-rs-12-dividend-declared-403785",
-    "source": "zeebiz.com",
-    "published": "2026-10-12T11:46:00+00:00",
-    "official": false
+    "title": "OFFICIAL NSE FILING: HCL Technologies Limited has informed the Exchange regarding a press release dated October 12, 2026, titled \"Investor Release Q2 FY 2027\".",
+    "link": "https://nsearchives.nseindia.com/corporate/HCLTECH_12102026170757_InvestorRelease_5.pdf",
+    "source": "NSE filing",
+    "published": "2026-10-12T17:08:00+05:30",
+    "official": true
    },
    {
-    "title": "HCLTech Q2 results: Profit up 21% at Rs 5,132 crore; announces Rs 12 per share dividend",
-    "link": "https://www.businesstoday.in/markets/stocks/story/hcltech-q2-results-profit-up-21-at-rs-5132-crore-announces-rs-12-per-share-dividend-561080-2026-10-12",
-    "source": "businesstoday.in",
-    "published": "2026-10-12T08:49:00+00:00",
-    "official": false
-   },
-   {
-    "title": "HCL Tech Q2 results: Net profit rises 11% QoQ to Rs 5,132 crore, IT firm declares Rs 12 dividend",
-    "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPZC1DSkF4V2RCX2txclI0bTdhbkExYTFXN215RGlRbmgwWEFjeGpPLXRBd0ZZcm84VUszdGpmQi1fN0dMVTU3cFZITXptbjRtVm1uLWZfQTNQbzF5Uy1nNDZwSkk1eEV6SzRscUY3WVdNWC1aN1ZDRnVLMjVhNk9WZ3d3UG1tVE9ub2dHT0d0UWpRanQwZjNGTEVsbG0zMlR2RGt6UTBVSVFmN1I1MngtaTVmclJtb1VubFRka3EzcVA0VkppenpZN2h5T1RHQmxNZllmd3dIYlh6cmExOVJ4ODZlRXpkZ0xuZkF0ak9iZjHSAfYBQVVfeXFMUFpQYjluMEU1bFBrVGVBVFY0ME9QbWpLeHZrTEVvaU1Hb19wbnMwb0dDTTgzbW5iMVY3ZnRVS1F0bkdyWkxlb2swcndyVDlKMGtxMVZsMGdONWxQT2lWbmYtbnI5S0JmMDFTOS1FSmUzUDZMVDhOcjlncVFwRkI5V2w4U21kb3E3OTM2TG9haVNNS1RPUlcxdmNLeXQwZi1LNTlFMHBZSXVfTXRfVnh6Z2VlQW4xVmFJY1NhUkI2aHc3cmNHQnRKSFRwTnRyR0pobGpHLS0tZ0RVcjB4OW1jdl91cGJFNUNRaExMWkd0U3lmRzF0cmlB?oc=5",
-    "source": "Moneycontrol.com",
+    "title": "HCLTech Q2 FY27 Profit Jumps 21% to Rs 5,132 Crore, Driven by Advanced AI Growth",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPU1RyazhzQ19BNnhKcUw5LTM0OGFlbXRZQkR5a3hCUndBRTVfVjNpQ0lpeGFmUXEtZjhJMG4tU1FoWHdSX3cta1R6bmYxcmNENFRMcEJLSjFhVzVzSm9mSW1JMU5WTDExcU9zWmRsNU9uV0ZpTUZwOUpoVHFBZlkxeFpQTUxzc3BYcm5pbWw0ajVlaHQwOFE4a2xJWEhXd2g1cjlTS2xSLVB0QkxOV19tbmVOUUZ3M2dhb0RMZ3BhWDV1TldKN193QtIBywFBVV95cUxPMndxalExQkVILVFqT1dlMkdPWlItYnp3TVlSSGN0Y0VaYkFOVU5kTG90Zmo3MUhaSlFhX1RkcEZGb0dWWTFYd3JtMWIxTmpXZmRuVG5oUmRtUzA4NjJLSFhCTHlqOG55WVhma0tCQmtwRGhUOGN0VS1LZ0MzNzhvSU40WXcyZ1l4cWtVaWt0dWFsbkpkM1NoRjA1WUR2UVc2OXZicHlMMjExU213MWIxX1Y0ZVRDdEEzdmdnZmdmLWR3WmZNSGRsc3AzRQ?oc=5",
+    "source": "Rediff",
     "published": "2026-10-12T07:00:00+00:00",
+    "official": false
+   },
+   {
+    "title": "HCLTech headcount: IT company workforce strength rises 2.9% to 2.30 lakh in Q2 FY27; attrition rate increases to 12.8%",
+    "link": "https://www.msn.com/en-in/money/human-resources/hcltech-headcount-it-company-workforce-strength-rises-2-9-to-2-30-lakh-in-q2-fy27-attrition-rate-increases-to-12-8/ar-AA2e3Kmm",
+    "source": "msn.com",
+    "published": "2026-10-12T04:57:00+00:00",
     "official": false
    }
   ],
-  "official": false,
+  "official": true,
   "quarter": "Q2 FY27",
   "company": "HCLTech",
-  "analysed_at": "2026-10-27T08:58:58+00:00"
+  "analysed_at": "2026-10-27T12:34:37+00:00",
+  "filing": {
+   "exchange": "NSE",
+   "title": "HCL Technologies Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "url": "https://nsearchives.nseindia.com/corporate/HCLTECH_12102026165747_FinancialResults.pdf",
+   "filed": "2026-10-12T16:58",
+   "press_url": "https://nsearchives.nseindia.com/corporate/HCLTECH_12102026170757_InvestorRelease_5.pdf"
+  }
  },
  "Wipro": {
   "results_found": true,
-  "results_date": "2026-10-16",
-  "headline": "Wipro posted a modest profit dip but revenue grew 9% YoY in Q2 FY27",
+  "results_date": "2026-10-15",
+  "headline": "Wipro posts 9.1% YoY revenue growth to ₹24,750 cr but net profit falls 1.9% YoY to ₹3,200 cr",
   "metrics": {
    "revenue_inr_cr": null,
-   "revenue_usd_m": null,
-   "revenue_growth_yoy_pct": 9.0,
+   "revenue_usd_m": 2583,
+   "revenue_growth_yoy_pct": 9.1,
    "cc_growth_qoq_pct": null,
    "cc_growth_yoy_pct": null,
-   "net_profit_inr_cr": 32.0,
-   "net_profit_growth_yoy_pct": null,
+   "net_profit_inr_cr": null,
+   "net_profit_growth_yoy_pct": -1.9,
    "operating_margin_pct": 16.5,
    "deal_wins_usd_bn": null,
    "headcount": null,
-   "net_headcount_change": null,
-   "attrition_pct": null,
+   "net_headcount_change": -6716,
+   "attrition_pct": 13.8,
    "dividend_per_share_inr": null
   },
-  "guidance": null,
-  "guidance_change": "none",
+  "guidance": "Revenue from IT Services expected between $2,571 bn and $2,625 bn, implying sequential change of -1.5% to +0.5% in constant‑currency terms for Q3 FY27",
+  "guidance_change": "introduced",
   "highlights": [
-   "Revenue rose about 9% YoY",
-   "Operating margin improved to 16.5%",
-   "Net profit slipped to Rs32.0 billion"
+   "IT services revenue flat sequentially, up 0.6% YoY in constant currency",
+   "Operating margin expanded 0.5 percentage points QoQ to 16.5%",
+   "Operating cash flow at 165.8% of net income",
+   "Marketing expense rose 44% YoY to ₹130 cr",
+   "Voluntary attrition stood at 13.8% on a trailing 12‑month basis"
   ],
   "risks": [
-   "Booking slowdown noted in the quarter",
-   "Margin pressure from pricing challenges"
+   "Potential slowdown in IT services revenue as indicated by guidance range",
+   "Large‑deal bookings down 58.6% QoQ in constant currency"
   ],
   "verticals": [],
   "media_vertical": {
@@ -836,57 +729,68 @@
    "commentary": null
   },
   "megep_mentions": [],
-  "ai_signals": null,
-  "management_view": null,
-  "sentiment": "Neutral",
-  "sentiment_reason": "Revenue growth offset by a dip in net profit",
+  "ai_signals": "Management highlighted AI‑native unit momentum but gave no specific AI revenue figure",
+  "management_view": "Management said margin expansion was achieved despite continued investment in the business and people",
+  "sentiment": "Positive",
+  "sentiment_reason": "Revenue growth and margin expansion offset a modest profit dip",
   "missing": [
-   "revenue amount in INR or USD",
-   "constant‑currency growth figures",
-   "headcount and attrition data",
+   "revenue growth QoQ",
+   "constant‑currency growth figures for total revenue",
+   "deal‑wins value",
    "dividend per share",
-   "detailed media‑vertical revenue share and growth"
+   "total headcount figure",
+   "media vertical revenue share and growth"
   ],
-  "unverified_dropped": [],
+  "unverified_dropped": [
+   "revenue_inr_cr",
+   "net_profit_inr_cr"
+  ],
   "sources": [
    {
-    "title": "Wipro Q2 FY27 Results Show Margin Gain and Strong Cash Flow Amid Booking Slowdown",
-    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNSjBnYmxnaEQ4a1Q1M3lLdkZBTXpLdHk4eDhlODdteVdHVkxHS1lHenJjbXVLX3RhM21YYTM5YTJvamdaNkNQcTNLVnJPSm1rSFhMMUFxcXVGMHhvd3YtRnNyVnhMZ1Q2cy14aGhBRDRPbUxlTWlvMUZJdlFZcUI3WU8wOFpMeWhTeVRjSVB2WEhpRzd2cjA1djd0MEtjR05OSnI0d1pDc3M1RFN4ZkFZSUJWTmhoMWkwdUhOMS10Z1hqRm5zclFtNXJPanFVV0pUUGo5b3dyUTNiNFlfNFRyWkxydmpKX3VWcW1kekZaNk1wc2RYMXZGNw?oc=5",
-    "source": "The Globe and Mail",
-    "published": "2026-10-21T21:48:00+00:00",
+    "title": "OFFICIAL NSE FILING: Wipro Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+    "link": "https://nsearchives.nseindia.com/corporate/Wipro_Secretarial_15102026154647_Reg33Financials.pdf",
+    "source": "NSE filing",
+    "published": "2026-10-15T15:47:00+05:30",
+    "official": true
+   },
+   {
+    "title": "OFFICIAL NSE FILING: Wipro Limited has informed the Exchange regarding a press release dated October 15, 2026, titled \"Wipro announces results for the Quarter ended September 30, 2026\".",
+    "link": "https://nsearchives.nseindia.com/corporate/Wipro_Secretarial_15102026155126_PressRelease.pdf",
+    "source": "NSE filing",
+    "published": "2026-10-15T15:51:00+05:30",
+    "official": true
+   },
+   {
+    "title": "Wipro Q2 results",
+    "link": "https://economictimes.indiatimes.com/markets/wipro-q2-results",
+    "source": "economictimes.indiatimes.com",
+    "published": "2026-10-26T17:00:00+00:00",
     "official": false
    },
    {
-    "title": "Wipro reports marginal profit dip in Q2, revenue up 9%",
-    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNaHBERkZ2VC01bm1xblBYc1RZVFdZNkEtc0JmMFZwbHFyUTg2T1ZCTHFFVXE0Q3V5NHFKNmtzQ0ZwM1BmTExmc1RfdXJSeGxxZWhqOWN2b09zbkFuOHRJNG9qS3VDUjRtTENWVFJDLVlGSHJwTUs3YzVXZkIyeWFvOTgzY1dZaTFBSV9PWkJyWHg5QmxjbEhfdkNJOWlPTlZDRHhTMkh4dXZocDg4c2N3MW5DTEJpdUZURlhEM1pkNkctYkNyUnB2WURobml5UdIB0AFBVV95cUxPdk9IVEZXdUtNLTBIcWNpQVZsb1VHX1dULWtsdmt3aXNoWTVuUzJJcFpsdER3bG02N0hxVDBBaE1iNmNJb2xrNFEtTnN3ZUhHV2NEZHBfMFJrcnkxandONldfQ2hRTkN1YWt6ZXVsbkl2UzZhdldsVGxDR1ZGQ2RrdkxUXzUyb1JCUWd1UWpsNEt4NDc5d21zb01zWDktYmpNUVlWVlJqZktwS0xrQ1BpTDVjRWw4R1hsdWx3eW1xc3MxRTJIMnpBZkFtaFQyanFx?oc=5",
-    "source": "Rediff",
-    "published": "2026-10-16T07:00:00+00:00",
-    "official": false
-   },
-   {
-    "title": "Wipro shares rise over 2% as Q2 revenue grows 9% YoY. What are Nomura, Goldman Sachs analysts saying?",
-    "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQaXZIb1NsU3NKdFNMYXFZb0lVcXlFSzBfSXROVFZmbTI3S0VvV3JNNFI1SXlIbm9rT0FhWnBZZUV5Ym10TXJsLWtPVnhpTGhfd1lHRFdIQXJrX2FvSFAxMmZiVmo3VnZSd3lBX0ltd0s3YjRyVkxuSjJiZUhkc1NNZ1RSdVFTVDhqeEwtNVdIRDV0c1dHZFJsWnBKRTA3NXhpZkI4OVZWUnh4MVJmcXJ6R0ktckRoMTU3b3RhQ0hNamRmNHo2T0xTbEZGbW9kRHU2M3FkVXkya2FMa2U0M0dJNUZlenU5VXcxRmJmQVF1bThxUWotczc5WGVKMGRha1XSAYQCQVVfeXFMTUtCVmhnS0R4QUFuYjhMZ3dWOFNoRTBGdlRKNGl1TUx5Ym1BY19BajRoWU5ZbTQ3SnJwZ0VVYkhjMFl0WG8wcGR5ODhUa002NmQxc3dKakp0a0tZMlpZanJaTHdzODhaNVdmRVh2RXc4dFh3dmlWdmtiOGRNME5mODB3dW11SjhvVkFjZWZCeU5ETlpFalVRMFV1eVJXWmk4N283TkNPekd6cjF0M0xYZGE4eUlPTEhKN2FJb2ZwQk9HNzNpMllONnhHRHo4WldGcDFRLWlYN0pnZk5LVFF6a1lYSGFLLU12N1B2amJlU05HTFA4RHRnQXFydXhNRkh1NVhDQ3I?oc=5",
-    "source": "The Economic Times",
-    "published": "2026-10-16T07:00:00+00:00",
-    "official": false
-   },
-   {
-    "title": "Wipro Q2 results: net income Rs32.0 billion, operating margin up to 16.5 per cent",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQb0I5NVpFZVd0TTRCV2F1YVl5Q3FZV2xpbkNlUEEtM25PclVsSnVXYTBFWWU2b0o0OEVITkdpY3YwTThtR0xXc3Y1REYwUDd0SGZwZ29YUDQ5WUdKb2lsVWZxZ0R2YmNyU0ZSOHdCZm4wLWtlMHJWc05vb0VDOHV5TFZFZTNSVEE3VkltQzh5TUUyb2JXSXdrTDIzckdLTE8yTThweVVRS2ZSU3ZVMzJZMGxLVQ?oc=5",
-    "source": "Indian Television Dot Com",
-    "published": "2026-10-16T07:00:00+00:00",
+    "title": "Wipro Q2 FY27: Marketing Expenses Rise 44% to ₹130 Crore as Workforce Falls by 6,716",
+    "link": "https://lapaasvoice.com/wipro-q2-fy27-marketing-expenses-rise-44-to-%E2%82%B9130-crore-as-workforce-falls-by-6716/",
+    "source": "lapaasvoice.com",
+    "published": "2026-10-17T00:07:00+00:00",
     "official": false
    }
   ],
-  "official": false,
+  "official": true,
   "quarter": "Q2 FY27",
   "company": "Wipro",
-  "analysed_at": "2026-10-27T08:59:52+00:00"
+  "analysed_at": "2026-10-27T12:36:09+00:00",
+  "filing": {
+   "exchange": "NSE",
+   "title": "Wipro Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "url": "https://nsearchives.nseindia.com/corporate/Wipro_Secretarial_15102026154647_Reg33Financials.pdf",
+   "filed": "2026-10-15T15:47",
+   "press_url": "https://nsearchives.nseindia.com/corporate/Wipro_Secretarial_15102026155126_PressRelease.pdf"
+  }
  },
  "OFSS": {
   "results_found": true,
   "results_date": "2026-10-23",
-  "headline": "Oracle Financial Services Software reports Q2 FY27 revenue of about ₹1,907 crore and net profit of ₹702 crore, a 7% YoY revenue rise and 29% profit jump.",
+  "headline": "OFSS reports Q2 FY27 revenue of ₹1,907 cr (+7% YoY) and net profit of ₹702 cr (+29% YoY)",
   "metrics": {
    "revenue_inr_cr": 1907,
    "revenue_usd_m": null,
@@ -905,15 +809,12 @@
   "guidance": null,
   "guidance_change": "none",
   "highlights": [
-   "Revenue rose 7% YoY to roughly ₹1,907 crore.",
-   "Net profit surged 29% YoY to ₹702 crore.",
-   "Operating margin improved to about 37%.",
-   "Results beat revenue estimates by a small margin."
+   "Revenue rose 7% YoY to ₹1,907 cr",
+   "Net profit increased 29% YoY to ₹702 cr",
+   "Consolidated net profit for the quarter was ₹7,024 cr",
+   "Total income (consolidated) reached ₹19,721 cr"
   ],
-  "risks": [
-   "Revenue decline of ~39% from the previous quarter indicates volatility.",
-   "No guidance provided for the next quarter."
-  ],
+  "risks": [],
   "verticals": [],
   "media_vertical": {
    "name": null,
@@ -927,53 +828,39 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Positive",
-  "sentiment_reason": "Profit growth and revenue beat expectations despite quarter‑to‑quarter decline.",
+  "sentiment_reason": "Both revenue and profit showed double‑digit YoY growth",
   "missing": [
-   "Revenue in USD",
-   "Constant‑currency growth figures",
-   "Deal wins value",
-   "Headcount and attrition data",
-   "Dividend per share",
-   "Management commentary"
+   "revenue_usd_m",
+   "cc_growth_qoq_pct",
+   "cc_growth_yoy_pct",
+   "operating_margin_pct",
+   "deal_wins_usd_bn",
+   "headcount",
+   "net_headcount_change",
+   "attrition_pct",
+   "dividend_per_share_inr",
+   "guidance",
+   "media_vertical",
+   "verticals",
+   "megep_mentions",
+   "ai_signals",
+   "management_view"
   ],
-  "unverified_dropped": [
-   "operating_margin_pct"
-  ],
+  "unverified_dropped": [],
   "sources": [
    {
-    "title": "Oracle Financial Services Software Reports Strong Q2, Net Income Jumps 29% To ₹702 Crore; Revenue Up 7%",
-    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNHJVc00zYlJaeVUyTTB2R2plWmpZeEM4TWdUcHdDa04zWmQ3Q1l3SUxORm9HLWpjUGVTS0tGdHBvOWFSZ3BhdzRMWUZlZ21UTmdQMEJodXliazJGMFh4V1J5ZUNrT0dSeFkzQXRWRURCUXVDTUhQQU1CVVdQVnUtUFlFcjJKZkVIQW84LXNSMXByVDFta3M0WmJrNTZROEJhQWhrYnFLb2xPMXFhV1M5UlQ4RGdWdmJMZEFhR0p1V3ZnSmpucVRRWUxsX1ZQOHVYTnlfYVRn0gHbAUFVX3lxTE1aVE9RQ01Sbm13RGY5eFZVTG9pS3Y2aXRyZmx2T2hBd0QxSzhLU1hvY1VqanN2OUhRUE5DOW1ZWERIS2xXUEVxZ2hPM2ZqWkVMRVlUVU96ckJ1T1REYk02SmkwbTVJbU8tQTU2U3BPa2xSSHFSYS1VR2VJckFnbUtWcElua1hDNVRjcUJpcUJMNllWblhQckFHcVpYSjhaRVRNRmwzSDhfcTh3UXc3Umw0Q0dQcEpQM21JUFZFTHlKVFF6M1dkZXhhUVJqUEJzTi1aWVczQmppOHY0MA?oc=5",
-    "source": "Free Press Journal",
-    "published": "2026-10-24T04:31:48+00:00",
-    "official": false
+    "title": "OFFICIAL NSE FILING: Oracle Financial Services Software Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+    "link": "https://nsearchives.nseindia.com/corporate/OFSS_23102026203533_OutcomeofBoardMeeting23102026sd.pdf",
+    "source": "NSE filing",
+    "published": "2026-10-23T20:38:00+05:30",
+    "official": true
    },
    {
-    "title": "आईटी कंपनी का मुनाफा हुआ आधा, Q2 में 50% गिरकर ₹702 करोड़ पर आया प्रॉफिट; रेवेन्यू को भी लगा झटका",
-    "link": "https://www.msn.com/hi-in/money/other/%E0%A4%86%E0%A4%88%E0%A4%9F-%E0%A4%95%E0%A4%82%E0%A4%AA%E0%A4%A8-%E0%A4%95-%E0%A4%AE%E0%A5%81%E0%A4%A8-%E0%A4%AB-%E0%A4%B9%E0%A5%81%E0%A4%86-%E0%A4%86%E0%A4%A7-q2-%E0%A4%AE%E0%A5%87%E0%A4%82-50-%E0%A4%97-%E0%A4%B0%E0%A4%95%E0%A4%B0-702-%E0%A4%95%E0%A4%B0-%E0%A4%A1%E0%A4%BC-%E0%A4%AA%E0%A4%B0-%E0%A4%86%E0%A4%AF-%E0%A4%AA%E0%A5%8D%E0%A4%B0-%E0%A4%AB-%E0%A4%9F-%E0%A4%B0%E0%A5%87%E0%A4%B5%E0%A5%87%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A5%82-%E0%A4%95-%E0%A4%AD-%E0%A4%B2%E0%A4%97-%E0%A4%9D%E0%A4%9F%E0%A4%95/ar-AA2fXtFR",
-    "source": "msn.com",
-    "published": "2026-10-23T21:45:00+00:00",
-    "official": false
-   },
-   {
-    "title": "Oracle Financial Services Software Q2 net profit rises 29% to ₹702 crore, revenue up 7%",
-    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNSXE3ZWJVaDkwTE5HTVhFMGR3VlRUZ0YzTE5xWS1PMnV1NWc2WkpwVGlHb1NDT2g4bG02UkVKWVA1N1JMTWpaYkQtWWRyQzRlQl94UjR1MXNqdGM3WEY5OU0yeTFURFNJY2pnWFBiRFlQSGt1UHBFeDcyOUpPeTRXQlVUSWhyam93RWRpYlN5bnY4aGZVdjB2akc4R19TX0tsR1I1YUFoSlRDUENvYTN6ZzBYSWx6eEQ1cGN4LTZnSFFiRDJSLVNvblptSG1aR3ZzOUFJdWN1QTN1V09aZDFn0gHkAUFVX3lxTE9XTkQ5cFhEbFN2bV9CRjBQYnhrWWdpdXF0NGhPXzBXd0g2bmtqc1V5UXFTMC1JUWxKZjFhdTJyczZXQUFNUGVoUGhvb1dvYUZra1podl9WUzBCcXFnbTFhZEJUdlBtc2t2SkZPVTJfa0lyQmpMczFDV0NLWVFnMnN3MjlZcnJSemoyRGlMWXhUWWR1c29fWmJSVnNyQ3JuZ3V3NG9QMGRvUmFuVzdXd1A5WG9BQkppdDRqbmlDOXBBa0F6SmZWcXBUSW1UWWJPZ1FxT05kVC04eGp1VU0yZDlyX18zVA?oc=5",
-    "source": "CNBC TV18",
-    "published": "2026-10-23T15:57:53+00:00",
-    "official": false
-   },
-   {
-    "title": "OFSS Reports Q2 Revenue of ₹1,910 Crore, Up From ₹1,790 Crore YoY",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRm13V3oyd25WYmFRUmxTMUJ0MTQtY3ZsY0Z3X2x1eVRlaXIydHBiWHVuaC12S21Db0tGMnVYdEpFRS1mcXh6SmQ3QmVFUVB4OEh2YzVvTXU0RHlXLTY2VW4xQ3ByRWFoQnJtT3FUWGxULVpsZFBlOEY5Ml9IVnh6bHZqWl8zY3VEd1FCTjhKcEQ2dw?oc=5",
-    "source": "Sahi",
-    "published": "2026-10-23T15:30:23+00:00",
-    "official": false
-   },
-   {
-    "title": "Oracle Financial Services: Q2 FY27 Net Income Soars 29% to ₹702 Crore",
-    "link": "https://www.investywise.com/oracle-financial-services-software-q2-fy27-unaudited-financial-results/",
-    "source": "investywise.com",
-    "published": "2026-10-23T08:26:00+00:00",
-    "official": false
+    "title": "OFFICIAL NSE FILING: Oracle Financial Services Software Limited has informed the Exchange regarding a press release dated October 23, 2026, titled \"Press release on the financial results for the quarter and half year ended September 30, 2026.\".",
+    "link": "https://nsearchives.nseindia.com/corporate/OFSS_23102026204203_CoveringLetterOFSSPressRelease23102026sd.pdf",
+    "source": "NSE filing",
+    "published": "2026-10-23T20:42:00+05:30",
+    "official": true
    },
    {
     "title": "Oracle Financial Services Software: Reports Unaudited Q2 FY27 Financial Results",
@@ -983,9 +870,174 @@
     "official": false
    }
   ],
-  "official": false,
+  "official": true,
   "quarter": "Q2 FY27",
   "company": "OFSS",
-  "analysed_at": "2026-10-27T09:00:23+00:00"
+  "analysed_at": "2026-10-27T12:37:22+00:00",
+  "filing": {
+   "exchange": "NSE",
+   "title": "Oracle Financial Services Software Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "url": "https://nsearchives.nseindia.com/corporate/OFSS_23102026203533_OutcomeofBoardMeeting23102026sd.pdf",
+   "filed": "2026-10-23T20:38",
+   "press_url": "https://nsearchives.nseindia.com/corporate/OFSS_23102026204203_CoveringLetterOFSSPressRelease23102026sd.pdf"
+  }
+ },
+ "Persistent": {
+  "results_found": false,
+  "results_date": "2026-10-16",
+  "headline": "Persistent Systems posts 20% YoY revenue growth in Q2 FY27 but net profit falls 25% YoY",
+  "metrics": {
+   "revenue_inr_cr": null,
+   "revenue_usd_m": 487.6,
+   "revenue_growth_yoy_pct": 20.0,
+   "cc_growth_qoq_pct": null,
+   "cc_growth_yoy_pct": null,
+   "net_profit_inr_cr": 351.51,
+   "net_profit_growth_yoy_pct": -25.4,
+   "operating_margin_pct": null,
+   "deal_wins_usd_bn": null,
+   "headcount": null,
+   "net_headcount_change": null,
+   "attrition_pct": null,
+   "dividend_per_share_inr": null
+  },
+  "guidance": null,
+  "guidance_change": "none",
+  "highlights": [
+   "Revenue jumps 20% YoY to $487.6 million.",
+   "Net profit declines 25.4% YoY to ₹351.51 crore.",
+   "Nagarro acquisition progress highlighted.",
+   "Management targets 16‑17% operating margin."
+  ],
+  "risks": [
+   "Higher integration costs from Nagarro deal pressure earnings.",
+   "Softness in healthcare segment affecting profitability."
+  ],
+  "verticals": [],
+  "media_vertical": {
+   "name": "Software, Hi-Tech & Emerging Industries",
+   "revenue_share_pct": null,
+   "growth_qoq_pct": null,
+   "growth_yoy_pct": null,
+   "growth_cc_yoy_pct": null,
+   "commentary": null
+  },
+  "megep_mentions": [],
+  "ai_signals": "Clients are shifting spend to AI‑led engineering, product development and cloud modernization.",
+  "management_view": null,
+  "sentiment": "Negative",
+  "sentiment_reason": "Profit drop despite strong revenue growth.",
+  "missing": [
+   "Revenue in INR crore",
+   "Operating margin",
+   "Media vertical revenue share and growth",
+   "Headcount and attrition data",
+   "Dividend per share"
+  ],
+  "unverified_dropped": [],
+  "sources": [
+   {
+    "title": "Persistent Systems Q2 Results: रेवेन्यू में **20%** की जोरदार उछाल, Nagarro अधिग्रहण के करीब",
+    "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOLVhVRzUtSFVHdXdYeHNyY2hYSHVOWE9KTDRNMHZhdG1VMEx4ekc5QnFWZjA3Y1YtaHFiSHFqZDhCbmhpUUN6bWpESVNrcjNFZkcwZXVCMW1QeThNYTNjNHpoeXNpRUNSb1QwN1ZRMk80dGFRb3V0enhSeG4yd2FpU2tkeDBzNk1kcC0zR25tUm1HMF9talJtNmIzYnh1ajFXRDl2NWt5R0xPbHA5c0R0bUtuNjd4c1Z3aktXRHFVUVp0MHdVMTdrRHVoYWJhd0ptZUhmVXBDV2w1aXRRRkYtMjZyczU3OVRxM2FFX2FqRFhOcHVZdHFPemdoSzd1czQ?oc=5",
+    "source": "Whalesbook",
+    "published": "2026-10-23T15:23:53+00:00",
+    "official": false
+   },
+   {
+    "title": "Persistent Systems Q2 Revenue Jumps 20% YoY; Nagarro Acquisition Nears Completion",
+    "link": "https://www.whalesbook.com/corporate-news/English/technology/Persistent-Systems-Q2-Revenue-Jumps-20percent-YoY-Nagarro-Acquisition-Nears-Completion/6adb7a6bc6c6dccbb905fde2",
+    "source": "whalesbook.com",
+    "published": "2026-10-23T13:54:00+00:00",
+    "official": false
+   },
+   {
+    "title": "Persistent Systems ka Q2 Report Card: Revenue mein damdaar 20% growth, par Nagarro deal ka asar dikha",
+    "link": "https://www.whalesbook.com/corporate-news/Hinglish/technology/Persistent-Systems-Q2-Revenue-Jumps-20percent-YoY-Nagarro-Acquisition-Nears-Completion/6adb7a6bc6c6dccbb905fde2",
+    "source": "whalesbook.com",
+    "published": "2026-10-23T13:54:00+00:00",
+    "official": false
+   },
+   {
+    "title": "Persistent Systems opens Rs4,265 Crore QIP to fund Nagarro acquisition as Q2 FY27 net profit dips 25.4% YoY to Rs351.51 Cr",
+    "link": "https://www.msn.com/en-in/news/other/persistent-systems-opens-rs4265-crore-qip-to-fund-nagarro-acquisition-as-q2-fy27-net-profit-dips-254-yoy-to-rs35151-cr/ar-AA2fOz2p",
+    "source": "msn.com",
+    "published": "2026-10-22T09:07:53+00:00",
+    "official": false
+   },
+   {
+    "title": "Persistent Systems opens ₹4,265 Crore QIP to fund Nagarro acquisition as Q2 FY27 net profit dips 25.4% YoY to ₹351.51 Cr",
+    "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOR2FWc180cmVoQk5HdjVZLThkdUpvQUVJdkduRzZESHJLVjY2VWQxTVZWMjFBWWJlOFB6Ym9OMWs5c3RRRWtVOWtTTHlGMHJ3V0FhOU1CRUxPcjVzRWRVeGNDTUpjQ05JaklHZTc0ckNUYm8tR3pjN3ZGRVY3cGNyQXhGMnpTczRtbHhjS2VMcjY0SDY4RFdrNmdXVW1CT0hYM3N1Z0dFODhzSDhfd01id18tejVHVG9CTUgzV1NQdGN2WWd1Y0JZSnkyT2xjVjlISEFxRGR6WEllQW9wYlVMSV96V1hoTFJQd1R6RmxqdXBZdXM?oc=5",
+    "source": "Trade Brains",
+    "published": "2026-10-22T05:18:04+00:00",
+    "official": false
+   },
+   {
+    "title": "Persistent Systems PERSISTENT Q2 FY27 Results Newspaper Ad",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWHVFRThCU0NBTzVULVZlaFBmSDFiUmJ1R2pyblFxaVVDSktuWkU2WHRaSUVjcXg2YmRfUHplTDM0RVhJdnd4Ym9pdVJIMXNvaXFCQjV4eTlXeWNtX0dQZExZMFdFRHV5ajBhaGdDT1RMVll2WG5XVmkyOWFtWmRvc0o5ZnFOSnVlUE1HR0ZWNHRhYmUxMGJPbFlZVUloWFpGTkVFU191Z3dRTlFCaU1XSThaa0RESHRpa2x0cTRvbURpeXFtc3pESFdmN0lrajdWSWs0?oc=5",
+    "source": "Kalkine India",
+    "published": "2026-10-16T17:03:00+00:00",
+    "official": false
+   },
+   {
+    "title": "Persistent Systems (NSE:PERSISTENT) Q2 FY27 Revenue, Profit and Margin Trends",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbUJ0ejN2U2U2cnJCOXUwR1hWYnJzb3RVN1hqOVRKb1pPUWdldGFXMkN0Z211M2dIUDVkdURoZVI0NDAzWlB6OG5tN0toM1YxeVpHN1NUbVNGUHpQeXFvTXpDRFFGaS1Ycmhwb3UzY0xtVW1ObDBkN2FTUVUzSlFjWl94XzhoSTY5cmY1Q1VWT0JuZXI1Mmk5N0tJeDNOdHF3WDMza3l0Tjc0V181eEhmR182VVZFV296emljcmVqRk9LbHVvT3VCeU1EbzBaQQ?oc=5",
+    "source": "Kalkine India",
+    "published": "2026-10-16T11:11:00+00:00",
+    "official": false
+   },
+   {
+    "title": "Persistent Systems: Persistent Announces $487.6M Revenue in Q2 FY27 with 20.0% Y-o-Y Growth",
+    "link": "https://www.finanznachrichten.de/nachrichten-2026-10/69847911-persistent-systems-persistent-announces-dollar-487-6m-revenue-in-q2-fy27-with-20-0-y-o-y-growth-008.htm",
+    "source": "finanznachrichten.de",
+    "published": "2026-10-15T07:42:00+00:00",
+    "official": false
+   },
+   {
+    "title": "Persistent Systems Q2 Results: Profit rises 5% to ₹495 crore, excluding Nagarro deal costs - CNBC TV18",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSlhoYng0NTQyNXZBM1hVZldIUzNya2tZT0N5ME1oQmdMT0xSbmdGR3oxNHVscVBVTnVHLTIxb2VubmwyRUpyRl95RzVCUGpfOWlCME1BcGp5ZUw0cVlPTTVsYmQySTAxNHpHOWZDam9WNEVTeTBHamVBSlNrbGRseWxUbC1nMDQ4OG1nenY2RXBnUW9TWmhBOUNSMFBES3IxTGdqcXJqOXg5MmE1SDBkc21BSktfY1dt?oc=5",
+    "source": "LinkedIn",
+    "published": "2026-10-15T07:00:00+00:00",
+    "official": false
+   },
+   {
+    "title": "Persistent Systems Q2 FY27 Analyst Call: Key Takeaways",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZHZqYVNJTG1nUnBlTWlyUE44d0JKMUc5Z0JvNkE0cDY0dTZoUmZObExOM1hFaTE0ODlBWjZIMGp2WGJWakZjc2E4amtUTkxjTlpaQXBaQ3FWaXhpajRLY1FvQ3ZvM2ZFYnlocEFOMVZKREcyUkFFbl9GbGd3WWdoNXRlNUVVaTQxV24wQ2w0SElXQzd4VGFXSW1telV0eTFDb05Bb05ncThVYWVON3dNZGlVQVJpVFdoRnFNMDZGUXNwSzMwVC1oVVZOcFR3d2ZQ?oc=5",
+    "source": "Kalkine India",
+    "published": "2026-10-23T15:13:00+00:00",
+    "official": false
+   },
+   {
+    "title": "Persistent Systems stock slides 3% after Q2 profit slump, margin miss; brokerages divided on outlook",
+    "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOdHRMdnZ1RFVjNjNYSmFPUlBXYVNZSDJVVFVTRFlGWUUwYTUybGdUVlFkelNWOTZMN3IxVldIRGVHSjVJU245ZkIyanJlcTVJS2tCd3JrQ0M2Rzl2eWVPc0FNYXI3bmx4UVRNa21iRXVPYVBoejZnRE5peTRsX2gzYnFob2oxMG94aWYtb0pJVmxpa0cwZzhUckh0MFNFeGxOWWt5Z0VJWHFCMnJRLUNnd0Y4aFJCOG8tLWdBQ01jZ2tvNlpNWHI5V2x0NVpOQ25xZmtDak1vYlF5M180ZG5YdHl5T3VOMnFvN3duX3pDODg2aDZw0gH6AUFVX3lxTE9XZ2RsOU9TTUVFWkJSZENmenhFanMtTnRuMVI3OXB6a3NrNm9ENXdzam0wVTlZWkVwOFk4dW1kUms1N0FKWVBPUGE4YXE3OVY1VjRPeDc1bjVZZW04S1E2ajAwajhVV1RkMzZma3BiUGhoV1NUUTNQZjk5RlRHcFV0VWJrYlN2djZSU1RVd3JkSEFGZFhiRWR5LU15blpDWXlCTklSbGEwTVpvZ2xfRnNlMExzajIwRzF3QmhOeWRDQTgza1htbzhBc3Q3cm5xVWxyTWNhX0JsekoyelhTQ0hmMVRFSGM0Q2pONHBwaTlnUm1CWThsOGR5RWc?oc=5",
+    "source": "Moneycontrol.com",
+    "published": "2026-10-16T07:00:00+00:00",
+    "official": false
+   },
+   {
+    "title": "Persistent Systems Revenue Grows 30% in Q2, Was the Nagarro Deal the Only Reason for Lower Profit?",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQWWxaOEROeVVqU0lzVzdnLUpXeWhNSkRZa1VjMml6c1l4b0VjNHhFZGVtYkRxaHdOQ0RPclhyZ0c5VVFhdFVjRXREYkRLVTBDSFhuOFRDSjM3Qm5vSm56dWNPcDVsVG85N3VaTFYyVXRnYjBNQmVjVEdPcUpLdl9BckFKcXdYRGpBNmQ3RHVLRFVTVENPRWYwek5KbW9RUXJvam5oWGxKV01Mc1lTZ3BRazJaNFRhQ0hEX1QwTXVBVFEwSDktSDNKRWN1Ym9JMjlOU3FkQ2pXNE10Zw?oc=5",
+    "source": "Trade Brains",
+    "published": "2026-10-16T06:11:58+00:00",
+    "official": false
+   },
+   {
+    "title": "Persistent Announces $487.6M Revenue in Q2 FY27 with 20.0% Y-o-Y Growth",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNa01WNVRNTTVfT1RPYjJrTGZvN0lZQzdRLS1wYlk3dVpOWjRodEItUF8ySDJPUjBPeFBiNEo0YnhmUWRxalJDN1dZR3liWl9TMHVvWHdOcTFlMElXNlNkZC0zZXZ4Q1N0R0ZUV2hfeEJhSFdjYkVyYW9Ia2FkYkdxRkh2Mnd3bGtpeEQ5VkRsSGk5R3RsTGhIeUw0YVdCYzdaZEYyWnhaNm80QktpYkFJcHczajh1OUtYREhxcm9vblg2bUpselhF?oc=5",
+    "source": "Morningstar",
+    "published": "2026-10-15T12:34:00+00:00",
+    "official": false
+   },
+   {
+    "title": "Persistent Systems Q2 Results: Profit rises 5% to ₹495 crore, excluding Nagarro deal costs",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOaURHbGtqa3NWbTlwS21Hd0JOUG10ZWRXRk0yeVYxaC1wclJxT2RwcHhkcnZwSUhvdkgyZWJ5WHlSeDdWNWpHeXVkbFZRQW5UWFhlb19hREZUdzRLX09SWDUzM2hMTkJoOHpzeVlFc0tWbXF1Q21GSTFSdUVHZEFNdVFFRHZtaGMxZWg1QWlCZEFlSlZSOUQ0S01zbHp6V2RDQXREYVkwVy1mWmkwRGpqWVFxYlRjZ1BvdUVHS0JrUGJSdk9ndURtMGd4QnF1SGlDTFFWZllQZ2lyUdIB3wFBVV95cUxOTnNmWDBjZW5vRFh5a2JzYmVCQ0d3dEVqa19WLUE3M3hPZ29MNGk1LVYyOGtRZGFOczhDZENhdDNBZnpvZVZxT0lQM3dtdmQxRjMtMDdxN3F5aDFUMTItSWw0VUYwWkRZQzQ4dm5PZDRabUVPMHM5NVVrWWtTZmoxTWE0SjY1dDRNSXViX0lnSXcyNlpIRG9YU0JlMnBLSWx6d091MGtwRk1jRkxtVGlkTWJTeVlwV0Y0LWxfU2dKWDc4YnU1bnlzQnk2TGk2bHBDaWZPdURENU1QRjA0eU1v?oc=5",
+    "source": "CNBC TV18",
+    "published": "2026-10-15T07:00:00+00:00",
+    "official": false
+   }
+  ],
+  "official": false,
+  "quarter": "Q2 FY27",
+  "company": "Persistent",
+  "analysed_at": "2026-10-27T12:38:17+00:00"
  }
 }

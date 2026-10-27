@@ -150,9 +150,9 @@ OFSS,OFSS.NS,2026-06-30,Q1 FY27,net_income,1415.5,Yahoo Finance
 OFSS,OFSS.NS,2026-06-30,Q1 FY27,operating_income,1861.8,Yahoo Finance
 OFSS,OFSS.NS,2026-06-30,Q1 FY27,revenue,3125.2,Yahoo Finance
 OFSS,OFSS.NS,2026-09-30,Q2 FY27,ebitda,991.1,Yahoo Finance
-OFSS,OFSS.NS,2026-09-30,Q2 FY27,net_income,702.4,Yahoo Finance
+OFSS,OFSS.NS,2026-09-30,Q2 FY27,net_income,702,NSE results filing (read by the agent)
 OFSS,OFSS.NS,2026-09-30,Q2 FY27,operating_income,911.8,Yahoo Finance
-OFSS,OFSS.NS,2026-09-30,Q2 FY27,revenue,1906.6,Yahoo Finance
+OFSS,OFSS.NS,2026-09-30,Q2 FY27,revenue,1907,NSE results filing (read by the agent)
 Persistent,PERSISTENT.NS,2025-03-31,Q4 FY25,ebitda,602.77,Yahoo Finance
 Persistent,PERSISTENT.NS,2025-03-31,Q4 FY25,net_income,395.76,Yahoo Finance
 Persistent,PERSISTENT.NS,2025-03-31,Q4 FY25,operating_income,505.31,Yahoo Finance
