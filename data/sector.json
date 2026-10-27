@@ -1,23 +1,25 @@
 {
- "headline": "Indian IT services showed mixed revenue growth with a few firms posting strong gains while profit margins pressured.",
- "summary": "Revenue grew overall, led by Coforge's 53.6% YoY surge and solid performance from LTM and Tech Mahindra. Profit growth was uneven; HCLTech posted a 21% profit jump, but Wipro and Persistent saw declines. AI contributions were highlighted by several firms but concrete revenue figures were limited. Guidance remained modest, with Infosys trimming FY27 growth expectations and HCLTech introducing a 2.5‑4.0% FY27 target.",
+ "headline": "Indian IT services showed mixed revenue growth with a few high‑flying firms and modest profit pressure overall.",
+ "summary": "Revenue expanded across the sector, led by Coforge's 53.6% YoY jump and strong AI‑driven growth at HCLTech and TCS. Profit margins improved at several peers, but Wipro and Infosys saw profit growth slow. Guidance remained flat for most, with Infosys trimming its FY27 outlook. AI revenue contributions are becoming a notable driver, especially for HCLTech and TCS.",
  "themes": [
   {
-   "title": "AI‑driven revenue",
-   "detail": "Multiple companies cited AI as a growth driver, with Infosys reporting 29% AI revenue growth and HCLTech noting $219 m AI revenue.",
+   "title": "AI‑enabled services gaining traction",
+   "detail": "Multiple firms cite AI revenue growth, with HCLTech reporting $219 m AI revenue and TCS crossing $3.1 bn, fueling higher margins.",
    "companies": [
-    "Infosys",
     "HCLTech",
-    "TCS"
+    "TCS",
+    "Infosys",
+    "LTM"
    ]
   },
   {
-   "title": "Margin pressure",
-   "detail": "Operating margins slipped for several peers, while only Coforge raised its EBIT margin guidance.",
+   "title": "Revenue growth divergence",
+   "detail": "Coforge and Persistent posted very high YoY growth, while larger peers like Infosys and Wipro grew in the low‑teens.",
    "companies": [
+    "Coforge",
+    "Persistent",
     "Infosys",
-    "Wipro",
-    "Coforge"
+    "Wipro"
    ]
   }
  ],
@@ -28,25 +30,25 @@
   },
   {
    "company": "HCLTech",
-   "why": "11.5% revenue growth and 21% profit increase, driven by AI"
+   "why": "11.5% YoY revenue growth, 21% profit jump and strong AI revenue"
   },
   {
-   "company": "Tech Mahindra",
-   "why": "15.6% revenue growth and strong profit expansion"
+   "company": "TCS",
+   "why": "15.4% YoY revenue growth with 24% operating margin and AI revenue >10% of total"
   }
  ],
  "laggards": [
   {
    "company": "Wipro",
-   "why": "Revenue grew 9.1% YoY but profit fell 1.9%"
-  },
-  {
-   "company": "Persistent",
-   "why": "Profit dropped 25% YoY despite 20% revenue growth"
+   "why": "Revenue grew 9.1% YoY but profit fell 1.9% and guidance is weak"
   },
   {
    "company": "Infosys",
-   "why": "Revenue growth slowed to 1.5% YoY and guidance trimmed"
+   "why": "Revenue growth slowed to ~1% YoY and profit growth only 6%"
+  },
+  {
+   "company": "Mphasis",
+   "why": "Results not yet released, limiting visibility"
   }
  ],
  "domain_outlook": [
@@ -82,12 +84,12 @@
   }
  ],
  "watch_next": [
-  "Whether Infosys restores higher revenue growth guidance",
-  "Impact of AI revenue on profit margins across peers",
-  "Wipro's profit recovery and headcount trends",
-  "Coforge's ability to sustain high growth and margin expansion",
-  "Emergence of new AI‑led deals in the next quarter"
+  "Whether Infosys restores its FY27 revenue guidance",
+  "Mphasis Q2 results and any AI revenue disclosure",
+  "Sustaining AI‑driven margin expansion at HCLTech and TCS",
+  "Profit trends at Wipro amid modest revenue growth",
+  "Coforge's ability to maintain high growth in FY27"
  ],
  "quarter": "Q2 FY27",
- "written_at": "2026-10-27T12:39:42+00:00"
+ "written_at": "2026-10-27T15:18:30+00:00"
 }
