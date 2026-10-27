@@ -1,5 +1,29 @@
 [
  {
+  "started": "2026-10-27T08:55:25+00:00",
+  "quarter": "Q2 FY27",
+  "steps": [
+   "market data for 10/10 companies",
+   "news updated",
+   "exchange filings checked; results filed: none",
+   "AI analysed: TCS, HCLTech, Wipro, OFSS, Persistent, Mphasis"
+  ],
+  "errors": [
+   "filings TCS: NSE TCS: HTTPError 403 Client Error: Forbidden for url: https://www.nseindia.com/api/corporate-anno",
+   "filings Infosys: BSE: HTTPError 403 Client Error: Forbidden for url: https://api.bseindia.com/BseIndiaAPI/api/An; NSE INFY: HTTPError 403 Client Error: Forbidden for url: https://www.nseindia.com/api/corporate-anno",
+   "filings HCLTech: BSE: HTTPError 403 Client Error: Forbidden for url: https://api.bseindia.com/BseIndiaAPI/api/An; NSE HCLTECH: HTTPError 403 Client Error: Forbidden for url: https://www.nseindia.com/api/corporate-anno",
+   "filings Wipro: BSE: HTTPError 403 Client Error: Forbidden for url: https://api.bseindia.com/BseIndiaAPI/api/An; NSE WIPRO: HTTPError 403 Client Error: Forbidden for url: https://www.nseindia.com/api/corporate-anno",
+   "filings LTM: BSE: HTTPError 403 Client Error: Forbidden for url: https://api.bseindia.com/BseIndiaAPI/api/An; NSE LTM: HTTPError 403 Client Error: Forbidden for url: https://www.nseindia.com/api/corporate-anno; NSE LTIM: HTTPError 403 Client Error: Forbidden for url: https://www.nseindia.com/api/corporate-anno",
+   "filings Tech Mahindra: BSE: HTTPError 403 Client Error: Forbidden for url: https://api.bseindia.com/BseIndiaAPI/api/An; NSE TECHM: HTTPError 403 Client Error: Forbidden for url: https://www.nseindia.com/api/corporate-anno",
+   "filings OFSS: BSE: HTTPError 403 Client Error: Forbidden for url: https://api.bseindia.com/BseIndiaAPI/api/An; NSE OFSS: HTTPError 403 Client Error: Forbidden for url: https://www.nseindia.com/api/corporate-anno",
+   "filings Persistent: BSE: HTTPError 403 Client Error: Forbidden for url: https://api.bseindia.com/BseIndiaAPI/api/An; NSE PERSISTENT: HTTPError 403 Client Error: Forbidden for url: https://www.nseindia.com/api/corporate-anno",
+   "filings Coforge: BSE: HTTPError 403 Client Error: Forbidden for url: https://api.bseindia.com/BseIndiaAPI/api/An; NSE COFORGE: HTTPError 403 Client Error: Forbidden for url: https://www.nseindia.com/api/corporate-anno",
+   "filings Mphasis: BSE: HTTPError 403 Client Error: Forbidden for url: https://api.bseindia.com/BseIndiaAPI/api/An; NSE MPHASIS: HTTPError 403 Client Error: Forbidden for url: https://www.nseindia.com/api/corporate-anno"
+  ],
+  "finished": "2026-10-27T09:02:36+00:00",
+  "ai_calls": 12
+ },
+ {
   "started": "2026-10-26T18:07:19+00:00",
   "quarter": "Q2 FY27",
   "steps": [
@@ -377,18 +401,5 @@
   "errors": [],
   "finished": "2026-10-19T18:03:51+00:00",
   "ai_calls": 9
- },
- {
-  "started": "2026-10-19T15:07:53+00:00",
-  "quarter": "Q2 FY27",
-  "steps": [
-   "market data for 10/10 companies",
-   "news updated",
-   "exchange filings checked; results filed: TCS, HCLTech, Wipro, LTM, Tech Mahindra",
-   "AI analysed: Infosys, OFSS, Persistent, Coforge, Mphasis"
-  ],
-  "errors": [],
-  "finished": "2026-10-19T15:14:18+00:00",
-  "ai_calls": 10
  }
 ]

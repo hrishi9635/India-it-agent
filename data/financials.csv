@@ -81,7 +81,10 @@ Infosys,INFY.NS,2026-06-30,Q1 FY27,ebitda,12374.64,Yahoo Finance (USD converted)
 Infosys,INFY.NS,2026-06-30,Q1 FY27,net_income,7754.27,Yahoo Finance (USD converted)
 Infosys,INFY.NS,2026-06-30,Q1 FY27,operating_income,10149.67,Yahoo Finance (USD converted)
 Infosys,INFY.NS,2026-06-30,Q1 FY27,revenue,48116.25,Yahoo Finance (USD converted)
-Infosys,,2026-09-30,Q2 FY27,net_income,7823,NSE results filing (read by the agent)
+Infosys,INFY.NS,2026-09-30,Q2 FY27,ebitda,12521.61,Yahoo Finance (USD converted)
+Infosys,INFY.NS,2026-09-30,Q2 FY27,net_income,7823,NSE results filing (read by the agent)
+Infosys,INFY.NS,2026-09-30,Q2 FY27,operating_income,10370.95,Yahoo Finance (USD converted)
+Infosys,INFY.NS,2026-09-30,Q2 FY27,revenue,49178.37,Yahoo Finance (USD converted)
 LTM,LTM.NS,2025-03-31,Q4 FY25,ebitda,2323.7,Yahoo Finance
 LTM,LTM.NS,2025-03-31,Q4 FY25,net_income,1128.5,Yahoo Finance
 LTM,LTM.NS,2025-03-31,Q4 FY25,operating_income,1345.4,Yahoo Finance
@@ -146,6 +149,10 @@ OFSS,OFSS.NS,2026-06-30,Q1 FY27,ebitda,1954.1,Yahoo Finance
 OFSS,OFSS.NS,2026-06-30,Q1 FY27,net_income,1415.5,Yahoo Finance
 OFSS,OFSS.NS,2026-06-30,Q1 FY27,operating_income,1861.8,Yahoo Finance
 OFSS,OFSS.NS,2026-06-30,Q1 FY27,revenue,3125.2,Yahoo Finance
+OFSS,OFSS.NS,2026-09-30,Q2 FY27,ebitda,991.1,Yahoo Finance
+OFSS,OFSS.NS,2026-09-30,Q2 FY27,net_income,702.4,Yahoo Finance
+OFSS,OFSS.NS,2026-09-30,Q2 FY27,operating_income,911.8,Yahoo Finance
+OFSS,OFSS.NS,2026-09-30,Q2 FY27,revenue,1906.6,Yahoo Finance
 Persistent,PERSISTENT.NS,2025-03-31,Q4 FY25,ebitda,602.77,Yahoo Finance
 Persistent,PERSISTENT.NS,2025-03-31,Q4 FY25,net_income,395.76,Yahoo Finance
 Persistent,PERSISTENT.NS,2025-03-31,Q4 FY25,operating_income,505.31,Yahoo Finance
