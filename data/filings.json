@@ -2,30 +2,12 @@
  "TCS": {
   "checked": true,
   "exchange": "NSE",
-  "count": 30,
-  "result": {
-   "title": "Tata Consultancy Services Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "detail": "",
-   "category": "Outcome of Board Meeting",
-   "subcategory": "",
-   "time": "2026-10-08T15:40",
-   "url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_08102026153124_Post_BM_SE_Letter_fin.pdf",
-   "alt_url": "",
-   "exchange": "NSE"
-  },
-  "press": {
-   "title": "Tata Consultancy Services Limited has informed the Exchange regarding a press release dated October 8, 2026, titled \"International Growth and Strategic Wins Underpin TCS Q2\".",
-   "detail": "",
-   "category": "Press Release",
-   "subcategory": "",
-   "time": "2026-10-08T15:43",
-   "url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_08102026154325_PressReleaseletter.pdf",
-   "alt_url": "",
-   "exchange": "NSE"
-  },
+  "count": 0,
+  "result": null,
+  "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-27T18:12",
+  "checked_at": "2026-10-28T09:04",
   "quarter": "Q2 FY27"
  },
  "Infosys": {
@@ -45,7 +27,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-27T18:12",
+  "checked_at": "2026-10-28T09:04",
   "quarter": "Q2 FY27"
  },
  "HCLTech": {
@@ -74,7 +56,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-27T18:12",
+  "checked_at": "2026-10-28T09:04",
   "quarter": "Q2 FY27"
  },
  "Wipro": {
@@ -103,13 +85,13 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-27T18:12",
+  "checked_at": "2026-10-28T09:04",
   "quarter": "Q2 FY27"
  },
  "LTM": {
   "checked": true,
   "exchange": "NSE",
-  "count": 25,
+  "count": 26,
   "result": {
    "title": "LTM Limited has submitted to the Exchange, the unaudited financial results and interim dividend for the period ended Sep 30, 2026.",
    "detail": "",
@@ -132,7 +114,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-27T18:12",
+  "checked_at": "2026-10-28T09:04",
   "quarter": "Q2 FY27"
  },
  "Tech Mahindra": {
@@ -161,7 +143,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-27T18:12",
+  "checked_at": "2026-10-28T09:04",
   "quarter": "Q2 FY27"
  },
  "OFSS": {
@@ -190,7 +172,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-27T18:12",
+  "checked_at": "2026-10-28T09:04",
   "quarter": "Q2 FY27"
  },
  "Persistent": {
@@ -201,13 +183,13 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-27T18:12",
+  "checked_at": "2026-10-28T09:04",
   "quarter": "Q2 FY27"
  },
  "Coforge": {
   "checked": true,
   "exchange": "NSE",
-  "count": 48,
+  "count": 49,
   "result": {
    "title": "Coforge Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
    "detail": "",
@@ -230,7 +212,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-27T18:12",
+  "checked_at": "2026-10-28T09:04",
   "quarter": "Q2 FY27"
  },
  "Mphasis": {
@@ -241,7 +223,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-27T18:12",
+  "checked_at": "2026-10-28T09:04",
   "quarter": "Q2 FY27"
  }
 }
