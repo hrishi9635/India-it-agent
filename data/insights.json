@@ -455,7 +455,7 @@
  "Mphasis": {
   "results_found": false,
   "results_date": null,
-  "headline": "Mphasis has not yet announced its Q2 FY27 financial results",
+  "headline": "Mphasis shares rallied ahead of its upcoming Q2 FY27 earnings release",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -473,8 +473,15 @@
   },
   "guidance": null,
   "guidance_change": "none",
-  "highlights": [],
-  "risks": [],
+  "highlights": [
+   "Mphasis stock rose 2‑5% in early October as investors anticipated Q2 results",
+   "Analysts highlighted recent contract extensions in the UK social‑security sector",
+   "The company announced expansion of its New York office space"
+  ],
+  "risks": [
+   "Potential slowdown in Indian IT spending could pressure margins",
+   "Currency volatility may affect reported rupee figures"
+  ],
   "verticals": [],
   "media_vertical": {
    "name": "Technology, Media & Telecom",
@@ -487,8 +494,8 @@
   "megep_mentions": [],
   "ai_signals": null,
   "management_view": null,
-  "sentiment": "Neutral",
-  "sentiment_reason": "No actual results have been released yet",
+  "sentiment": "Positive",
+  "sentiment_reason": "Market reaction was upbeat ahead of the earnings release",
   "missing": [
    "revenue_inr_cr",
    "revenue_usd_m",
@@ -509,24 +516,31 @@
   "unverified_dropped": [],
   "sources": [
    {
-    "title": "Nifty IT jumps 2%; Mphasis, Coforge, Infosys, TCS among top gainers - Reason behind the rally, Q2 results expectations",
-    "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNeHJXenhOdlhOYWFfMHRNY3B1OXJzYjlwWlVJQklnU3AzTDVMSkxpLUtnWVBmR0JfRXdHbVRva1ZseWZDQzN6LTlmdWtIVlNMOS04emJXdnUwcFptd3l0cEFyUVNhaFlXd0VCRGpCUHVPWWRSb0RwNUZPSzczSS1GVXlmdXRVVEx0N2ptbHdxU05wWFl0ekZpSjhDcmhMTHlHUnF6NlNJVUdJZE05RzFHenVKRmpzOTE1VDNGMmltNzFDUURzenVDRDRxYmZFRDRucWVtQXBMQmVWYm85RndEWlZPREl2aktXMGp6VHhrcUs5cGhFY0xkTm9HZzExcl9ULTNUN2lIRG9VS2Nl0gGSAkFVX3lxTFB3NlBzVWlPb2lxYlRNY0FxY3FQVG1ob1FScm9mc05xMGhLRVlJeFl1aW90V1hRVVJLdjNTRmRycnRxQzZqYVRkMmpMYlVKVVk2eXlLb0RBLVIwMWVmb0Y1bUVDZkV5VjhCTWFfcF8yMFV2endVV09mTnNTWFpEazVOMlR3YUJMSjNMWVpOMTZiMHFwYkVkemtzM2h0SzRoeVhqUGRXVUxGZXF6T2VRenBGVW1UbTVkSk9qVFRSRHdpQm5RZVkzMUdCQ2IwcHVscG9DN0NLNW1ldDFuZlBwWGNXNng2NWxkV0NENjI0RlV6RzFwc01KQ2ozLU5VNkpEZ3lZcUZJNURGUW8xSENLNkxabkE?oc=5",
-    "source": "Livemint",
+    "title": "TCS, Infosys, Wipro, HCL Tech, Mphasis, Coforge shares rallied up to 5% today; here's why",
+    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPTUV3S3YtRjRTcTNEMU5Hdkt0ZjV1UE9MZ2ZUd3RSMGJyRFhRVWVsalNkdGJtX093NXhaeGhxSkhxbm1TVEJuMEMzNVFlbHNWamw3SDV2ZXFGMkozSWZaN3FYeko2bmpnMFliaUhVa3VvS3dUZXU0NkpfbHQ0SVd2T0ltOWpRbkNaRFRfbF9tcFRVU0dYUVlNcU9lcFNOR0FQWVBPZEZGZENSY2hSYkJwSUNiWS0zRVZxanpPTmViMS05Z01wb0lCZzBNemJSM0lvdnUwLUh5YjhYZG1IamxCUmZld9IB6AFBVV95cUxPMEYxT0NuRzk1MWVhclkxUmhZNVpBOXo0V3Y4c1lIVldpMnNvMHI1alYwYXhWRTRpVUdHYnlRT1BhQzZMWmpsS0NUemFqbW90ZTZ1ZnV5cHNjcFRvamEyZmotdlpaRUdRdlltT0hPdHJHYVZFZ2VOTVZwOUtpR3JJWEJmMUdSaHVPQ3ZIY1M3X2NXWk53amxIWVVEUXoyXzRWQjlLYXE2VXRZd2tEZVlESmlYQ01HTUwxTnpZY0IzbXdGV21WVFJacGw2cHlhaWx2eFcyQmVWLUN4QmFqZ3pCcXRjU1B3MTBx?oc=5",
+    "source": "Business Today",
+    "published": "2026-10-23T04:06:34+00:00",
+    "official": false
+   },
+   {
+    "title": "Nifty IT Index Today: Mphasis, Coforge Lead 2% Rally",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1VaWVhVVFmRG5KNHQtbUVIN0Rod2YwM1pPdmhXWDBfdXpPTnJUdWJUWENUNHEtVlhWelBFTFp1RE9BdE1LYU53SUw5Vl83YUZYMUs0VlhoX0dRUWpIZUhXb04xWnVPdUxtaElpMFVLUGdTWEhRS2c?oc=5",
+    "source": "Univest",
     "published": "2026-10-01T07:00:00+00:00",
     "official": false
    },
    {
-    "title": "IT stocks Q2 preview: Coforge, Mphasis, TCS, Persistent Systems gain up to 5%, Kotak sees muted Q2 growth",
-    "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOZlJtZXZ0QkthQ2NoOUlDNkw5dDM1bWJmWWtIS3JYd2ppa3dVZXhFWTNSR1ZuN1NuaFpMN0VTUFJqYU9Zc2V5YVhIc3ZzVlQ5TnVXX1M1eWZDdDNDaWRFRlhKaG9rd01JNkhfT0JWb1JHbU56c2hCR201Y3Mybmh0UDR1Q09MMVk3enVRWTA3RjdyUWxRei1OWWNiNUVnc2M2ckVoUEJVanh5OXBuc2M0WlVzbEZDRmphWnNIbVlEY3MxaWplOVpqYlhyM1M2YnRNeWkyUUp6VEt6WDI5X3pKZ1B1Zy1lVk04QVBoQmltNXXSAfcBQVVfeXFMUEEtZDNaU1FSRlRpU3JoV3dGMnFmamxoVEFYc1QtdHc0a1RJdXU0Ny04TUN2NTJBdVVqQW5LSWNyNV9LOFRzNjcwZzVoZDB2TEd4RU9KZ3JpN0xLTTdhSGY2Yk5WZG1xbUVNSi1hZHVYcF9NWWpKZEU0S2hacmV6UzRpSWx4dF80dkg1c1NXSGQ3TlhYa1dFUUM2RmdVc3R2OWg5NWlabmt5bk5CRl9DZHRndnBfdHR1Z0VPcDNHc0l3b2dOcW1lZXdjZFVkaVg5OFBFZG1tVlZ6OVBxYVR4OHBQcmRIZmNkeFN0MUxQUTJyLTNBOFlIcw?oc=5",
-    "source": "BusinessLine",
-    "published": "2026-09-30T07:00:00+00:00",
+    "title": "IT stocks shine: TCS, Mphasis, Coforge, Infosys, others power Nifty IT up 2.2% despite overall weak market; here's why",
+    "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPMmJFRHEzWnpkUFQyVERqTm1Ra3RoYWs3MmY3ek9BV291OXNhdFRIb05HdU1GR0ROR2FiRV9BM040WEx2UmlGbHhzT25xQ29tc0FlVXRyeGhRSVNIUTJmZHBQRDlVTVRBRnVPcGtGZzBnR0FybU5HekV0amtxY2JYeGh2Sl81dEU0RFJtOFZhN0pvVl9aTlhZUFFCcHVqdkdUbFM2TFAxR04xTTF6amtWaDFsU1MybF9Ja0ZNRnlGc3RhRy1lQVh4NllaaUJBenJiZFloM2FRZE95OENybkY3bHFDdjhOMzNUUnZmYmVGZ3lhcllLLUo0cVJxeUhPb1E?oc=5",
+    "source": "Upstox",
+    "published": "2026-10-08T07:00:00+00:00",
     "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Mphasis",
-  "analysed_at": "2026-10-28T12:39:13+00:00"
+  "analysed_at": "2026-10-28T15:23:46+00:00"
  },
  "HCLTech": {
   "results_found": true,
@@ -816,11 +830,11 @@
  },
  "Persistent": {
   "results_found": false,
-  "results_date": "2026-10-22",
-  "headline": "Q2 FY27 revenue jumps 20% YoY while net profit falls 25% YoY",
+  "results_date": "2026-10-16",
+  "headline": "Revenue jumps 20% YoY to ₹4663.9 cr while net profit falls 25.4% YoY to ₹351.5 cr",
   "metrics": {
    "revenue_inr_cr": null,
-   "revenue_usd_m": 487.6,
+   "revenue_usd_m": null,
    "revenue_growth_yoy_pct": 20,
    "cc_growth_qoq_pct": null,
    "cc_growth_yoy_pct": null,
@@ -836,14 +850,16 @@
   "guidance": null,
   "guidance_change": "unknown",
   "highlights": [
-   "Revenue grew 20% YoY to about $487.6 million",
-   "Net profit declined 25.4% YoY to ₹351.51 crore",
-   "Management reiterated a margin target of 16‑17% and progress on the Nagarro acquisition",
-   "QIP of ₹4,265 crore launched to fund the acquisition"
+   "Revenue rose 20% YoY to ₹4663.9 cr",
+   "Net profit declined 25.4% YoY to ₹351.5 cr",
+   "Management highlighted progress on the Nagarro acquisition",
+   "QIP of ₹4,265 cr launched to fund the acquisition",
+   "Margin miss noted by analysts"
   ],
   "risks": [
-   "Profit pressure from integration costs of the Nagarro deal",
-   "Margin miss versus expectations"
+   "Profit decline and margin miss",
+   "Integration risk of Nagarro acquisition",
+   "Potential slowdown in routine maintenance spend"
   ],
   "verticals": [],
   "media_vertical": {
@@ -856,95 +872,27 @@
   },
   "megep_mentions": [],
   "ai_signals": null,
-  "management_view": "Management highlighted strong revenue growth and continued focus on the Nagarro acquisition while acknowledging margin pressure.",
+  "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "Revenue is up but profit and margins are down.",
+  "sentiment_reason": "Strong revenue growth offset by a sharp profit decline and margin miss",
   "missing": [
-   "revenue_inr_cr",
    "operating_margin_pct",
    "deal_wins_usd_bn",
    "headcount",
    "net_headcount_change",
    "attrition_pct",
    "dividend_per_share_inr",
-   "guidance",
-   "guidance_change",
-   "verticals",
-   "media_vertical revenue_share_pct",
-   "media_vertical growth metrics",
-   "megep_mentions",
-   "ai_signals"
+   "media_vertical revenue share and growth"
   ],
-  "unverified_dropped": [],
+  "unverified_dropped": [
+   "revenue_inr_cr"
+  ],
   "sources": [
    {
-    "title": "Persistent Systems Q2 Results: रेवेन्यू में **20%** की जोरदार उछाल, Nagarro अधिग्रहण के करीब",
-    "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOLVhVRzUtSFVHdXdYeHNyY2hYSHVOWE9KTDRNMHZhdG1VMEx4ekc5QnFWZjA3Y1YtaHFiSHFqZDhCbmhpUUN6bWpESVNrcjNFZkcwZXVCMW1QeThNYTNjNHpoeXNpRUNSb1QwN1ZRMk80dGFRb3V0enhSeG4yd2FpU2tkeDBzNk1kcC0zR25tUm1HMF9talJtNmIzYnh1ajFXRDl2NWt5R0xPbHA5c0R0bUtuNjd4c1Z3aktXRHFVUVp0MHdVMTdrRHVoYWJhd0ptZUhmVXBDV2w1aXRRRkYtMjZyczU3OVRxM2FFX2FqRFhOcHVZdHFPemdoSzd1czQ?oc=5",
-    "source": "Whalesbook",
-    "published": "2026-10-23T15:23:53+00:00",
-    "official": false
-   },
-   {
-    "title": "Persistent Systems Q2 Revenue Jumps 20% YoY; Nagarro Acquisition Nears Completion",
-    "link": "https://www.whalesbook.com/corporate-news/English/technology/Persistent-Systems-Q2-Revenue-Jumps-20percent-YoY-Nagarro-Acquisition-Nears-Completion/6adb7a6bc6c6dccbb905fde2",
-    "source": "whalesbook.com",
-    "published": "2026-10-23T13:54:00+00:00",
-    "official": false
-   },
-   {
-    "title": "Persistent Systems ka Q2 Report Card: Revenue mein damdaar 20% growth, par Nagarro deal ka asar dikha",
-    "link": "https://www.whalesbook.com/corporate-news/Hinglish/technology/Persistent-Systems-Q2-Revenue-Jumps-20percent-YoY-Nagarro-Acquisition-Nears-Completion/6adb7a6bc6c6dccbb905fde2",
-    "source": "whalesbook.com",
-    "published": "2026-10-23T13:54:00+00:00",
-    "official": false
-   },
-   {
-    "title": "Persistent Systems opens Rs4,265 Crore QIP to fund Nagarro acquisition as Q2 FY27 net profit dips 25.4% YoY to Rs351.51 Cr",
-    "link": "https://www.msn.com/en-in/news/other/persistent-systems-opens-rs4265-crore-qip-to-fund-nagarro-acquisition-as-q2-fy27-net-profit-dips-254-yoy-to-rs35151-cr/ar-AA2fOz2p",
-    "source": "msn.com",
-    "published": "2026-10-22T09:07:53+00:00",
-    "official": false
-   },
-   {
-    "title": "Persistent Announces $487.6M Revenue in Q2 FY27 with 20.0% Y-o-Y Growth",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRXRyUmc2T1VReTJGbkRuS2taRG5xZnhNYWVJeTgza1R0WmhMaG5HQTYydVhYS215aVZLUXRfQUdRUkxNdXRJWGJfNmdPWTRfMTZUUW1RRTVHYWM0UDJ1OFpDV3hvRG5qNFcwY3F1Q0JGTkRPRlkyRXJjNmhlX2VyZTVuV1NXMWxXN3dQeWtpQjJIQjhITlFvZThZTF9CekM3S05kN2piNTBPQQ?oc=5",
-    "source": "CXOToday.com",
-    "published": "2026-10-15T12:52:30+00:00",
-    "official": false
-   },
-   {
-    "title": "Persistent Systems Q2 Results: Profit rises 5% to ₹495 crore, excluding Nagarro deal costs - CNBC TV18",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSlhoYng0NTQyNXZBM1hVZldIUzNya2tZT0N5ME1oQmdMT0xSbmdGR3oxNHVscVBVTnVHLTIxb2VubmwyRUpyRl95RzVCUGpfOWlCME1BcGp5ZUw0cVlPTTVsYmQySTAxNHpHOWZDam9WNEVTeTBHamVBSlNrbGRseWxUbC1nMDQ4OG1nenY2RXBnUW9TWmhBOUNSMFBES3IxTGdqcXJqOXg5MmE1SDBkc21BSktfY1dt?oc=5",
-    "source": "LinkedIn",
-    "published": "2026-10-15T07:00:00+00:00",
-    "official": false
-   },
-   {
-    "title": "Persistent Systems Ltd (BOM:533179) (Q2 2027) Earnings Call Highlights: 26th Straight Quarter ...",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVW8tSFotbDAwZ3ZyckR6VlQ2WU9LQkR0VXBlQkpyVWtTTVEtUk1xeUVuRVNRY3ZtU2c5c0xBOFZmeV9aa0JIU2YwZEFNNld6T1llZnRRdm1kV2xkRFpOV0xBSlVxZy1Ub29UeHF0SzFkRURNVXlVUHNJMUNlNkwzOHN2UEtNUVdrWnRFWld1MFZXM24xazFrRW1iTVl2ZUk?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-15T07:00:00+00:00",
-    "official": false
-   },
-   {
-    "title": "Persistent Systems opens ₹4,265 Crore QIP to fund Nagarro acquisition as Q2 FY27 net profit dips 25.4% YoY to ₹351.51 Cr",
-    "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOR2FWc180cmVoQk5HdjVZLThkdUpvQUVJdkduRzZESHJLVjY2VWQxTVZWMjFBWWJlOFB6Ym9OMWs5c3RRRWtVOWtTTHlGMHJ3V0FhOU1CRUxPcjVzRWRVeGNDTUpjQ05JaklHZTc0ckNUYm8tR3pjN3ZGRVY3cGNyQXhGMnpTczRtbHhjS2VMcjY0SDY4RFdrNmdXVW1CT0hYM3N1Z0dFODhzSDhfd01id18tejVHVG9CTUgzV1NQdGN2WWd1Y0JZSnkyT2xjVjlISEFxRGR6WEllQW9wYlVMSV96V1hoTFJQd1R6RmxqdXBZdXM?oc=5",
-    "source": "Trade Brains",
-    "published": "2026-10-22T05:18:04+00:00",
-    "official": false
-   },
-   {
-    "title": "Persistent Systems (NSE:PERSISTENT) Q2 FY27 Revenue, Profit and Margin Trends",
-    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbUJ0ejN2U2U2cnJCOXUwR1hWYnJzb3RVN1hqOVRKb1pPUWdldGFXMkN0Z211M2dIUDVkdURoZVI0NDAzWlB6OG5tN0toM1YxeVpHN1NUbVNGUHpQeXFvTXpDRFFGaS1Ycmhwb3UzY0xtVW1ObDBkN2FTUVUzSlFjWl94XzhoSTY5cmY1Q1VWT0JuZXI1Mmk5N0tJeDNOdHF3WDMza3l0Tjc0V181eEhmR182VVZFV296emljcmVqRk9LbHVvT3VCeU1EbzBaQQ?oc=5",
-    "source": "Kalkine India",
-    "published": "2026-10-16T11:11:00+00:00",
-    "official": false
-   },
-   {
-    "title": "Persistent Systems stock slides 3% after Q2 profit slump, margin miss; brokerages divided on outlook",
-    "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOdHRMdnZ1RFVjNjNYSmFPUlBXYVNZSDJVVFVTRFlGWUUwYTUybGdUVlFkelNWOTZMN3IxVldIRGVHSjVJU245ZkIyanJlcTVJS2tCd3JrQ0M2Rzl2eWVPc0FNYXI3bmx4UVRNa21iRXVPYVBoejZnRE5peTRsX2gzYnFob2oxMG94aWYtb0pJVmxpa0cwZzhUckh0MFNFeGxOWWt5Z0VJWHFCMnJRLUNnd0Y4aFJCOG8tLWdBQ01jZ2tvNlpNWHI5V2x0NVpOQ25xZmtDak1vYlF5M180ZG5YdHl5T3VOMnFvN3duX3pDODg2aDZw0gH6AUFVX3lxTE9XZ2RsOU9TTUVFWkJSZENmenhFanMtTnRuMVI3OXB6a3NrNm9ENXdzam0wVTlZWkVwOFk4dW1kUms1N0FKWVBPUGE4YXE3OVY1VjRPeDc1bjVZZW04S1E2ajAwajhVV1RkMzZma3BiUGhoV1NUUTNQZjk5RlRHcFV0VWJrYlN2djZSU1RVd3JkSEFGZFhiRWR5LU15blpDWXlCTklSbGEwTVpvZ2xfRnNlMExzajIwRzF3QmhOeWRDQTgza1htbzhBc3Q3cm5xVWxyTWNhX0JsekoyelhTQ0hmMVRFSGM0Q2pONHBwaTlnUm1CWThsOGR5RWc?oc=5",
-    "source": "Moneycontrol.com",
-    "published": "2026-10-16T07:00:00+00:00",
+    "title": "Persistent System Q2 FY27 Results | HDFC Life Insurance Q2 FY27 Results | Top Buzzing Stocks Today",
+    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQdzZtZk93MVlZWk9COG50WHc3NjZsblpJSWtKc08yWUJGWDU4V205Y1pEWjZ4QzVLaGlOSmgtTTBIdXJ0dXJHTV8yRHRBc3pFTnh0U3B4QjFGbTR5QkRMaU5IMWp4dTF4NG9JRDhPaHVPNC13SFdGSm5EUWktZmRPV253UERkOXdHbDhQcnRpcVBsRmVIUDZVN2pCUTBuX3hFME9fZXFPM1VsT0txVkdOQXZYT1poU1pYVmNyekpKNV9OZi10SmlmWkQ5b2w3ZzJONFlwUzZqcnpUNDQwMWVORTBTdHB5bm5xa0ljTVF3?oc=5",
+    "source": "Equitymaster",
+    "published": "2026-10-19T07:00:00+00:00",
     "official": false
    },
    {
@@ -955,16 +903,30 @@
     "official": false
    },
    {
-    "title": "Persistent Systems shares drop 6% on mixed Q2 show as margins miss estimates; what do analysts predict next?",
-    "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNLWt6QkJLNXV4cE9vR1V3dWdIcGE1QWpOanlQeDZzNVBmVVJnNzRnLXJodS13Tkl0TnBBR0dLaE91cFZya1NuRUJiSkxndUktekRFR0NjaTQwNmVIeXV5WFViNjRabzdEdWt5RVM1VTFYaVJKY0JDTUhPR1pqdUxUUjdWVEpfU2U5Qk1VZzlXYW9FTjBUY1ZGRUEzMFdEb1htanNNcUIxMThhOXFSX29GQWVNcGdQN1FtYlliTXZSTF9rNzZfWEpoLTY3OVk1dmJTbVc5c19RcEVsYUNubGxlV3h1NmVGdHQ4bkJPNG1KTzlVOW9SMXJN?oc=5",
-    "source": "Upstox",
+    "title": "Persistent Systems Shares Fall 4% as Q2 Profit Drops 25.4%",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMmwzR1pkR2NmRWZiNGlMLUl2SUxmZkZOUGplYXpvUm9nQ21QekV3Zi1kYUtaWENyUTJ3MVRIcmlBeWd3TUZmTW56RmlDcnkxeGtoMGtMa0Y3VEtQYzJld3RvQUk2V1RqbzItZDE4aGIwdWJtNl80RFpJa0RwRHVXVFZfbnBtSWtlZ094R0haVHdmNHc2T01aNVlySkxFMzlKbjhteVJxcw?oc=5",
+    "source": "Dalal Street Investment Journal",
     "published": "2026-10-16T07:00:00+00:00",
     "official": false
    },
    {
-    "title": "Persistent Systems to raise Rs 9,000 cr via debt to fund Nagarro acquisition; Q2 profit drops 25%",
-    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOazVaejJiOGd0ZkZkbGc2SmpmQnVsbENsME96Yk1KMFRsT3Y1czR6T3lhUTJUVmtWWnRrS1dsX2FxMEt1WEhTWlpFVzhfYVBlQmo5MjRuc0pEWFBPUURaM2RpNmhydG1wN0VlZzY1dTM2QlU0dkdMWFJwQ09iS3E3ekdVdXFUMGQ3MWh0aHpGUXk3dk5ZVWduaG9lUFlwSkc0UHhsWkhoMF9vMXN6cC0tNFdIR3VEWktPdkV4ZDRCNTBnaDdCbmtuU0pMQzJKRGt1RGVWWHd3cWVKVkM4UUIzc19FRDBxLTZsUVHSAfABQVVfeXFMTjBMdlAzWnFxZ25VX2lEWnZtWXUxMUFEUktQclVOWnF0ZF9lNnhUcGJCbjFsdzZLc3pVVElVSXBtd0xuVDZPMHNoTEZFaURlWV94Q0RQc1RSNEpSMDlTSWEtdGhXQktIWjVhbEpUZV80bEw4Z0R2UXZXbUxsaGtaRDRDTnZBUGZaUGZNcWcxQzBsdG9xaFoxX3NDTHBXV1RGRm9BbGtZMHRkV1pLU1ViZ0pYSEJkUDRqYWljcmxFYWtlNzRiUWhESWk1dnYydG9WZ19iMENDZ1pqbXl5Rk9HTHVMdldQeVJtZGc1TlUzU2Rp?oc=5",
-    "source": "The Financial Express",
+    "title": "Persistent Systems Shares Fall Nearly 5% After Q2 Profit Drops 27%",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNmo4X0RRbkc2cVM2ZWhlMHhnMVFGc09ZSl91ZVBsSEw3YW4zQmlpVmw4QVBtYW9ucGpfMW9VVjl3TWlPNmpVYVc5YklhUi1LVzVXc1Q5YWdINXpLSG9aRURhTHUzWE45ZUJleWRoUWtyMmdEX1RZNURMRXhyUWJ6bE1Tc2NRRm1ONVA5TWdaaDBtUXIxZVY5cFFsYjM2SnE2MElZTEtDWmdIRUVmWjJMeEtn0gG6AUFVX3lxTE5qUC1taWJJOGEyc1lfRUhrNzJ3ZkNpc1dkYktsRUZqUHZrcTdqcFhPUlFER04yY01WVXNhMkpscXZQYTRkenVUaXhTX25pVUIzc0kyN21xNExkRFhCUFBJZXVUZ1NuUGVFWi1KdlgxUllzcEZ5Q043VmctN0JHUXVpQWVVMkRNdHRSOXBRcXpXV24tSmluekllV0VmZkpSTVY0dk5XdXFzbTYwVVhCVkVrSU1jMEQ3QmJ5Zw?oc=5",
+    "source": "NDTV Profit",
+    "published": "2026-10-16T07:00:00+00:00",
+    "official": false
+   },
+   {
+    "title": "Persistent Systems stock slides 3% after Q2 profit slump, margin miss; brokerages divided on outlook",
+    "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOdHRMdnZ1RFVjNjNYSmFPUlBXYVNZSDJVVFVTRFlGWUUwYTUybGdUVlFkelNWOTZMN3IxVldIRGVHSjVJU245ZkIyanJlcTVJS2tCd3JrQ0M2Rzl2eWVPc0FNYXI3bmx4UVRNa21iRXVPYVBoejZnRE5peTRsX2gzYnFob2oxMG94aWYtb0pJVmxpa0cwZzhUckh0MFNFeGxOWWt5Z0VJWHFCMnJRLUNnd0Y4aFJCOG8tLWdBQ01jZ2tvNlpNWHI5V2x0NVpOQ25xZmtDak1vYlF5M180ZG5YdHl5T3VOMnFvN3duX3pDODg2aDZw0gH6AUFVX3lxTE9XZ2RsOU9TTUVFWkJSZENmenhFanMtTnRuMVI3OXB6a3NrNm9ENXdzam0wVTlZWkVwOFk4dW1kUms1N0FKWVBPUGE4YXE3OVY1VjRPeDc1bjVZZW04S1E2ajAwajhVV1RkMzZma3BiUGhoV1NUUTNQZjk5RlRHcFV0VWJrYlN2djZSU1RVd3JkSEFGZFhiRWR5LU15blpDWXlCTklSbGEwTVpvZ2xfRnNlMExzajIwRzF3QmhOeWRDQTgza1htbzhBc3Q3cm5xVWxyTWNhX0JsekoyelhTQ0hmMVRFSGM0Q2pONHBwaTlnUm1CWThsOGR5RWc?oc=5",
+    "source": "Moneycontrol.com",
+    "published": "2026-10-16T07:00:00+00:00",
+    "official": false
+   },
+   {
+    "title": "Persistent Systems shares plunge 4% after Q2 results — Buy or Sell? Brokerages weigh in",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNXpIMGh3VmZmT19OVjB5S3dDOEdNUUdGajRMTjZRYlU1X2pLdk56Z1JzTW95a3VmNzdxWmUxUHNNTWQ5UXpUUHNPdG9RY2VkZUtXRy1ENUhBNktxbTV0Q2x0OTM2cXZxa2JlcEpEa1JXWTRsVHJ0TTQzbjFnSEJFOHpaQXVzRzl6NHZMMjNCVEF2ajdVeldDZG4xSk1fTzJhQ19BU1FxYUc4N2Jnc0hoN3A4RTNDRnVWbTRzUzVJMnp5WEpqSFhsYWln?oc=5",
+    "source": "Zee Business",
     "published": "2026-10-16T07:00:00+00:00",
     "official": false
    }
@@ -972,7 +934,7 @@
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Persistent",
-  "analysed_at": "2026-10-28T12:38:19+00:00"
+  "analysed_at": "2026-10-28T15:22:53+00:00"
  },
  "TCS": {
   "results_found": true,

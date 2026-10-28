@@ -25,7 +25,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-28T12:36",
+  "checked_at": "2026-10-28T15:22",
   "quarter": "Q2 FY27"
  },
  "Infosys": {
@@ -45,7 +45,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-28T12:36",
+  "checked_at": "2026-10-28T15:22",
   "quarter": "Q2 FY27"
  },
  "HCLTech": {
@@ -74,7 +74,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-28T12:36",
+  "checked_at": "2026-10-28T15:22",
   "quarter": "Q2 FY27"
  },
  "Wipro": {
@@ -103,13 +103,13 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-28T12:36",
+  "checked_at": "2026-10-28T15:22",
   "quarter": "Q2 FY27"
  },
  "LTM": {
   "checked": true,
   "exchange": "NSE",
-  "count": 26,
+  "count": 27,
   "result": {
    "title": "LTM Limited has submitted to the Exchange, the unaudited financial results and interim dividend for the period ended Sep 30, 2026.",
    "detail": "",
@@ -132,7 +132,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-28T12:36",
+  "checked_at": "2026-10-28T15:22",
   "quarter": "Q2 FY27"
  },
  "Tech Mahindra": {
@@ -161,7 +161,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-28T12:36",
+  "checked_at": "2026-10-28T15:22",
   "quarter": "Q2 FY27"
  },
  "OFSS": {
@@ -190,7 +190,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-28T12:36",
+  "checked_at": "2026-10-28T15:22",
   "quarter": "Q2 FY27"
  },
  "Persistent": {
@@ -201,7 +201,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-28T12:36",
+  "checked_at": "2026-10-28T15:22",
   "quarter": "Q2 FY27"
  },
  "Coforge": {
@@ -230,7 +230,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-28T12:36",
+  "checked_at": "2026-10-28T15:22",
   "quarter": "Q2 FY27"
  },
  "Mphasis": {
@@ -241,7 +241,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-28T12:36",
+  "checked_at": "2026-10-28T15:22",
   "quarter": "Q2 FY27"
  }
 }
