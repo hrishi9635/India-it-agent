@@ -25,13 +25,13 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-30T12:44",
+  "checked_at": "2026-10-30T15:22",
   "quarter": "Q2 FY27"
  },
  "Infosys": {
   "checked": true,
   "exchange": "NSE",
-  "count": 23,
+  "count": 24,
   "result": {
    "title": "Infosys Limited has submitted to the Exchange, Financial Results for the quarter and half year ended September 30, 2026 and declaration of interim dividend",
    "detail": "",
@@ -45,7 +45,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-30T12:44",
+  "checked_at": "2026-10-30T15:22",
   "quarter": "Q2 FY27"
  },
  "HCLTech": {
@@ -74,7 +74,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-30T12:44",
+  "checked_at": "2026-10-30T15:22",
   "quarter": "Q2 FY27"
  },
  "Wipro": {
@@ -103,7 +103,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-30T12:44",
+  "checked_at": "2026-10-30T15:22",
   "quarter": "Q2 FY27"
  },
  "LTM": {
@@ -132,7 +132,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-30T12:44",
+  "checked_at": "2026-10-30T15:22",
   "quarter": "Q2 FY27"
  },
  "Tech Mahindra": {
@@ -161,7 +161,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-30T12:44",
+  "checked_at": "2026-10-30T15:22",
   "quarter": "Q2 FY27"
  },
  "OFSS": {
@@ -190,18 +190,18 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-30T12:44",
+  "checked_at": "2026-10-30T15:22",
   "quarter": "Q2 FY27"
  },
  "Persistent": {
   "checked": true,
   "exchange": "NSE",
-  "count": 58,
+  "count": 0,
   "result": null,
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-30T12:44",
+  "checked_at": "2026-10-30T15:22",
   "quarter": "Q2 FY27"
  },
  "Coforge": {
@@ -230,7 +230,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-30T12:44",
+  "checked_at": "2026-10-30T15:22",
   "quarter": "Q2 FY27"
  },
  "Mphasis": {
@@ -241,7 +241,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-30T12:44",
+  "checked_at": "2026-10-30T15:22",
   "quarter": "Q2 FY27"
  }
 }
