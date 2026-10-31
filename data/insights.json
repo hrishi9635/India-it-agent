@@ -455,7 +455,7 @@
  "Mphasis": {
   "results_found": false,
   "results_date": null,
-  "headline": "Mphasis Q2 FY27 results have not been released yet",
+  "headline": "Mphasis has not yet released its Q2 FY27 financial results",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -473,15 +473,8 @@
   },
   "guidance": null,
   "guidance_change": "none",
-  "highlights": [
-   "Analysts are previewing Mphasis Q2 FY27 ahead of the earnings call scheduled for early October 2026",
-   "The company recently secured a £35.4 million contract with Social Security Scotland",
-   "Market sentiment is mixed as IT stocks show volatility in early October 2026"
-  ],
-  "risks": [
-   "Uncertainty around actual Q2 performance until official numbers are released",
-   "Potential impact of broader IT sector weakness on Mphasis stock"
-  ],
+  "highlights": [],
+  "risks": [],
   "verticals": [],
   "media_vertical": {
    "name": "Technology, Media & Telecom",
@@ -495,43 +488,30 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No actual results available; only market expectations and contract news",
+  "sentiment_reason": "No results data available yet",
   "missing": [
    "revenue",
    "net profit",
    "operating margin",
    "headcount",
    "dividend",
+   "guidance details",
    "media vertical share and growth"
   ],
   "unverified_dropped": [],
   "sources": [
    {
-    "title": "TCS, HCL Tech to Mphasis: IT stocks to add in portfolio ahead of Q2 results | Check target price, upside, preview",
-    "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOVFhTckljQzNhS2J3S3lRUXhYUXA3SnJsZFpqMmJCODk0T3I3SnY1VklkT1NNTUNwZ2kxU3ZjWkhvTXp5cHIzR2pqVVB1cmI0bGR3ZV9qcEJHM05HT0ttY0FfTHh6N25jR2xjQVBYRXRIeVdMdC13azhqQmlKZ3VZbWg1Qm9HVW1IVC1nMDRXeHpQRVhvSkhiWXhxbXhXNF91SndpOFotZDg3blJ5eXJBQjYza2t2SWlyQVBNemJJTnAwRV9lT25vclRsWWtyVGFieHFhTVFhSUhhTkZVMklHX2xLT0F6VW5qeFNEOEJXVmVUYlNKdk9V?oc=5",
-    "source": "TradingView",
-    "published": "2026-10-05T07:00:00+00:00",
-    "official": false
-   },
-   {
-    "title": "IT Stocks to Buy Before Q2 Results: TCS, HCL Tech, Mphasis",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQi1Zdk5uTjBXWTVGNlJqZTQ3bmJyYjVMTzRBQnozQnNaVGFVcmNDVjJQZTJwaFZjUTlsOUVuQ01lVm1rR3h6emlvemtRUzFUcUdwNXd5amhuS1l5VDhxOURQRERrSVBBR3k3SFBBOFozTUFyY2ZlSnlyNG1sUlBsT0g0R3JEWDA?oc=5",
-    "source": "Univest",
-    "published": "2026-10-05T07:00:00+00:00",
-    "official": false
-   },
-   {
-    "title": "Nifty IT jumps 2%; Mphasis, Coforge, Infosys, TCS among top gainers - Reason behind the rally, Q2 results expectations",
-    "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNeHJXenhOdlhOYWFfMHRNY3B1OXJzYjlwWlVJQklnU3AzTDVMSkxpLUtnWVBmR0JfRXdHbVRva1ZseWZDQzN6LTlmdWtIVlNMOS04emJXdnUwcFptd3l0cEFyUVNhaFlXd0VCRGpCUHVPWWRSb0RwNUZPSzczSS1GVXlmdXRVVEx0N2ptbHdxU05wWFl0ekZpSjhDcmhMTHlHUnF6NlNJVUdJZE05RzFHenVKRmpzOTE1VDNGMmltNzFDUURzenVDRDRxYmZFRDRucWVtQXBMQmVWYm85RndEWlZPREl2aktXMGp6VHhrcUs5cGhFY0xkTm9HZzExcl9ULTNUN2lIRG9VS2Nl0gGSAkFVX3lxTFB3NlBzVWlPb2lxYlRNY0FxY3FQVG1ob1FScm9mc05xMGhLRVlJeFl1aW90V1hRVVJLdjNTRmRycnRxQzZqYVRkMmpMYlVKVVk2eXlLb0RBLVIwMWVmb0Y1bUVDZkV5VjhCTWFfcF8yMFV2endVV09mTnNTWFpEazVOMlR3YUJMSjNMWVpOMTZiMHFwYkVkemtzM2h0SzRoeVhqUGRXVUxGZXF6T2VRenBGVW1UbTVkSk9qVFRSRHdpQm5RZVkzMUdCQ2IwcHVscG9DN0NLNW1ldDFuZlBwWGNXNng2NWxkV0NENjI0RlV6RzFwc01KQ2ozLU5VNkpEZ3lZcUZJNURGUW8xSENLNkxabkE?oc=5",
-    "source": "Livemint",
-    "published": "2026-10-01T07:00:00+00:00",
+    "title": "Mphasis Q2 FY2027 Earnings Call Date and Investor Details",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOay1fQzJWYUkxQ2txYU1KdkVZWVp1dFp0bldIVDVDVFl6WGx6STM0SU11Q0hmd251bG5CUDJNZkw2ekM1U3MycjhlazZLUDBBUzg4UlQ3eVJJMVdxckVpRjJIZ2laU0EzTWtncDBhMTBIZmh1Q2NEYlVMSVh2RktEVkE4UzZOU1MxUjI0eTFocFBzVlRSNExYLUMybFhIMVZCNExWc3E5UTVYVW5jMHdSTE9B?oc=5",
+    "source": "Kalkine India",
+    "published": "2026-10-09T07:00:00+00:00",
     "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Mphasis",
-  "analysed_at": "2026-10-30T18:12:44+00:00"
+  "analysed_at": "2026-10-31T08:58:10+00:00"
  },
  "HCLTech": {
   "results_found": true,
@@ -906,34 +886,35 @@
  },
  "Persistent": {
   "results_found": false,
-  "results_date": "2026-10-15",
-  "headline": "Persistent Systems posted 20% YoY revenue growth in Q2 FY27 while net profit fell 25.4% YoY to ₹351.51 cr",
+  "results_date": "2026-10-16",
+  "headline": "Revenue jumped 30.25% YoY to Rs 4,663.9 cr but net profit fell 25.44% YoY to Rs 351.51 cr in Q2 FY27",
   "metrics": {
-   "revenue_inr_cr": null,
-   "revenue_usd_m": 487.6,
-   "revenue_growth_yoy_pct": 20.0,
-   "cc_growth_qoq_pct": null,
+   "revenue_inr_cr": 4663.9,
+   "revenue_usd_m": null,
+   "revenue_growth_yoy_pct": 30.25,
+   "cc_growth_qoq_pct": 8.0,
    "cc_growth_yoy_pct": null,
    "net_profit_inr_cr": 351.51,
-   "net_profit_growth_yoy_pct": -25.4,
+   "net_profit_growth_yoy_pct": -25.44,
    "operating_margin_pct": null,
-   "deal_wins_usd_bn": null,
+   "deal_wins_usd_bn": 0.6335,
    "headcount": null,
    "net_headcount_change": null,
    "attrition_pct": null,
    "dividend_per_share_inr": null
   },
   "guidance": null,
-  "guidance_change": "none",
+  "guidance_change": "unknown",
   "highlights": [
-   "Revenue rose 20% YoY to $487.6 million",
-   "Net profit declined 25.4% YoY to ₹351.51 cr",
-   "Company is close to completing the Nagarro acquisition",
-   "Management reiterated a margin target of 16‑17%"
+   "Revenue grew 30.25% YoY to Rs 4,663.9 cr",
+   "Net profit declined 25.44% YoY to Rs 351.51 cr",
+   "Acquisition-related expenses of Rs 185.34 cr recorded",
+   "Orders worth USD 633.5 m (TCV) and USD 481 m (ACV) booked",
+   "Revenue rose 8% sequentially from the prior quarter"
   ],
   "risks": [
-   "Profit pressure from integration costs of the Nagarro deal",
-   "Margin compression despite revenue growth"
+   "Margin pressure from high acquisition costs",
+   "Slower deal wins despite strong order pipeline"
   ],
   "verticals": [],
   "media_vertical": {
@@ -947,36 +928,31 @@
   "megep_mentions": [],
   "ai_signals": null,
   "management_view": null,
-  "sentiment": "Positive",
-  "sentiment_reason": "Strong top‑line growth offset by profit decline",
+  "sentiment": "Negative",
+  "sentiment_reason": "Profit fell sharply despite strong revenue growth",
   "missing": [
-   "Revenue in INR crore",
-   "Operating margin",
-   "Deal wins in USD",
-   "Headcount and attrition data",
-   "Dividend per share",
-   "Management commentary"
+   "operating_margin_pct",
+   "revenue_usd_m",
+   "cc_growth_yoy_pct",
+   "headcount",
+   "net_headcount_change",
+   "attrition_pct",
+   "dividend_per_share_inr",
+   "media vertical revenue share and growth"
   ],
   "unverified_dropped": [],
   "sources": [
    {
-    "title": "Persistent Systems opens Rs4,265 Crore QIP to fund Nagarro acquisition as Q2 FY27 net profit dips 25.4% YoY to Rs351.51 Cr",
-    "link": "https://www.msn.com/en-in/news/other/persistent-systems-opens-rs4265-crore-qip-to-fund-nagarro-acquisition-as-q2-fy27-net-profit-dips-254-yoy-to-rs35151-cr/ar-AA2fOz2p",
-    "source": "msn.com",
-    "published": "2026-10-22T09:07:53+00:00",
-    "official": false
-   },
-   {
-    "title": "Persistent Systems: Persistent Announces $487.6M Revenue in Q2 FY27 with 20.0% Y-o-Y Growth",
-    "link": "https://www.finanznachrichten.de/nachrichten-2026-10/69847911-persistent-systems-persistent-announces-dollar-487-6m-revenue-in-q2-fy27-with-20-0-y-o-y-growth-008.htm",
-    "source": "finanznachrichten.de",
-    "published": "2026-10-15T07:42:00+00:00",
+    "title": "Persistent Systems shares plunge 4% after Q2 results — Buy or Sell? Brokerages weigh in",
+    "link": "https://www.zeebiz.com/market-news/news-persistent-systems-shares-plunge-4-after-q2-results-buy-or-sell-brokerages-weigh-in-404047",
+    "source": "zeebiz.com",
+    "published": "2026-10-16T03:34:00+00:00",
     "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Persistent",
-  "analysed_at": "2026-10-30T18:11:50+00:00"
+  "analysed_at": "2026-10-31T08:57:17+00:00"
  }
 }
