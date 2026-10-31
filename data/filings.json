@@ -25,29 +25,56 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-31T15:02",
+  "checked_at": "2026-10-31T18:01",
   "quarter": "Q2 FY27"
  },
  "Infosys": {
-  "checked": false,
-  "exchange": null,
-  "count": 0,
-  "result": null,
+  "checked": true,
+  "exchange": "NSE",
+  "count": 24,
+  "result": {
+   "title": "Infosys Limited has submitted to the Exchange, Financial Results for the quarter and half year ended September 30, 2026 and declaration of interim dividend",
+   "detail": "",
+   "category": "Outcome of Board Meeting",
+   "subcategory": "",
+   "time": "2026-10-23T16:08",
+   "url": "https://nsearchives.nseindia.com/corporate/Infosys_23102026160704_BM_Outcome_Oct232026_1.pdf",
+   "alt_url": "",
+   "exchange": "NSE"
+  },
   "press": null,
   "next_results_date": null,
-  "error": "BSE: HTTPError 403 Client Error: Forbidden for url: https://api.bseindia.com/BseIndiaAPI/api/An; NSE INFY: ReadTimeout HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read ti",
-  "checked_at": "2026-10-31T15:03",
+  "error": null,
+  "checked_at": "2026-10-31T18:01",
   "quarter": "Q2 FY27"
  },
  "HCLTech": {
-  "checked": false,
-  "exchange": null,
-  "count": 0,
-  "result": null,
-  "press": null,
+  "checked": true,
+  "exchange": "NSE",
+  "count": 31,
+  "result": {
+   "title": "HCL Technologies Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "detail": "",
+   "category": "Outcome of Board Meeting",
+   "subcategory": "",
+   "time": "2026-10-12T16:58",
+   "url": "https://nsearchives.nseindia.com/corporate/HCLTECH_12102026165747_FinancialResults.pdf",
+   "alt_url": "",
+   "exchange": "NSE"
+  },
+  "press": {
+   "title": "HCL Technologies Limited has informed the Exchange regarding a press release dated October 12, 2026, titled \"Investor Release Q2 FY 2027\".",
+   "detail": "",
+   "category": "Press Release",
+   "subcategory": "",
+   "time": "2026-10-12T17:08",
+   "url": "https://nsearchives.nseindia.com/corporate/HCLTECH_12102026170757_InvestorRelease_5.pdf",
+   "alt_url": "",
+   "exchange": "NSE"
+  },
   "next_results_date": null,
-  "error": "BSE: HTTPError 403 Client Error: Forbidden for url: https://api.bseindia.com/BseIndiaAPI/api/An; NSE HCLTECH: ReadTimeout HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read ti",
-  "checked_at": "2026-10-31T15:03",
+  "error": null,
+  "checked_at": "2026-10-31T18:02",
   "quarter": "Q2 FY27"
  },
  "Wipro": {
@@ -76,7 +103,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-31T15:04",
+  "checked_at": "2026-10-31T18:02",
   "quarter": "Q2 FY27"
  },
  "LTM": {
@@ -105,7 +132,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-31T15:04",
+  "checked_at": "2026-10-31T18:02",
   "quarter": "Q2 FY27"
  },
  "Tech Mahindra": {
@@ -134,18 +161,36 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-31T15:04",
+  "checked_at": "2026-10-31T18:02",
   "quarter": "Q2 FY27"
  },
  "OFSS": {
-  "checked": false,
-  "exchange": null,
-  "count": 0,
-  "result": null,
-  "press": null,
+  "checked": true,
+  "exchange": "NSE",
+  "count": 18,
+  "result": {
+   "title": "Oracle Financial Services Software Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "detail": "",
+   "category": "Outcome of Board Meeting",
+   "subcategory": "",
+   "time": "2026-10-23T20:38",
+   "url": "https://nsearchives.nseindia.com/corporate/OFSS_23102026203533_OutcomeofBoardMeeting23102026sd.pdf",
+   "alt_url": "",
+   "exchange": "NSE"
+  },
+  "press": {
+   "title": "Oracle Financial Services Software Limited has informed the Exchange regarding a press release dated October 23, 2026, titled \"Press release on the financial results for the quarter and half year ended September 30, 2026.\".",
+   "detail": "",
+   "category": "Press Release",
+   "subcategory": "",
+   "time": "2026-10-23T20:42",
+   "url": "https://nsearchives.nseindia.com/corporate/OFSS_23102026204203_CoveringLetterOFSSPressRelease23102026sd.pdf",
+   "alt_url": "",
+   "exchange": "NSE"
+  },
   "next_results_date": null,
-  "error": "BSE: HTTPError 403 Client Error: Forbidden for url: https://api.bseindia.com/BseIndiaAPI/api/An; NSE OFSS: ReadTimeout HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read ti",
-  "checked_at": "2026-10-31T15:05",
+  "error": null,
+  "checked_at": "2026-10-31T18:02",
   "quarter": "Q2 FY27"
  },
  "Persistent": {
@@ -156,7 +201,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-31T15:05",
+  "checked_at": "2026-10-31T18:02",
   "quarter": "Q2 FY27"
  },
  "Coforge": {
@@ -185,7 +230,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-31T15:06",
+  "checked_at": "2026-10-31T18:02",
   "quarter": "Q2 FY27"
  },
  "Mphasis": {
@@ -196,7 +241,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-10-31T15:06",
+  "checked_at": "2026-10-31T18:02",
   "quarter": "Q2 FY27"
  }
 }
