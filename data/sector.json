@@ -1,10 +1,10 @@
 {
- "headline": "Quarterly growth was uneven, with a few firms posting strong AI‑driven gains while others saw modest revenue increases.",
- "summary": "Coforge led the pack with 53.6% YoY revenue growth, driven by AI‑centric services. Mid‑tier players like LTM, Tech Mahindra and HCLTech posted solid double‑digit growth, supported by AI and large‑deal wins. Infosys trimmed its FY guidance and grew revenue only 1.5% YoY, reflecting a slowdown. Overall profit growth was mixed, with some firms benefiting from AI revenue spikes.",
+ "headline": "IT services showed mixed revenue growth with AI driving pockets of strength.",
+ "summary": "Revenue growth ranged from modest double‑digit to high‑50% at Coforge. AI‑related revenue rose sharply at several firms, supporting profit gains at HCLTech and TCS. Infosys trimmed its FY27 guidance, indicating pressure on margins. Overall, the sector remains positive but uneven.",
  "themes": [
   {
-   "title": "AI‑driven revenue expansion",
-   "detail": "Several companies highlighted AI contributions to top‑line growth, with Infosys reporting 29% AI revenue growth and HCLTech’s AI revenue reaching $219 m.",
+   "title": "AI‑driven revenue boost",
+   "detail": "AI revenue grew 29% at Infosys, 47% at LTM, and contributed $219 m at HCLTech.",
    "companies": [
     "Infosys",
     "LTM",
@@ -13,65 +13,71 @@
    ]
   },
   {
-   "title": "Margin pressure at larger peers",
-   "detail": "Despite revenue growth, firms like Infosys and Wipro saw operating margins under pressure, indicating cost challenges.",
+   "title": "Margin and guidance pressure",
+   "detail": "Infosys cut FY27 revenue growth guidance to 1‑2% and sees modest operating margin.",
    "companies": [
-    "Infosys",
-    "Wipro"
+    "Infosys"
+   ]
+  },
+  {
+   "title": "High‑growth mid‑market players",
+   "detail": "Coforge posted 53.6% YoY revenue growth and raised EBIT margin guidance to 16%.",
+   "companies": [
+    "Coforge"
    ]
   }
  ],
  "leaders": [
   {
    "company": "Coforge",
-   "why": "Revenue surged 53.6% YoY and EBIT margin guidance was raised to 16%."
+   "why": "Revenue grew 53.6% YoY and EBIT margin guidance was raised."
   }
  ],
  "laggards": [
   {
    "company": "Infosys",
-   "why": "Revenue grew only 1.5% YoY and FY guidance was cut to a 1‑2% range."
+   "why": "Revenue growth slowed to 1.5% YoY and FY27 guidance was cut."
   }
  ],
  "domain_outlook": [
   {
    "domain": "Media & broadcasting",
    "signal": "Not enough data",
-   "note": "No company mentions or AI signals specific to this domain."
+   "note": "No company mentioned this domain."
   },
   {
    "domain": "Entertainment & streaming",
    "signal": "Not enough data",
-   "note": "No relevant mentions in the reports."
+   "note": "No company mentioned this domain."
   },
   {
    "domain": "Gaming",
    "signal": "Not enough data",
-   "note": "No relevant mentions in the reports."
+   "note": "No company mentioned this domain."
   },
   {
    "domain": "Education",
    "signal": "Not enough data",
-   "note": "No relevant mentions in the reports."
+   "note": "No company mentioned this domain."
   },
   {
    "domain": "Publishing",
    "signal": "Not enough data",
-   "note": "No relevant mentions in the reports."
+   "note": "No company mentioned this domain."
   },
   {
    "domain": "Telecom",
    "signal": "Not enough data",
-   "note": "No relevant mentions in the reports."
+   "note": "No company mentioned this domain."
   }
  ],
  "watch_next": [
-  "AI revenue contribution trends across all majors",
-  "Whether Infosys can lift its FY guidance",
-  "Margin evolution at large peers like TCS and HCLTech",
-  "Impact of large‑deal wins on mid‑tier firms",
-  "Any emerging domain‑specific opportunities in media or telecom"
+  "AI revenue contribution trends",
+  "Margin guidance updates from Infosys and peers",
+  "Mid‑quarter performance of HCLTech and Coforge",
+  "Impact of headcount changes on profitability",
+  "Deal win pipeline in large‑deal segment"
  ],
  "quarter": "Q2 FY27",
- "written_at": "2026-11-01T09:02:37+00:00"
+ "written_at": "2026-11-01T12:37:09+00:00"
 }
