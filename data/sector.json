@@ -1,10 +1,10 @@
 {
- "headline": "Quarterly growth was uneven, with AI‑led firms outpacing traditional players.",
- "summary": "Revenue growth ranged from low single digits at Infosys to over 50% at Coforge. Profit margins improved at HCLTech and Coforge, while Infosys trimmed its FY guidance and Wipro saw profit dip. AI revenue contributed materially for several firms, but overall guidance remains modest.",
+ "headline": "Quarterly growth was uneven, with a few firms posting strong AI‑driven gains while others saw modest revenue increases.",
+ "summary": "Coforge led the pack with 53.6% YoY revenue growth, driven by AI‑centric services. Mid‑tier players like LTM, Tech Mahindra and HCLTech posted solid double‑digit growth, supported by AI and large‑deal wins. Infosys trimmed its FY guidance and grew revenue only 1.5% YoY, reflecting a slowdown. Overall profit growth was mixed, with some firms benefiting from AI revenue spikes.",
  "themes": [
   {
-   "title": "AI as a growth catalyst",
-   "detail": "Companies reporting AI revenue (Infosys, LTM, HCLTech, TCS) posted higher profit growth or large‑deal wins.",
+   "title": "AI‑driven revenue expansion",
+   "detail": "Several companies highlighted AI contributions to top‑line growth, with Infosys reporting 29% AI revenue growth and HCLTech’s AI revenue reaching $219 m.",
    "companies": [
     "Infosys",
     "LTM",
@@ -13,18 +13,10 @@
    ]
   },
   {
-   "title": "Margin pressure on legacy players",
-   "detail": "Infosys cut FY revenue guidance to 1‑2% and posted modest margin expansion, while Wipro's operating margin stayed flat.",
+   "title": "Margin pressure at larger peers",
+   "detail": "Despite revenue growth, firms like Infosys and Wipro saw operating margins under pressure, indicating cost challenges.",
    "companies": [
     "Infosys",
-    "Wipro"
-   ]
-  },
-  {
-   "title": "Headcount and attrition trends",
-   "detail": "HCLTech added 6,450 staff but attrition stayed above 12%; Wipro reduced headcount, indicating cost‑control focus.",
-   "companies": [
-    "HCLTech",
     "Wipro"
    ]
   }
@@ -32,62 +24,54 @@
  "leaders": [
   {
    "company": "Coforge",
-   "why": "53.6% YoY revenue growth and raised EBIT margin guidance to 16%."
-  },
-  {
-   "company": "HCLTech",
-   "why": "11.5% YoY revenue growth, 21% profit jump, and strong AI revenue of $219 m."
+   "why": "Revenue surged 53.6% YoY and EBIT margin guidance was raised to 16%."
   }
  ],
  "laggards": [
   {
    "company": "Infosys",
-   "why": "Revenue growth slowed to 1.5% YoY and FY guidance was cut."
-  },
-  {
-   "company": "Wipro",
-   "why": "Revenue grew 9.1% YoY but net profit fell 1.9% and headcount was reduced."
+   "why": "Revenue grew only 1.5% YoY and FY guidance was cut to a 1‑2% range."
   }
  ],
  "domain_outlook": [
   {
    "domain": "Media & broadcasting",
    "signal": "Not enough data",
-   "note": "No company mentioned this sector."
+   "note": "No company mentions or AI signals specific to this domain."
   },
   {
    "domain": "Entertainment & streaming",
    "signal": "Not enough data",
-   "note": "No company mentioned this sector."
+   "note": "No relevant mentions in the reports."
   },
   {
    "domain": "Gaming",
    "signal": "Not enough data",
-   "note": "No company mentioned this sector."
+   "note": "No relevant mentions in the reports."
   },
   {
    "domain": "Education",
    "signal": "Not enough data",
-   "note": "No company mentioned this sector."
+   "note": "No relevant mentions in the reports."
   },
   {
    "domain": "Publishing",
    "signal": "Not enough data",
-   "note": "No company mentioned this sector."
+   "note": "No relevant mentions in the reports."
   },
   {
    "domain": "Telecom",
    "signal": "Not enough data",
-   "note": "No company mentioned this sector."
+   "note": "No relevant mentions in the reports."
   }
  ],
  "watch_next": [
-  "Whether Infosys raises FY guidance after Q3.",
-  "AI revenue trends at LTM and TCS.",
-  "Margin expansion at Coforge post‑guidance raise.",
-  "Wipro's headcount and profit recovery.",
-  "Emergence of AI‑native services in mid‑tier firms."
+  "AI revenue contribution trends across all majors",
+  "Whether Infosys can lift its FY guidance",
+  "Margin evolution at large peers like TCS and HCLTech",
+  "Impact of large‑deal wins on mid‑tier firms",
+  "Any emerging domain‑specific opportunities in media or telecom"
  ],
  "quarter": "Q2 FY27",
- "written_at": "2026-10-31T18:04:05+00:00"
+ "written_at": "2026-11-01T09:02:37+00:00"
 }
