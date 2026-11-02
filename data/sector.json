@@ -1,77 +1,93 @@
 {
- "headline": "Quarterly growth was uneven, with a few firms posting strong top‑line gains while others saw modest or slowing performance.",
- "summary": "Coforge led the pack with over 50% revenue growth, driven by AI‑focused services. Infosys trimmed its FY27 revenue guidance after barely 1.5% YoY growth. Most peers posted double‑digit growth, but profit margins varied and some guidance remained unchanged.",
+ "headline": "Quarterly growth was uneven, with a few firms posting strong AI‑driven gains while others saw modest revenue increases.",
+ "summary": "Coforge led with 53.6% revenue growth and raised its EBIT margin guidance. HCLTech and TCS posted double‑digit growth, driven by AI services. Infosys trimmed FY27 revenue guidance to 1‑2% after only 1.5% YoY growth. Several companies announced higher dividends despite mixed profit trends.",
  "themes": [
   {
    "title": "AI‑driven revenue",
-   "detail": "Several firms highlighted AI contributions, with Infosys reporting 29% AI revenue growth and HCLTech noting $219 m AI revenue.",
+   "detail": "AI contributed 10%+ of revenue at TCS and drove double‑digit profit growth at HCLTech and Infosys.",
    "companies": [
-    "Infosys",
-    "HCLTech",
     "TCS",
+    "HCLTech",
+    "Infosys",
     "LTM"
    ]
   },
   {
-   "title": "Guidance adjustments",
-   "detail": "Infosys cut its FY27 revenue outlook to 1‑2% YoY, while HCLTech introduced a modest 2.5‑4% guidance.",
+   "title": "Guidance revisions",
+   "detail": "Infosys cut FY27 revenue guidance; HCLTech introduced a modest 2.5‑4% FY27 outlook.",
    "companies": [
     "Infosys",
     "HCLTech"
+   ]
+  },
+  {
+   "title": "Dividend hikes",
+   "detail": "LTM and Infosys raised interim dividends, reflecting cash generation despite slower growth.",
+   "companies": [
+    "LTM",
+    "Infosys"
    ]
   }
  ],
  "leaders": [
   {
    "company": "Coforge",
-   "why": "Revenue surged 53.6% YoY and EBIT margin guidance was raised to 16%."
+   "why": "53.6% YoY revenue growth and raised EBIT margin guidance to 16%"
+  },
+  {
+   "company": "TCS",
+   "why": "11.2% revenue growth, strong AI revenue crossing 10% of total"
   }
  ],
  "laggards": [
   {
    "company": "Infosys",
-   "why": "Revenue grew only 1.5% YoY and FY27 guidance was cut to a low range."
+   "why": "Only 1.5% revenue growth and cut FY27 guidance"
+  },
+  {
+   "company": "Persistent",
+   "why": "Revenue grew 20% but profit fell 25.4% YoY"
   }
  ],
  "domain_outlook": [
   {
    "domain": "Media & broadcasting",
    "signal": "Not enough data",
-   "note": "No company mentions or signals related to this domain."
+   "note": "No company mentions or AI signals specific to this domain."
   },
   {
    "domain": "Entertainment & streaming",
    "signal": "Not enough data",
-   "note": "No company mentions or signals related to this domain."
+   "note": "No relevant mentions in the reports."
   },
   {
    "domain": "Gaming",
    "signal": "Not enough data",
-   "note": "No company mentions or signals related to this domain."
+   "note": "No company disclosed activity in gaming."
   },
   {
    "domain": "Education",
    "signal": "Not enough data",
-   "note": "No company mentions or signals related to this domain."
+   "note": "No data on education‑related services."
   },
   {
    "domain": "Publishing",
    "signal": "Not enough data",
-   "note": "No company mentions or signals related to this domain."
+   "note": "No publishing‑related signals observed."
   },
   {
    "domain": "Telecom",
    "signal": "Not enough data",
-   "note": "No company mentions or signals related to this domain."
+   "note": "No telecom‑specific commentary in the summaries."
   }
  ],
  "watch_next": [
-  "Whether Infosys raises its FY27 guidance after Q3 performance",
-  "AI revenue contribution trends across the majors",
-  "Profit margin trajectories for high‑growth firms like Coforge",
-  "Impact of headcount changes on cost structures",
-  "Any guidance revisions from HCLTech and Wipro"
+  "AI revenue share and its impact on margins",
+  "Any further guidance revisions, especially from Infosys and HCLTech",
+  "Profit trends at firms with high dividend payouts",
+  "Headcount and attrition changes across the majors",
+  "Deal win volumes, particularly large‑deal AI contracts"
  ],
  "quarter": "Q2 FY27",
- "written_at": "2026-11-02T15:24:30+00:00"
+ "written_at": "2026-11-02T18:24:46+00:00"
 }
