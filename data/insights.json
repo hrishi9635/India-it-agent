@@ -455,7 +455,7 @@
  "Mphasis": {
   "results_found": false,
   "results_date": null,
-  "headline": "Mphasis Q2 FY27 results have not been announced yet",
+  "headline": "Mphasis has not yet released its Q2 FY27 financial results",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -472,7 +472,7 @@
    "dividend_per_share_inr": null
   },
   "guidance": null,
-  "guidance_change": "none",
+  "guidance_change": "unknown",
   "highlights": [],
   "risks": [],
   "verticals": [],
@@ -488,15 +488,14 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No results data released yet",
+  "sentiment_reason": "No results have been announced yet",
   "missing": [
    "revenue",
    "net profit",
    "operating margin",
    "headcount",
    "dividend",
-   "media vertical share and growth",
-   "guidance"
+   "media vertical share and growth"
   ],
   "unverified_dropped": [],
   "sources": [
@@ -511,7 +510,7 @@
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Mphasis",
-  "analysed_at": "2026-11-02T12:51:57+00:00"
+  "analysed_at": "2026-11-02T15:24:03+00:00"
  },
  "HCLTech": {
   "results_found": true,
@@ -886,14 +885,14 @@
  },
  "Persistent": {
   "results_found": false,
-  "results_date": "2026-10-15",
-  "headline": "Persistent Systems posted 30% revenue growth but net profit fell 25% YoY in Q2 FY27",
+  "results_date": "2026-10-22",
+  "headline": "Persistent Systems posted 30% YoY revenue growth but a 25% YoY drop in net profit for Q2 FY27",
   "metrics": {
    "revenue_inr_cr": 4663.9,
    "revenue_usd_m": 487.6,
    "revenue_growth_yoy_pct": 30.25,
-   "cc_growth_qoq_pct": 8.0,
-   "cc_growth_yoy_pct": 20.8,
+   "cc_growth_qoq_pct": 8,
+   "cc_growth_yoy_pct": 20.0,
    "net_profit_inr_cr": 351.51,
    "net_profit_growth_yoy_pct": -25.44,
    "operating_margin_pct": null,
@@ -904,17 +903,18 @@
    "dividend_per_share_inr": null
   },
   "guidance": null,
-  "guidance_change": "none",
+  "guidance_change": "unknown",
   "highlights": [
-   "Revenue rose 30.3% YoY to ₹4,663.9 cr, driven by strong order wins.",
-   "Constant‑currency revenue grew 20.8% YoY and 8% QoQ.",
-   "Net profit declined 25.44% YoY to ₹351.51 cr, impacted by acquisition‑related expenses.",
-   "Acquisition of Nagarro added USD 633.5 m of total contract value and USD 481 m of annual contract value.",
-   "Shares fell about 4% after the results due to margin pressure."
+   "Revenue rose 30.25% YoY to ₹4,663.9 cr, driven by strong demand across segments",
+   "Constant‑currency revenue grew 20% YoY and 8% QoQ",
+   "Net profit fell 25.44% YoY to ₹351.51 cr, impacted by ₹185.34 cr acquisition expenses for Nagarro",
+   "Orders worth $633.5 m (TCV) and $481 m (ACV) booked in the quarter",
+   "Persistent increased its stake in Nagarro to about 94%"
   ],
   "risks": [
-   "Higher acquisition‑related expenses pressured margins.",
-   "Deal‑win momentum concerns despite revenue growth."
+   "Margin pressure from high acquisition‑related costs",
+   "Integration risk of the Nagarro deal",
+   "Slower deal wins despite revenue growth"
   ],
   "verticals": [],
   "media_vertical": {
@@ -927,14 +927,14 @@
   },
   "megep_mentions": [],
   "ai_signals": null,
-  "management_view": null,
+  "management_view": "Management highlighted robust revenue growth and progress on the Nagarro acquisition while acknowledging margin compression.",
   "sentiment": "Negative",
-  "sentiment_reason": "Profit slump and margin concerns outweighed revenue growth.",
+  "sentiment_reason": "Profit decline and margin pressure outweighed revenue gains",
   "missing": [
    "operating margin",
-   "headcount and changes",
-   "attrition",
+   "headcount and attrition data",
    "dividend per share",
+   "guidance details",
    "media vertical revenue share and growth"
   ],
   "unverified_dropped": [],
@@ -944,13 +944,6 @@
     "link": "https://www.zeebiz.com/market-news/news-persistent-systems-shares-plunge-4-after-q2-results-buy-or-sell-brokerages-weigh-in-404047",
     "source": "zeebiz.com",
     "published": "2026-10-16T03:34:00+00:00",
-    "official": false
-   },
-   {
-    "title": "Persistent Systems stock slides 3% after Q2 profit slump, margin miss; brokerages divided on outlook",
-    "link": "https://www.moneycontrol.com/news/business/markets/persistent-systems-stock-slides-3-after-q2-profit-slump-margin-miss-brokerages-divided-on-outlook-14053817.html",
-    "source": "moneycontrol.com",
-    "published": "2026-10-16T00:59:00+00:00",
     "official": false
    },
    {
@@ -980,25 +973,11 @@
     "source": "zeebiz.com",
     "published": "2026-10-15T03:31:00+00:00",
     "official": false
-   },
-   {
-    "title": "Persistent Systems opens ₹4,265 Crore QIP to fund Nagarro acquisition as Q2 FY27 net profit dips 25.4% YoY to ₹351.51 Cr",
-    "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOR2FWc180cmVoQk5HdjVZLThkdUpvQUVJdkduRzZESHJLVjY2VWQxTVZWMjFBWWJlOFB6Ym9OMWs5c3RRRWtVOWtTTHlGMHJ3V0FhOU1CRUxPcjVzRWRVeGNDTUpjQ05JaklHZTc0ckNUYm8tR3pjN3ZGRVY3cGNyQXhGMnpTczRtbHhjS2VMcjY0SDY4RFdrNmdXVW1CT0hYM3N1Z0dFODhzSDhfd01id18tejVHVG9CTUgzV1NQdGN2WWd1Y0JZSnkyT2xjVjlISEFxRGR6WEllQW9wYlVMSV96V1hoTFJQd1R6RmxqdXBZdXM?oc=5",
-    "source": "Trade Brains",
-    "published": "2026-10-22T05:18:04+00:00",
-    "official": false
-   },
-   {
-    "title": "Persistent System Q2 FY27 Results | HDFC Life Insurance Q2 FY27 Results | Top Buzzing Stocks Today",
-    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQdzZtZk93MVlZWk9COG50WHc3NjZsblpJSWtKc08yWUJGWDU4V205Y1pEWjZ4QzVLaGlOSmgtTTBIdXJ0dXJHTV8yRHRBc3pFTnh0U3B4QjFGbTR5QkRMaU5IMWp4dTF4NG9JRDhPaHVPNC13SFdGSm5EUWktZmRPV253UERkOXdHbDhQcnRpcVBsRmVIUDZVN2pCUTBuX3hFME9fZXFPM1VsT0txVkdOQXZYT1poU1pYVmNyekpKNV9OZi10SmlmWkQ5b2w3ZzJONFlwUzZqcnpUNDQwMWVORTBTdHB5bm5xa0ljTVF3?oc=5",
-    "source": "Equitymaster",
-    "published": "2026-10-19T07:00:00+00:00",
-    "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Persistent",
-  "analysed_at": "2026-11-02T12:51:04+00:00"
+  "analysed_at": "2026-11-02T15:23:09+00:00"
  }
 }
