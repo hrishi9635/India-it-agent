@@ -1,5 +1,18 @@
 [
  {
+  "started": "2026-11-03T15:13:09+00:00",
+  "quarter": "Q2 FY27",
+  "steps": [
+   "market data for 10/10 companies",
+   "news updated",
+   "exchange filings checked; results filed: TCS, Infosys, HCLTech, Wipro, LTM, Tech Mahindra, OFSS, Coforge",
+   "AI analysed: Persistent, Mphasis"
+  ],
+  "errors": [],
+  "finished": "2026-11-03T15:17:55+00:00",
+  "ai_calls": 5
+ },
+ {
   "started": "2026-11-03T12:48:13+00:00",
   "quarter": "Q2 FY27",
   "steps": [
@@ -379,29 +392,5 @@
   "errors": [],
   "finished": "2026-10-27T12:39:42+00:00",
   "ai_calls": 13
- },
- {
-  "started": "2026-10-27T08:55:25+00:00",
-  "quarter": "Q2 FY27",
-  "steps": [
-   "market data for 10/10 companies",
-   "news updated",
-   "exchange filings checked; results filed: none",
-   "AI analysed: TCS, HCLTech, Wipro, OFSS, Persistent, Mphasis"
-  ],
-  "errors": [
-   "filings TCS: NSE TCS: HTTPError 403 Client Error: Forbidden for url: https://www.nseindia.com/api/corporate-anno",
-   "filings Infosys: BSE: HTTPError 403 Client Error: Forbidden for url: https://api.bseindia.com/BseIndiaAPI/api/An; NSE INFY: HTTPError 403 Client Error: Forbidden for url: https://www.nseindia.com/api/corporate-anno",
-   "filings HCLTech: BSE: HTTPError 403 Client Error: Forbidden for url: https://api.bseindia.com/BseIndiaAPI/api/An; NSE HCLTECH: HTTPError 403 Client Error: Forbidden for url: https://www.nseindia.com/api/corporate-anno",
-   "filings Wipro: BSE: HTTPError 403 Client Error: Forbidden for url: https://api.bseindia.com/BseIndiaAPI/api/An; NSE WIPRO: HTTPError 403 Client Error: Forbidden for url: https://www.nseindia.com/api/corporate-anno",
-   "filings LTM: BSE: HTTPError 403 Client Error: Forbidden for url: https://api.bseindia.com/BseIndiaAPI/api/An; NSE LTM: HTTPError 403 Client Error: Forbidden for url: https://www.nseindia.com/api/corporate-anno; NSE LTIM: HTTPError 403 Client Error: Forbidden for url: https://www.nseindia.com/api/corporate-anno",
-   "filings Tech Mahindra: BSE: HTTPError 403 Client Error: Forbidden for url: https://api.bseindia.com/BseIndiaAPI/api/An; NSE TECHM: HTTPError 403 Client Error: Forbidden for url: https://www.nseindia.com/api/corporate-anno",
-   "filings OFSS: BSE: HTTPError 403 Client Error: Forbidden for url: https://api.bseindia.com/BseIndiaAPI/api/An; NSE OFSS: HTTPError 403 Client Error: Forbidden for url: https://www.nseindia.com/api/corporate-anno",
-   "filings Persistent: BSE: HTTPError 403 Client Error: Forbidden for url: https://api.bseindia.com/BseIndiaAPI/api/An; NSE PERSISTENT: HTTPError 403 Client Error: Forbidden for url: https://www.nseindia.com/api/corporate-anno",
-   "filings Coforge: BSE: HTTPError 403 Client Error: Forbidden for url: https://api.bseindia.com/BseIndiaAPI/api/An; NSE COFORGE: HTTPError 403 Client Error: Forbidden for url: https://www.nseindia.com/api/corporate-anno",
-   "filings Mphasis: BSE: HTTPError 403 Client Error: Forbidden for url: https://api.bseindia.com/BseIndiaAPI/api/An; NSE MPHASIS: HTTPError 403 Client Error: Forbidden for url: https://www.nseindia.com/api/corporate-anno"
-  ],
-  "finished": "2026-10-27T09:02:36+00:00",
-  "ai_calls": 12
  }
 ]
