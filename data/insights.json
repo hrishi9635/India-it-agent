@@ -455,7 +455,7 @@
  "Mphasis": {
   "results_found": false,
   "results_date": null,
-  "headline": "Mphasis has not yet released its Q2 FY27 financial results",
+  "headline": "Mphasis Q2 FY27 results have not been released yet",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -488,7 +488,7 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No results have been announced yet",
+  "sentiment_reason": "No actual results data available yet",
   "missing": [
    "revenue_inr_cr",
    "revenue_usd_m",
@@ -504,22 +504,14 @@
    "attrition_pct",
    "dividend_per_share_inr",
    "guidance",
-   "media_vertical revenue share and growth"
+   "media_vertical details"
   ],
   "unverified_dropped": [],
-  "sources": [
-   {
-    "title": "Mphasis Q2 FY2027 Earnings Call Date and Investor Details",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOay1fQzJWYUkxQ2txYU1KdkVZWVp1dFp0bldIVDVDVFl6WGx6STM0SU11Q0hmd251bG5CUDJNZkw2ekM1U3MycjhlazZLUDBBUzg4UlQ3eVJJMVdxckVpRjJIZ2laU0EzTWtncDBhMTBIZmh1Q2NEYlVMSVh2RktEVkE4UzZOU1MxUjI0eTFocFBzVlRSNExYLUMybFhIMVZCNExWc3E5UTVYVW5jMHdSTE9B?oc=5",
-    "source": "Kalkine India",
-    "published": "2026-10-09T07:00:00+00:00",
-    "official": false
-   }
-  ],
+  "sources": [],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Mphasis",
-  "analysed_at": "2026-11-03T15:16:54+00:00"
+  "analysed_at": "2026-11-03T18:19:27+00:00"
  },
  "HCLTech": {
   "results_found": true,
@@ -894,18 +886,18 @@
  },
  "Persistent": {
   "results_found": false,
-  "results_date": "2026-10-22",
-  "headline": "Q2 FY27 revenue jumps 30% YoY while net profit falls 25.4% YoY to Rs351.51 crore.",
+  "results_date": "2026-10-29",
+  "headline": "Revenue jumped 30% YoY to ₹4,663.9 cr while net profit fell 25% YoY to ₹351.5 cr in Q2 FY27",
   "metrics": {
-   "revenue_inr_cr": null,
+   "revenue_inr_cr": 4663.9,
    "revenue_usd_m": null,
-   "revenue_growth_yoy_pct": 30,
+   "revenue_growth_yoy_pct": 30.25,
    "cc_growth_qoq_pct": null,
    "cc_growth_yoy_pct": null,
    "net_profit_inr_cr": 351.51,
-   "net_profit_growth_yoy_pct": -25.4,
+   "net_profit_growth_yoy_pct": -25.44,
    "operating_margin_pct": null,
-   "deal_wins_usd_bn": null,
+   "deal_wins_usd_bn": 0.6335,
    "headcount": null,
    "net_headcount_change": null,
    "attrition_pct": null,
@@ -914,14 +906,16 @@
   "guidance": null,
   "guidance_change": "none",
   "highlights": [
-   "Revenue grew about 30% YoY.",
-   "Net profit declined 25.4% YoY to Rs351.51 crore.",
-   "Company launched a Rs4,265 crore QIP at a discount.",
-   "Nagarro acquisition is close to completion."
+   "Revenue rose 30.25% YoY to ₹4,663.9 cr",
+   "Net profit declined 25.44% YoY to ₹351.5 cr",
+   "Acquisition‑related expenses of ₹185.34 cr were incurred for the Nagarro deal",
+   "Persistent secured ~94.04% of Nagarro as of early October",
+   "Orders worth USD 633.5 m (TCV) and USD 481 m (ACV) were booked in the quarter"
   ],
   "risks": [
-   "Profit margin pressure from higher costs.",
-   "Integration risk of the pending Nagarro deal."
+   "Margin pressure from high acquisition costs",
+   "Integration risk of the Nagarro acquisition",
+   "Slower deal wins despite revenue growth"
   ],
   "verticals": [],
   "media_vertical": {
@@ -936,57 +930,31 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Negative",
-  "sentiment_reason": "Profit fell sharply despite strong revenue growth.",
+  "sentiment_reason": "Profit fell sharply despite strong revenue growth",
   "missing": [
-   "revenue_inr_cr",
-   "revenue_usd_m",
    "operating_margin_pct",
-   "deal_wins_usd_bn",
+   "revenue_usd_m",
+   "cc_growth_qoq_pct",
+   "cc_growth_yoy_pct",
    "headcount",
    "net_headcount_change",
    "attrition_pct",
    "dividend_per_share_inr",
-   "guidance details",
-   "vertical breakdowns",
-   "media vertical revenue share and growth",
-   "MEGEP mentions",
-   "AI related commentary",
-   "management commentary"
+   "media_vertical revenue share and growth"
   ],
   "unverified_dropped": [],
   "sources": [
    {
-    "title": "Persistent Systems opens Rs4,265 Crore QIP to fund Nagarro acquisition as Q2 FY27 net profit dips 25.4% YoY to Rs351.51 Cr",
-    "link": "https://www.msn.com/en-in/news/other/persistent-systems-opens-rs4265-crore-qip-to-fund-nagarro-acquisition-as-q2-fy27-net-profit-dips-254-yoy-to-rs35151-cr/ar-AA2fOz2p",
-    "source": "msn.com",
-    "published": "2026-10-22T09:07:53+00:00",
-    "official": false
-   },
-   {
-    "title": "Persistent Systems Revenue Grows 30% in Q2, Was the Nagarro Deal the Only Reason for Lower Profit?",
-    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQWWxaOEROeVVqU0lzVzdnLUpXeWhNSkRZa1VjMml6c1l4b0VjNHhFZGVtYkRxaHdOQ0RPclhyZ0c5VVFhdFVjRXREYkRLVTBDSFhuOFRDSjM3Qm5vSm56dWNPcDVsVG85N3VaTFYyVXRnYjBNQmVjVEdPcUpLdl9BckFKcXdYRGpBNmQ3RHVLRFVTVENPRWYwek5KbW9RUXJvam5oWGxKV01Mc1lTZ3BRazJaNFRhQ0hEX1QwTXVBVFEwSDktSDNKRWN1Ym9JMjlOU3FkQ2pXNE10Zw?oc=5",
-    "source": "Trade Brains",
-    "published": "2026-10-16T07:00:00+00:00",
-    "official": false
-   },
-   {
-    "title": "Persistent Systems Q2 Profit Down 25%, Revenue Up 30%",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUjFMUXh5VUIwcVBORlNTdGx6dWJKUzBPT2ZfUUtmMHlXTXlxVW10T3hhZjdaeHJVdVltUFdMVXFNaU83UVM2aVZldkt1YWNNOEZ4TUFlQWFHMEtIRzExbmNCbGJxTEJYVGJkbEpfLW5NaTBFM09ab2Fza0x2YTBEanZXa0Q5NzdyWnk5aUJzWi1vcDB4VHBKRFJaalJWUlNSOU1BM0cwVGdMZ9IBqgFBVV95cUxOUjFMUXh5VUIwcVBORlNTdGx6dWJKUzBPT2ZfUUtmMHlXTXlxVW10T3hhZjdaeHJVdVltUFdMVXFNaU83UVM2aVZldkt1YWNNOEZ4TUFlQWFHMEtIRzExbmNCbGJxTEJYVGJkbEpfLW5NaTBFM09ab2Fza0x2YTBEanZXa0Q5NzdyWnk5aUJzWi1vcDB4VHBKRFJaalJWUlNSOU1BM0cwVGdMZw?oc=5",
-    "source": "Rediff MoneyWiz",
-    "published": "2026-10-15T11:23:16+00:00",
-    "official": false
-   },
-   {
-    "title": "Persistent Systems Shares Fall 4% as Q2 Profit Drops 25.4%",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMmwzR1pkR2NmRWZiNGlMLUl2SUxmZkZOUGplYXpvUm9nQ21QekV3Zi1kYUtaWENyUTJ3MVRIcmlBeWd3TUZmTW56RmlDcnkxeGtoMGtMa0Y3VEtQYzJld3RvQUk2V1RqbzItZDE4aGIwdWJtNl80RFpJa0RwRHVXVFZfbnBtSWtlZ094R0haVHdmNHc2T01aNVlySkxFMzlKbjhteVJxcw?oc=5",
-    "source": "Dalal Street Investment Journal",
-    "published": "2026-10-16T07:00:00+00:00",
+    "title": "Persistent Systems shares plunge 4% after Q2 results — Buy or Sell? Brokerages weigh in",
+    "link": "https://www.zeebiz.com/market-news/news-persistent-systems-shares-plunge-4-after-q2-results-buy-or-sell-brokerages-weigh-in-404047",
+    "source": "zeebiz.com",
+    "published": "2026-10-16T03:34:00+00:00",
     "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Persistent",
-  "analysed_at": "2026-11-03T15:16:01+00:00"
+  "analysed_at": "2026-11-03T18:18:58+00:00"
  }
 }
