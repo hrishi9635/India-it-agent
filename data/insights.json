@@ -455,7 +455,7 @@
  "Mphasis": {
   "results_found": false,
   "results_date": null,
-  "headline": "Mphasis has not yet released its Q2 FY27 financial results",
+  "headline": "Mphasis has not announced its Q2 FY27 financial results yet",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -488,7 +488,7 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No results have been announced yet",
+  "sentiment_reason": "No results data available yet",
   "missing": [
    "revenue_inr_cr",
    "revenue_usd_m",
@@ -504,22 +504,16 @@
    "attrition_pct",
    "dividend_per_share_inr",
    "guidance",
+   "highlights",
+   "risks",
    "media_vertical details"
   ],
   "unverified_dropped": [],
-  "sources": [
-   {
-    "title": "Mphasis Q2 FY2027 Earnings Call Date and Investor Details",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOay1fQzJWYUkxQ2txYU1KdkVZWVp1dFp0bldIVDVDVFl6WGx6STM0SU11Q0hmd251bG5CUDJNZkw2ekM1U3MycjhlazZLUDBBUzg4UlQ3eVJJMVdxckVpRjJIZ2laU0EzTWtncDBhMTBIZmh1Q2NEYlVMSVh2RktEVkE4UzZOU1MxUjI0eTFocFBzVlRSNExYLUMybFhIMVZCNExWc3E5UTVYVW5jMHdSTE9B?oc=5",
-    "source": "Kalkine India",
-    "published": "2026-10-09T07:00:00+00:00",
-    "official": false
-   }
-  ],
+  "sources": [],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Mphasis",
-  "analysed_at": "2026-11-04T15:20:22+00:00"
+  "analysed_at": "2026-11-04T18:23:34+00:00"
  },
  "HCLTech": {
   "results_found": true,
@@ -895,17 +889,17 @@
  "Persistent": {
   "results_found": false,
   "results_date": "2026-10-16",
-  "headline": "Persistent Systems posted Q2 FY27 revenue of $487.6 million, up 20% YoY, while net profit fell 25.4% YoY to ₹351.51 crore",
+  "headline": "Revenue jumped 30% YoY to Rs 4,663.9 cr while net profit fell 25.4% YoY to Rs 351.51 cr in Q2 FY27",
   "metrics": {
-   "revenue_inr_cr": null,
-   "revenue_usd_m": 487.6,
-   "revenue_growth_yoy_pct": 20,
-   "cc_growth_qoq_pct": null,
+   "revenue_inr_cr": 4663.9,
+   "revenue_usd_m": null,
+   "revenue_growth_yoy_pct": 30.25,
+   "cc_growth_qoq_pct": 8.0,
    "cc_growth_yoy_pct": null,
    "net_profit_inr_cr": 351.51,
-   "net_profit_growth_yoy_pct": -25.4,
+   "net_profit_growth_yoy_pct": -25.44,
    "operating_margin_pct": null,
-   "deal_wins_usd_bn": null,
+   "deal_wins_usd_bn": 0.6335,
    "headcount": null,
    "net_headcount_change": null,
    "attrition_pct": null,
@@ -914,14 +908,15 @@
   "guidance": null,
   "guidance_change": "none",
   "highlights": [
-   "Revenue rose 20% YoY to $487.6 million (≈₹4,000 crore).",
-   "Net profit declined 25.4% YoY to ₹351.51 crore.",
-   "Growth driven by higher AI‑led engineering and cloud modernization services.",
-   "Company is financing the pending Nagarro acquisition through debt and QIP."
+   "Revenue grew 30.25% YoY to Rs 4,663.9 cr",
+   "Net profit declined 25.44% YoY to Rs 351.51 cr",
+   "Sequential revenue rose 8% QoQ",
+   "Acquisition-related expenses of Rs 185.34 cr recorded",
+   "Orders worth $633.5 m TCV and $481 m ACV booked"
   ],
   "risks": [
-   "Profit margin pressure from integration costs of the Nagarro deal.",
-   "Potential slowdown in client spending on routine maintenance."
+   "Margin pressure from acquisition costs",
+   "Slower deal wins despite high order pipeline"
   ],
   "verticals": [],
   "media_vertical": {
@@ -933,45 +928,30 @@
    "commentary": null
   },
   "megep_mentions": [],
-  "ai_signals": "Clients are spending more on AI‑led engineering, product development and cloud modernization.",
+  "ai_signals": null,
   "management_view": null,
   "sentiment": "Negative",
-  "sentiment_reason": "Profit fell sharply despite strong revenue growth.",
+  "sentiment_reason": "Profit fell sharply despite strong revenue growth",
   "missing": [
-   "Revenue in INR crore",
-   "Operating margin",
-   "Deal wins",
-   "Headcount and attrition data",
-   "Dividend details",
-   "Media vertical revenue share and growth"
+   "operating margin",
+   "revenue in USD",
+   "headcount and attrition data",
+   "dividend details",
+   "media vertical revenue share and growth"
   ],
   "unverified_dropped": [],
   "sources": [
    {
-    "title": "Persistent Systems reports Q2 growth: Persistent Systems stock is valued at INR 900.6 billion",
-    "link": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/persistent-systems-reports-q2-growth-persistent-systems-stock-is-valued-at-inr-900-6-billion/70356421",
-    "source": "ad-hoc-news.de",
-    "published": "2026-10-18T20:36:00+00:00",
-    "official": false
-   },
-   {
-    "title": "Persistent Systems opens Rs4,265 Crore QIP to fund Nagarro acquisition as Q2 FY27 net profit dips 25.4% YoY to Rs351.51 Cr",
-    "link": "https://www.msn.com/en-in/news/other/persistent-systems-opens-rs4265-crore-qip-to-fund-nagarro-acquisition-as-q2-fy27-net-profit-dips-254-yoy-to-rs35151-cr/ar-AA2fOz2p",
-    "source": "msn.com",
-    "published": "2026-10-22T09:07:53+00:00",
-    "official": false
-   },
-   {
-    "title": "Persistent Systems share price tumbles 5% after Q2 results 2026 | What should investors do? Check target price, rating",
-    "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNcHVwY1BVbG9VVDh6UFBNN0NRa1BRd0gwSkM0U3kzV1dsWDNvRTBPMVYzZUNGYjBHMjBjR1ZYdkVpb1dldXVPS1lVaHlqUG1fYVJRdmF0dkVad2ticXZtZTQxRkNULUZfZksxQnpDbHNFNFBvRU9FS1RLM3R3am1oLUxrTUl2VV9DQ1QybDBOcTlfU3EwUXhjRldNZUtIMGNXVURkckRWVXJfbERHbmhybmdjVnd6a3l0MDdrQkFUdkFPWktKNmhURWlsdGYwVjlWQWdhbGI4VFdxVE93VDhQdzZacE80bFZzWi1SenBWRHYtSTBvY0VBN0lZeHlJWmUyRTIwcURVdnJZUFBfcm5DVNIBlgJBVV95cUxNSXEtLXc4dGV2NmxCVElzWXFISVlSQWZ5LUlUVXpEMVRxZDFZRjFCUWhuUmtvdjBCMkhCb2Z6U1poeVFzaGFWb2w4bThOUE9ON0tKaFJLek1RcTBVOTNJaVJ4MlpHaTBwUGhqUlFfbUJjczhvbUpSTXNwaEw0Z0hsYXNvaVRpS25WcFEzZlNxcTB2Yk5OSHBtUUtRNFpScEZicFlDZWxhOXd2WXdER3NMSmNuWHp3aENTcVRUa2xHT3NDeWpzbWQySVlOZExpdHBObV90V2NWQmdQVFlLZFV5SE9fTnNUNE9iWGlEdVBxUDdaUWxaRFRYNHRxc3lNYkF3dkZpVS1raWlHaWtGUGdSdEN5QXZJdw?oc=5",
-    "source": "Livemint",
-    "published": "2026-10-16T07:00:00+00:00",
+    "title": "Persistent Systems shares plunge 4% after Q2 results — Buy or Sell? Brokerages weigh in",
+    "link": "https://www.zeebiz.com/market-news/news-persistent-systems-shares-plunge-4-after-q2-results-buy-or-sell-brokerages-weigh-in-404047",
+    "source": "zeebiz.com",
+    "published": "2026-10-16T03:34:00+00:00",
     "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Persistent",
-  "analysed_at": "2026-11-04T15:19:52+00:00"
+  "analysed_at": "2026-11-04T18:23:04+00:00"
  }
 }
