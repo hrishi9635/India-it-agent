@@ -488,7 +488,7 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No actual results data available yet",
+  "sentiment_reason": "No results data available yet",
   "missing": [
    "revenue_inr_cr",
    "revenue_usd_m",
@@ -507,11 +507,19 @@
    "media_vertical details"
   ],
   "unverified_dropped": [],
-  "sources": [],
+  "sources": [
+   {
+    "title": "Mphasis Q2 FY2027 Earnings Call Date and Investor Details",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOay1fQzJWYUkxQ2txYU1KdkVZWVp1dFp0bldIVDVDVFl6WGx6STM0SU11Q0hmd251bG5CUDJNZkw2ekM1U3MycjhlazZLUDBBUzg4UlQ3eVJJMVdxckVpRjJIZ2laU0EzTWtncDBhMTBIZmh1Q2NEYlVMSVh2RktEVkE4UzZOU1MxUjI0eTFocFBzVlRSNExYLUMybFhIMVZCNExWc3E5UTVYVW5jMHdSTE9B?oc=5",
+    "source": "Kalkine India",
+    "published": "2026-10-09T07:00:00+00:00",
+    "official": false
+   }
+  ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Mphasis",
-  "analysed_at": "2026-11-03T18:19:27+00:00"
+  "analysed_at": "2026-11-04T09:13:41+00:00"
  },
  "HCLTech": {
   "results_found": true,
@@ -886,18 +894,18 @@
  },
  "Persistent": {
   "results_found": false,
-  "results_date": "2026-10-29",
-  "headline": "Revenue jumped 30% YoY to ₹4,663.9 cr while net profit fell 25% YoY to ₹351.5 cr in Q2 FY27",
+  "results_date": "2026-10-22",
+  "headline": "Persistent Systems posted Q2 FY27 revenue of 4664 cr INR, up 20% YoY, while net profit fell 25.4% YoY to 351.5 cr INR",
   "metrics": {
-   "revenue_inr_cr": 4663.9,
+   "revenue_inr_cr": null,
    "revenue_usd_m": null,
-   "revenue_growth_yoy_pct": 30.25,
+   "revenue_growth_yoy_pct": 20,
    "cc_growth_qoq_pct": null,
    "cc_growth_yoy_pct": null,
    "net_profit_inr_cr": 351.51,
-   "net_profit_growth_yoy_pct": -25.44,
+   "net_profit_growth_yoy_pct": -25.4,
    "operating_margin_pct": null,
-   "deal_wins_usd_bn": 0.6335,
+   "deal_wins_usd_bn": null,
    "headcount": null,
    "net_headcount_change": null,
    "attrition_pct": null,
@@ -906,16 +914,13 @@
   "guidance": null,
   "guidance_change": "none",
   "highlights": [
-   "Revenue rose 30.25% YoY to ₹4,663.9 cr",
-   "Net profit declined 25.44% YoY to ₹351.5 cr",
-   "Acquisition‑related expenses of ₹185.34 cr were incurred for the Nagarro deal",
-   "Persistent secured ~94.04% of Nagarro as of early October",
-   "Orders worth USD 633.5 m (TCV) and USD 481 m (ACV) were booked in the quarter"
+   "Revenue jumped 20% YoY to 4664 cr INR",
+   "Net profit declined 25.4% YoY to 351.5 cr INR",
+   "QIP of up to 4265 cr launched to fund Nagarro acquisition"
   ],
   "risks": [
-   "Margin pressure from high acquisition costs",
-   "Integration risk of the Nagarro acquisition",
-   "Slower deal wins despite revenue growth"
+   "Margin pressure from acquisition-related costs",
+   "Higher spending on sales and marketing impacting profitability"
   ],
   "verticals": [],
   "media_vertical": {
@@ -929,32 +934,52 @@
   "megep_mentions": [],
   "ai_signals": null,
   "management_view": null,
-  "sentiment": "Negative",
-  "sentiment_reason": "Profit fell sharply despite strong revenue growth",
+  "sentiment": "Neutral",
+  "sentiment_reason": "Strong top‑line growth offset by a sharp profit decline",
   "missing": [
-   "operating_margin_pct",
-   "revenue_usd_m",
-   "cc_growth_qoq_pct",
-   "cc_growth_yoy_pct",
-   "headcount",
-   "net_headcount_change",
-   "attrition_pct",
-   "dividend_per_share_inr",
-   "media_vertical revenue share and growth"
+   "operating margin",
+   "revenue in USD",
+   "constant‑currency growth figures",
+   "headcount and attrition data",
+   "dividend details",
+   "media vertical revenue share and growth"
   ],
-  "unverified_dropped": [],
+  "unverified_dropped": [
+   "revenue_inr_cr"
+  ],
   "sources": [
    {
-    "title": "Persistent Systems shares plunge 4% after Q2 results — Buy or Sell? Brokerages weigh in",
-    "link": "https://www.zeebiz.com/market-news/news-persistent-systems-shares-plunge-4-after-q2-results-buy-or-sell-brokerages-weigh-in-404047",
-    "source": "zeebiz.com",
-    "published": "2026-10-16T03:34:00+00:00",
+    "title": "Persistent Systems opens Rs4,265 Crore QIP to fund Nagarro acquisition as Q2 FY27 net profit dips 25.4% YoY to Rs351.51 Cr",
+    "link": "https://www.msn.com/en-in/news/other/persistent-systems-opens-rs4265-crore-qip-to-fund-nagarro-acquisition-as-q2-fy27-net-profit-dips-254-yoy-to-rs35151-cr/ar-AA2fOz2p",
+    "source": "msn.com",
+    "published": "2026-10-22T09:07:53+00:00",
+    "official": false
+   },
+   {
+    "title": "Persistent Systems Q2 FY27 results: strong revenue momentum, lower PAT amid acquisition phase",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQzN5bXcxTWdoUGhTM0FPMksxR0xkeFFsUWdNZThOcFBuMnpDYm4xdUFJQzYtam53eDU3QW5mUzJBd3VhS2tncVhMQkUtVTN4SzkxTm1wSXBhQzZtLTRFRTd5bWNLT2RwSW44TTZGcDBDY0VFRXBEOXdiTzFSS0stMzE5S1Z6NHlPWHBMLUt2MGNLWUdRWnM4bUhYMHdZUnlEN3BON0JB?oc=5",
+    "source": "TaxCorp AI",
+    "published": "2026-10-15T19:51:25+00:00",
+    "official": false
+   },
+   {
+    "title": "Persistent Systems Q2 Results: Profit Falls 25.44%",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZXQyZHAwVVppSXJ4QUhCMWl2ZXdFeXdFTng4eEFSYzZsZGdFQ0M1YXJzODNUN3ZHVkQ0T2VPMGR1dGYtMW5aRHhuVmZDSGVZUWdOR3pVS2IzM2VuNnQtUUtQMlhPUkhMOXNLWlF4QmI2MUEzMnVaY2lhQmZwekxJOTNXb2dXbW41bEhRQ2pUUi1NZzNrWXVvRFZyYno1UFdL?oc=5",
+    "source": "HDFC Sky",
+    "published": "2026-10-15T07:00:00+00:00",
+    "official": false
+   },
+   {
+    "title": "Persistent Systems stock slides 3% after Q2 profit slump, margin miss; brokerages divided on outlook",
+    "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOdHRMdnZ1RFVjNjNYSmFPUlBXYVNZSDJVVFVTRFlGWUUwYTUybGdUVlFkelNWOTZMN3IxVldIRGVHSjVJU245ZkIyanJlcTVJS2tCd3JrQ0M2Rzl2eWVPc0FNYXI3bmx4UVRNa21iRXVPYVBoejZnRE5peTRsX2gzYnFob2oxMG94aWYtb0pJVmxpa0cwZzhUckh0MFNFeGxOWWt5Z0VJWHFCMnJRLUNnd0Y4aFJCOG8tLWdBQ01jZ2tvNlpNWHI5V2x0NVpOQ25xZmtDak1vYlF5M180ZG5YdHl5T3VOMnFvN3duX3pDODg2aDZw0gH6AUFVX3lxTE9XZ2RsOU9TTUVFWkJSZENmenhFanMtTnRuMVI3OXB6a3NrNm9ENXdzam0wVTlZWkVwOFk4dW1kUms1N0FKWVBPUGE4YXE3OVY1VjRPeDc1bjVZZW04S1E2ajAwajhVV1RkMzZma3BiUGhoV1NUUTNQZjk5RlRHcFV0VWJrYlN2djZSU1RVd3JkSEFGZFhiRWR5LU15blpDWXlCTklSbGEwTVpvZ2xfRnNlMExzajIwRzF3QmhOeWRDQTgza1htbzhBc3Q3cm5xVWxyTWNhX0JsekoyelhTQ0hmMVRFSGM0Q2pONHBwaTlnUm1CWThsOGR5RWc?oc=5",
+    "source": "Moneycontrol.com",
+    "published": "2026-10-16T07:00:00+00:00",
     "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Persistent",
-  "analysed_at": "2026-11-03T18:18:58+00:00"
+  "analysed_at": "2026-11-04T09:12:47+00:00"
  }
 }

@@ -2,7 +2,7 @@
  "TCS": {
   "checked": true,
   "exchange": "NSE",
-  "count": 31,
+  "count": 32,
   "result": {
    "title": "Tata Consultancy Services Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
    "detail": "",
@@ -25,7 +25,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-03T18:18",
+  "checked_at": "2026-11-04T09:12",
   "quarter": "Q2 FY27"
  },
  "Infosys": {
@@ -45,13 +45,13 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-03T18:18",
+  "checked_at": "2026-11-04T09:12",
   "quarter": "Q2 FY27"
  },
  "HCLTech": {
   "checked": true,
   "exchange": "NSE",
-  "count": 32,
+  "count": 33,
   "result": {
    "title": "HCL Technologies Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
    "detail": "",
@@ -74,7 +74,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-03T18:18",
+  "checked_at": "2026-11-04T09:12",
   "quarter": "Q2 FY27"
  },
  "Wipro": {
@@ -103,7 +103,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-03T18:18",
+  "checked_at": "2026-11-04T09:12",
   "quarter": "Q2 FY27"
  },
  "LTM": {
@@ -132,7 +132,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-03T18:18",
+  "checked_at": "2026-11-04T09:12",
   "quarter": "Q2 FY27"
  },
  "Tech Mahindra": {
@@ -161,7 +161,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-03T18:18",
+  "checked_at": "2026-11-04T09:12",
   "quarter": "Q2 FY27"
  },
  "OFSS": {
@@ -190,7 +190,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-03T18:18",
+  "checked_at": "2026-11-04T09:12",
   "quarter": "Q2 FY27"
  },
  "Persistent": {
@@ -201,7 +201,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-03T18:18",
+  "checked_at": "2026-11-04T09:12",
   "quarter": "Q2 FY27"
  },
  "Coforge": {
@@ -230,7 +230,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-03T18:18",
+  "checked_at": "2026-11-04T09:12",
   "quarter": "Q2 FY27"
  },
  "Mphasis": {
@@ -241,7 +241,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-03T18:18",
+  "checked_at": "2026-11-04T09:12",
   "quarter": "Q2 FY27"
  }
 }
