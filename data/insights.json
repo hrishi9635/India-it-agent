@@ -455,7 +455,7 @@
  "Mphasis": {
   "results_found": false,
   "results_date": null,
-  "headline": "Mphasis has not yet released its Q2 FY27 financial results",
+  "headline": "Mphasis has not released its Q2 FY27 financial results yet",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -472,7 +472,7 @@
    "dividend_per_share_inr": null
   },
   "guidance": null,
-  "guidance_change": "unknown",
+  "guidance_change": "none",
   "highlights": [],
   "risks": [],
   "verticals": [],
@@ -488,30 +488,22 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No results data available yet",
+  "sentiment_reason": "No results data released yet",
   "missing": [
    "revenue",
    "net profit",
    "operating margin",
    "headcount",
    "dividend",
-   "guidance",
-   "media vertical share and growth"
+   "media vertical share and growth",
+   "guidance"
   ],
   "unverified_dropped": [],
-  "sources": [
-   {
-    "title": "Mphasis Q2 FY2027 Earnings Call Date and Investor Details",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOay1fQzJWYUkxQ2txYU1KdkVZWVp1dFp0bldIVDVDVFl6WGx6STM0SU11Q0hmd251bG5CUDJNZkw2ekM1U3MycjhlazZLUDBBUzg4UlQ3eVJJMVdxckVpRjJIZ2laU0EzTWtncDBhMTBIZmh1Q2NEYlVMSVh2RktEVkE4UzZOU1MxUjI0eTFocFBzVlRSNExYLUMybFhIMVZCNExWc3E5UTVYVW5jMHdSTE9B?oc=5",
-    "source": "Kalkine India",
-    "published": "2026-10-09T07:00:00+00:00",
-    "official": false
-   }
-  ],
+  "sources": [],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Mphasis",
-  "analysed_at": "2026-11-05T09:18:32+00:00"
+  "analysed_at": "2026-11-05T12:54:46+00:00"
  },
  "HCLTech": {
   "results_found": true,
@@ -887,17 +879,17 @@
  "Persistent": {
   "results_found": false,
   "results_date": "2026-10-16",
-  "headline": "Revenue jumped ~30% YoY to ₹4,663.9 cr while net profit fell 25.4% YoY to ₹351.5 cr in Q2 FY27",
+  "headline": "Revenue jumped over 30% YoY to Rs 4,663.9 cr while net profit fell 25.4% YoY to Rs 351.51 cr in Q2 FY27",
   "metrics": {
    "revenue_inr_cr": 4663.9,
    "revenue_usd_m": 487.6,
    "revenue_growth_yoy_pct": 30.25,
-   "cc_growth_qoq_pct": 8,
-   "cc_growth_yoy_pct": 20,
+   "cc_growth_qoq_pct": null,
+   "cc_growth_yoy_pct": null,
    "net_profit_inr_cr": 351.51,
    "net_profit_growth_yoy_pct": -25.44,
    "operating_margin_pct": null,
-   "deal_wins_usd_bn": 0.6335,
+   "deal_wins_usd_bn": 0.63,
    "headcount": null,
    "net_headcount_change": null,
    "attrition_pct": null,
@@ -906,15 +898,16 @@
   "guidance": null,
   "guidance_change": "unknown",
   "highlights": [
-   "Revenue rose ~30% YoY driven by AI‑led engineering and cloud projects",
-   "Net profit declined 25.4% YoY due to Rs 185.34 cr acquisition‑related expenses",
-   "Company secured ~94% of Nagarro SE, moving closer to full acquisition",
-   "Order book strong with $633.5 bn total contract value and $481 bn ACV"
+   "Revenue rose 30.25% YoY to Rs 4,663.9 cr",
+   "Net profit declined 25.44% YoY to Rs 351.51 cr",
+   "Acquisition‑related expenses of Rs 185.34 cr were recorded",
+   "Orders booked USD 633.5 m (TCV) and USD 481 m (ACV) in the quarter",
+   "Sequential revenue growth of 8% despite profit dip"
   ],
   "risks": [
-   "Margin pressure from acquisition costs",
-   "Integration risk of Nagarro deal",
-   "Deal‑win slowdown noted by analysts"
+   "Margin pressure from high acquisition costs",
+   "Deal‑win slowdown noted by analysts",
+   "Integration risk of Nagarro acquisition"
   ],
   "verticals": [],
   "media_vertical": {
@@ -926,17 +919,15 @@
    "commentary": null
   },
   "megep_mentions": [],
-  "ai_signals": null,
+  "ai_signals": "Analytics India Magazine reported a 28.5% YoY growth in the Software, Hi‑Tech segment driven by AI services expansion.",
   "management_view": null,
   "sentiment": "Negative",
-  "sentiment_reason": "Profit fell sharply despite strong revenue growth",
+  "sentiment_reason": "Strong revenue growth was offset by a sharp decline in net profit and margin pressure.",
   "missing": [
-   "operating_margin_pct",
-   "headcount",
-   "net_headcount_change",
-   "attrition_pct",
-   "dividend_per_share_inr",
-   "media_vertical revenue share and growth"
+   "operating margin",
+   "headcount and attrition data",
+   "dividend declaration",
+   "detailed guidance"
   ],
   "unverified_dropped": [],
   "sources": [
@@ -948,37 +939,23 @@
     "official": false
    },
    {
-    "title": "Persistent Systems stock slides 3% after Q2 profit slump, margin miss; brokerages divided on outlook",
-    "link": "https://www.moneycontrol.com/news/business/markets/persistent-systems-stock-slides-3-after-q2-profit-slump-margin-miss-brokerages-divided-on-outlook-14053817.html",
-    "source": "moneycontrol.com",
-    "published": "2026-10-16T00:59:00+00:00",
+    "title": "Persistent Announces $487.6M Revenue in Q2 FY27 with 20.0% Y-o-Y Growth",
+    "link": "https://cxotoday.com/media-coverage/persistent-announces-487-6m-revenue-in-q2-fy27-with-20-0-y-o-y-growth/",
+    "source": "cxotoday.com",
+    "published": "2026-10-15T11:18:00+00:00",
     "official": false
    },
    {
-    "title": "Persistent Systems share price tumbles 5% after Q2 results 2026 | What should investors do? Check target price, rating",
-    "link": "https://www.livemint.com/market/stock-market-news/persistent-systems-share-price-tumbles-5-after-q2-results-2026-what-should-investors-do-check-target-price-rating-11792124632259.html",
-    "source": "livemint.com",
-    "published": "2026-10-15T22:02:00+00:00",
-    "official": false
-   },
-   {
-    "title": "Persistent Systems: Persistent Announces $487.6M Revenue in Q2 FY27 with 20.0% Y-o-Y Growth",
-    "link": "https://www.finanznachrichten.de/nachrichten-2026-10/69847911-persistent-systems-persistent-announces-dollar-487-6m-revenue-in-q2-fy27-with-20-0-y-o-y-growth-008.htm",
-    "source": "finanznachrichten.de",
-    "published": "2026-10-15T07:42:00+00:00",
-    "official": false
-   },
-   {
-    "title": "Persistent Systems Q2 Net Profit Falls 25.4% Despite 20% Revenue Growth",
-    "link": "https://www.businessworld.in/article/persistent-systems-q2-net-profit-falls-25-4-despite-20-revenue-growth-628808",
-    "source": "businessworld.in",
-    "published": "2026-10-14T17:00:00+00:00",
+    "title": "Persistent’s Software, Hi-Tech Revenue Grows 28.5% as It Expands AI Services",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNDdEY29fZWNHRlJSSEkyZUxFWTZJM1NUZ1pmYmYzNk9xMDNfeTJ0bV93d0NOeUZ6VHNZZFZ2QUdfbkJraFdJOE9PcWpmeVJqSnRMWWxxQTZoRkp4WkxMNFFkOWk1OERGc0kwZ1o0UUk0TDd0SldNOUl5cmFiT1kzX3BWdHlhQnJDTHFCNEp3blRjUHJTbE5nalhrVENKdzluNmpnTG1ZUXBnb0E2ckdJ?oc=5",
+    "source": "Analytics India Magazine",
+    "published": "2026-10-16T07:00:00+00:00",
     "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Persistent",
-  "analysed_at": "2026-11-05T09:18:02+00:00"
+  "analysed_at": "2026-11-05T12:54:16+00:00"
  }
 }
