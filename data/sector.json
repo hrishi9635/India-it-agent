@@ -1,10 +1,10 @@
 {
- "headline": "Quarterly growth was uneven, with a few firms posting strong top‑line expansion while others saw modest or slowing performance.",
- "summary": "Coforge led the pack with over 50% revenue growth, driven by large AI‑led deals. Mid‑tier players such as LTM, Tech Mahindra and Persistent also posted double‑digit growth. Infosys trimmed its FY27 revenue guidance to 1‑2% after a 1.5% YoY increase, signalling slowing momentum. Most peers highlighted AI contributions, but few disclosed concrete AI revenue figures.",
+ "headline": "Mid‑tier firms post strong growth while top‑tier players see modest revenue gains and tighter guidance.",
+ "summary": "Coforge leads with 53.6% YoY revenue growth and raised EBIT margin guidance. Infosys trimmed FY27 revenue guidance to 1‑2% after only 1.5% growth. HCLTech and TCS report solid AI‑driven profit expansion. Wipro shows revenue growth but a 1.9% profit decline.",
  "themes": [
   {
-   "title": "AI as a growth catalyst",
-   "detail": "Several firms cited AI‑driven revenue, with Infosys reporting a 29% AI revenue rise and HCLTech noting $219 m AI revenue. TCS highlighted $3.1 bn AI revenue, crossing 10% of total.",
+   "title": "AI‑driven revenue",
+   "detail": "AI revenue rose sharply at Infosys (29% YoY), HCLTech ($219 m), TCS ($3.1 bn) and LTM (47% YoY).",
    "companies": [
     "Infosys",
     "HCLTech",
@@ -13,27 +13,27 @@
    ]
   },
   {
-   "title": "Margin pressure and guidance cuts",
-   "detail": "Infosys cut FY27 revenue guidance to 1‑2% and reported a 21% profit jump despite modest top‑line growth. Wipro gave a narrow revenue outlook with flat profit.",
+   "title": "Margin pressure on large caps",
+   "detail": "Infosys cut guidance and sees modest operating margin; Wipro profit slipped despite revenue growth.",
    "companies": [
     "Infosys",
     "Wipro"
    ]
   },
   {
-   "title": "Mid‑tier expansion",
-   "detail": "Coforge, Persistent and LTM delivered double‑digit revenue growth, reflecting strong demand in mid‑market and niche services.",
+   "title": "Mid‑tier growth surge",
+   "detail": "Coforge, LTM and Tech Mahindra posted double‑digit revenue growth, outpacing the market.",
    "companies": [
     "Coforge",
-    "Persistent",
-    "LTM"
+    "LTM",
+    "Tech Mahindra"
    ]
   }
  ],
  "leaders": [
   {
    "company": "Coforge",
-   "why": "Revenue grew 53.6% YoY and EBIT margin guidance was raised to 16%."
+   "why": "53.6% YoY revenue growth and raised FY27 EBIT margin guidance to 16%."
   }
  ],
  "laggards": [
@@ -46,41 +46,41 @@
   {
    "domain": "Media & broadcasting",
    "signal": "Not enough data",
-   "note": "No company mentioned activities in this domain."
+   "note": "No mentions or signals in the reports."
   },
   {
    "domain": "Entertainment & streaming",
    "signal": "Not enough data",
-   "note": "No explicit references to streaming services."
+   "note": "No mentions or signals in the reports."
   },
   {
    "domain": "Gaming",
    "signal": "Not enough data",
-   "note": "No gaming‑related mentions in the reports."
+   "note": "No mentions or signals in the reports."
   },
   {
    "domain": "Education",
    "signal": "Not enough data",
-   "note": "No education sector signals were identified."
+   "note": "No mentions or signals in the reports."
   },
   {
    "domain": "Publishing",
    "signal": "Not enough data",
-   "note": "No publishing activity reported."
+   "note": "No mentions or signals in the reports."
   },
   {
    "domain": "Telecom",
    "signal": "Not enough data",
-   "note": "Telecom‑specific deals were not highlighted."
+   "note": "No mentions or signals in the reports."
   }
  ],
  "watch_next": [
-  "Whether Infosys restores guidance after the slowdown",
-  "AI revenue disclosure depth from TCS and HCLTech",
-  "Margin trends at high‑growth firms like Coforge",
-  "Profit trajectory for Persistent amid revenue surge",
-  "Impact of Wipro's modest guidance on Q3 performance"
+  "AI revenue contribution across all majors",
+  "Any revision of FY27 guidance by Infosys and HCLTech",
+  "Margin trends at large caps versus mid‑tiers",
+  "Headcount and attrition changes at HCLTech and TCS",
+  "Deal win volumes, especially in AI‑led services"
  ],
  "quarter": "Q2 FY27",
- "written_at": "2026-11-04T18:23:58+00:00"
+ "written_at": "2026-11-05T09:18:56+00:00"
 }

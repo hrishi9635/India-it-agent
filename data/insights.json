@@ -455,7 +455,7 @@
  "Mphasis": {
   "results_found": false,
   "results_date": null,
-  "headline": "Mphasis has not announced its Q2 FY27 financial results yet",
+  "headline": "Mphasis has not yet released its Q2 FY27 financial results",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -472,7 +472,7 @@
    "dividend_per_share_inr": null
   },
   "guidance": null,
-  "guidance_change": "none",
+  "guidance_change": "unknown",
   "highlights": [],
   "risks": [],
   "verticals": [],
@@ -490,30 +490,28 @@
   "sentiment": "Neutral",
   "sentiment_reason": "No results data available yet",
   "missing": [
-   "revenue_inr_cr",
-   "revenue_usd_m",
-   "revenue_growth_yoy_pct",
-   "cc_growth_qoq_pct",
-   "cc_growth_yoy_pct",
-   "net_profit_inr_cr",
-   "net_profit_growth_yoy_pct",
-   "operating_margin_pct",
-   "deal_wins_usd_bn",
+   "revenue",
+   "net profit",
+   "operating margin",
    "headcount",
-   "net_headcount_change",
-   "attrition_pct",
-   "dividend_per_share_inr",
+   "dividend",
    "guidance",
-   "highlights",
-   "risks",
-   "media_vertical details"
+   "media vertical share and growth"
   ],
   "unverified_dropped": [],
-  "sources": [],
+  "sources": [
+   {
+    "title": "Mphasis Q2 FY2027 Earnings Call Date and Investor Details",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOay1fQzJWYUkxQ2txYU1KdkVZWVp1dFp0bldIVDVDVFl6WGx6STM0SU11Q0hmd251bG5CUDJNZkw2ekM1U3MycjhlazZLUDBBUzg4UlQ3eVJJMVdxckVpRjJIZ2laU0EzTWtncDBhMTBIZmh1Q2NEYlVMSVh2RktEVkE4UzZOU1MxUjI0eTFocFBzVlRSNExYLUMybFhIMVZCNExWc3E5UTVYVW5jMHdSTE9B?oc=5",
+    "source": "Kalkine India",
+    "published": "2026-10-09T07:00:00+00:00",
+    "official": false
+   }
+  ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Mphasis",
-  "analysed_at": "2026-11-04T18:23:34+00:00"
+  "analysed_at": "2026-11-05T09:18:32+00:00"
  },
  "HCLTech": {
   "results_found": true,
@@ -889,13 +887,13 @@
  "Persistent": {
   "results_found": false,
   "results_date": "2026-10-16",
-  "headline": "Revenue jumped 30% YoY to Rs 4,663.9 cr while net profit fell 25.4% YoY to Rs 351.51 cr in Q2 FY27",
+  "headline": "Revenue jumped ~30% YoY to ₹4,663.9 cr while net profit fell 25.4% YoY to ₹351.5 cr in Q2 FY27",
   "metrics": {
    "revenue_inr_cr": 4663.9,
-   "revenue_usd_m": null,
+   "revenue_usd_m": 487.6,
    "revenue_growth_yoy_pct": 30.25,
-   "cc_growth_qoq_pct": 8.0,
-   "cc_growth_yoy_pct": null,
+   "cc_growth_qoq_pct": 8,
+   "cc_growth_yoy_pct": 20,
    "net_profit_inr_cr": 351.51,
    "net_profit_growth_yoy_pct": -25.44,
    "operating_margin_pct": null,
@@ -906,17 +904,17 @@
    "dividend_per_share_inr": null
   },
   "guidance": null,
-  "guidance_change": "none",
+  "guidance_change": "unknown",
   "highlights": [
-   "Revenue grew 30.25% YoY to Rs 4,663.9 cr",
-   "Net profit declined 25.44% YoY to Rs 351.51 cr",
-   "Sequential revenue rose 8% QoQ",
-   "Acquisition-related expenses of Rs 185.34 cr recorded",
-   "Orders worth $633.5 m TCV and $481 m ACV booked"
+   "Revenue rose ~30% YoY driven by AI‑led engineering and cloud projects",
+   "Net profit declined 25.4% YoY due to Rs 185.34 cr acquisition‑related expenses",
+   "Company secured ~94% of Nagarro SE, moving closer to full acquisition",
+   "Order book strong with $633.5 bn total contract value and $481 bn ACV"
   ],
   "risks": [
    "Margin pressure from acquisition costs",
-   "Slower deal wins despite high order pipeline"
+   "Integration risk of Nagarro deal",
+   "Deal‑win slowdown noted by analysts"
   ],
   "verticals": [],
   "media_vertical": {
@@ -933,11 +931,12 @@
   "sentiment": "Negative",
   "sentiment_reason": "Profit fell sharply despite strong revenue growth",
   "missing": [
-   "operating margin",
-   "revenue in USD",
-   "headcount and attrition data",
-   "dividend details",
-   "media vertical revenue share and growth"
+   "operating_margin_pct",
+   "headcount",
+   "net_headcount_change",
+   "attrition_pct",
+   "dividend_per_share_inr",
+   "media_vertical revenue share and growth"
   ],
   "unverified_dropped": [],
   "sources": [
@@ -947,11 +946,39 @@
     "source": "zeebiz.com",
     "published": "2026-10-16T03:34:00+00:00",
     "official": false
+   },
+   {
+    "title": "Persistent Systems stock slides 3% after Q2 profit slump, margin miss; brokerages divided on outlook",
+    "link": "https://www.moneycontrol.com/news/business/markets/persistent-systems-stock-slides-3-after-q2-profit-slump-margin-miss-brokerages-divided-on-outlook-14053817.html",
+    "source": "moneycontrol.com",
+    "published": "2026-10-16T00:59:00+00:00",
+    "official": false
+   },
+   {
+    "title": "Persistent Systems share price tumbles 5% after Q2 results 2026 | What should investors do? Check target price, rating",
+    "link": "https://www.livemint.com/market/stock-market-news/persistent-systems-share-price-tumbles-5-after-q2-results-2026-what-should-investors-do-check-target-price-rating-11792124632259.html",
+    "source": "livemint.com",
+    "published": "2026-10-15T22:02:00+00:00",
+    "official": false
+   },
+   {
+    "title": "Persistent Systems: Persistent Announces $487.6M Revenue in Q2 FY27 with 20.0% Y-o-Y Growth",
+    "link": "https://www.finanznachrichten.de/nachrichten-2026-10/69847911-persistent-systems-persistent-announces-dollar-487-6m-revenue-in-q2-fy27-with-20-0-y-o-y-growth-008.htm",
+    "source": "finanznachrichten.de",
+    "published": "2026-10-15T07:42:00+00:00",
+    "official": false
+   },
+   {
+    "title": "Persistent Systems Q2 Net Profit Falls 25.4% Despite 20% Revenue Growth",
+    "link": "https://www.businessworld.in/article/persistent-systems-q2-net-profit-falls-25-4-despite-20-revenue-growth-628808",
+    "source": "businessworld.in",
+    "published": "2026-10-14T17:00:00+00:00",
+    "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Persistent",
-  "analysed_at": "2026-11-04T18:23:04+00:00"
+  "analysed_at": "2026-11-05T09:18:02+00:00"
  }
 }
