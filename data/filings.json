@@ -25,7 +25,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-05T15:25",
+  "checked_at": "2026-11-05T18:12",
   "quarter": "Q2 FY27"
  },
  "Infosys": {
@@ -45,7 +45,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-05T15:25",
+  "checked_at": "2026-11-05T18:12",
   "quarter": "Q2 FY27"
  },
  "HCLTech": {
@@ -74,7 +74,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-05T15:25",
+  "checked_at": "2026-11-05T18:12",
   "quarter": "Q2 FY27"
  },
  "Wipro": {
@@ -103,7 +103,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-05T15:25",
+  "checked_at": "2026-11-05T18:12",
   "quarter": "Q2 FY27"
  },
  "LTM": {
@@ -132,13 +132,13 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-05T15:25",
+  "checked_at": "2026-11-05T18:12",
   "quarter": "Q2 FY27"
  },
  "Tech Mahindra": {
   "checked": true,
   "exchange": "NSE",
-  "count": 26,
+  "count": 27,
   "result": {
    "title": "Tech Mahindra Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
    "detail": "",
@@ -161,7 +161,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-05T15:25",
+  "checked_at": "2026-11-05T18:12",
   "quarter": "Q2 FY27"
  },
  "OFSS": {
@@ -190,24 +190,24 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-05T15:25",
+  "checked_at": "2026-11-05T18:12",
   "quarter": "Q2 FY27"
  },
  "Persistent": {
   "checked": true,
   "exchange": "NSE",
-  "count": 60,
+  "count": 61,
   "result": null,
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-05T15:26",
+  "checked_at": "2026-11-05T18:12",
   "quarter": "Q2 FY27"
  },
  "Coforge": {
   "checked": true,
   "exchange": "NSE",
-  "count": 52,
+  "count": 53,
   "result": {
    "title": "Coforge Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
    "detail": "",
@@ -230,7 +230,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-05T15:26",
+  "checked_at": "2026-11-05T18:12",
   "quarter": "Q2 FY27"
  },
  "Mphasis": {
@@ -241,7 +241,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-05T15:26",
+  "checked_at": "2026-11-05T18:12",
   "quarter": "Q2 FY27"
  }
 }
