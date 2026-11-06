@@ -1,31 +1,13 @@
 {
  "TCS": {
-  "checked": true,
-  "exchange": "NSE",
-  "count": 32,
-  "result": {
-   "title": "Tata Consultancy Services Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "detail": "",
-   "category": "Outcome of Board Meeting",
-   "subcategory": "",
-   "time": "2026-10-08T15:40",
-   "url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_08102026153124_Post_BM_SE_Letter_fin.pdf",
-   "alt_url": "",
-   "exchange": "NSE"
-  },
-  "press": {
-   "title": "Tata Consultancy Services Limited has informed the Exchange regarding a press release dated October 8, 2026, titled \"International Growth and Strategic Wins Underpin TCS Q2\".",
-   "detail": "",
-   "category": "Press Release",
-   "subcategory": "",
-   "time": "2026-10-08T15:43",
-   "url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_08102026154325_PressReleaseletter.pdf",
-   "alt_url": "",
-   "exchange": "NSE"
-  },
+  "checked": false,
+  "exchange": null,
+  "count": 0,
+  "result": null,
+  "press": null,
   "next_results_date": null,
-  "error": null,
-  "checked_at": "2026-11-06T12:50",
+  "error": "NSE TCS: ReadTimeout HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read ti",
+  "checked_at": "2026-11-06T15:14",
   "quarter": "Q2 FY27"
  },
  "Infosys": {
@@ -45,7 +27,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-06T12:50",
+  "checked_at": "2026-11-06T15:14",
   "quarter": "Q2 FY27"
  },
  "HCLTech": {
@@ -74,7 +56,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-06T12:50",
+  "checked_at": "2026-11-06T15:14",
   "quarter": "Q2 FY27"
  },
  "Wipro": {
@@ -103,7 +85,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-06T12:50",
+  "checked_at": "2026-11-06T15:15",
   "quarter": "Q2 FY27"
  },
  "LTM": {
@@ -132,7 +114,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-06T12:50",
+  "checked_at": "2026-11-06T15:15",
   "quarter": "Q2 FY27"
  },
  "Tech Mahindra": {
@@ -161,7 +143,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-06T12:50",
+  "checked_at": "2026-11-06T15:15",
   "quarter": "Q2 FY27"
  },
  "OFSS": {
@@ -190,7 +172,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-06T12:50",
+  "checked_at": "2026-11-06T15:16",
   "quarter": "Q2 FY27"
  },
  "Persistent": {
@@ -201,7 +183,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-06T12:50",
+  "checked_at": "2026-11-06T15:16",
   "quarter": "Q2 FY27"
  },
  "Coforge": {
@@ -230,7 +212,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-06T12:50",
+  "checked_at": "2026-11-06T15:16",
   "quarter": "Q2 FY27"
  },
  "Mphasis": {
@@ -241,7 +223,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-06T12:50",
+  "checked_at": "2026-11-06T15:17",
   "quarter": "Q2 FY27"
  }
 }
