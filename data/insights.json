@@ -455,7 +455,7 @@
  "Mphasis": {
   "results_found": false,
   "results_date": "2026-11-06",
-  "headline": "Mphasis posts 19.6% YoY profit rise to Rs 561 crore on 17.4% revenue growth in Q2 FY27",
+  "headline": "Mphasis posted a 19.6% YoY rise in Q2 FY27 net profit to Rs 561.13 crore on 17.4% revenue growth",
   "metrics": {
    "revenue_inr_cr": 4580.93,
    "revenue_usd_m": null,
@@ -471,25 +471,20 @@
    "attrition_pct": null,
    "dividend_per_share_inr": null
   },
-  "guidance": "Mphasis raised its FY27 revenue outlook, citing a record $466 million net new TCV and strong AI-led pipeline.",
+  "guidance": "Mphasis raised its FY27 revenue outlook, citing a record $466 million net new TCV and strong AI-led pipeline",
   "guidance_change": "raised",
   "highlights": [
-   "Consolidated revenue grew 17.4% YoY to Rs 4,580.93 crore.",
-   "Net profit rose 19.6% YoY to Rs 561.13 crore.",
-   "Revenue increased 4.5% sequentially (QoQ).",
-   "AI-led deals accounted for 71% of a record $466 million net new TCV.",
-   "Management highlighted AI as a key growth driver."
+   "Revenue grew 17.4% YoY to Rs 4,580.93 crore",
+   "Net profit increased 19.6% YoY to Rs 561.13 crore",
+   "Sequential revenue growth of 4.5% QoQ",
+   "AI-led deals contributed $466 million in new contracts",
+   "Pipeline grew 23% YoY with AI accounting for 71% of deals"
   ],
   "risks": [
-   "Margin pressure despite top-line growth.",
-   "Higher DSO affecting cash generation."
+   "Margin pressure despite revenue growth",
+   "Higher days sales outstanding affecting cash generation"
   ],
-  "verticals": [
-   {
-    "name": "Technology, Media & Telecom",
-    "note": "core segment mentioned in commentary"
-   }
-  ],
+  "verticals": [],
   "media_vertical": {
    "name": "Technology, Media & Telecom",
    "revenue_share_pct": null,
@@ -499,18 +494,15 @@
    "commentary": null
   },
   "megep_mentions": [],
-  "ai_signals": "AI-led deals made up 71% of the $466 million net new TCV, driving the revenue beat.",
-  "management_view": "Management said AI-led pipeline and strong client wins underpin the raised FY27 guidance.",
+  "ai_signals": "AI-led deals made up 71% of the pipeline and $466 million of new contracts, driving revenue growth",
+  "management_view": "Management highlighted strong AI-led demand and a record pipeline as the main growth drivers",
   "sentiment": "Positive",
-  "sentiment_reason": "Strong profit and revenue growth with upbeat guidance.",
+  "sentiment_reason": "Robust profit and revenue growth with a raised FY guidance",
   "missing": [
-   "operating_margin_pct",
-   "headcount",
-   "net_headcount_change",
-   "attrition_pct",
-   "dividend_per_share_inr",
-   "revenue_usd_m",
-   "media_vertical revenue share and growth details"
+   "operating margin",
+   "headcount and attrition data",
+   "dividend per share",
+   "media vertical revenue share and growth"
   ],
   "unverified_dropped": [],
   "sources": [
@@ -536,6 +528,20 @@
     "official": false
    },
    {
+    "title": "Mphasis Ltd (BOM:526299) (Q2 2027) Earnings Call Highlights: Record AI-Led Pipeline Fuels ...",
+    "link": "https://finance.yahoo.com/technology/ai/articles/mphasis-ltd-bom-526299-q2-171422502.html",
+    "source": "finance.yahoo.com",
+    "published": "2026-11-06T09:14:00+00:00",
+    "official": false
+   },
+   {
+    "title": "Mphasis Revenue grew 4.5% QoQ and 17.4% YoY in Q2 FY27",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOOFlyY0twQzJtR0k3QjRNRU9UMm9KSERVSTZVdXd6Njd4OHVzY2hiaEp2X0p2Mk5tYnFVSFp1MWU4N2dzcy1MNEg1T1J1MC1FTkZUNHFlZ01ZRkd3a3E2cm9UcGlqLU5JSFBhUHpYcUYtcW9NaFFIVFB3aEU2R3REMExiYmtQWWZ0aTFBbw?oc=5",
+    "source": "India Technology News",
+    "published": "2026-11-06T08:07:42+00:00",
+    "official": false
+   },
+   {
     "title": "Mphasis Q2 Results FY27: Revenue Rises 17.4% to Rs 4,580.93 Cr, PAT Rs 561.13 Cr",
     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1DbFBUUWhqMmoxbmNUVU1jakRqRVg1MHVKUVZRMWlFMUx0S1A3bXIzVmRFbnpQYUFQVmVUelhIblFpQ19XcTlDamZIZlBwVkZ0ZkV1VVAxVm96ODY0RTdhaWE5SXB3VHpwdTFPSF9QMA?oc=5",
     "source": "Univest",
@@ -547,6 +553,13 @@
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZmJXOXhPbGt1TV83cU1ZRkgzTGN4QzdqdGJBM19uY2FGZnBLMXN3WkRweGlNUU5fMlRyYkt1X3NzSlBmMDJvUEZVQnFIZkNMTFQ0aDdKOGVhak5KYlczVUgzR1ZHYzZVSmx0VE90NFZWS1paVnJhbzVlcnhvMnBtdGtmZVk5S0NncjhXOGFiOE4xSGw1akhmb2NTVGFyN21Mcm1QM1BZT1FVUjZVRTRYMVk1N2RTSUptel9kaGNoc0kzek41cWV4T2Y3ZUgtWUXSAc8BQVVfeXFMT2ZiVzl4T2xrdU1fN3FNWUZIM0xjeEM3anRiQTNfbmNhRmZwSzFzd1pEcHhpTVFOXzJUcmJLdV9zc0pQZjAyb1BGVUJxSGZDTExUNGg3SjhlYWpOSmJXM1VIM0dWR2M2VUpsdFRPdDRWVktaWlZyYW81ZXJ4bzJwbXRrZmVZOUtDZ3I4VzhhYjhOMUhsNWpIZm9jU1RhcjdtTHJtUDNQWU9RVVI2VUU0WDFZNTdkU0lKbXpfZGhjaHNJM3pONXFleE9mN2VILVlF?oc=5",
     "source": "Free Press Journal",
     "published": "2026-11-06T04:49:53+00:00",
+    "official": false
+   },
+   {
+    "title": "Mphasis posts strong Q2 with ₹561cr profit and $466 million deals",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORkFxUzYtQWU1QkpzekUwSno5TFdya0NEa2FUVk9Ma3l3VGVBUWk4Z3NGQ0ZsaEpFT2Vuby1hQzRySXE3clJuUWtGUFNudHBuOV9sUzFqNVR6TDZHTkk5S2VKd1hyRzVLa0FxZFFxczJQNVpuTWVRNWpLVkY1dnFlOFZFUnB5RGFxRXBXWWRmV093TEczbWtPeU1LX2VWV051OXhVUS1jYm1SeGpXZWZpdWZ0OA?oc=5",
+    "source": "NewsBytes",
+    "published": "2026-11-06T00:43:54+00:00",
     "official": false
    },
    {
@@ -567,7 +580,7 @@
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Mphasis",
-  "analysed_at": "2026-11-07T15:11:17+00:00"
+  "analysed_at": "2026-11-07T18:06:39+00:00"
  },
  "HCLTech": {
   "results_found": true,
@@ -943,7 +956,7 @@
  "Persistent": {
   "results_found": false,
   "results_date": "2026-10-16",
-  "headline": "Revenue jumped 30.25% YoY to ₹4,663.9 cr, but net profit fell 25.44% YoY to ₹351.51 cr in Q2 FY27",
+  "headline": "Revenue jumped 30% YoY to ₹4,663.9 cr while net profit fell 25% YoY to ₹351.51 cr in Q2 FY27",
   "metrics": {
    "revenue_inr_cr": 4663.9,
    "revenue_usd_m": null,
@@ -960,18 +973,16 @@
    "dividend_per_share_inr": null
   },
   "guidance": null,
-  "guidance_change": "unknown",
+  "guidance_change": "none",
   "highlights": [
-   "Revenue grew 30.25% YoY to ₹4,663.9 cr",
-   "Net profit declined 25.44% YoY to ₹351.51 cr",
+   "Revenue grew over 30% YoY",
+   "Net profit declined 25% YoY",
    "Acquisition‑related expenses of ₹185.34 cr were recorded",
-   "Orders worth USD 633.5 m were booked in the quarter",
-   "Sequential revenue rose 8% QoQ"
+   "New orders worth $633.5 m TCV were booked"
   ],
   "risks": [
-   "Margin pressure from high acquisition costs",
-   "Profitability decline despite strong top‑line growth",
-   "Uncertainty around deal wins and integration of Nagarro"
+   "Profit margin pressure from acquisition costs",
+   "Lower profitability despite strong top‑line growth"
   ],
   "verticals": [],
   "media_vertical": {
@@ -994,11 +1005,9 @@
    "attrition_pct",
    "dividend_per_share_inr",
    "guidance",
-   "verticals",
-   "media_vertical.revenue_share_pct",
-   "media_vertical.growth_qoq_pct",
-   "media_vertical.growth_yoy_pct",
-   "media_vertical.growth_cc_yoy_pct",
+   "verticals details",
+   "media_vertical share/growth",
+   "megep_mentions",
    "ai_signals",
    "management_view"
   ],
@@ -1010,18 +1019,11 @@
     "source": "zeebiz.com",
     "published": "2026-10-16T03:34:00+00:00",
     "official": false
-   },
-   {
-    "title": "Persistent Systems opens Rs4,265 Crore QIP to fund Nagarro acquisition as Q2 FY27 net profit dips 25.4% YoY to Rs351.51 Cr",
-    "link": "https://www.msn.com/en-in/news/other/persistent-systems-opens-rs4265-crore-qip-to-fund-nagarro-acquisition-as-q2-fy27-net-profit-dips-254-yoy-to-rs35151-cr/ar-AA2fOz2p",
-    "source": "msn.com",
-    "published": "2026-10-22T09:07:53+00:00",
-    "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Persistent",
-  "analysed_at": "2026-11-07T15:10:22+00:00"
+  "analysed_at": "2026-11-07T18:05:45+00:00"
  }
 }
