@@ -1,33 +1,31 @@
 {
- "headline": "AI-driven growth lifts top performers while margin pressure and modest guidance temper the sector.",
- "summary": "Revenue grew across the board, led by Coforge's 53.6% surge and strong AI‑led wins at LTM, Mphasis and HCLTech. Profitability improved for most, but Infosys trimmed FY27 guidance and Wipro saw profit dip. Operating margins widened for HCLTech and TCS, while OFSS posted a very high margin on modest growth.",
+ "headline": "Indian IT services showed uneven growth, with AI‑driven firms outpacing traditional players.",
+ "summary": "Revenue grew across the sector, but the pace varied from sub‑2% at Infosys to over 50% at Coforge. Profit margins improved for firms with strong AI contributions such as HCLTech and TCS. Guidance was trimmed at Infosys and introduced at HCLTech, reflecting uncertainty about macro demand. Overall sentiment remains positive but weighted by divergent performance.",
  "themes": [
   {
-   "title": "AI as a growth engine",
-   "detail": "AI revenue rose sharply at several firms, driving double‑digit profit growth and large deal wins.",
+   "title": "AI‑led growth",
+   "detail": "Companies reporting AI revenue or AI‑driven deals posted the strongest top‑line and profit growth.",
    "companies": [
-    "Infosys",
-    "LTM",
-    "Mphasis",
+    "Coforge",
     "HCLTech",
+    "Mphasis",
     "TCS"
    ]
   },
   {
-   "title": "Guidance tightening",
-   "detail": "Infosys cut FY27 revenue guidance; other peers kept guidance unchanged or introduced modest targets.",
+   "title": "Margin pressure at larger peers",
+   "detail": "Infosys and Wipro showed modest revenue growth and lower margin expansion, prompting guidance cuts or flat profit.",
    "companies": [
     "Infosys",
-    "HCLTech",
     "Wipro"
    ]
   },
   {
-   "title": "Margin dynamics",
-   "detail": "Operating margins improved at HCLTech (18.2%) and TCS (24%), while OFSS maintained a high margin on low growth.",
+   "title": "Mid‑tier expansion",
+   "detail": "LTM, Tech Mahindra and OFSS delivered solid double‑digit revenue growth without major AI disclosures.",
    "companies": [
-    "HCLTech",
-    "TCS",
+    "LTM",
+    "Tech Mahindra",
     "OFSS"
    ]
   }
@@ -35,62 +33,62 @@
  "leaders": [
   {
    "company": "Coforge",
-   "why": "Revenue jumped 53.6% YoY and EBIT margin guidance was raised to 16%."
+   "why": "Revenue up 53.6% YoY and EBIT margin guidance raised to 16%."
   },
   {
-   "company": "LTM",
-   "why": "13.6% revenue growth and AI revenue surged 47% YoY."
+   "company": "HCLTech",
+   "why": "AI revenue of $219 m drove 21% profit growth and strong margin."
   }
  ],
  "laggards": [
   {
-   "company": "Wipro",
-   "why": "Revenue data missing and net profit fell 1.9% YoY."
+   "company": "Infosys",
+   "why": "Revenue growth slowed to ~1% YoY and FY27 guidance cut to 1‑2%."
   },
   {
-   "company": "Infosys",
-   "why": "Guidance cut to 1‑2% FY27 growth despite only modest 1.5% revenue rise."
+   "company": "Wipro",
+   "why": "Revenue grew 9.1% but profit fell 1.9% and headcount declined."
   }
  ],
  "domain_outlook": [
   {
    "domain": "Media & broadcasting",
    "signal": "Not enough data",
-   "note": "No company mentioned this domain."
+   "note": "No company mentioned media or broadcasting themes."
   },
   {
    "domain": "Entertainment & streaming",
    "signal": "Not enough data",
-   "note": "No company mentioned this domain."
+   "note": "No company mentioned entertainment or streaming themes."
   },
   {
    "domain": "Gaming",
    "signal": "Not enough data",
-   "note": "No company mentioned this domain."
+   "note": "No company mentioned gaming themes."
   },
   {
    "domain": "Education",
    "signal": "Not enough data",
-   "note": "No company mentioned this domain."
+   "note": "No company mentioned education themes."
   },
   {
    "domain": "Publishing",
    "signal": "Not enough data",
-   "note": "No company mentioned this domain."
+   "note": "No company mentioned publishing themes."
   },
   {
    "domain": "Telecom",
-   "signal": "Positive",
-   "note": "Mphasis highlighted telecom and device engineering as a growth driver."
+   "signal": "Not enough data",
+   "note": "No company mentioned telecom themes."
   }
  ],
  "watch_next": [
-  "Whether Infosys raises FY27 guidance after Q3 performance.",
-  "Wipro's revenue recovery and profit trend.",
-  "AI revenue contribution trends at TCS and HCLTech.",
-  "Margin trajectory at OFSS given its high operating margin.",
-  "Deal win volumes and AI pipeline strength across peers."
+  "AI revenue contribution trends at Infosys and Wipro",
+  "Guidance updates from mid‑tier players (LTM, Tech Mahindra)",
+  "Margin evolution at high‑growth firms (Coforge, HCLTech)",
+  "Deal win volumes in the AI services market",
+  "Impact of macro‑economic conditions on FY27 guidance"
  ],
  "quarter": "Q2 FY27",
- "written_at": "2026-11-10T15:18:36+00:00"
+ "written_at": "2026-11-10T18:17:29+00:00"
 }
