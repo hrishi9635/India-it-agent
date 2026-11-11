@@ -1,94 +1,106 @@
 {
- "headline": "Indian IT services showed uneven growth, with AI‑driven firms outpacing traditional players.",
- "summary": "Revenue grew across the sector, but the pace varied from sub‑2% at Infosys to over 50% at Coforge. Profit margins improved for firms with strong AI contributions such as HCLTech and TCS. Guidance was trimmed at Infosys and introduced at HCLTech, reflecting uncertainty about macro demand. Overall sentiment remains positive but weighted by divergent performance.",
+ "headline": "Quarterly growth is uneven, with AI‑led firms outpacing traditional players.",
+ "summary": "Revenue growth ranged from sub‑2% at Infosys to over 50% at Coforge. AI revenue contributions are highlighted across most firms, boosting margins for some but not all. Dividend payouts remain modest, and guidance is mixed, with Infosys trimming outlook and others holding steady. Profitability improved for HCLTech and Coforge, while Wipro and Persistent saw declines.",
  "themes": [
   {
-   "title": "AI‑led growth",
-   "detail": "Companies reporting AI revenue or AI‑driven deals posted the strongest top‑line and profit growth.",
+   "title": "AI‑driven revenue",
+   "detail": "Several firms cite AI as a key growth driver, with AI revenue up 29% at Infosys and 47% at LTM.",
    "companies": [
-    "Coforge",
-    "HCLTech",
+    "Infosys",
+    "LTM",
     "Mphasis",
+    "HCLTech",
     "TCS"
    ]
   },
   {
-   "title": "Margin pressure at larger peers",
-   "detail": "Infosys and Wipro showed modest revenue growth and lower margin expansion, prompting guidance cuts or flat profit.",
+   "title": "Margin expansion pressure",
+   "detail": "Operating margins improved for high‑growth firms like Coforge but lagged for low‑growth players.",
    "companies": [
+    "Coforge",
+    "HCLTech",
     "Infosys",
-    "Wipro"
+    "Tech Mahindra"
    ]
   },
   {
-   "title": "Mid‑tier expansion",
-   "detail": "LTM, Tech Mahindra and OFSS delivered solid double‑digit revenue growth without major AI disclosures.",
+   "title": "Dividend stability",
+   "detail": "Most companies maintained or modestly raised interim dividends despite mixed earnings.",
    "companies": [
+    "Infosys",
     "LTM",
-    "Tech Mahindra",
-    "OFSS"
+    "Wipro",
+    "TCS"
    ]
   }
  ],
  "leaders": [
   {
    "company": "Coforge",
-   "why": "Revenue up 53.6% YoY and EBIT margin guidance raised to 16%."
+   "why": "53.6% YoY revenue growth and raised EBIT margin guidance"
+  },
+  {
+   "company": "LTM",
+   "why": "13.6% revenue growth with 47% AI revenue surge"
   },
   {
    "company": "HCLTech",
-   "why": "AI revenue of $219 m drove 21% profit growth and strong margin."
+   "why": "21% profit jump supported by $219 m AI revenue"
   }
  ],
  "laggards": [
   {
    "company": "Infosys",
-   "why": "Revenue growth slowed to ~1% YoY and FY27 guidance cut to 1‑2%."
+   "why": "Revenue growth trimmed to 1‑2% and profit growth modest"
   },
   {
    "company": "Wipro",
-   "why": "Revenue grew 9.1% but profit fell 1.9% and headcount declined."
+   "why": "Revenue up 9.1% but profit fell 1.9%"
+  },
+  {
+   "company": "Persistent",
+   "why": "Revenue up 30% but profit fell 25%"
   }
  ],
  "domain_outlook": [
   {
    "domain": "Media & broadcasting",
    "signal": "Not enough data",
-   "note": "No company mentioned media or broadcasting themes."
+   "note": "No company mentions in this sector."
   },
   {
    "domain": "Entertainment & streaming",
    "signal": "Not enough data",
-   "note": "No company mentioned entertainment or streaming themes."
+   "note": "No company mentions in this sector."
   },
   {
    "domain": "Gaming",
    "signal": "Not enough data",
-   "note": "No company mentioned gaming themes."
+   "note": "No company mentions in this sector."
   },
   {
    "domain": "Education",
    "signal": "Not enough data",
-   "note": "No company mentioned education themes."
+   "note": "No company mentions in this sector."
   },
   {
    "domain": "Publishing",
    "signal": "Not enough data",
-   "note": "No company mentioned publishing themes."
+   "note": "No company mentions in this sector."
   },
   {
    "domain": "Telecom",
    "signal": "Not enough data",
-   "note": "No company mentioned telecom themes."
+   "note": "No company mentions in this sector."
   }
  ],
  "watch_next": [
-  "AI revenue contribution trends at Infosys and Wipro",
-  "Guidance updates from mid‑tier players (LTM, Tech Mahindra)",
-  "Margin evolution at high‑growth firms (Coforge, HCLTech)",
-  "Deal win volumes in the AI services market",
-  "Impact of macro‑economic conditions on FY27 guidance"
+  "AI revenue share and its impact on margins",
+  "Guidance revisions from Infosys and other low‑growth firms",
+  "Deal win pipelines, especially large AI‑led contracts",
+  "Headcount trends and attrition rates",
+  "Quarter‑on‑quarter revenue changes in constant currency"
  ],
  "quarter": "Q2 FY27",
- "written_at": "2026-11-10T18:17:29+00:00"
+ "written_at": "2026-11-11T16:16:54+00:00"
 }
