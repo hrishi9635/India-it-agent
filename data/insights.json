@@ -455,7 +455,7 @@
  "Mphasis": {
   "results_found": false,
   "results_date": "2026-11-06",
-  "headline": "Mphasis Q2 FY27 revenue rose 17.4% YoY to ₹4,580.93 cr and net profit jumped 19.6% to ₹561.13 cr",
+  "headline": "Mphasis posted 17.4% YoY revenue growth and 19.6% profit rise in Q2 FY27, prompting a raised FY27 outlook",
   "metrics": {
    "revenue_inr_cr": 4580.93,
    "revenue_usd_m": null,
@@ -471,17 +471,18 @@
    "attrition_pct": null,
    "dividend_per_share_inr": null
   },
-  "guidance": "Management raised FY27 revenue growth outlook, targeting the upper end of its guidance range.",
+  "guidance": "Management raised FY27 revenue growth guidance, citing strong AI‑led deal conversion and pipeline",
   "guidance_change": "raised",
   "highlights": [
-   "Revenue up 17.4% YoY and 4.5% sequentially",
-   "Net profit rose 19.6% YoY to ₹561.13 cr",
-   "AI-led contract wins drove growth",
-   "Strong pipeline with 71% AI‑led opportunities"
+   "Revenue up 17.4% YoY to Rs 4,580.93 cr",
+   "Net profit up 19.6% YoY to Rs 561.13 cr",
+   "Sequential revenue growth of 4.5% QoQ",
+   "AI‑led contract wins drove growth",
+   "Guidance for FY27 lifted"
   ],
   "risks": [
-   "Macro‑economic uncertainty",
-   "Potential slowdown in discretionary IT spending"
+   "Macro‑economic uncertainty could temper demand",
+   "AI pricing pressure if competition intensifies"
   ],
   "verticals": [],
   "media_vertical": {
@@ -493,16 +494,18 @@
    "commentary": null
   },
   "megep_mentions": [],
-  "ai_signals": "Management highlighted AI‑led contract wins and a pipeline where 71% of deals are AI‑driven.",
-  "management_view": "Management sees strong AI demand and a robust pipeline supporting higher FY27 growth guidance.",
+  "ai_signals": "AI‑led contracts contributed to 9.2% dollar‑revenue growth and underpin the raised outlook",
+  "management_view": "Management highlighted accelerating AI demand and a robust pipeline as the main growth drivers",
   "sentiment": "Positive",
-  "sentiment_reason": "Results beat expectations with double‑digit revenue and profit growth, and guidance was upgraded.",
+  "sentiment_reason": "Strong top‑line and profit growth plus an upgraded FY27 outlook",
   "missing": [
-   "operating margin",
-   "revenue in USD",
-   "deal wins in USD",
-   "headcount and attrition data",
-   "media vertical revenue share and growth"
+   "operating_margin_pct",
+   "deal_wins_usd_bn",
+   "headcount",
+   "net_headcount_change",
+   "attrition_pct",
+   "dividend_per_share_inr",
+   "media_vertical revenue share and growth figures"
   ],
   "unverified_dropped": [],
   "sources": [
@@ -540,12 +543,19 @@
     "source": "Free Press Journal",
     "published": "2026-11-06T04:49:53+00:00",
     "official": false
+   },
+   {
+    "title": "Mphasis revenue grows 17.4% YoY to ₹45,809 million in Q2 FY27",
+    "link": "https://www.investywise.com/mphasis-announces-q2-fy27-financial-results/",
+    "source": "investywise.com",
+    "published": "2026-11-05T10:12:00+00:00",
+    "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Mphasis",
-  "analysed_at": "2026-11-14T17:41:26+00:00"
+  "analysed_at": "2026-11-14T19:26:21+00:00"
  },
  "HCLTech": {
   "results_found": true,
@@ -921,12 +931,12 @@
  "Persistent": {
   "results_found": false,
   "results_date": "2026-10-16",
-  "headline": "Persistent Systems posted 30.25% YoY revenue growth to Rs 4,663.9 cr but net profit fell 25.44% YoY to Rs 351.51 cr in Q2 FY27",
+  "headline": "Persistent Systems posted 30.25% YoY revenue growth but net profit fell 25.44% YoY in Q2 FY27",
   "metrics": {
    "revenue_inr_cr": 4663.9,
    "revenue_usd_m": null,
    "revenue_growth_yoy_pct": 30.25,
-   "cc_growth_qoq_pct": null,
+   "cc_growth_qoq_pct": 8,
    "cc_growth_yoy_pct": null,
    "net_profit_inr_cr": 351.51,
    "net_profit_growth_yoy_pct": -25.44,
@@ -938,18 +948,17 @@
    "dividend_per_share_inr": null
   },
   "guidance": null,
-  "guidance_change": "unknown",
+  "guidance_change": "none",
   "highlights": [
-   "Revenue rose 30.25% YoY to Rs 4,663.9 cr",
-   "Consolidated net profit declined 25.44% YoY to Rs 351.51 cr",
-   "Acquisition‑related expenses of Rs 185.34 cr were recorded",
-   "Orders booked worth USD 633.5 m (TCV) and USD 481 m (ACV) in the quarter",
-   "QIP launched to raise up to Rs 4,265 cr for the Nagarro acquisition"
+   "Revenue rose 30.25% YoY to Rs 4,663.9 crore",
+   "Consolidated net profit declined 25.44% YoY to Rs 351.51 crore",
+   "Acquisition-related expenses of Rs 185.34 crore impacted margins",
+   "Orders worth USD 633.5 million were booked in the quarter",
+   "Revenue grew 8% sequentially despite profit dip"
   ],
   "risks": [
-   "Margin pressure from high acquisition costs",
-   "Deal‑win slowdown noted by analysts",
-   "Integration risk of Nagarro acquisition"
+   "Margin pressure from acquisition costs",
+   "Slower deal wins compared to expectations"
   ],
   "verticals": [],
   "media_vertical": {
@@ -966,15 +975,13 @@
   "sentiment": "Negative",
   "sentiment_reason": "Profit fell sharply despite strong revenue growth",
   "missing": [
-   "headcount figures",
-   "dividend per share",
-   "explicit operating margin percentage",
-   "constant‑currency growth metrics",
+   "operating margin",
+   "revenue in USD",
+   "headcount and attrition data",
+   "dividend details",
    "media vertical revenue share and growth"
   ],
-  "unverified_dropped": [
-   "operating_margin_pct"
-  ],
+  "unverified_dropped": [],
   "sources": [
    {
     "title": "Persistent Systems shares plunge 4% after Q2 results — Buy or Sell? Brokerages weigh in",
@@ -984,16 +991,16 @@
     "official": false
    },
    {
-    "title": "Persistent Systems opens Rs4,265 Crore QIP to fund Nagarro acquisition as Q2 FY27 net profit dips 25.4% YoY to Rs351.51 Cr",
-    "link": "https://www.msn.com/en-in/news/other/persistent-systems-opens-rs4265-crore-qip-to-fund-nagarro-acquisition-as-q2-fy27-net-profit-dips-254-yoy-to-rs35151-cr/ar-AA2fOz2p",
-    "source": "msn.com",
-    "published": "2026-10-22T09:07:53+00:00",
+    "title": "Persistent Consolidated September 2026 Net Sales at Rs 4,663.90 crore, up 30.25% Y-o-Y",
+    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOQVhldzNmczVGSEFpMmR0R1VrcTkwRVBaczdnMXJnSjBsbFJqTVNWZ2pEMXFZY0RaU3pVZWhzNHktZGZTbjdVSjNPd0FTTzhpeXdBQWdENkF0dGpQZi1EVl9fbFZ1U2VyNmFha096R0tibWIxdFItenZQOTIydTFtOEk2SXc1SHV3YWlOVUVvenZ6YmMwbVRRR1hVZ2VKRGF2amxIUjNBYWl1aFVRYWYta3lEWTJsNWFDb2lpdlpvSWF5bEJMcjRtRG50Si1lU3J4OU42UXpiVkFLODRKOGplai00Z9IB6AFBVV95cUxPRENOc0JLYTI2aDFBTnc1VjZJdnItYzFVSE9XZHEwUm9NS1lKR0NyQlZjeU15WEpNNjZvcWJTVWJDS1NlZnMyLXh6RXNLeEdUUkxmaWc1Y0pKS19LUDdnYjZqelRpTndVczlZZmJEbDd0c05ER01udFBSNnRLMHN2bGpzVmNfVHNtSmp6UTA4SG5qaW13dDI1M1ZrMmNFeG94UXUxMk1HRW10RDJJYUJIYmJ3UnpVVDU1RzVhUDJaRXI5ejYyaFczdGMwdTlmc0IySU9yV0lDWl9MTk1VY1F0anowWEw2QUM0?oc=5",
+    "source": "Moneycontrol.com",
+    "published": "2026-11-06T05:41:24+00:00",
     "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Persistent",
-  "analysed_at": "2026-11-14T17:40:31+00:00"
+  "analysed_at": "2026-11-14T19:25:26+00:00"
  }
 }
