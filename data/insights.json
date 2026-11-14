@@ -455,7 +455,7 @@
  "Mphasis": {
   "results_found": false,
   "results_date": "2026-11-06",
-  "headline": "Mphasis Q2 FY27 revenue jumps 17.4% YoY to ₹4,580.93 cr and profit rises 19.6% to ₹561.13 cr, driven by AI‑led deals",
+  "headline": "Mphasis Q2 FY27 revenue rose 17.4% YoY to ₹4,580.93 cr and net profit jumped 19.6% to ₹561.13 cr",
   "metrics": {
    "revenue_inr_cr": 4580.93,
    "revenue_usd_m": null,
@@ -471,18 +471,17 @@
    "attrition_pct": null,
    "dividend_per_share_inr": null
   },
-  "guidance": "Management raised FY27 revenue growth guidance, citing strong AI‑led deal conversion and a robust pipeline",
+  "guidance": "Management raised FY27 revenue growth outlook, targeting the upper end of its guidance range.",
   "guidance_change": "raised",
   "highlights": [
-   "Revenue up 17.4% YoY",
-   "Net profit up 19.6% YoY",
-   "AI‑led contracts contributed to growth",
-   "71% of pipeline now AI‑centric",
-   "Guidance for FY27 lifted"
+   "Revenue up 17.4% YoY and 4.5% sequentially",
+   "Net profit rose 19.6% YoY to ₹561.13 cr",
+   "AI-led contract wins drove growth",
+   "Strong pipeline with 71% AI‑led opportunities"
   ],
   "risks": [
-   "Macro‑economic headwinds could temper demand",
-   "Pricing pressure as AI services mature"
+   "Macro‑economic uncertainty",
+   "Potential slowdown in discretionary IT spending"
   ],
   "verticals": [],
   "media_vertical": {
@@ -494,29 +493,19 @@
    "commentary": null
   },
   "megep_mentions": [],
-  "ai_signals": "AI‑led contract wins boosted revenue; 71% of the pipeline is AI‑driven",
-  "management_view": "Management highlighted strong AI demand and raised FY27 outlook",
+  "ai_signals": "Management highlighted AI‑led contract wins and a pipeline where 71% of deals are AI‑driven.",
+  "management_view": "Management sees strong AI demand and a robust pipeline supporting higher FY27 growth guidance.",
   "sentiment": "Positive",
-  "sentiment_reason": "Revenue and profit beat expectations and guidance was upgraded",
+  "sentiment_reason": "Results beat expectations with double‑digit revenue and profit growth, and guidance was upgraded.",
   "missing": [
-   "operating_margin_pct",
-   "deal_wins_usd_bn",
-   "headcount",
-   "net_headcount_change",
-   "attrition_pct",
-   "dividend_per_share_inr",
-   "media_vertical revenue share and growth",
-   "vertical breakdown"
+   "operating margin",
+   "revenue in USD",
+   "deal wins in USD",
+   "headcount and attrition data",
+   "media vertical revenue share and growth"
   ],
   "unverified_dropped": [],
   "sources": [
-   {
-    "title": "Mphasis Q2 FY27 Results: Revenue, PAT and Key Highlights",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQV21UbHhkY0tFcndBb01YbnphVElQNlgyTGZ6dlYtckFwMkRScmYyb0RibEtDVjhCcjVCclZZUThrVXN3SlV2ZWlzRWFEZkt0XzFuNGZwUFdjZ080MEpUcFROdk52LW9iMWxZdTNiX2laa3pFRUpjNnZQcW9EMWd2d3NkbkhMc0Z4RUltb0ZzNWZxZlY0d1hHbWNfMkd6bUtVR0xTYi1kX2VMMEtkVU11d200aDdqQQ?oc=5",
-    "source": "Kalkine India",
-    "published": "2026-11-07T09:26:00+00:00",
-    "official": false
-   },
    {
     "title": "Mphasis Q2 profit climbs 14.6% sequentially to Rs 561 crore",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSG9JN2RaVk9zdExfMWtHUzBZbEM3aUItUkwzQjdxajQ5Y1FWV0l3N0w1SGo2S3pFOXQ0UV9veEhEc0oyckx6a3BPQUU3QXdvemRsT1pENDZmUXVEYWhrUkI4Z3dnbDNIaWRuLUp1eGJVT21UeDhrZjRrTGRTelFWN2h6ZDBBczFmcTdDQ25Zb3hxLTlxX0pja19lVG5ESHRkd19oM1oya3VIVjFLOFNUQ3pBTUNva2Vyc1HSAcABQVVfeXFMUG9ENC16NjREbDNvcV9namM2Tmw3XzF5QV93WUU2WEVDVFdScUVjQmlVY05xMGtldjBvVjg1V3RsanVrZ2VCYlhBQUNaUGIzdWpYSzZtZVljV3I1VXlwVlBydHk4WkJHbGloTVNLWjhkWnB4Z0Q0cVVzQUlMSG41WUp3bEVkTWI2YnJOU3RCak16Sy12Y09rb0NHdFpiQjU4MGRQSE1xdWxDdm56em5LOS1ENHZvenR3dDBFWlZOYnFi?oc=5",
@@ -556,7 +545,7 @@
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Mphasis",
-  "analysed_at": "2026-11-14T15:10:55+00:00"
+  "analysed_at": "2026-11-14T17:41:26+00:00"
  },
  "HCLTech": {
   "results_found": true,
@@ -932,13 +921,13 @@
  "Persistent": {
   "results_found": false,
   "results_date": "2026-10-16",
-  "headline": "Persistent Systems posted 30.3% revenue growth YoY but net profit fell 25.4% YoY in Q2 FY27",
+  "headline": "Persistent Systems posted 30.25% YoY revenue growth to Rs 4,663.9 cr but net profit fell 25.44% YoY to Rs 351.51 cr in Q2 FY27",
   "metrics": {
    "revenue_inr_cr": 4663.9,
-   "revenue_usd_m": 487.6,
+   "revenue_usd_m": null,
    "revenue_growth_yoy_pct": 30.25,
    "cc_growth_qoq_pct": null,
-   "cc_growth_yoy_pct": 20.8,
+   "cc_growth_yoy_pct": null,
    "net_profit_inr_cr": 351.51,
    "net_profit_growth_yoy_pct": -25.44,
    "operating_margin_pct": null,
@@ -951,15 +940,15 @@
   "guidance": null,
   "guidance_change": "unknown",
   "highlights": [
-   "Revenue rose 30.3% YoY to Rs 4,663.9 crore",
-   "Net profit declined 25.4% YoY to Rs 351.51 crore",
-   "Acquisition-related expenses of Rs 185.34 crore were incurred",
-   "Orders worth USD 633.5 million (TCV) and USD 481 million (ACV) booked",
-   "QIP of up to Rs 4,265 crore launched to fund Nagarro acquisition"
+   "Revenue rose 30.25% YoY to Rs 4,663.9 cr",
+   "Consolidated net profit declined 25.44% YoY to Rs 351.51 cr",
+   "Acquisition‑related expenses of Rs 185.34 cr were recorded",
+   "Orders booked worth USD 633.5 m (TCV) and USD 481 m (ACV) in the quarter",
+   "QIP launched to raise up to Rs 4,265 cr for the Nagarro acquisition"
   ],
   "risks": [
    "Margin pressure from high acquisition costs",
-   "Deal‑win concerns despite strong order book",
+   "Deal‑win slowdown noted by analysts",
    "Integration risk of Nagarro acquisition"
   ],
   "verticals": [],
@@ -977,12 +966,15 @@
   "sentiment": "Negative",
   "sentiment_reason": "Profit fell sharply despite strong revenue growth",
   "missing": [
-   "operating margin",
-   "headcount and changes",
-   "dividend details",
+   "headcount figures",
+   "dividend per share",
+   "explicit operating margin percentage",
+   "constant‑currency growth metrics",
    "media vertical revenue share and growth"
   ],
-  "unverified_dropped": [],
+  "unverified_dropped": [
+   "operating_margin_pct"
+  ],
   "sources": [
    {
     "title": "Persistent Systems shares plunge 4% after Q2 results — Buy or Sell? Brokerages weigh in",
@@ -992,16 +984,16 @@
     "official": false
    },
    {
-    "title": "Persistent Systems share price tumbles 5% after Q2 results 2026 | What should investors do? Check target price, rating",
-    "link": "https://www.livemint.com/market/stock-market-news/persistent-systems-share-price-tumbles-5-after-q2-results-2026-what-should-investors-do-check-target-price-rating-11792124632259.html",
-    "source": "livemint.com",
-    "published": "2026-10-15T22:02:00+00:00",
+    "title": "Persistent Systems opens Rs4,265 Crore QIP to fund Nagarro acquisition as Q2 FY27 net profit dips 25.4% YoY to Rs351.51 Cr",
+    "link": "https://www.msn.com/en-in/news/other/persistent-systems-opens-rs4265-crore-qip-to-fund-nagarro-acquisition-as-q2-fy27-net-profit-dips-254-yoy-to-rs35151-cr/ar-AA2fOz2p",
+    "source": "msn.com",
+    "published": "2026-10-22T09:07:53+00:00",
     "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Persistent",
-  "analysed_at": "2026-11-14T15:10:01+00:00"
+  "analysed_at": "2026-11-14T17:40:31+00:00"
  }
 }
