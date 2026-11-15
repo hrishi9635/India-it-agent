@@ -455,7 +455,7 @@
  "Mphasis": {
   "results_found": false,
   "results_date": "2026-11-06",
-  "headline": "Mphasis posted 17.4% YoY revenue growth and 19.6% YoY profit rise in Q2 FY27, driven by AI‑led deals.",
+  "headline": "Mphasis posted 17.4% YoY revenue growth and 19.6% YoY profit growth in Q2 FY27, driven by AI‑led deals and strong telecom work.",
   "metrics": {
    "revenue_inr_cr": 4580.93,
    "revenue_usd_m": null,
@@ -471,44 +471,48 @@
    "attrition_pct": null,
    "dividend_per_share_inr": null
   },
-  "guidance": "Management raised FY27 revenue growth outlook, targeting the upper end of its guidance range.",
+  "guidance": "Management raised FY27 revenue growth outlook after strong Q2 performance.",
   "guidance_change": "raised",
   "highlights": [
-   "Revenue rose 17.4% YoY to Rs 4,580.93 crore.",
-   "Consolidated net profit increased 19.6% YoY to Rs 561.13 crore.",
-   "AI‑led contract wins contributed $466 million in deal value.",
-   "Pipeline is 71% AI‑led, supporting continued growth.",
-   "Management signalled double‑digit FY27 growth despite macro headwinds."
+   "Revenue rose 17.4% YoY to ₹4,580.93 cr.",
+   "Net profit climbed 19.6% YoY to ₹561.13 cr.",
+   "AI‑led contract wins contributed $466 m in new deals.",
+   "Telecom and device‑engineering work led TMT growth.",
+   "Deal conversion improved, prompting a higher FY27 guidance."
   ],
   "risks": [
-   "Macroeconomic uncertainty could temper demand.",
-   "Pricing pressure in AI services may affect margins."
+   "Macro‑economic uncertainty could temper spending.",
+   "Intense competition in AI services may pressure pricing."
   ],
-  "verticals": [],
+  "verticals": [
+   {
+    "name": "Technology, Media & Telecom",
+    "note": "Growth driven by telecom and device‑engineering projects."
+   }
+  ],
   "media_vertical": {
    "name": "Technology, Media & Telecom",
    "revenue_share_pct": null,
    "growth_qoq_pct": null,
    "growth_yoy_pct": null,
    "growth_cc_yoy_pct": null,
-   "commentary": "TMT growth is led by telecom and device engineering."
+   "commentary": null
   },
   "megep_mentions": [
    {
     "domain": "Telecom",
-    "note": "TMT growth led by telecom and device engineering."
+    "note": "TMT growth led by telecom and device‑engineering work."
    }
   ],
-  "ai_signals": "AI‑led contracts drove 17.4% revenue growth; pipeline 71% AI‑led; $466 m of AI‑related deal wins reported.",
-  "management_view": "Management sees strong AI‑driven demand and has upgraded its FY27 outlook.",
+  "ai_signals": "AI‑led contract wins added $466 m of revenue and boosted overall growth.",
+  "management_view": "Management highlighted accelerating AI demand and faster deal conversion, leading to an upgraded FY27 outlook.",
   "sentiment": "Positive",
-  "sentiment_reason": "Robust revenue and profit growth plus raised guidance.",
+  "sentiment_reason": "Strong top‑line and profit growth, upbeat guidance and AI momentum.",
   "missing": [
    "operating margin",
+   "revenue share of media vertical",
    "headcount and attrition data",
-   "dividend per share",
-   "media vertical revenue share",
-   "constant‑currency YoY growth"
+   "dividend details"
   ],
   "unverified_dropped": [],
   "sources": [
@@ -541,17 +545,17 @@
     "official": false
    },
    {
-    "title": "Mphasis Q2 Results FY27: Revenue Rises 17.4% to Rs 4,580.93 Cr, PAT Rs 561.13 Cr",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1DbFBUUWhqMmoxbmNUVU1jakRqRVg1MHVKUVZRMWlFMUx0S1A3bXIzVmRFbnpQYUFQVmVUelhIblFpQ19XcTlDamZIZlBwVkZ0ZkV1VVAxVm96ODY0RTdhaWE5SXB3VHpwdTFPSF9QMA?oc=5",
-    "source": "Univest",
-    "published": "2026-11-06T06:27:00+00:00",
-    "official": false
-   },
-   {
     "title": "Mphasis Shares Jump 5% As Q2 Profit, Revenue Post Strong Growth",
     "link": "https://www.businessworld.in/article/mphasis-shares-jump-5-as-q2-profit-revenue-post-strong-growth-632361",
     "source": "businessworld.in",
     "published": "2026-11-05T16:00:00+00:00",
+    "official": false
+   },
+   {
+    "title": "Mphasis Q2 Net Profit Jumps 20% to Rs 561 Crore",
+    "link": "https://www.whalesbook.com/corporate-news/English/technology/Mphasis-Q2-Net-Profit-Jumps-20percent-to-Rs-561-Crore/6aecc733c6c6dccbb915f594",
+    "source": "whalesbook.com",
+    "published": "2026-11-05T15:43:00+00:00",
     "official": false
    },
    {
@@ -579,7 +583,7 @@
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Mphasis",
-  "analysed_at": "2026-11-15T18:30:58+00:00"
+  "analysed_at": "2026-11-15T19:57:22+00:00"
  },
  "HCLTech": {
   "results_found": true,
@@ -954,7 +958,7 @@
  },
  "Persistent": {
   "results_found": false,
-  "results_date": "2026-10-22",
+  "results_date": "2026-11-06",
   "headline": "Persistent Systems posted Q2 FY27 revenue of ₹4,663.90 cr, up 30.25% YoY, while net profit fell 25.4% YoY to ₹351.51 cr",
   "metrics": {
    "revenue_inr_cr": null,
@@ -972,15 +976,16 @@
    "dividend_per_share_inr": null
   },
   "guidance": null,
-  "guidance_change": "none",
+  "guidance_change": "unknown",
   "highlights": [
-   "Revenue rose 30.25% YoY to ₹4,663.90 cr",
+   "Revenue surged 30.25% YoY to ₹4,663.90 cr",
    "Net profit declined 25.4% YoY to ₹351.51 cr",
-   "QIP of ₹4,265 cr launched to fund Nagarro acquisition"
+   "QIP of ₹4,265 cr launched to fund Nagarro acquisition",
+   "Strong growth in core software and hi‑tech segments"
   ],
   "risks": [
-   "Profit margin pressure despite revenue growth",
-   "Integration risk of upcoming Nagarro acquisition"
+   "Profit margin pressure reflected in falling net profit",
+   "Large funding requirement for Nagarro deal"
   ],
   "verticals": [],
   "media_vertical": {
@@ -995,19 +1000,25 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "Strong revenue growth offset by falling profit",
+  "sentiment_reason": "Revenue growth offset by profit decline and funding needs",
   "missing": [
-   "operating margin",
-   "revenue in USD",
-   "constant‑currency growth figures",
-   "headcount and attrition data",
-   "dividend details",
-   "media vertical revenue share and growth"
+   "operating_margin_pct",
+   "headcount",
+   "attrition_pct",
+   "dividend_per_share_inr",
+   "media_vertical revenue share and growth"
   ],
   "unverified_dropped": [
    "revenue_inr_cr"
   ],
   "sources": [
+   {
+    "title": "Persistent Standalone September 2026 Net Sales at Rs 4,494.17 crore, up 28.66% Y-o-Y",
+    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOSVdieDVvbHpHZWtfT0JYRHViWTdtWGZZVjZrM2c1SlhiMXFoLUdFOWJ4aG15cWJpRU9ubVo1TUNnOHRhRHlLYVI0M1JFc2F2RU9PZTlsRWRmemZiUjBNbVUxWmctTUVWMzJEb0NpNTVZVXJ1SW1BaktCTEVvMGd6OXRvRWJwX09EV2FzMU5MQ2xaSWs0NExpZkgwTWtsdG4taUQtbnowS3hXZHgxcXRxdERDaV84STNpNWVlVlg1UjkyTTUzS3dBVGtPd0NjdUlfS2NJOGVwTGxyYnp2LVJ6X9IB5gFBVV95cUxNNHJid2R0TmNjSVROX0JsNG4zU2p2bEw3Y0xjc3RoQWt6cUpOai1LUFhyTFpWdlNRUXhNc1I1YWZocUMydXJiRFFsdV9VbFlPd3l1QUU4SkNHdzRrVUhldlJDQ05za3RCRkR6VHJ5SFlROFdkVFRPeU8tX2IwbEJleVkxbTQ0NmdhaV9oand2VGxGS3pxN0JEVTNiYjR3TFlhUzBTQUpPbHExdXh4dDZPVVRGM0tUTG96RHBZd2c2R2ZXdWJ5SFRYUWF4UVM1ZmZvZURrVzJYTkN2Zy12ZGlTNkxNUDlzdw?oc=5",
+    "source": "Moneycontrol.com",
+    "published": "2026-11-06T08:00:00+00:00",
+    "official": false
+   },
    {
     "title": "Persistent Consolidated September 2026 Net Sales at Rs 4,663.90 crore, up 30.25% Y-o-Y",
     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOQVhldzNmczVGSEFpMmR0R1VrcTkwRVBaczdnMXJnSjBsbFJqTVNWZ2pEMXFZY0RaU3pVZWhzNHktZGZTbjdVSjNPd0FTTzhpeXdBQWdENkF0dGpQZi1EVl9fbFZ1U2VyNmFha096R0tibWIxdFItenZQOTIydTFtOEk2SXc1SHV3YWlOVUVvenZ6YmMwbVRRR1hVZ2VKRGF2amxIUjNBYWl1aFVRYWYta3lEWTJsNWFDb2lpdlpvSWF5bEJMcjRtRG50Si1lU3J4OU42UXpiVkFLODRKOGplai00Z9IB6AFBVV95cUxPRENOc0JLYTI2aDFBTnc1VjZJdnItYzFVSE9XZHEwUm9NS1lKR0NyQlZjeU15WEpNNjZvcWJTVWJDS1NlZnMyLXh6RXNLeEdUUkxmaWc1Y0pKS19LUDdnYjZqelRpTndVczlZZmJEbDd0c05ER01udFBSNnRLMHN2bGpzVmNfVHNtSmp6UTA4SG5qaW13dDI1M1ZrMmNFeG94UXUxMk1HRW10RDJJYUJIYmJ3UnpVVDU1RzVhUDJaRXI5ejYyaFczdGMwdTlmc0IySU9yV0lDWl9MTk1VY1F0anowWEw2QUM0?oc=5",
@@ -1026,6 +1037,6 @@
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Persistent",
-  "analysed_at": "2026-11-15T18:30:02+00:00"
+  "analysed_at": "2026-11-15T19:56:27+00:00"
  }
 }
