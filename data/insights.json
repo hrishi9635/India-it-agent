@@ -455,7 +455,7 @@
  "Mphasis": {
   "results_found": false,
   "results_date": "2026-11-06",
-  "headline": "Mphasis posted 17.4% YoY revenue growth and 19.6% YoY net profit rise in Q2 FY27",
+  "headline": "Mphasis Q2 FY27 revenue jumps 17.4% YoY to ₹4,581 cr and profit rises 19.6% to ₹561 cr",
   "metrics": {
    "revenue_inr_cr": 4580.93,
    "revenue_usd_m": null,
@@ -471,18 +471,18 @@
    "attrition_pct": null,
    "dividend_per_share_inr": null
   },
-  "guidance": "Management raised FY27 revenue growth outlook after reporting 9.2% dollar revenue growth in Q2.",
+  "guidance": "Mphasis raised its FY27 revenue growth outlook after posting 9.2% dollar‑revenue growth in Q2.",
   "guidance_change": "raised",
   "highlights": [
-   "Revenue grew 17.4% YoY to Rs 4,580.93 crore.",
-   "Net profit rose 19.6% YoY to Rs 561.13 crore.",
-   "Sequential revenue increase of 4.5% QoQ.",
-   "New contracts worth $466 million, 66% AI‑led.",
-   "Management signaled stronger FY27 growth trajectory."
+   "Revenue grew 17.4% YoY to ₹4,580.93 cr, up 4.5% sequentially.",
+   "Net profit rose 19.6% YoY to ₹561.13 cr.",
+   "AI‑led contracts accounted for $466 m (66% of new deals).",
+   "Record pipeline and strong deal conversion were highlighted.",
+   "Management noted rising cybersecurity spending driven by AI threats."
   ],
   "risks": [
-   "Dependence on banking and financial services sector.",
-   "Macroeconomic uncertainty affecting client spending."
+   "Macroeconomic uncertainty could temper client spending.",
+   "Intensifying competition in AI‑driven services."
   ],
   "verticals": [],
   "media_vertical": {
@@ -494,10 +494,10 @@
    "commentary": null
   },
   "megep_mentions": [],
-  "ai_signals": "66% of the $466 million Q2 contracts were AI‑led, highlighting growing AI‑driven revenue.",
-  "management_view": "Management sees AI‑led deal wins driving a stronger growth outlook for FY27.",
+  "ai_signals": "66% of the new $466 m Q2 contracts were AI‑led, underscoring growing AI‑driven revenue.",
+  "management_view": "CEO Nitin Rakesh said clients are boosting cybersecurity spend as AI‑driven threats increase.",
   "sentiment": "Positive",
-  "sentiment_reason": "Strong top‑line and profit growth plus raised FY27 guidance.",
+  "sentiment_reason": "Strong revenue and profit growth, AI‑led deal wins and raised FY27 guidance.",
   "missing": [
    "revenue_usd_m",
    "operating_margin_pct",
@@ -505,7 +505,7 @@
    "net_headcount_change",
    "attrition_pct",
    "dividend_per_share_inr",
-   "media_vertical revenue share and growth"
+   "media_vertical revenue share and growth figures"
   ],
   "unverified_dropped": [],
   "sources": [
@@ -531,10 +531,24 @@
     "official": false
    },
    {
+    "title": "Q2 results: Mphasis profit climbs as AI-led deal wins hit $466 million, pipeline reaches record high",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQajdiRFNoNGs0WGx5d000WE5EaEpNUlVLMjgwZE5remxXeS1PNm92OVpfRUxIWHB0eFZqckU3bDNaVW9LOWdQRmdjVndGaDVWZFBKY01ZdEpBb2cwZzJXU2Foc19TdVNfMkJLdEFMSkRSZkQ5SE5Fa3BxbmNQUGthYmJRNXZZSnRVWGlCLVFBelFNd1Uzcks0aWNFYU9iMUlmakNNb0pfc01uSFBoQ1RrV19vaHplZE9hSjcwM2lfRVDSAcYBQVVfeXFMT1RaZmhORHBFQ0ozbnBpcFJRVTh6dnpHTnNEQVZVVll6R3U4QUhNU1VwUFAtcm9tVzFIa1JXRTVKVElpOUJ0SUlITjZDRDBwS2k3T0d3bU9EdXZJVDhTZ0d6QmJmTXd2S09GLUFDbkM3QUlYUzRaWFRoVE9jSkpzNFVtV3JvSXlYR2xNQnRHLUtBcUhMWEZaSHJvVFdkQWpjbW5ubjBPU3M5WjNxOUtJYUFPUUFuUU5MUzZPY0FwOEsteGpzQjl3?oc=5",
+    "source": "CNBC TV18",
+    "published": "2026-11-06T08:00:00+00:00",
+    "official": false
+   },
+   {
     "title": "Mphasis Q2 FY27 Profit Reaches ₹561.13 Crore, Revenue Climbs 4.5% Sequentially To ₹4,580.93 Crore",
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWTg0VC1ESER1NlU2RC05RENUanNyTFlXWmlGM2JPaHhCTU1Lc2VzS2NJNWF2SjRfcnQzcTB0cUkxX2swUnpvYjA5WlFRSXpMc3h3cFphd3pWdmJYVWJjd0gzb3RCLUVvVkRJV25LbTBqcUhmWVdqZ191ZWlzc0JWSXZMcVRQSXFRNlJiaTl6VXdnam9TZmRiZENEd09vN0dTazJBa2syZ1lBeEhfcHc0aTJDVU1EUE1MUkpZMFJ0RjZkejFYVUVKMDRB0gHPAUFVX3lxTE9mYlc5eE9sa3VNXzdxTVlGSDNMY3hDN2p0YkEzX25jYUZmcEsxc3daRHB4aU1RTl8yVHJiS3Vfc3NKUGYwMm9QRlVCcUhmQ0xMVDRoN0o4ZWFqTkpiVzNVSDNHVkdjNlVKbHRUT3Q0VlZLWlpWcmFvNWVyeG8ycG10a2ZlWTlLQ2dyOFc4YWI4TjFIbDVqSGZvY1NUYXI3bUxybVAzUFlPUVVSNlVFNFgxWTU3ZFNJSm16X2RoY2hzSTN6TjVxZXhPZjdlSC1ZRQ?oc=5",
     "source": "Free Press Journal",
     "published": "2026-11-06T08:00:00+00:00",
+    "official": false
+   },
+   {
+    "title": "Mphasis says new $466 million Q2 contracts were 66% AI-led",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUE41MzEtejZWSFlHTlBpc1J4Q0NIWFhlRnlwbkVDVk53WlhTOTRsdFJFbi14UVNSQkFwMWlCSzd0dWJQbFluUUJkNEo4S2JnVE1tU2J2b3dTdnMtalNfcUxlSWpyRnVJYjQ3Rkt0Q1hwbkZEYWJRUnFOZmJpM1FFbW5mSUMxY0pENmduUFNNamVWbXNrczJ1MUtoU3NuQzk1dlo3LWRIcE5vMWJX?oc=5",
+    "source": "Multibagg AI",
+    "published": "2026-11-05T18:14:40+00:00",
     "official": false
    },
    {
@@ -545,17 +559,31 @@
     "official": false
    },
    {
+    "title": "Mphasis revenue grows 17.4% YoY to ₹45,809 million in Q2 FY27",
+    "link": "https://www.investywise.com/mphasis-announces-q2-fy27-financial-results/",
+    "source": "investywise.com",
+    "published": "2026-11-05T10:12:00+00:00",
+    "official": false
+   },
+   {
     "title": "Mphasis Raises FY27 Growth Outlook After 9.2% Dollar Revenue Growth in Q2",
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPU1UwMDE1MEZaekdmaVFhSXllRFRrSGhSN2lzVldycjd2b2prQ0F1OU04WTVhczNPbkNscW50ajRNaEhCMHh5SVphUDZrbjJBbDdWcEZWQ184YWE1RUhLeUJMS1UwS0xTZjB6YU5fNzFVU2dqZ2F5U0t6c3ZnXzJPYTZVcFlhclRISEczcFhOVV9fUUVGSnZjTnBQNm02ODZjWk44akxteVU0T0t3UVE?oc=5",
     "source": "Analytics India Magazine",
     "published": "2026-11-10T01:33:42+00:00",
+    "official": false
+   },
+   {
+    "title": "Mphasis eyes double-digit growth despite uncertain macros, AI woes",
+    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNbDV2R0ZKdVZPRVRieGtRMWpHQUF5Y3RGTFpYUlhyUHZDcEtZYTh2NExJSEdRSEt6TGEzMW1FZ2NYU1V0RE5RcmRVSU1LYWxyRG1HUEt4Nld3R2ZhLVBuUlhPYzhSWTFXYzVlWkVDNk5WeGFkWXp0WlZHUU9sRVhJb00tUGk4V1c4MjBGZGI4bFFPakpocVRDZVdtai1MQUZJeXB3N1FqaVQtRzhja1Vfd3RHWWRPbS02QTFFeVoxX0hpNTdfVE9INVpla0hhVExySEszNXpmZEpEb04weFc1WGwxaXJJMnlP0gHuAUFVX3lxTE1WSDdidzZjbndqMElOakFESTBRd0pXUWdIZ01ncUw2SGtkbDctWFlpMnBHcTNVV2lGc3ZFZkowc1V3Zmc3Vy0xN29nZHpsVzdkd0hhazFBckw4cTN1dW00cmRUYWc1YUNQaTBYeW80ZkprNkdjR2lyS3hJNGFOTHowWmdfS3ZWNXg0MlJ4STVZMGp3TWNqNTZWaWFfZ19ZUVZrVHZxLURYM1JWdnQwQjlwTkpZZGE4ZWRNTWZHRGw2cWRBVER1MmxwZl85dE1aUXZVb0JaclpnUlh4cHk1V3pIWm5wdVM1d0NtdHJQY1E?oc=5",
+    "source": "Business Standard",
+    "published": "2026-11-09T13:17:00+00:00",
     "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Mphasis",
-  "analysed_at": "2026-11-16T18:39:31+00:00"
+  "analysed_at": "2026-11-16T21:40:21+00:00"
  },
  "HCLTech": {
   "results_found": true,
@@ -931,7 +959,7 @@
  "Persistent": {
   "results_found": false,
   "results_date": "2026-11-06",
-  "headline": "Persistent Systems posted Q2 FY27 revenue of ₹4,663.9 cr, up 30.25% YoY, while net profit fell 25.4% YoY to ₹351.51 cr",
+  "headline": "Persistent Systems posts Q2 FY27 revenue of Rs4,664 cr, up 30.3% YoY, while net profit falls 25.4% YoY to Rs351.5 cr",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -950,14 +978,12 @@
   "guidance": null,
   "guidance_change": "none",
   "highlights": [
-   "Revenue surged 30.25% YoY to ₹4,663.9 cr",
-   "Net profit declined 25.4% YoY to ₹351.51 cr",
-   "Strong demand from AI‑led engineering and cloud modernization",
-   "Funding activities announced for Nagarro acquisition"
+   "Revenue rose over 30% YoY to Rs4,664 cr",
+   "Net profit declined 25.4% YoY to Rs351.5 cr",
+   "Results announced on 6 Nov 2026"
   ],
   "risks": [
-   "Margin pressure from higher costs",
-   "Integration risk of Nagarro deal"
+   "Profit margin pressure evident"
   ],
   "verticals": [],
   "media_vertical": {
@@ -971,14 +997,19 @@
   "megep_mentions": [],
   "ai_signals": null,
   "management_view": null,
-  "sentiment": "Positive",
-  "sentiment_reason": "Revenue growth outweighed profit decline",
+  "sentiment": "Neutral",
+  "sentiment_reason": "Strong revenue growth offset by a sharp profit decline",
   "missing": [
-   "operating_margin_pct (exact), revenue_usd_m, deal_wins_usd_bn, headcount, net_headcount_change, attrition_pct, dividend_per_share_inr, media_vertical revenue share and growth"
+   "operating_margin_pct",
+   "deal_wins_usd_bn",
+   "headcount",
+   "net_headcount_change",
+   "attrition_pct",
+   "dividend_per_share_inr",
+   "media_vertical share and growth"
   ],
   "unverified_dropped": [
-   "revenue_inr_cr",
-   "operating_margin_pct"
+   "revenue_inr_cr"
   ],
   "sources": [
    {
@@ -994,18 +1025,11 @@
     "source": "msn.com",
     "published": "2026-10-22T09:07:53+00:00",
     "official": false
-   },
-   {
-    "title": "Persistent Systems opens ₹4,265 Crore QIP to fund Nagarro acquisition as Q2 FY27 net profit dips 25.4% YoY to ₹351.51 Cr",
-    "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOR2FWc180cmVoQk5HdjVZLThkdUpvQUVJdkduRzZESHJLVjY2VWQxTVZWMjFBWWJlOFB6Ym9OMWs5c3RRRWtVOWtTTHlGMHJ3V0FhOU1CRUxPcjVzRWRVeGNDTUpjQ05JaklHZTc0ckNUYm8tR3pjN3ZGRVY3cGNyQXhGMnpTczRtbHhjS2VMcjY0SDY4RFdrNmdXVW1CT0hYM3N1Z0dFODhzSDhfd01id18tejVHVG9CTUgzV1NQdGN2WWd1Y0JZSnkyT2xjVjlISEFxRGR6WEllQW9wYlVMSV96V1hoTFJQd1R6RmxqdXBZdXM?oc=5",
-    "source": "Trade Brains",
-    "published": "2026-10-22T05:18:04+00:00",
-    "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Persistent",
-  "analysed_at": "2026-11-16T18:38:36+00:00"
+  "analysed_at": "2026-11-16T21:39:25+00:00"
  }
 }
