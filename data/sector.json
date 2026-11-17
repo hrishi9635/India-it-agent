@@ -1,71 +1,93 @@
 {
- "headline": "Indian IT services posted mixed revenue growth with AI as a key driver.",
- "summary": "Revenue growth ranged from low single digits to over 50% YoY. AI‑related revenue and deal wins were highlighted by several firms. Guidance was trimmed by Infosys but raised by Coforge and Mphasis. Profit growth was uneven, with Wipro seeing a decline.",
+ "headline": "Indian IT services showed uneven growth in Q2 FY27, with AI‑driven firms outpacing slower‑guidance peers.",
+ "summary": "Revenue grew across the sector, led by high‑growth players like Coforge and HCLTech. Profitability was mixed; Infosys trimmed guidance while Wipro saw profit dip. AI revenue contributions were highlighted by several firms, indicating a shift toward higher‑margin services. Guidance ranges from modest (1‑2%) to raised outlooks for a few companies.",
  "themes": [
   {
-   "title": "AI‑driven services",
-   "detail": "AI revenue grew strongly, supporting top‑line and profit in multiple firms.",
+   "title": "AI‑led revenue acceleration",
+   "detail": "Companies such as HCLTech, Mphasis and Infosys reported strong AI revenue growth, boosting margins and deal wins.",
+   "companies": [
+    "HCLTech",
+    "Mphasis",
+    "Infosys"
+   ]
+  },
+  {
+   "title": "Revenue growth divergence",
+   "detail": "Coforge posted 53.6% YoY growth, while traditional giants like Infosys and Wipro delivered single‑digit increases.",
+   "companies": [
+    "Coforge",
+    "Infosys",
+    "Wipro"
+   ]
+  },
+  {
+   "title": "Margin pressure on legacy players",
+   "detail": "Despite revenue gains, firms like Infosys and Wipro face tighter operating margins and lower profit growth.",
    "companies": [
     "Infosys",
-    "LTM",
-    "Mphasis",
-    "HCLTech",
-    "TCS",
-    "Persistent"
+    "Wipro"
    ]
   }
  ],
  "leaders": [
   {
    "company": "Coforge",
-   "why": "Revenue surged 53.6% YoY and EBIT margin guidance raised to 16%."
+   "why": "53.6% YoY revenue growth and raised EBIT margin guidance to 16%."
+  },
+  {
+   "company": "HCLTech",
+   "why": "AI revenue rose to $219 m, driving a 21% profit jump and solid operating margin."
   }
  ],
  "laggards": [
   {
+   "company": "Infosys",
+   "why": "Revenue growth slowed to ~1% YoY and FY27 guidance cut to 1‑2%."
+  },
+  {
    "company": "Wipro",
-   "why": "Revenue grew 9.1% YoY but net profit fell 1.9% and headcount fell sharply."
+   "why": "Revenue grew 9.1% YoY but net profit fell 1.9% and guidance is flat."
   }
  ],
  "domain_outlook": [
   {
    "domain": "Media & broadcasting",
    "signal": "Not enough data",
-   "note": "No company mentioned this domain."
+   "note": "No company mentions or AI signals specific to this domain."
   },
   {
    "domain": "Entertainment & streaming",
    "signal": "Not enough data",
-   "note": "No company mentioned this domain."
+   "note": "No company mentions or AI signals specific to this domain."
   },
   {
    "domain": "Gaming",
    "signal": "Not enough data",
-   "note": "No company mentioned this domain."
+   "note": "No company mentions or AI signals specific to this domain."
   },
   {
    "domain": "Education",
    "signal": "Not enough data",
-   "note": "No company mentioned this domain."
+   "note": "No company mentions or AI signals specific to this domain."
   },
   {
    "domain": "Publishing",
    "signal": "Not enough data",
-   "note": "No company mentioned this domain."
+   "note": "No company mentions or AI signals specific to this domain."
   },
   {
    "domain": "Telecom",
    "signal": "Not enough data",
-   "note": "No company mentioned this domain."
+   "note": "No company mentions or AI signals specific to this domain."
   }
  ],
  "watch_next": [
-  "AI revenue contribution and its impact on margins",
-  "Whether Infosys restores its FY27 revenue guidance",
-  "Mphasis FY27 outlook and deal pipeline",
-  "Wipro's profit recovery and headcount trends",
-  "Coforge's margin performance after guidance raise"
+  "AI revenue share trends across all majors",
+  "Whether Infosys raises FY27 guidance after Q3",
+  "Margin evolution at high‑growth firms like Coforge",
+  "Impact of headcount changes on profitability at HCLTech and Wipro",
+  "Deal win volumes in the US market for the next quarter"
  ],
  "quarter": "Q2 FY27",
- "written_at": "2026-11-16T23:32:22+00:00"
+ "written_at": "2026-11-17T01:03:25+00:00"
 }
