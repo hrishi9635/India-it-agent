@@ -2,7 +2,7 @@
  "TCS": {
   "checked": true,
   "exchange": "NSE",
-  "count": 33,
+  "count": 34,
   "result": {
    "title": "Tata Consultancy Services Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
    "detail": "",
@@ -25,13 +25,13 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-17T01:01",
+  "checked_at": "2026-11-17T17:40",
   "quarter": "Q2 FY27"
  },
  "Infosys": {
   "checked": true,
   "exchange": "NSE",
-  "count": 26,
+  "count": 27,
   "result": {
    "title": "Infosys Limited has submitted to the Exchange, Financial Results for the quarter and half year ended September 30, 2026 and declaration of interim dividend",
    "detail": "",
@@ -45,13 +45,13 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-17T01:01",
+  "checked_at": "2026-11-17T17:40",
   "quarter": "Q2 FY27"
  },
  "HCLTech": {
   "checked": true,
   "exchange": "NSE",
-  "count": 36,
+  "count": 37,
   "result": {
    "title": "HCL Technologies Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
    "detail": "",
@@ -74,13 +74,13 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-17T01:01",
+  "checked_at": "2026-11-17T17:40",
   "quarter": "Q2 FY27"
  },
  "Wipro": {
   "checked": true,
   "exchange": "NSE",
-  "count": 35,
+  "count": 36,
   "result": {
    "title": "Wipro Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
    "detail": "",
@@ -103,7 +103,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-17T01:01",
+  "checked_at": "2026-11-17T17:40",
   "quarter": "Q2 FY27"
  },
  "LTM": {
@@ -132,7 +132,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-17T01:01",
+  "checked_at": "2026-11-17T17:40",
   "quarter": "Q2 FY27"
  },
  "Tech Mahindra": {
@@ -161,13 +161,13 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-17T01:01",
+  "checked_at": "2026-11-17T17:40",
   "quarter": "Q2 FY27"
  },
  "OFSS": {
   "checked": true,
   "exchange": "NSE",
-  "count": 18,
+  "count": 19,
   "result": {
    "title": "Oracle Financial Services Software Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
    "detail": "",
@@ -190,7 +190,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-17T01:01",
+  "checked_at": "2026-11-17T17:41",
   "quarter": "Q2 FY27"
  },
  "Persistent": {
@@ -201,7 +201,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-17T01:01",
+  "checked_at": "2026-11-17T17:41",
   "quarter": "Q2 FY27"
  },
  "Coforge": {
@@ -230,7 +230,7 @@
   },
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-17T01:01",
+  "checked_at": "2026-11-17T17:41",
   "quarter": "Q2 FY27"
  },
  "Mphasis": {
@@ -241,7 +241,7 @@
   "press": null,
   "next_results_date": null,
   "error": null,
-  "checked_at": "2026-11-17T01:01",
+  "checked_at": "2026-11-17T17:41",
   "quarter": "Q2 FY27"
  }
 }
