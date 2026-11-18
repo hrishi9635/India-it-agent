@@ -454,8 +454,8 @@
  },
  "Mphasis": {
   "results_found": false,
-  "results_date": "2026-11-06",
-  "headline": "Mphasis posted a 17.4% YoY revenue rise to ₹4,580.93 cr and a 14.6% sequential profit jump to ₹561.13 cr in Q2 FY27",
+  "results_date": "2026-11-05",
+  "headline": "Mphasis posted a 4.5% sequential revenue rise to ₹4,580.93 cr and a 14.6% jump in net profit to ₹561.13 cr in Q2 FY27",
   "metrics": {
    "revenue_inr_cr": 4580.93,
    "revenue_usd_m": 486,
@@ -474,11 +474,11 @@
   "guidance": "Management expects FY27 revenue growth to be at the upper end of its guidance range (high single‑digits to low double‑digits) and reiterated its EBIT margin target of 14.75‑15.75%.",
   "guidance_change": "raised",
   "highlights": [
-   "Revenue grew 17.4% YoY and 4.5% QoQ in rupee terms.",
-   "Constant‑currency revenue rose 3.3% QoQ and 9.7% YoY, the highest sequential CC growth in years.",
-   "Net profit increased 14.6% sequentially, helped by a 78% jump in other income.",
-   "Deal wins totalled $466 million, with about 66% AI‑led contracts.",
-   "EBIT margin held steady at 14.8%."
+   "Revenue grew 4.5% sequentially and 17.4% YoY.",
+   "Net profit rose 14.6% sequentially and 19.6% YoY.",
+   "Constant‑currency revenue rose 3.3% QoQ and 9.7% YoY.",
+   "EBIT margin held steady at 14.8%, within the target band.",
+   "Total contract value reached $466 m, with 66% AI‑led."
   ],
   "risks": [
    "Macro‑economic uncertainty could pressure client spending.",
@@ -494,16 +494,16 @@
    "commentary": null
   },
   "megep_mentions": [],
-  "ai_signals": "66% of Q2 contracts were AI‑led, reflecting strong demand for AI‑driven services.",
+  "ai_signals": "66% of Q2 contract value was AI‑led and AI‑driven services were highlighted as a growth driver.",
   "management_view": "Management said the first half of FY27 laid a strong foundation and expects the momentum to continue in the second half.",
   "sentiment": "Positive",
-  "sentiment_reason": "Strong revenue and profit growth, solid margin, and robust AI‑led deal pipeline.",
+  "sentiment_reason": "Strong sequential and YoY growth in revenue and profit, plus upbeat FY27 guidance.",
   "missing": [
-   "headcount figures",
-   "net headcount change",
-   "attrition",
-   "dividend per share",
-   "media vertical revenue share and growth specifics"
+   "headcount",
+   "net_headcount_change",
+   "attrition_pct",
+   "dividend_per_share_inr",
+   "media vertical revenue share and growth percentages"
   ],
   "unverified_dropped": [],
   "sources": [
@@ -527,19 +527,12 @@
     "source": "businessworld.in",
     "published": "2026-11-05T16:00:00+00:00",
     "official": false
-   },
-   {
-    "title": "Mphasis Q2 Results FY27: Revenue Rises 17.4% to Rs 4,580.93 Cr, PAT Rs 561.13 Cr",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1DbFBUUWhqMmoxbmNUVU1jakRqRVg1MHVKUVZRMWlFMUx0S1A3bXIzVmRFbnpQYUFQVmVUelhIblFpQ19XcTlDamZIZlBwVkZ0ZkV1VVAxVm96ODY0RTdhaWE5SXB3VHpwdTFPSF9QMA?oc=5",
-    "source": "Univest",
-    "published": "2026-11-06T06:27:00+00:00",
-    "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Mphasis",
-  "analysed_at": "2026-11-18T17:20:38+00:00"
+  "analysed_at": "2026-11-18T19:59:25+00:00"
  },
  "HCLTech": {
   "results_found": true,
@@ -915,7 +908,7 @@
  "Persistent": {
   "results_found": false,
   "results_date": "2026-11-06",
-  "headline": "Persistent Systems posts Q2 FY27 revenue of ₹4,664 crore, up 30% YoY, but net profit falls 25% YoY",
+  "headline": "Persistent Systems posts Q2 FY27 revenue of ₹4,664 crore, up 30% YoY, while net profit falls 25% YoY",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -932,17 +925,16 @@
    "dividend_per_share_inr": null
   },
   "guidance": null,
-  "guidance_change": "unknown",
+  "guidance_change": "none",
   "highlights": [
-   "Revenue rose 30.25% YoY to ₹4,663.90 cr",
-   "Net profit slipped 25.4% YoY to ₹351.51 cr",
-   "QIP of ₹4,265 cr launched to fund Nagarro acquisition",
-   "Management highlighted shift to AI‑led engineering projects"
+   "Revenue surged 30.25% YoY to ₹4,664 cr",
+   "Net profit declined 25.4% YoY to ₹351.51 cr",
+   "Results released alongside funding activities for the Nagarro acquisition",
+   "Strong demand for AI‑led engineering and cloud modernisation noted"
   ],
   "risks": [
-   "Profit margin pressure despite top‑line growth",
-   "Execution risk around large Nagarro acquisition",
-   "Funding reliance on QIP and debt"
+   "Profit margin pressure despite revenue growth",
+   "Funding requirements for large acquisition may strain balance sheet"
   ],
   "verticals": [],
   "media_vertical": {
@@ -954,30 +946,27 @@
    "commentary": null
   },
   "megep_mentions": [],
-  "ai_signals": null,
+  "ai_signals": "Clients shifting spend to AI‑led engineering, product development and cloud modernisation were highlighted in the results commentary",
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "Strong revenue growth is offset by a sharp decline in net profit",
+  "sentiment_reason": "Revenue growth is strong but profit decline and funding needs temper enthusiasm",
   "missing": [
    "operating_margin_pct",
-   "deal_wins_usd_bn",
+   "revenue_usd_m",
+   "cc_growth_qoq_pct",
+   "cc_growth_yoy_pct",
    "headcount",
    "net_headcount_change",
    "attrition_pct",
    "dividend_per_share_inr",
-   "media_vertical revenue share and growth"
+   "media_vertical share and growth",
+   "deal_wins_usd_bn",
+   "management_view"
   ],
   "unverified_dropped": [
    "revenue_inr_cr"
   ],
   "sources": [
-   {
-    "title": "Persistent Standalone September 2026 Net Sales at Rs 4,494.17 crore, up 28.66% Y-o-Y",
-    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOSVdieDVvbHpHZWtfT0JYRHViWTdtWGZZVjZrM2c1SlhiMXFoLUdFOWJ4aG15cWJpRU9ubVo1TUNnOHRhRHlLYVI0M1JFc2F2RU9PZTlsRWRmemZiUjBNbVUxWmctTUVWMzJEb0NpNTVZVXJ1SW1BaktCTEVvMGd6OXRvRWJwX09EV2FzMU5MQ2xaSWs0NExpZkgwTWtsdG4taUQtbnowS3hXZHgxcXRxdERDaV84STNpNWVlVlg1UjkyTTUzS3dBVGtPd0NjdUlfS2NJOGVwTGxyYnp2LVJ6X9IB5gFBVV95cUxNNHJid2R0TmNjSVROX0JsNG4zU2p2bEw3Y0xjc3RoQWt6cUpOai1LUFhyTFpWdlNRUXhNc1I1YWZocUMydXJiRFFsdV9VbFlPd3l1QUU4SkNHdzRrVUhldlJDQ05za3RCRkR6VHJ5SFlROFdkVFRPeU8tX2IwbEJleVkxbTQ0NmdhaV9oand2VGxGS3pxN0JEVTNiYjR3TFlhUzBTQUpPbHExdXh4dDZPVVRGM0tUTG96RHBZd2c2R2ZXdWJ5SFRYUWF4UVM1ZmZvZURrVzJYTkN2Zy12ZGlTNkxNUDlzdw?oc=5",
-    "source": "Moneycontrol.com",
-    "published": "2026-11-06T08:00:00+00:00",
-    "official": false
-   },
    {
     "title": "Persistent Consolidated September 2026 Net Sales at Rs 4,663.90 crore, up 30.25% Y-o-Y",
     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOQVhldzNmczVGSEFpMmR0R1VrcTkwRVBaczdnMXJnSjBsbFJqTVNWZ2pEMXFZY0RaU3pVZWhzNHktZGZTbjdVSjNPd0FTTzhpeXdBQWdENkF0dGpQZi1EVl9fbFZ1U2VyNmFha096R0tibWIxdFItenZQOTIydTFtOEk2SXc1SHV3YWlOVUVvenZ6YmMwbVRRR1hVZ2VKRGF2amxIUjNBYWl1aFVRYWYta3lEWTJsNWFDb2lpdlpvSWF5bEJMcjRtRG50Si1lU3J4OU42UXpiVkFLODRKOGplai00Z9IB6AFBVV95cUxPRENOc0JLYTI2aDFBTnc1VjZJdnItYzFVSE9XZHEwUm9NS1lKR0NyQlZjeU15WEpNNjZvcWJTVWJDS1NlZnMyLXh6RXNLeEdUUkxmaWc1Y0pKS19LUDdnYjZqelRpTndVczlZZmJEbDd0c05ER01udFBSNnRLMHN2bGpzVmNfVHNtSmp6UTA4SG5qaW13dDI1M1ZrMmNFeG94UXUxMk1HRW10RDJJYUJIYmJ3UnpVVDU1RzVhUDJaRXI5ejYyaFczdGMwdTlmc0IySU9yV0lDWl9MTk1VY1F0anowWEw2QUM0?oc=5",
@@ -991,18 +980,11 @@
     "source": "msn.com",
     "published": "2026-10-22T09:07:53+00:00",
     "official": false
-   },
-   {
-    "title": "Persistent Systems opens ₹4,265 Crore QIP to fund Nagarro acquisition as Q2 FY27 net profit dips 25.4% YoY to ₹351.51 Cr",
-    "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOR2FWc180cmVoQk5HdjVZLThkdUpvQUVJdkduRzZESHJLVjY2VWQxTVZWMjFBWWJlOFB6Ym9OMWs5c3RRRWtVOWtTTHlGMHJ3V0FhOU1CRUxPcjVzRWRVeGNDTUpjQ05JaklHZTc0ckNUYm8tR3pjN3ZGRVY3cGNyQXhGMnpTczRtbHhjS2VMcjY0SDY4RFdrNmdXVW1CT0hYM3N1Z0dFODhzSDhfd01id18tejVHVG9CTUgzV1NQdGN2WWd1Y0JZSnkyT2xjVjlISEFxRGR6WEllQW9wYlVMSV96V1hoTFJQd1R6RmxqdXBZdXM?oc=5",
-    "source": "Trade Brains",
-    "published": "2026-10-22T07:00:00+00:00",
-    "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Persistent",
-  "analysed_at": "2026-11-18T17:19:43+00:00"
+  "analysed_at": "2026-11-18T19:58:29+00:00"
  }
 }
