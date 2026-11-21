@@ -1,90 +1,95 @@
 {
- "headline": "Indian IT services showed mixed revenue growth with a few high‑flying firms and modest performance from the majors.",
- "summary": "Coforge posted a 53.6% YoY revenue surge, the strongest in the sector. Most peers delivered double‑digit growth, but Infosys trimmed its FY27 guidance to 1‑2% and posted only 1.5% revenue growth. AI‑related services were a common driver, contributing to higher margins for several companies. Guidance remains cautious, with many firms expecting modest FY27 growth.",
+ "headline": "Indian IT services showed mixed revenue growth with AI driving outsized gains for a few firms.",
+ "summary": "Coforge posted a 53.6% YoY revenue surge, the strongest among peers, while Infosys grew only 1.5% and trimmed its FY27 guidance. Most companies reported double‑digit top‑line growth, but profit margins varied, with HCLTech posting a 21% profit jump on AI contracts. Guidance was cut by Infosys and introduced by HCLTech and Wipro, indicating cautious outlook despite solid demand. AI‑related deals were highlighted across the sector, though only a few disclosed specific AI revenue figures.",
  "themes": [
   {
-   "title": "AI‑driven revenue",
-   "detail": "AI services helped lift revenue and profit at Infosys, LTM, HCLTech, TCS and Mphasis.",
+   "title": "AI‑led growth",
+   "detail": "Several firms cited AI revenue or AI‑driven deals as key contributors to top‑line growth, notably HCLTech ($219 m AI revenue) and Mphasis (66% AI‑led contracts).",
    "companies": [
-    "Infosys",
-    "LTM",
     "HCLTech",
-    "TCS",
-    "Mphasis"
-   ]
-  },
-  {
-   "title": "Margin expansion",
-   "detail": "Coforge raised its EBIT margin guidance to 16% and HCLTech reported an operating margin of 18.2%.",
-   "companies": [
+    "Mphasis",
     "Coforge",
-    "HCLTech"
+    "LTM"
    ]
   },
   {
-   "title": "Revenue growth variance",
-   "detail": "Growth ranged from 1.5% at Infosys to over 50% at Coforge, highlighting divergent market positioning.",
+   "title": "Margin pressure and guidance cuts",
+   "detail": "Infosys cut FY27 revenue guidance to 1‑2% and its operating margin slipped, while other peers kept or raised guidance but face modest margin expansion.",
    "companies": [
     "Infosys",
+    "HCLTech",
+    "Wipro"
+   ]
+  },
+  {
+   "title": "Strong mid‑tier performance",
+   "detail": "Mid‑tier players like Coforge, LTM and Tech Mahindra delivered double‑digit revenue growth, outpacing larger peers.",
+   "companies": [
     "Coforge",
     "LTM",
-    "Tech Mahindra",
-    "TCS",
-    "Wipro"
+    "Tech Mahindra"
    ]
   }
  ],
  "leaders": [
   {
    "company": "Coforge",
-   "why": "53.6% YoY revenue growth and raised FY27 EBIT margin guidance."
+   "why": "53.6% YoY revenue growth and raised EBIT margin guidance to 16%."
+  },
+  {
+   "company": "HCLTech",
+   "why": "21% YoY profit rise powered by $219 m AI revenue."
   }
  ],
  "laggards": [
   {
    "company": "Infosys",
-   "why": "Revenue grew only 1.5% YoY and FY27 guidance was cut to 1‑2%."
+   "why": "Revenue grew only 1.5% YoY and FY27 guidance was cut."
+  },
+  {
+   "company": "Wipro",
+   "why": "Revenue grew 9.1% YoY but net profit fell 1.9% and guidance is flat."
   }
  ],
  "domain_outlook": [
   {
    "domain": "Media & broadcasting",
    "signal": "Not enough data",
-   "note": "No company mentioned this domain."
+   "note": "No company mentioned media or broadcasting themes."
   },
   {
    "domain": "Entertainment & streaming",
    "signal": "Not enough data",
-   "note": "No company mentioned this domain."
+   "note": "No explicit references to entertainment or streaming."
   },
   {
    "domain": "Gaming",
    "signal": "Not enough data",
-   "note": "No company mentioned this domain."
+   "note": "Gaming was not discussed in any report."
   },
   {
    "domain": "Education",
    "signal": "Not enough data",
-   "note": "No company mentioned this domain."
+   "note": "No education‑related mentions were found."
   },
   {
    "domain": "Publishing",
    "signal": "Not enough data",
-   "note": "No company mentioned this domain."
+   "note": "Publishing themes were absent."
   },
   {
    "domain": "Telecom",
-   "signal": "Positive",
-   "note": "Mphasis highlighted telecom and device engineering growth, indicating demand in the sector."
+   "signal": "Not enough data",
+   "note": "Telecom was not referenced in the summaries."
   }
  ],
  "watch_next": [
-  "Whether Infosys can revive growth after guidance cut",
-  "Coforge's margin performance versus guidance",
-  "AI revenue contribution trends across the majors",
-  "HCLTech's FY27 revenue guidance execution",
-  "Mphasis telecom deal pipeline"
+  "Whether Infosys restores its revenue guidance in Q3.",
+  "AI revenue disclosure trends across the sector.",
+  "Margin trends as mid‑tier firms scale AI services.",
+  "Impact of constant‑currency guidance on HCLTech and Wipro.",
+  "Deal win volumes, especially large AI‑led contracts."
  ],
  "quarter": "Q2 FY27",
- "written_at": "2026-11-21T20:42:03+00:00"
+ "written_at": "2026-11-21T22:21:43+00:00"
 }
