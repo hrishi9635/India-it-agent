@@ -1,77 +1,92 @@
 {
- "headline": "Revenue growth was mixed, with a few firms posting very strong gains while others saw modest or slowing growth.",
- "summary": "Coforge led the pack with 53.6% YoY revenue growth and raised its EBIT margin guidance. HCLTech and TCS posted double‑digit growth supported by AI‑related revenue. Infosys trimmed its FY27 revenue outlook and saw only 1.5% YoY growth. Wipro’s revenue grew 9.1% but profit fell 1.9% YoY.",
+ "headline": "Quarterly growth was mixed, with a few firms posting strong top‑line gains while the larger players saw modest revenue increases.",
+ "summary": "Coforge led the pack with 53.6% YoY revenue growth and raised its EBIT margin guidance. HCLTech and TCS delivered double‑digit growth supported by AI‑driven deals. Infosys and Wipro showed the weakest top‑line momentum, with Infosys cutting its FY27 revenue outlook and Wipro posting a profit decline. Overall, AI contributions were highlighted across several companies, but margin pressure persisted for some.",
  "themes": [
   {
    "title": "AI‑driven revenue",
-   "detail": "Several firms highlighted AI contributions, with Infosys reporting 29% AI revenue growth, HCLTech’s AI revenue at $219 m, and TCS crossing the $3 bn AI revenue mark.",
+   "detail": "Infosys, HCLTech, TCS and Mphasis all reported AI‑related revenue growth or deal wins, indicating AI is becoming a core growth engine.",
    "companies": [
     "Infosys",
     "HCLTech",
     "TCS",
     "Mphasis"
    ]
+  },
+  {
+   "title": "Margin guidance upgrades",
+   "detail": "Coforge raised its FY27 EBIT margin target to 16%, reflecting confidence in higher‑margin AI and engineering services.",
+   "companies": [
+    "Coforge"
+   ]
+  },
+  {
+   "title": "Deal wins and contract wins",
+   "detail": "Infosys secured $5.2 bn of deals and TCS logged $9.6 bn of wins, showing continued demand for large‑scale transformation projects.",
+   "companies": [
+    "Infosys",
+    "TCS"
+   ]
   }
  ],
  "leaders": [
   {
    "company": "Coforge",
-   "why": "53.6% YoY revenue growth and raised FY27 EBIT margin guidance to 16%"
+   "why": "53.6% YoY revenue growth and upgraded EBIT margin guidance."
   },
   {
-   "company": "HCLTech",
-   "why": "11.5% YoY revenue growth, 21% profit jump and strong AI revenue"
+   "company": "Persistent",
+   "why": "30.3% YoY revenue growth despite lack of detailed earnings data."
   }
  ],
  "laggards": [
   {
    "company": "Infosys",
-   "why": "Revenue growth slowed to 1.5% YoY and FY27 guidance cut to 1‑2%"
+   "why": "Revenue grew only 1.5% YoY and FY27 guidance was cut to 1‑2%."
   },
   {
    "company": "Wipro",
-   "why": "Revenue grew 9.1% YoY but profit fell 1.9% YoY and headcount fell"
+   "why": "Revenue growth modest at 9.1% YoY and profit fell 1.9% YoY; guidance indicates flat‑to‑slight decline."
   }
  ],
  "domain_outlook": [
   {
    "domain": "Media & broadcasting",
    "signal": "Not enough data",
-   "note": "No company mentions or signals related to this domain."
+   "note": "No company mentions or AI signals related to this domain."
   },
   {
    "domain": "Entertainment & streaming",
    "signal": "Not enough data",
-   "note": "No company mentions or signals related to this domain."
+   "note": "No company mentions or AI signals related to this domain."
   },
   {
    "domain": "Gaming",
    "signal": "Not enough data",
-   "note": "No company mentions or signals related to this domain."
+   "note": "No company mentions or AI signals related to this domain."
   },
   {
    "domain": "Education",
    "signal": "Not enough data",
-   "note": "No company mentions or signals related to this domain."
+   "note": "No company mentions or AI signals related to this domain."
   },
   {
    "domain": "Publishing",
    "signal": "Not enough data",
-   "note": "No company mentions or signals related to this domain."
+   "note": "No company mentions or AI signals related to this domain."
   },
   {
    "domain": "Telecom",
    "signal": "Not enough data",
-   "note": "No company mentions or signals related to this domain."
+   "note": "No company mentions or AI signals related to this domain."
   }
  ],
  "watch_next": [
-  "AI revenue contribution and its impact on margins",
-  "Any revisions to FY27 revenue guidance",
-  "Trend in AI‑led deal wins and contract values",
-  "Attrition and headcount changes across majors",
-  "Quarter‑over‑quarter revenue momentum, especially for Coforge and HCLTech"
+  "AI revenue share across the sector",
+  "Margin guidance updates for Infosys and HCLTech",
+  "Deal win pipelines for TCS and Infosys",
+  "Attrition trends and headcount changes",
+  "FY27 revenue guidance revisions"
  ],
  "quarter": "Q2 FY27",
- "written_at": "2026-11-20T23:21:52+00:00"
+ "written_at": "2026-11-21T16:14:54+00:00"
 }
