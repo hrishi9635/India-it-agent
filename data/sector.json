@@ -1,23 +1,23 @@
 {
- "headline": "Indian IT services showed mixed revenue growth with a few high‑fliers but overall modest top‑line expansion.",
- "summary": "Revenue growth ranged from low single‑digits to over 50% YoY. Coforge led with 53.6% growth, while Infosys trimmed its FY27 guidance to 1‑2% and posted only 11% YoY growth. Profit margins improved for most firms, driven by AI‑related deals, but Wipro saw a 1.9% profit decline. Guidance remained steady for most peers, with HCLTech and Wipro introducing new FY27 outlooks.",
+ "headline": "Indian IT services showed mixed revenue growth with a few high flyers and modest guidance revisions.",
+ "summary": "Revenue growth ranged from sub‑2% at Infosys to over 50% at Coforge. Profit margins improved for most firms, driven by AI‑related deals. Several companies trimmed FY27 revenue guidance, while others raised margin targets. Overall sentiment remains positive but uneven.",
  "themes": [
   {
-   "title": "AI‑driven revenue acceleration",
-   "detail": "Several firms highlighted AI contributions, with Infosys reporting 29% AI revenue growth and HCLTech’s AI revenue reaching $219 m.",
+   "title": "AI‑driven growth",
+   "detail": "AI revenue contributed significantly to profit jumps at HCLTech, Mphasis and Infosys, and underpinned large‑deal wins.",
    "companies": [
-    "Infosys",
     "HCLTech",
     "Mphasis",
-    "TCS"
+    "Infosys"
    ]
   },
   {
-   "title": "Margin pressure on mid‑tier players",
-   "detail": "Despite strong top‑line growth, companies like LTM and Tech Mahindra posted operating margins below 16%, indicating cost pressures.",
+   "title": "Guidance adjustments",
+   "detail": "Infosys cut FY27 revenue guidance to 1‑2%; HCLTech introduced a modest 2.5‑4% range; Wipro gave a flat‑range outlook for Q3.",
    "companies": [
-    "LTM",
-    "Tech Mahindra"
+    "Infosys",
+    "HCLTech",
+    "Wipro"
    ]
   }
  ],
@@ -28,17 +28,17 @@
   },
   {
    "company": "Persistent",
-   "why": "Revenue grew 39.9% YoY, the fastest among listed peers."
+   "why": "Revenue grew 39.9% YoY, the strongest among peers."
   }
  ],
  "laggards": [
   {
    "company": "Infosys",
-   "why": "Revenue growth slowed to 11% YoY and FY27 guidance cut to 1‑2%."
+   "why": "Revenue growth slowed to 1.5% YoY, the lowest in the cohort."
   },
   {
    "company": "Wipro",
-   "why": "Net profit fell 1.9% YoY despite 9.1% revenue growth."
+   "why": "Net profit fell 1.9% YoY despite revenue growth."
   }
  ],
  "domain_outlook": [
@@ -74,12 +74,12 @@
   }
  ],
  "watch_next": [
-  "Whether Infosys can lift its FY27 revenue guidance.",
-  "AI revenue contribution trends across the sector.",
-  "Margin expansion for high‑growth firms like Coforge.",
-  "Impact of attrition rates on headcount‑intensive peers.",
-  "Sequential revenue performance in Q3 FY27."
+  "AI revenue contribution trends across the sector",
+  "Impact of revised FY27 guidance on market sentiment",
+  "Mid‑quarter performance of Infosys and Wipro",
+  "Margin expansion at Coforge and HCLTech",
+  "Deal win volumes, especially AI‑led contracts"
  ],
  "quarter": "Q2 FY27",
- "written_at": "2026-11-22T20:51:16+00:00"
+ "written_at": "2026-11-22T22:46:11+00:00"
 }
