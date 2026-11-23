@@ -826,7 +826,7 @@
  "Persistent": {
   "results_found": false,
   "results_date": "2026-11-06",
-  "headline": "Persistent Systems posted Q2 FY27 revenue of Rs 4,663.9 crore, up 30.25% YoY",
+  "headline": "Persistent Systems posted consolidated revenue of Rs 4,663.90 cr in Q2 FY27, up 30.25% YoY",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -843,12 +843,15 @@
    "dividend_per_share_inr": null
   },
   "guidance": null,
-  "guidance_change": "unknown",
+  "guidance_change": "none",
   "highlights": [
-   "Revenue rose 30.25% YoY to Rs 4,663.9 crore in Q2 FY27"
+   "Consolidated revenue rose to Rs 4,663.90 cr, a 30.25% YoY increase",
+   "Revenue growth driven by higher demand across its software and hi‑tech segments",
+   "Company announced a strategic collaboration with AWS to accelerate generative AI adoption",
+   "Shares rose over 2% on the earnings day"
   ],
   "risks": [
-   "Potential cyber‑security breach involving employee immigration data could affect reputation"
+   "Potential impact of employee immigration data breach reported in multiple outlets"
   ],
   "verticals": [],
   "media_vertical": {
@@ -860,21 +863,20 @@
    "commentary": null
   },
   "megep_mentions": [],
-  "ai_signals": null,
+  "ai_signals": "Persistent announced a collaboration with AWS to accelerate generative AI adoption, signalling focus on AI‑driven services",
   "management_view": null,
   "sentiment": "Positive",
-  "sentiment_reason": "Strong YoY revenue growth of over 30%",
+  "sentiment_reason": "Strong top‑line growth and AI partnership offset breach concerns",
   "missing": [
-   "net profit",
-   "net profit growth YoY",
-   "operating margin",
-   "CC QoQ growth",
-   "CC YoY growth",
-   "revenue share % for media vertical",
-   "deal wins USD",
-   "headcount data",
-   "attrition",
-   "dividend"
+   "net_profit_inr_cr",
+   "net_profit_growth_yoy_pct",
+   "operating_margin_pct",
+   "deal_wins_usd_bn",
+   "headcount",
+   "net_headcount_change",
+   "attrition_pct",
+   "dividend_per_share_inr",
+   "media_vertical revenue share and growth"
   ],
   "unverified_dropped": [
    "revenue_inr_cr"
@@ -886,25 +888,32 @@
     "source": "Moneycontrol.com",
     "published": "2026-11-06T08:00:00+00:00",
     "official": false
+   },
+   {
+    "title": "Persistent Announces Strategic Collaboration Agreement with AWS to Accelerate Generative AI Adoption",
+    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNT0ZVdW4wUV9QR29nZ1l1djNneTM4dUdBMTNOYjE0eVBFTHVTdngxZ25jdWdnNzQ4VTlwU0hQMTBsQ19ZZVRsTHFjbmFzVWlJRElCS3Q0cUZJVkxCS2xfai15cThGemdkZnBPTjBxX3Q1TU9zMVFORmlFdzhIWHFaTmQwLWZIOUFTMDdTS0Vua09NNjdXdERJby1aaWttQXFDYUl2WmwwbFd0S2xfYnl1RG5fdEl1cGJVMWtPMUplX1paSWtVbWdpNXR6REJkOE42ZGpvRGoyeWszSGpUMDhYWE9aOWM?oc=5",
+    "source": "HPCwire",
+    "published": "2026-11-20T08:00:00+00:00",
+    "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Persistent",
-  "analysed_at": "2026-11-23T20:18:40+00:00"
+  "analysed_at": "2026-11-23T23:23:25+00:00"
  },
  "Mphasis": {
   "results_found": false,
-  "results_date": "2026-11-06",
-  "headline": "Mphasis Q2 FY27 revenue rose 17.4% YoY to ₹4,580.93 cr and net profit jumped 19.6% YoY to ₹561.13 cr",
+  "results_date": "2026-11-05",
+  "headline": "Mphasis posted a 4.5% sequential revenue rise to ₹4,580.9 cr and a 14.6% jump in net profit to ₹561.1 cr in Q2 FY27",
   "metrics": {
-   "revenue_inr_cr": 4580.93,
+   "revenue_inr_cr": 4580.9,
    "revenue_usd_m": 486,
-   "revenue_growth_yoy_pct": 17.4,
+   "revenue_growth_yoy_pct": 9.7,
    "cc_growth_qoq_pct": 3.3,
    "cc_growth_yoy_pct": null,
-   "net_profit_inr_cr": 561.13,
-   "net_profit_growth_yoy_pct": 19.6,
+   "net_profit_inr_cr": 561.1,
+   "net_profit_growth_yoy_pct": null,
    "operating_margin_pct": 14.8,
    "deal_wins_usd_bn": 0.466,
    "headcount": null,
@@ -912,14 +921,14 @@
    "attrition_pct": null,
    "dividend_per_share_inr": null
   },
-  "guidance": "Mphasis raised its FY27 revenue growth outlook after reporting 9.2% dollar‑revenue growth in Q2.",
-  "guidance_change": "raised",
+  "guidance": "Revenue growth for FY27 is expected at the upper end of the earlier guidance range of high single‑digits to low double‑digits.",
+  "guidance_change": "retained",
   "highlights": [
-   "Revenue grew 17.4% YoY and 3.3% sequentially in constant‑currency terms.",
-   "Net profit rose 19.6% YoY to ₹561.13 cr.",
-   "EBIT margin held steady at 14.8%, within the target range.",
-   "Total contract value reached $466 m, with 66% AI‑led deals.",
-   "Management said the first half laid a strong foundation and momentum will continue."
+   "Revenue rose 4.5% QoQ and 9.7% YoY, the highest sequential constant‑currency growth in years.",
+   "EBITDA increased 4.5% to ₹831 cr; EBIT rose 4.5% to ₹677.4 cr, margin steady at 14.8%.",
+   "Net profit climbed 14.6% sequentially to ₹561.1 cr, helped by a 78% surge in other income.",
+   "Total contract value (TCV) hit $466 m, with about 66% AI‑led deals.",
+   "Management said the first half of FY27 laid a strong foundation and momentum will continue."
   ],
   "risks": [
    "Macro‑economic uncertainty could weigh on traditional IT spending.",
@@ -935,29 +944,18 @@
    "commentary": null
   },
   "megep_mentions": [],
-  "ai_signals": "66% of the $466 m total contract value in the quarter was AI‑led, highlighting strong AI‑driven deal flow.",
-  "management_view": "Management highlighted a strong foundation in H1 FY27 and expects the momentum to continue into H2.",
+  "ai_signals": "66% of the $466 m Q2 contract value was AI‑led, underscoring growing AI‑driven revenue.",
+  "management_view": "Management highlighted a strong first‑half foundation and expects the momentum to continue into the second half.",
   "sentiment": "Positive",
-  "sentiment_reason": "Robust revenue and profit growth, strong AI‑led deal wins and raised FY guidance.",
+  "sentiment_reason": "Revenue and profit beat expectations, strong AI‑led deal pipeline and upbeat FY guidance.",
   "missing": [
-   "headcount",
-   "net_headcount_change",
-   "attrition_pct",
-   "dividend_per_share_inr",
-   "cc_growth_yoy_pct",
-   "media_vertical revenue share and growth figures",
-   "verticals details",
-   "specific risk items beyond macro uncertainty"
+   "headcount and attrition data",
+   "segment revenue share for Technology, Media & Telecom",
+   "year‑on‑year net profit growth percentage",
+   "constant‑currency year‑on‑year growth"
   ],
   "unverified_dropped": [],
   "sources": [
-   {
-    "title": "Mphasis Q2 Results FY27: Revenue Rises 17.4% to Rs 4,580.93 Cr, PAT Rs 561.13 Cr",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1DbFBUUWhqMmoxbmNUVU1jakRqRVg1MHVKUVZRMWlFMUx0S1A3bXIzVmRFbnpQYUFQVmVUelhIblFpQ19XcTlDamZIZlBwVkZ0ZkV1VVAxVm96ODY0RTdhaWE5SXB3VHpwdTFPSF9QMA?oc=5",
-    "source": "Univest",
-    "published": "2026-11-06T08:00:00+00:00",
-    "official": false
-   },
    {
     "title": "Mphasis shares jump 8% after Q2 results; FY27 revenue growth seen at upper end of guidance",
     "link": "https://www.cnbctv18.com/market/mphasis-share-price-jumps-q2-results-fy27-revenue-growth-seen-at-upper-end-of-guidance-20028664.htm",
@@ -966,16 +964,23 @@
     "official": false
    },
    {
-    "title": "Mphasis Shares Jump 5% As Q2 Profit, Revenue Post Strong Growth",
-    "link": "https://www.businessworld.in/article/mphasis-shares-jump-5-as-q2-profit-revenue-post-strong-growth-632361",
-    "source": "businessworld.in",
-    "published": "2026-11-05T16:00:00+00:00",
+    "title": "Mphasis Q2 profit climbs 14.6% sequentially to Rs 561 crore",
+    "link": "https://www.financialexpress.com/business/industry-mphasis-q2-profit-climbs-14-6-sequentially-to-rs-561-crore-4378907/",
+    "source": "financialexpress.com",
+    "published": "2026-11-06T09:43:00+00:00",
+    "official": false
+   },
+   {
+    "title": "Mphasis Q2 Net Profit Rises 19.6% to ₹561 Crore; Revenue Grows 17.4%",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQYkQ1VDQtRGNScXI0VjhyeVFSNS1oMThzR3BLcmg5MmFHdW1aMDdQQU9KOUpWZ1hPQmNTZ19PR0JJQXlVaHFIaDQzRWl3S2ZKYjdYdjRNNzVkc1pxVjdIbG44Ym9TWUhjZVdWdEo3U3g1a2MzZXE2U3djRzRLcHZ6RDNkVTItUdIBhgFBVV95cUxQYkQ1VDQtRGNScXI0VjhyeVFSNS1oMThzR3BLcmg5MmFHdW1aMDdQQU9KOUpWZ1hPQmNTZ19PR0JJQXlVaHFIaDQzRWl3S2ZKYjdYdjRNNzVkc1pxVjdIbG44Ym9TWUhjZVdWdEo3U3g1a2MzZXE2U3djRzRLcHZ6RDNkVTItUQ?oc=5",
+    "source": "DQ",
+    "published": "2026-11-06T09:29:24+00:00",
     "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Mphasis",
-  "analysed_at": "2026-11-23T20:19:34+00:00"
+  "analysed_at": "2026-11-23T23:24:17+00:00"
  }
 }
