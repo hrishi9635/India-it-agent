@@ -825,12 +825,12 @@
  },
  "Persistent": {
   "results_found": false,
-  "results_date": "2026-11-06",
-  "headline": "Persistent Systems posted consolidated revenue of Rs 4,663.90 crore in Q2 FY27, up 30.25% YoY",
+  "results_date": null,
+  "headline": "Persistent Systems' Q2 FY27 results were not disclosed in the provided sources",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
-   "revenue_growth_yoy_pct": 30.25,
+   "revenue_growth_yoy_pct": null,
    "cc_growth_qoq_pct": null,
    "cc_growth_yoy_pct": null,
    "net_profit_inr_cr": null,
@@ -844,13 +844,8 @@
   },
   "guidance": null,
   "guidance_change": "none",
-  "highlights": [
-   "Consolidated revenue reached Rs 4,663.90 crore",
-   "Revenue grew 30.25% YoY"
-  ],
-  "risks": [
-   "Potential impact of employee immigration data breach reported in late November"
-  ],
+  "highlights": [],
+  "risks": [],
   "verticals": [],
   "media_vertical": {
    "name": "Software, Hi-Tech & Emerging Industries",
@@ -863,10 +858,12 @@
   "megep_mentions": [],
   "ai_signals": null,
   "management_view": null,
-  "sentiment": "Positive",
-  "sentiment_reason": "Strong YoY revenue growth",
+  "sentiment": "Neutral",
+  "sentiment_reason": "No results data available in the sources",
   "missing": [
+   "revenue_inr_cr",
    "revenue_usd_m",
+   "revenue_growth_yoy_pct",
    "cc_growth_qoq_pct",
    "cc_growth_yoy_pct",
    "net_profit_inr_cr",
@@ -877,42 +874,26 @@
    "net_headcount_change",
    "attrition_pct",
    "dividend_per_share_inr",
-   "media_vertical.revenue_share_pct",
-   "media_vertical.growth_qoq_pct",
-   "media_vertical.growth_yoy_pct",
-   "media_vertical.growth_cc_yoy_pct",
-   "verticals",
-   "megep_mentions",
-   "ai_signals",
-   "management_view"
+   "guidance",
+   "media_vertical details"
   ],
-  "unverified_dropped": [
-   "revenue_inr_cr"
-  ],
-  "sources": [
-   {
-    "title": "Persistent Consolidated September 2026 Net Sales at Rs 4,663.90 crore, up 30.25% Y-o-Y",
-    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOQVhldzNmczVGSEFpMmR0R1VrcTkwRVBaczdnMXJnSjBsbFJqTVNWZ2pEMXFZY0RaU3pVZWhzNHktZGZTbjdVSjNPd0FTTzhpeXdBQWdENkF0dGpQZi1EVl9fbFZ1U2VyNmFha096R0tibWIxdFItenZQOTIydTFtOEk2SXc1SHV3YWlOVUVvenZ6YmMwbVRRR1hVZ2VKRGF2amxIUjNBYWl1aFVRYWYta3lEWTJsNWFDb2lpdlpvSWF5bEJMcjRtRG50Si1lU3J4OU42UXpiVkFLODRKOGplai00Z9IB6AFBVV95cUxPRENOc0JLYTI2aDFBTnc1VjZJdnItYzFVSE9XZHEwUm9NS1lKR0NyQlZjeU15WEpNNjZvcWJTVWJDS1NlZnMyLXh6RXNLeEdUUkxmaWc1Y0pKS19LUDdnYjZqelRpTndVczlZZmJEbDd0c05ER01udFBSNnRLMHN2bGpzVmNfVHNtSmp6UTA4SG5qaW13dDI1M1ZrMmNFeG94UXUxMk1HRW10RDJJYUJIYmJ3UnpVVDU1RzVhUDJaRXI5ejYyaFczdGMwdTlmc0IySU9yV0lDWl9MTk1VY1F0anowWEw2QUM0?oc=5",
-    "source": "Moneycontrol.com",
-    "published": "2026-11-06T08:00:00+00:00",
-    "official": false
-   }
-  ],
+  "unverified_dropped": [],
+  "sources": [],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Persistent",
-  "analysed_at": "2026-11-24T01:49:54+00:00"
+  "analysed_at": "2026-11-24T03:28:53+00:00"
  },
  "Mphasis": {
   "results_found": false,
-  "results_date": "2026-11-05",
-  "headline": "Mphasis posted 17.4% YoY revenue growth and 19.6% sequential net profit rise in Q2 FY27",
+  "results_date": "2026-11-06",
+  "headline": "Mphasis posted a 4.5% sequential revenue rise to ₹4,580.9 cr and a 14.6% jump in net profit to ₹561.1 cr in Q2 FY27",
   "metrics": {
-   "revenue_inr_cr": 4580.93,
+   "revenue_inr_cr": 4580.9,
    "revenue_usd_m": 486,
-   "revenue_growth_yoy_pct": 17.4,
+   "revenue_growth_yoy_pct": 9.7,
    "cc_growth_qoq_pct": 3.3,
-   "cc_growth_yoy_pct": 9.7,
+   "cc_growth_yoy_pct": null,
    "net_profit_inr_cr": 561.1,
    "net_profit_growth_yoy_pct": 19.6,
    "operating_margin_pct": 14.8,
@@ -922,18 +903,18 @@
    "attrition_pct": null,
    "dividend_per_share_inr": null
   },
-  "guidance": "Management expects FY27 revenue growth at the upper end of its guidance range (high single‑digits to low double‑digits) and reiterates its EBIT margin target of 14.75‑15.75%.",
-  "guidance_change": "retained",
+  "guidance": null,
+  "guidance_change": "none",
   "highlights": [
-   "Revenue rose 17.4% YoY to ₹4,580.93 cr",
-   "Constant‑currency revenue grew 3.3% QoQ, the highest sequential CC growth in years",
-   "Net profit increased 19.6% sequentially to ₹561.1 cr",
-   "EBITDA and EBIT each rose about 4.5% QoQ",
-   "66% of the $466 m total contract value was AI‑led"
+   "Revenue grew 4.5% sequentially and 9.7% YoY, the highest sequential constant‑currency growth in years",
+   "Net profit rose 14.6% sequentially, helped by a 78% surge in other income",
+   "EBITDA and EBIT each increased 4.5% quarter‑on‑quarter, keeping EBIT margin at 14.8%",
+   "Total contract value reached $466 million, with about 66% AI‑led",
+   "Management said the first half of FY27 laid a strong foundation for continued momentum"
   ],
   "risks": [
-   "Macroeconomic uncertainty could weigh on traditional IT spending",
-   "High reliance on AI‑driven contracts may expose the company to rapid technology shifts"
+   "Macro‑economic uncertainty could pressure traditional IT spending",
+   "Higher attrition risk in a competitive talent market (not quantified in sources)"
   ],
   "verticals": [],
   "media_vertical": {
@@ -945,17 +926,15 @@
    "commentary": null
   },
   "megep_mentions": [],
-  "ai_signals": "66% of the $466 m TCV in the quarter was AI‑led, highlighting strong AI‑driven deal flow.",
-  "management_view": "Management said the first half laid a strong foundation and expects the momentum to continue in the second half.",
+  "ai_signals": "66% of the $466 million Q2 contract value was AI‑led, highlighting strong AI‑driven deal wins",
+  "management_view": "Management sees the first half of FY27 as a strong foundation and expects momentum to continue in the second half",
   "sentiment": "Positive",
-  "sentiment_reason": "Strong revenue and profit growth, plus robust AI‑led deal pipeline.",
+  "sentiment_reason": "Sequential revenue and profit growth beat expectations and AI‑led deals accelerated momentum",
   "missing": [
-   "headcount",
-   "net_headcount_change",
-   "attrition_pct",
-   "dividend_per_share_inr",
-   "media vertical revenue share and growth figures",
-   "detailed vertical revenue breakdown"
+   "headcount and net headcount change",
+   "attrition percentage",
+   "dividend per share",
+   "media vertical revenue share and growth figures"
   ],
   "unverified_dropped": [],
   "sources": [
@@ -979,11 +958,18 @@
     "source": "businessworld.in",
     "published": "2026-11-05T16:00:00+00:00",
     "official": false
+   },
+   {
+    "title": "Mphasis Q2 Results FY27: Revenue Rises 17.4% to Rs 4,580.93 Cr, PAT Rs 561.13 Cr",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1DbFBUUWhqMmoxbmNUVU1jakRqRVg1MHVKUVZRMWlFMUx0S1A3bXIzVmRFbnpQYUFQVmVUelhIblFpQ19XcTlDamZIZlBwVkZ0ZkV1VVAxVm96ODY0RTdhaWE5SXB3VHpwdTFPSF9QMA?oc=5",
+    "source": "Univest",
+    "published": "2026-11-06T08:00:00+00:00",
+    "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Mphasis",
-  "analysed_at": "2026-11-24T01:51:18+00:00"
+  "analysed_at": "2026-11-24T03:29:48+00:00"
  }
 }
