@@ -1,33 +1,29 @@
 {
- "headline": "Indian IT services showed mixed revenue growth with AI driving profit gains but guidance trimmed for some majors.",
- "summary": "Revenue growth ranged from sub‑2% at Infosys to over 50% at Coforge. Profit margins improved at HCLTech and Coforge, while Infosys and Wipro saw modest or declining profits. AI‑related revenue contributed significantly across the sector, especially at HCLTech and Mphasis. Guidance was cut for Infosys but raised for Coforge.",
+ "headline": "Indian IT services showed mixed revenue growth with a few high‑flying performers and modest guidance revisions.",
+ "summary": "Revenue growth ranged from sub‑2% at Infosys to over 50% at Coforge. Profit margins stayed strong for most firms, with HCLTech and TCS above 20%. AI contributed noticeably to earnings, especially at HCLTech and Mphasis. Guidance was trimmed at Infosys but remained upbeat elsewhere.",
  "themes": [
   {
-   "title": "AI‑driven revenue",
-   "detail": "Several firms reported double‑digit AI revenue growth, boosting profits and deal wins.",
+   "title": "AI as profit driver",
+   "detail": "AI‑related revenue and deals boosted profit growth at HCLTech, Mphasis and Infosys.",
    "companies": [
-    "Infosys",
-    "LTM",
     "HCLTech",
     "Mphasis",
-    "TCS"
+    "Infosys"
    ]
   },
   {
-   "title": "Guidance adjustments",
-   "detail": "Infosys trimmed FY27 revenue guidance, while Coforge raised its EBIT margin outlook.",
+   "title": "Revenue guidance tightening",
+   "detail": "Infosys cut FY27 revenue growth guidance to 1‑2%, reflecting slower top‑line momentum.",
    "companies": [
-    "Infosys",
-    "Coforge"
+    "Infosys"
    ]
   },
   {
-   "title": "Profit momentum",
-   "detail": "HCLTech posted a 21% profit jump; Coforge and Tech Mahindra also delivered strong profit growth.",
+   "title": "Strong margin expansion",
+   "detail": "Coforge raised its EBIT margin target to 16% and delivered it; TCS maintained a 24% operating margin.",
    "companies": [
-    "HCLTech",
     "Coforge",
-    "Tech Mahindra"
+    "TCS"
    ]
   }
  ],
@@ -38,58 +34,58 @@
   },
   {
    "company": "HCLTech",
-   "why": "11.5% YoY revenue growth with 21% profit increase and strong AI revenue"
+   "why": "21% profit jump and strong AI revenue of $219 m"
   }
  ],
  "laggards": [
   {
    "company": "Infosys",
-   "why": "Only 1.5% YoY revenue growth and trimmed FY27 guidance"
+   "why": "Revenue growth slowed to 1.5% YoY and guidance cut"
   },
   {
    "company": "Wipro",
-   "why": "Revenue grew 9.1% YoY but profit fell 1.9% YoY"
+   "why": "Revenue grew 9.1% but profit fell 1.9% YoY"
   }
  ],
  "domain_outlook": [
   {
    "domain": "Media & broadcasting",
    "signal": "Not enough data",
-   "note": "No company mentioned this domain."
+   "note": "No company mentioned this sector."
   },
   {
    "domain": "Entertainment & streaming",
    "signal": "Not enough data",
-   "note": "No company mentioned this domain."
+   "note": "No company mentioned this sector."
   },
   {
    "domain": "Gaming",
    "signal": "Not enough data",
-   "note": "No company mentioned this domain."
+   "note": "No company mentioned this sector."
   },
   {
    "domain": "Education",
    "signal": "Not enough data",
-   "note": "No company mentioned this domain."
+   "note": "No company mentioned this sector."
   },
   {
    "domain": "Publishing",
    "signal": "Not enough data",
-   "note": "No company mentioned this domain."
+   "note": "No company mentioned this sector."
   },
   {
    "domain": "Telecom",
    "signal": "Not enough data",
-   "note": "No company mentioned this domain."
+   "note": "No company mentioned this sector."
   }
  ],
  "watch_next": [
-  "Q3 FY27 AI revenue trends",
-  "Impact of Infosys guidance cut on market sentiment",
-  "Coforge margin performance versus guidance",
-  "Wipro profit recovery prospects",
-  "Mphasis AI‑led deal pipeline"
+  "Whether Infosys can revive top‑line growth in FY27",
+  "AI revenue contribution trends at HCLTech and Mphasis",
+  "Coforge's ability to sustain 50%+ growth",
+  "Margin pressure at Wipro amid profit dip",
+  "Deal win momentum for TCS and LTM"
  ],
  "quarter": "Q2 FY27",
- "written_at": "2026-11-24T21:57:47+00:00"
+ "written_at": "2026-11-24T23:39:32+00:00"
 }

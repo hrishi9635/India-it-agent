@@ -826,7 +826,7 @@
  "Persistent": {
   "results_found": false,
   "results_date": null,
-  "headline": "Persistent Systems has not disclosed its Q2 FY27 financial results in the available sources",
+  "headline": "Persistent Systems has not released its Q2 FY27 financial results in the available sources",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -843,7 +843,7 @@
    "dividend_per_share_inr": null
   },
   "guidance": null,
-  "guidance_change": "unknown",
+  "guidance_change": "none",
   "highlights": [],
   "risks": [],
   "verticals": [],
@@ -859,37 +859,30 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No financial results or forward‑looking statements were found in the sources",
+  "sentiment_reason": "No financial results were reported in the sources",
   "missing": [
-   "revenue_inr_cr",
-   "revenue_usd_m",
-   "revenue_growth_yoy_pct",
-   "cc_growth_qoq_pct",
-   "cc_growth_yoy_pct",
-   "net_profit_inr_cr",
-   "net_profit_growth_yoy_pct",
-   "operating_margin_pct",
-   "deal_wins_usd_bn",
+   "revenue",
+   "net profit",
+   "operating margin",
+   "growth metrics",
    "headcount",
-   "net_headcount_change",
-   "attrition_pct",
-   "dividend_per_share_inr",
+   "dividend",
    "guidance",
-   "media_vertical details"
+   "media vertical performance"
   ],
   "unverified_dropped": [],
   "sources": [],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Persistent",
-  "analysed_at": "2026-11-24T21:56:25+00:00"
+  "analysed_at": "2026-11-24T23:38:10+00:00"
  },
  "Mphasis": {
   "results_found": false,
-  "results_date": "2026-11-06",
-  "headline": "Mphasis posted a 4.5% sequential revenue rise to ₹4,580.9 cr and a 14.6% sequential net profit increase to ₹561.1 cr in Q2 FY27",
+  "results_date": "2026-11-05",
+  "headline": "Mphasis posted strong Q2 FY27 results with 4.5% sequential revenue growth and 19.6% YoY net profit rise, driven by AI‑led deals",
   "metrics": {
-   "revenue_inr_cr": 4580.9,
+   "revenue_inr_cr": 4580.93,
    "revenue_usd_m": 486,
    "revenue_growth_yoy_pct": 9.7,
    "cc_growth_qoq_pct": 3.3,
@@ -903,17 +896,18 @@
    "attrition_pct": null,
    "dividend_per_share_inr": null
   },
-  "guidance": "Management expects FY27 revenue growth at the upper end of its earlier guidance of high single‑digits to low double‑digits and reiterates EBIT margin guidance of 14.75‑15.75%",
+  "guidance": "Management expects FY27 revenue growth at the upper end of its guidance range (high single‑digits to low double‑digits) and reiterates EBIT margin target of 14.75‑15.75%",
   "guidance_change": "retained",
   "highlights": [
-   "Constant‑currency revenue grew 3.3% QoQ, the highest sequential CC growth in years",
-   "Net profit rose 14.6% sequentially, helped by a 78% jump in other income",
-   "EBIT margin held steady at 14.8% within the target range",
-   "Total contract value reached $466 million, with ~66% AI‑led"
+   "Revenue rose 4.5% sequentially to ₹4,580.93 cr",
+   "Net profit increased 14.6% sequentially to ₹561.1 cr",
+   "Constant‑currency revenue grew 3.3% QoQ, the highest sequentially in years",
+   "EBIT margin held steady at 14.8%",
+   "TCV of $466 mn in the quarter, ~66% AI‑led"
   ],
   "risks": [
    "Macro‑economic uncertainty could pressure traditional IT spending",
-   "High reliance on AI‑led deals may expose the company to rapid technology shifts"
+   "Higher competition in AI‑driven services"
   ],
   "verticals": [],
   "media_vertical": {
@@ -925,14 +919,14 @@
    "commentary": null
   },
   "megep_mentions": [],
-  "ai_signals": "Around 66% of the $466 bn total contract value was AI‑led, underscoring strong AI‑driven deal momentum",
-  "management_view": "Management sees a strong foundation in H1 FY27 and expects the momentum to continue into H2",
+  "ai_signals": "AI‑led deals accounted for about 66% of the quarter’s $466 mn total contract value, highlighting growing AI revenue contribution",
+  "management_view": "Management said the strong first‑half foundation and AI‑led pipeline will sustain momentum into the second half of FY27",
   "sentiment": "Positive",
-  "sentiment_reason": "Revenue and profit beat expectations with strong AI‑led deal wins and stable margins",
+  "sentiment_reason": "Robust sequential growth, margin stability and strong AI deal pipeline",
   "missing": [
-   "headcount and attrition data",
-   "media vertical revenue share and growth",
-   "CC YoY growth"
+   "headcount figures",
+   "dividend per share",
+   "media vertical revenue share and growth percentages"
   ],
   "unverified_dropped": [],
   "sources": [
@@ -944,6 +938,13 @@
     "official": false
    },
    {
+    "title": "Mphasis Q2 FY27 Profit Reaches ₹561.13 Crore, Revenue Climbs 4.5% Sequentially To ₹4,580.93 Crore",
+    "link": "https://www.freepressjournal.in/business/mphasis-q2-fy27-profit-reaches-56113-crore-revenue-climbs-45-sequentially-to-458093-crore",
+    "source": "freepressjournal.in",
+    "published": "2026-11-05T20:59:00+00:00",
+    "official": false
+   },
+   {
     "title": "Mphasis Shares Jump 5% As Q2 Profit, Revenue Post Strong Growth",
     "link": "https://www.businessworld.in/article/mphasis-shares-jump-5-as-q2-profit-revenue-post-strong-growth-632361",
     "source": "businessworld.in",
@@ -951,16 +952,16 @@
     "official": false
    },
    {
-    "title": "Mphasis Q2 FY27 Profit Reaches ₹561.13 Crore, Revenue Climbs 4.5% Sequentially To ₹4,580.93 Crore",
-    "link": "https://www.freepressjournal.in/business/mphasis-q2-fy27-profit-reaches-56113-crore-revenue-climbs-45-sequentially-to-458093-crore",
-    "source": "freepressjournal.in",
-    "published": "2026-11-05T20:59:00+00:00",
+    "title": "Mphasis revenue grows 17.4% YoY to ₹45,809 million in Q2 FY27",
+    "link": "https://www.investywise.com/mphasis-announces-q2-fy27-financial-results/",
+    "source": "investywise.com",
+    "published": "2026-11-05T10:12:00+00:00",
     "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Mphasis",
-  "analysed_at": "2026-11-24T21:57:20+00:00"
+  "analysed_at": "2026-11-24T23:39:05+00:00"
  }
 }
