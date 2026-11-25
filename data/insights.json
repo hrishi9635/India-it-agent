@@ -880,33 +880,34 @@
  "Mphasis": {
   "results_found": false,
   "results_date": "2026-11-06",
-  "headline": "Mphasis Q2 FY27 revenue rose 17.4% YoY to Rs 4,580.93 cr with net profit up 19.6% YoY to Rs 561.13 cr",
+  "headline": "Mphasis posted 17.4% YoY revenue growth and 19.6% YoY net profit rise in Q2 FY27, driven by AI‑led deals.",
   "metrics": {
-   "revenue_inr_cr": 4580.93,
-   "revenue_usd_m": null,
-   "revenue_growth_yoy_pct": 17.4,
-   "cc_growth_qoq_pct": 4.5,
+   "revenue_inr_cr": 4580.9,
+   "revenue_usd_m": 486,
+   "revenue_growth_yoy_pct": 9.7,
+   "cc_growth_qoq_pct": 3.3,
    "cc_growth_yoy_pct": null,
-   "net_profit_inr_cr": 561.13,
+   "net_profit_inr_cr": 561.1,
    "net_profit_growth_yoy_pct": 19.6,
-   "operating_margin_pct": null,
+   "operating_margin_pct": 14.8,
    "deal_wins_usd_bn": 0.466,
    "headcount": null,
    "net_headcount_change": null,
    "attrition_pct": null,
    "dividend_per_share_inr": null
   },
-  "guidance": null,
-  "guidance_change": "none",
+  "guidance": "Revenue growth for FY27 is expected at the upper end of the earlier guidance range of high single‑digits to low double‑digits; EBIT margin guidance of 14.75‑15.75% retained.",
+  "guidance_change": "retained",
   "highlights": [
-   "Revenue grew 17.4% YoY, driven by AI‑led deal wins",
-   "Net profit rose 19.6% YoY to Rs 561.13 cr",
-   "Quarter‑on‑quarter revenue increased 4.5%",
-   "New contracts worth $466 million, 66% AI‑led"
+   "Revenue rose 17.4% YoY to Rs 4,580.9 cr.",
+   "Net profit increased 19.6% YoY to Rs 561.1 cr.",
+   "Constant‑currency revenue grew 3.3% QoQ, the highest sequentially in years.",
+   "AI‑led deals accounted for about 66% of total contract value (TCV) of $466 mn.",
+   "EBIT margin held steady at 14.8%."
   ],
   "risks": [
-   "Macro‑economic uncertainty affecting traditional IT spending",
-   "Dependence on banking and financial services segment"
+   "Macroeconomic uncertainty could pressure traditional IT spending.",
+   "High reliance on AI‑led deals may expose the company to rapid technology shifts."
   ],
   "verticals": [],
   "media_vertical": {
@@ -918,38 +919,30 @@
    "commentary": null
   },
   "megep_mentions": [],
-  "ai_signals": "66% of the $466 million Q2 contracts were AI‑led, highlighting growing AI‑driven revenue",
-  "management_view": "Management highlighted strong AI‑led deal wins and a robust pipeline as key growth drivers",
+  "ai_signals": "AI‑led deals contributed $466 mn of TCV and drove strong revenue and profit growth.",
+  "management_view": "Management said the first half of FY27 laid a strong foundation and expects momentum to continue in the second half.",
   "sentiment": "Positive",
-  "sentiment_reason": "Both revenue and profit posted double‑digit YoY growth and AI‑driven deals accelerated momentum",
+  "sentiment_reason": "Strong sequential and YoY growth in revenue and profit, with robust AI‑driven deal pipeline.",
   "missing": [
-   "revenue_usd_m",
-   "operating_margin_pct",
    "headcount and attrition data",
    "dividend per share",
-   "media vertical revenue share and growth"
+   "media vertical revenue share and growth specifics",
+   "constant‑currency YoY growth"
   ],
   "unverified_dropped": [],
   "sources": [
    {
-    "title": "Q2 results: Mphasis profit climbs as AI-led deal wins hit $466 million, pipeline reaches record high",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQajdiRFNoNGs0WGx5d000WE5EaEpNUlVLMjgwZE5remxXeS1PNm92OVpfRUxIWHB0eFZqckU3bDNaVW9LOWdQRmdjVndGaDVWZFBKY01ZdEpBb2cwZzJXU2Foc19TdVNfMkJLdEFMSkRSZkQ5SE5Fa3BxbmNQUGthYmJRNXZZSnRVWGlCLVFBelFNd1Uzcks0aWNFYU9iMUlmakNNb0pfc01uSFBoQ1RrV19vaHplZE9hSjcwM2lfRVDSAcYBQVVfeXFMT1RaZmhORHBFQ0ozbnBpcFJRVTh6dnpHTnNEQVZVVll6R3U4QUhNU1VwUFAtcm9tVzFIa1JXRTVKVElpOUJ0SUlITjZDRDBwS2k3T0d3bU9EdXZJVDhTZ0d6QmJmTXd2S09GLUFDbkM3QUlYUzRaWFRoVE9jSkpzNFVtV3JvSXlYR2xNQnRHLUtBcUhMWEZaSHJvVFdkQWpjbW5ubjBPU3M5WjNxOUtJYUFPUUFuUU5MUzZPY0FwOEsteGpzQjl3?oc=5",
-    "source": "CNBC TV18",
-    "published": "2026-11-06T08:00:00+00:00",
+    "title": "Mphasis shares jump 8% after Q2 results; FY27 revenue growth seen at upper end of guidance",
+    "link": "https://www.cnbctv18.com/market/mphasis-share-price-jumps-q2-results-fy27-revenue-growth-seen-at-upper-end-of-guidance-20028664.htm",
+    "source": "cnbctv18.com",
+    "published": "2026-11-05T21:43:00+00:00",
     "official": false
    },
    {
-    "title": "Mphasis Revenue grew 4.5% QoQ and 17.4% YoY in Q2 FY27",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOOFlyY0twQzJtR0k3QjRNRU9UMm9KSERVSTZVdXd6Njd4OHVzY2hiaEp2X0p2Mk5tYnFVSFp1MWU4N2dzcy1MNEg1T1J1MC1FTkZUNHFlZ01ZRkd3a3E2cm9UcGlqLU5JSFBhUHpYcUYtcW9NaFFIVFB3aEU2R3REMExiYmtQWWZ0aTFBbw?oc=5",
-    "source": "India Technology News",
-    "published": "2026-11-06T08:00:00+00:00",
-    "official": false
-   },
-   {
-    "title": "Mphasis Q2 Results FY27: Revenue Rises 17.4% to Rs 4,580.93 Cr, PAT Rs 561.13 Cr",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1DbFBUUWhqMmoxbmNUVU1jakRqRVg1MHVKUVZRMWlFMUx0S1A3bXIzVmRFbnpQYUFQVmVUelhIblFpQ19XcTlDamZIZlBwVkZ0ZkV1VVAxVm96ODY0RTdhaWE5SXB3VHpwdTFPSF9QMA?oc=5",
-    "source": "Univest",
-    "published": "2026-11-06T08:00:00+00:00",
+    "title": "Mphasis Q2 Net Profit Rises 19.6% to ₹561 Crore; Revenue Grows 17.4%",
+    "link": "https://www.dqindia.com/news/mphasis-q2-fy27-net-profit-revenue-growth-12789160",
+    "source": "dqindia.com",
+    "published": "2026-11-06T01:29:00+00:00",
     "official": false
    },
    {
@@ -960,16 +953,16 @@
     "official": false
    },
    {
-    "title": "Mphasis revenue grows 17.4% YoY to ₹45,809 million in Q2 FY27",
-    "link": "https://www.investywise.com/mphasis-announces-q2-fy27-financial-results/",
-    "source": "investywise.com",
-    "published": "2026-11-05T10:12:00+00:00",
+    "title": "Mphasis Q2 Results FY27: Revenue Rises 17.4% to Rs 4,580.93 Cr, PAT Rs 561.13 Cr",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1DbFBUUWhqMmoxbmNUVU1jakRqRVg1MHVKUVZRMWlFMUx0S1A3bXIzVmRFbnpQYUFQVmVUelhIblFpQ19XcTlDamZIZlBwVkZ0ZkV1VVAxVm96ODY0RTdhaWE5SXB3VHpwdTFPSF9QMA?oc=5",
+    "source": "Univest",
+    "published": "2026-11-06T08:00:00+00:00",
     "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Mphasis",
-  "analysed_at": "2026-11-25T01:33:24+00:00"
+  "analysed_at": "2026-11-25T18:42:42+00:00"
  }
 }
