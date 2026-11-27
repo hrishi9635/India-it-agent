@@ -826,7 +826,7 @@
  "Persistent": {
   "results_found": false,
   "results_date": null,
-  "headline": "Persistent Systems has not released its Q2 FY27 financial results yet",
+  "headline": "Persistent Systems has not yet released its Q2 FY27 financial results",
   "metrics": {
    "revenue_inr_cr": null,
    "revenue_usd_m": null,
@@ -859,16 +859,29 @@
   "ai_signals": null,
   "management_view": null,
   "sentiment": "Neutral",
-  "sentiment_reason": "No results data were released in the available sources",
+  "sentiment_reason": "No results have been announced yet",
   "missing": [
-   "revenue",
-   "net profit",
-   "operating margin",
-   "deal wins",
+   "revenue_inr_cr",
+   "revenue_usd_m",
+   "revenue_growth_yoy_pct",
+   "cc_growth_qoq_pct",
+   "cc_growth_yoy_pct",
+   "net_profit_inr_cr",
+   "net_profit_growth_yoy_pct",
+   "operating_margin_pct",
+   "deal_wins_usd_bn",
    "headcount",
-   "dividend",
-   "guidance details",
-   "media vertical share and growth"
+   "net_headcount_change",
+   "attrition_pct",
+   "dividend_per_share_inr",
+   "guidance",
+   "highlights",
+   "risks",
+   "verticals",
+   "media_vertical details",
+   "megep_mentions",
+   "ai_signals",
+   "management_view"
   ],
   "unverified_dropped": [],
   "sources": [
@@ -883,46 +896,41 @@
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Persistent",
-  "analysed_at": "2026-11-26T23:14:19+00:00"
+  "analysed_at": "2026-11-27T01:10:09+00:00"
  },
  "Mphasis": {
   "results_found": false,
-  "results_date": "2026-11-06",
-  "headline": "Mphasis Q2 FY27 revenue jumps 17.4% YoY to Rs 4,580.93 cr and net profit rises 19.6% to Rs 561.13 cr",
+  "results_date": "2026-11-05",
+  "headline": "Mphasis posted 19.6% YoY profit rise to ₹561.1 cr as revenue grew 4.5% QoQ to ₹4,580.9 cr, driven by AI‑led contracts",
   "metrics": {
    "revenue_inr_cr": 4580.93,
-   "revenue_usd_m": null,
+   "revenue_usd_m": 486,
    "revenue_growth_yoy_pct": 17.4,
-   "cc_growth_qoq_pct": 4.5,
-   "cc_growth_yoy_pct": null,
-   "net_profit_inr_cr": 561.13,
+   "cc_growth_qoq_pct": 3.3,
+   "cc_growth_yoy_pct": 9.7,
+   "net_profit_inr_cr": 561.1,
    "net_profit_growth_yoy_pct": 19.6,
-   "operating_margin_pct": null,
+   "operating_margin_pct": 14.8,
    "deal_wins_usd_bn": 0.466,
    "headcount": null,
    "net_headcount_change": null,
    "attrition_pct": null,
    "dividend_per_share_inr": null
   },
-  "guidance": "Management raised FY27 growth outlook, now targeting low double‑digit constant‑currency growth",
-  "guidance_change": "raised",
+  "guidance": "Revenue growth for FY27 is expected at the upper end of the guidance range, with EBIT margin guidance of 14.75‑15.75% retained.",
+  "guidance_change": "retained",
   "highlights": [
-   "Revenue up 17.4% YoY driven by AI‑led services",
-   "Net profit up 19.6% sequentially",
-   "Deal wins worth $466 million reported",
-   "CEO highlighted rising cybersecurity spending",
-   "Company sees strong pipeline and backlog"
+   "Revenue rose 4.5% sequentially and 17.4% YoY.",
+   "Net profit increased 14.6% sequentially and 19.6% YoY.",
+   "Constant‑currency revenue grew 3.3% QoQ, the highest sequential CC growth in years.",
+   "66% of the $466 mn total contract value was AI‑led.",
+   "EBIT margin held steady at 14.8%."
   ],
   "risks": [
-   "Macroeconomic uncertainty could curb client spending",
-   "AI‑related pricing pressure may intensify"
+   "Macro‑economic uncertainty could pressure IT spending.",
+   "High reliance on AI‑led deals may expose the company to rapid technology shifts."
   ],
-  "verticals": [
-   {
-    "name": "Technology, Media & Telecom",
-    "note": "Growth led by telecom and device engineering"
-   }
-  ],
+  "verticals": [],
   "media_vertical": {
    "name": "Technology, Media & Telecom",
    "revenue_share_pct": null,
@@ -931,53 +939,27 @@
    "growth_cc_yoy_pct": null,
    "commentary": null
   },
-  "megep_mentions": [
-   {
-    "domain": "Telecom",
-    "note": "TMT growth led by telecom and device engineering"
-   }
-  ],
-  "ai_signals": "CEO said AI‑driven cyber threats are boosting cybersecurity spending and AI‑led deal wins",
-  "management_view": "Management sees AI‑driven services as a key growth engine and is confident about FY27 outlook",
+  "megep_mentions": [],
+  "ai_signals": "66% of Q2 contracts were AI‑led, highlighting growing AI‑driven revenue.",
+  "management_view": "Management said the first half built a strong foundation and expects the momentum to continue in the second half.",
   "sentiment": "Positive",
-  "sentiment_reason": "Strong revenue and profit growth plus raised guidance",
+  "sentiment_reason": "Strong profit and revenue growth, higher AI‑led contract share and upbeat FY guidance.",
   "missing": [
-   "revenue_usd_m",
-   "operating_margin_pct",
    "headcount",
    "net_headcount_change",
    "attrition_pct",
    "dividend_per_share_inr",
-   "media_vertical revenue share and growth"
+   "vertical revenue shares",
+   "media vertical revenue share and growth figures",
+   "specific media segment deal mentions"
   ],
   "unverified_dropped": [],
   "sources": [
    {
-    "title": "Mphasis Q2 profit climbs 14.6% sequentially to Rs 561 crore",
-    "link": "https://www.financialexpress.com/business/industry-mphasis-q2-profit-climbs-14-6-sequentially-to-rs-561-crore-4378907/",
-    "source": "financialexpress.com",
-    "published": "2026-11-06T09:43:00+00:00",
-    "official": false
-   },
-   {
-    "title": "Mphasis Q2 Net Profit Rises 19.6% to ₹561 Crore; Revenue Grows 17.4%",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQYkQ1VDQtRGNScXI0VjhyeVFSNS1oMThzR3BLcmg5MmFHdW1aMDdQQU9KOUpWZ1hPQmNTZ19PR0JJQXlVaHFIaDQzRWl3S2ZKYjdYdjRNNzVkc1pxVjdIbG44Ym9TWUhjZVdWdEo3U3g1a2MzZXE2U3djRzRLcHZ6RDNkVTItUdIBhgFBVV95cUxQYkQ1VDQtRGNScXI0VjhyeVFSNS1oMThzR3BLcmg5MmFHdW1aMDdQQU9KOUpWZ1hPQmNTZ19PR0JJQXlVaHFIaDQzRWl3S2ZKYjdYdjRNNzVkc1pxVjdIbG44Ym9TWUhjZVdWdEo3U3g1a2MzZXE2U3djRzRLcHZ6RDNkVTItUQ?oc=5",
-    "source": "DQ",
-    "published": "2026-11-06T09:29:24+00:00",
-    "official": false
-   },
-   {
-    "title": "Q2 results: Mphasis profit climbs as AI-led deal wins hit $466 million, pipeline reaches record high",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQajdiRFNoNGs0WGx5d000WE5EaEpNUlVLMjgwZE5remxXeS1PNm92OVpfRUxIWHB0eFZqckU3bDNaVW9LOWdQRmdjVndGaDVWZFBKY01ZdEpBb2cwZzJXU2Foc19TdVNfMkJLdEFMSkRSZkQ5SE5Fa3BxbmNQUGthYmJRNXZZSnRVWGlCLVFBelFNd1Uzcks0aWNFYU9iMUlmakNNb0pfc01uSFBoQ1RrV19vaHplZE9hSjcwM2lfRVDSAcYBQVVfeXFMT1RaZmhORHBFQ0ozbnBpcFJRVTh6dnpHTnNEQVZVVll6R3U4QUhNU1VwUFAtcm9tVzFIa1JXRTVKVElpOUJ0SUlITjZDRDBwS2k3T0d3bU9EdXZJVDhTZ0d6QmJmTXd2S09GLUFDbkM3QUlYUzRaWFRoVE9jSkpzNFVtV3JvSXlYR2xNQnRHLUtBcUhMWEZaSHJvVFdkQWpjbW5ubjBPU3M5WjNxOUtJYUFPUUFuUU5MUzZPY0FwOEsteGpzQjl3?oc=5",
-    "source": "CNBC TV18",
-    "published": "2026-11-06T08:00:00+00:00",
-    "official": false
-   },
-   {
-    "title": "Mphasis Q2 Results FY27: Revenue Rises 17.4% to Rs 4,580.93 Cr, PAT Rs 561.13 Cr",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1DbFBUUWhqMmoxbmNUVU1jakRqRVg1MHVKUVZRMWlFMUx0S1A3bXIzVmRFbnpQYUFQVmVUelhIblFpQ19XcTlDamZIZlBwVkZ0ZkV1VVAxVm96ODY0RTdhaWE5SXB3VHpwdTFPSF9QMA?oc=5",
-    "source": "Univest",
-    "published": "2026-11-06T08:00:00+00:00",
+    "title": "Mphasis shares jump 8% after Q2 results; FY27 revenue growth seen at upper end of guidance",
+    "link": "https://www.cnbctv18.com/market/mphasis-share-price-jumps-q2-results-fy27-revenue-growth-seen-at-upper-end-of-guidance-20028664.htm",
+    "source": "cnbctv18.com",
+    "published": "2026-11-05T21:43:00+00:00",
     "official": false
    },
    {
@@ -988,30 +970,37 @@
     "official": false
    },
    {
-    "title": "Buy Mphasis: target of Rs 3020: ICICI Securities",
-    "link": "https://www.moneycontrol.com/news/business/earnings/buy-mphasis-target-of-rs-3020-icici-securities-14075393.html",
-    "source": "moneycontrol.com",
-    "published": "2026-11-09T00:31:00+00:00",
+    "title": "Mphasis posts 19.6% growth in Q2 profit at Rs 561.1 crore",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTUFpdE9UWV9BNTBxbko5T05Ed1E2ZjVQd0c1V2otVVh5MTJkTnJveVM1cERSNHR0aWtSTHQ2QmxPZkxVMXNRdEkycHQ1V05USl9YdnpmME90T0RtRVZmbkxUQjlfbU9aT1NjbEpYRTY3Q2NIcHJUenlyVzE5eXdGX2NtSUxSSHRjMU04SHFRSkFhcVVoTlFHa05tTFZIQURLd1RaYmF2WUMtZkk4b191T1REX2NOTnQ3aWo5a2RzNWlGdHd6cm50di05OEfSAdIBQVVfeXFMTUZGZUttbjNOLVdsYkw5UnE4QkVyY2JmVFBxNDVBbWQxX2w3Tm1LT1ctaU83STdJVUxhZ0ZSYUZ0V08yeEdZRjFLdXJTc1JyaTlfNFY4VHRRTUFMV1dkclpXUkVjNzhCemJNUDEwYlk1UURzdTFLa1QxcnVmMVppX3Rtd004Sm9FY0piVHNwTmpoOXFEYVF4Slp2dkZta3RxUWpaZHJMU2NreWQtbGxjX3NOeVpSTVpZY3hJOUlQT05IZ042UnZTNTFrX2pXTm4zSUpR?oc=5",
+    "source": "The Economic Times",
+    "published": "2026-11-07T08:00:00+00:00",
     "official": false
    },
    {
-    "title": "Mphasis TMT growth is led by telecom and device engineering",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaFp4MTNpNm0yWGpRTHBKTmF5eUdmT245LTVRcWFKMzBlYkNrVEZqdXRFMl96czhXSTFja1VvZkpDYldtWTUtTWNQNkRtQmdPdXVBSXp1cmo1T0FDSjl0WHJCUVNBckY2OXpkRTdKS09rWkUyQnlMTU8xNE9aNHhkY29OWUdkUTZkYWpiN0x4QkhjYWVTTWRISDAxcGVYaUpNbkIyYlRSR3lNNVZDa2VjNC1POGZPRkdWWWo4?oc=5",
-    "source": "Multibagg AI",
-    "published": "2026-11-09T08:00:00+00:00",
+    "title": "Mphasis Q2 profit climbs 14.6% sequentially to Rs 561 crore",
+    "link": "https://www.financialexpress.com/business/industry-mphasis-q2-profit-climbs-14-6-sequentially-to-rs-561-crore-4378907/",
+    "source": "financialexpress.com",
+    "published": "2026-11-06T09:43:00+00:00",
     "official": false
    },
    {
-    "title": "AI-driven cyberattacks drive higher cybersecurity spending, says Mphasis CEO",
-    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQT2VXeTl3RUdQbTRWdld2QWZkR2hnU2NFZDFoRUtIUWFTSGZfc2l6eG85blM1a21kWmZRWnFqOE5ZTy05SVhfRzVrSmhKempnZGlkbVZtTW1peGoxdkdYLU9nMU9MODk2cURxcXZDd3lQaW9HQlJQa216c0pHNzY0QXkzOXhJMjdTTExlNmxkZk1Gdi1FRy16aVlqbDVQamNNRnA3ZXJYVFN6SHNtalNKYkFmNTZxS1JlU0QyRU1COFZ1OHFaYTc4TUw5RGpqMkdrRW9CTnhrSERwSURxNzV4bnRCa3ZUVWZRdmZXWdIB8wFBVV95cUxQZ09CalhuWUFoSkc1V1FGaGlINzRNTEx4TGE3aV9UMDFtcEJVVDNFOEJSOWJaQ0FCcmhUbkNNVFlSNlBtZWhVdWI5S3R5SDFaaFpnSnk2YTk2aFhHZmExTlhFSm4wVGZaNVhkeEphSEh3ZDc3WlJVUngwell5NEFNcXZHaDlrdTFJYk9FdjJaSnl1ZF9Ed0loRFNHTXlxMjI5UVQ2TlJrVGlTQkhPazJSR19yLS1WNTh3UUZCQTRBTkR3bVh0OThpYjVsQmlmZnk5WURpZ3RWMUhqZ3RSd0w4d0tUMERMa0dJci1nNVZtaXRvd0E?oc=5",
-    "source": "BusinessLine",
-    "published": "2026-11-16T08:00:00+00:00",
+    "title": "Mphasis Q2 FY27 Profit Reaches ₹561.13 Crore, Revenue Climbs 4.5% Sequentially To ₹4,580.93 Crore",
+    "link": "https://www.freepressjournal.in/business/mphasis-q2-fy27-profit-reaches-56113-crore-revenue-climbs-45-sequentially-to-458093-crore",
+    "source": "freepressjournal.in",
+    "published": "2026-11-05T20:59:00+00:00",
+    "official": false
+   },
+   {
+    "title": "Mphasis revenue grows 17.4% YoY to ₹45,809 million in Q2 FY27",
+    "link": "https://www.investywise.com/mphasis-announces-q2-fy27-financial-results/",
+    "source": "investywise.com",
+    "published": "2026-11-05T10:12:00+00:00",
     "official": false
    }
   ],
   "official": false,
   "quarter": "Q2 FY27",
   "company": "Mphasis",
-  "analysed_at": "2026-11-26T23:15:14+00:00"
+  "analysed_at": "2026-11-27T01:11:04+00:00"
  }
 }
