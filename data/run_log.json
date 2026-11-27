@@ -1,5 +1,18 @@
 [
  {
+  "started": "2026-11-27T20:39:07+00:00",
+  "quarter": "Q2 FY27",
+  "steps": [
+   "market data for 10/10 companies",
+   "news updated",
+   "exchange filings checked; results filed: TCS, Infosys, HCLTech, Wipro, LTM, Tech Mahindra, OFSS, Coforge",
+   "AI analysed: Persistent, Mphasis"
+  ],
+  "errors": [],
+  "finished": "2026-11-27T20:43:02+00:00",
+  "ai_calls": 5
+ },
+ {
   "started": "2026-11-27T18:13:48+00:00",
   "quarter": "Q2 FY27",
   "steps": [
@@ -396,19 +409,6 @@
    "filings Mphasis: BSE: HTTPError 403 Client Error: Forbidden for url: https://api.bseindia.com/BseIndiaAPI/api/An; NSE MPHASIS: JSONDecodeError Expecting value: line 2 column 1 (char 1)"
   ],
   "finished": "2026-11-20T17:03:23+00:00",
-  "ai_calls": 5
- },
- {
-  "started": "2026-11-19T23:43:35+00:00",
-  "quarter": "Q2 FY27",
-  "steps": [
-   "market data for 10/10 companies",
-   "news updated",
-   "exchange filings checked; results filed: TCS, Infosys, HCLTech, Wipro, LTM, Tech Mahindra, OFSS, Coforge",
-   "AI analysed: Persistent, Mphasis"
-  ],
-  "errors": [],
-  "finished": "2026-11-19T23:47:33+00:00",
   "ai_calls": 5
  }
 ]
